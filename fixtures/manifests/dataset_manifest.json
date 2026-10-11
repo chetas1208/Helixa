@@ -1,0 +1,92 @@
+{
+  "manifest_version": "1.0.0",
+  "dataset_id": "SYNTH-GENOME-INCIDENT-001",
+  "created_at": "2026-10-11T06:00:00Z",
+  "is_synthetic": true,
+  "attribution_required": false,
+  "declared_assembly": "GRCh38",
+  "reference": {
+    "path": "fixtures/references/ref_synthetic_chr22.fasta",
+    "sha256": "43b526cba16cc6307b19f7e61aba26caee6ebec5b3a400ec23382d79f268fae6",
+    "size_bytes": 119466,
+    "fai_sha256": "4143e62a78895dbbec7e750e68037cf262bc1fbed47d6cbf290ca634bb927682",
+    "contigs": [
+      {
+        "name": "chr22",
+        "length": 120000
+      }
+    ],
+    "provenance": "Deterministic synthetic chromosome 22 sequence for research verification"
+  },
+  "fixtures": {
+    "valid_snvs": {
+      "path": "fixtures/valid/valid_snvs.vcf",
+      "sha256": "2384ddc028d07fb13c2ccaa4fef0c30693ff50b58be129b3cfdf31e42ca85e82",
+      "size_bytes": 340,
+      "expected_outcome": "PASS",
+      "category": "positive_control"
+    },
+    "multiallelic_snvs": {
+      "path": "fixtures/valid/multiallelic_snvs.vcf",
+      "sha256": "de2e3dffe376940b775dd3b4ea29630fd11f0feb7c8bda8f6399f8be3ad27660",
+      "size_bytes": 300,
+      "expected_outcome": "PASS",
+      "category": "positive_control"
+    },
+    "normalization_indel": {
+      "path": "fixtures/valid/normalization_indel.vcf",
+      "sha256": "d4d0250ca9ecab227e8595ef8cf37f67d724616c1086fe030845f864103fe947",
+      "size_bytes": 301,
+      "expected_outcome": "PASS",
+      "category": "positive_control"
+    },
+    "ref_mismatch": {
+      "path": "fixtures/invalid/ref_mismatch.vcf",
+      "sha256": "6b007b34f19cefb2d4245c6fea61c68b5bf409448c071914312d15dfef9b880d",
+      "size_bytes": 341,
+      "expected_outcome": "FAIL",
+      "failing_check": "reference_ref_allele_match",
+      "category": "incident_target"
+    },
+    "absent_assembly": {
+      "path": "fixtures/invalid/absent_assembly.vcf",
+      "sha256": "d31d360c9a9ddf643e6eaa1e436611bdf7408996893fc55fc6dc94423ffad885",
+      "size_bytes": 278,
+      "expected_outcome": "WARNING",
+      "failing_check": "declared_assembly_check",
+      "category": "metadata_gap"
+    },
+    "unsupported_contig": {
+      "path": "fixtures/invalid/unsupported_contig.vcf",
+      "sha256": "d889a82b51707f3a8215d0b10350b8387959e480a3c731cb93c578aa4d141623",
+      "size_bytes": 293,
+      "expected_outcome": "FAIL",
+      "failing_check": "contig_compatibility_check",
+      "category": "contig_gap"
+    },
+    "malformed_record": {
+      "path": "fixtures/invalid/malformed_record.vcf",
+      "sha256": "13c73996d4fcfb0d05be46cd58952194697d7d060633a46fffd59d95e5a62d33",
+      "size_bytes": 151,
+      "expected_outcome": "ERROR",
+      "failing_check": "vcf_syntax_check",
+      "category": "syntax_gap"
+    },
+    "length_mismatch": {
+      "path": "fixtures/invalid/length_mismatch.vcf",
+      "sha256": "56c6e20ee0673953266c8ce7d36b54cc50e347eb9eb0c2b47cc3163df421676b",
+      "size_bytes": 210,
+      "expected_outcome": "FAIL",
+      "failing_check": "contig_length_boundary_check",
+      "category": "boundary_gap"
+    },
+    "unseen_mismatch": {
+      "path": "fixtures/heldout/unseen_mismatch.vcf",
+      "sha256": "0a1f6c577e4d0e08dc543f6c2a680eba8e8b97cfe2769a73f4fb4623f8f12add",
+      "size_bytes": 302,
+      "expected_outcome": "FAIL",
+      "failing_check": "reference_ref_allele_match",
+      "category": "heldout_transfer"
+    }
+  }
+}

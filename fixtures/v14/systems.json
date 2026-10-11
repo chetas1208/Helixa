@@ -1,0 +1,203 @@
+{
+  "systems": [
+    {
+      "id": "system:musculoskeletal",
+      "label": "Musculoskeletal",
+      "ontology_id": "UBERON:0002204",
+      "member_ids": [
+        "UBERON:0013702",
+        "UBERON:0000033",
+        "DIAMOND:region-head-face",
+        "UBERON:0000974",
+        "UBERON:0000915",
+        "UBERON:0000916",
+        "UBERON:0002355",
+        "UBERON:0001130",
+        "UBERON:0002102@left",
+        "UBERON:0002102@right",
+        "UBERON:0001467@left",
+        "UBERON:0001467@right",
+        "UBERON:0003822@left",
+        "UBERON:0003822@right",
+        "UBERON:0002386@left",
+        "UBERON:0002386@right",
+        "UBERON:0002398@left",
+        "UBERON:0002398@right",
+        "UBERON:0002103@left",
+        "UBERON:0002103@right",
+        "UBERON:0000376@left",
+        "UBERON:0000376@right",
+        "UBERON:0003823@left",
+        "UBERON:0003823@right",
+        "UBERON:0002387@left",
+        "UBERON:0002387@right",
+        "DIAMOND:digit-thumb@left",
+        "DIAMOND:digit-index@left",
+        "DIAMOND:digit-middle@left",
+        "DIAMOND:digit-ring@left",
+        "DIAMOND:digit-little@left",
+        "DIAMOND:digit-thumb@right",
+        "DIAMOND:digit-index@right",
+        "DIAMOND:digit-middle@right",
+        "DIAMOND:digit-ring@right",
+        "DIAMOND:digit-little@right",
+        "UBERON:0001134",
+        "UBERON:0002481",
+        "UBERON:0002384"
+      ],
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002204"
+      }
+    },
+    {
+      "id": "system:nervous",
+      "label": "Nervous",
+      "ontology_id": "UBERON:0001016",
+      "member_ids": [
+        "UBERON:0000955",
+        "UBERON:0002240",
+        "UBERON:0003714",
+        "UBERON:0000956"
+      ],
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001016"
+      }
+    },
+    {
+      "id": "system:cardiovascular",
+      "label": "Cardiovascular",
+      "ontology_id": "UBERON:0004535",
+      "member_ids": [
+        "UBERON:0000948",
+        "UBERON:0002106",
+        "UBERON:0000947",
+        "UBERON:0001133",
+        "UBERON:0001981",
+        "UBERON:0002098"
+      ],
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004535"
+      }
+    },
+    {
+      "id": "system:respiratory",
+      "label": "Respiratory",
+      "ontology_id": "UBERON:0001004",
+      "member_ids": [
+        "UBERON:0000004",
+        "UBERON:0002168",
+        "UBERON:0002167",
+        "UBERON:0001737",
+        "UBERON:0002048"
+      ],
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001004"
+      }
+    },
+    {
+      "id": "system:digestive",
+      "label": "Digestive",
+      "ontology_id": "UBERON:0001007",
+      "member_ids": [
+        "UBERON:0000165",
+        "UBERON:0002107",
+        "UBERON:0000945",
+        "UBERON:0001264",
+        "UBERON:0002108",
+        "UBERON:0000059",
+        "UBERON:0002110",
+        "UBERON:0001043",
+        "UBERON:0001723"
+      ],
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001007"
+      }
+    },
+    {
+      "id": "system:urinary",
+      "label": "Urinary",
+      "ontology_id": "UBERON:0001008",
+      "member_ids": [
+        "UBERON:0004538",
+        "UBERON:0004539",
+        "UBERON:0001255",
+        "UBERON:0002113"
+      ],
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001008"
+      }
+    },
+    {
+      "id": "system:endocrine",
+      "label": "Endocrine",
+      "ontology_id": "UBERON:0000949",
+      "member_ids": [
+        "UBERON:0001264",
+        "UBERON:0002046",
+        "UBERON:0001235"
+      ],
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000949"
+      }
+    },
+    {
+      "id": "system:reproductive",
+      "label": "Reproductive",
+      "ontology_id": "UBERON:0000990",
+      "member_ids": [
+        "UBERON:0000995",
+        "UBERON:0002367"
+      ],
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000990"
+      }
+    },
+    {
+      "id": "system:integumentary",
+      "label": "Integumentary",
+      "ontology_id": "UBERON:0002416",
+      "member_ids": [
+        "UBERON:0013702",
+        "UBERON:0002097",
+        "UBERON:0001013"
+      ],
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002416"
+      }
+    },
+    {
+      "id": "system:sensory",
+      "label": "Sensory",
+      "ontology_id": "UBERON:0001032",
+      "member_ids": [
+        "UBERON:0004548",
+        "UBERON:0004549",
+        "UBERON:0035295",
+        "UBERON:0035174"
+      ],
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001032"
+      }
+    }
+  ]
+}

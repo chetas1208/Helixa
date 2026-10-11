@@ -1,0 +1,631 @@
+{
+  "retrieved_at": "2026-10-11T23:09:56Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000992",
+    "lang": "en",
+    "description": [
+      "The gonad of a female organism which contains germ cells."
+    ],
+    "synonyms": [
+      "female gonad",
+      "animal ovary",
+      "female organism genitalia gonad",
+      "female organism genitalia gonada",
+      "female organism reproductive system gonad",
+      "female organism reproductive system gonada",
+      "female reproductive system gonad",
+      "female reproductive system gonada",
+      "genitalia of female organism gonad",
+      "genitalia of female organism gonada",
+      "gonad of female organism genitalia",
+      "gonad of female organism reproductive system",
+      "gonad of female reproductive system",
+      "gonad of genitalia of female organism",
+      "gonad of reproductive system of female organism",
+      "gonada of female organism genitalia",
+      "gonada of female organism reproductive system",
+      "gonada of female reproductive system",
+      "gonada of genitalia of female organism",
+      "gonada of reproductive system of female organism",
+      "ovaries",
+      "ovarium",
+      "ovum-producing ovary",
+      "reproductive system of female organism gonad",
+      "reproductive system of female organism gonada"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0000371",
+        "BILA:0000125",
+        "BSA:0000080",
+        "BTO:0000975",
+        "CALOHA:TS-0730",
+        "EFO:0000973",
+        "EHDAA2:0001360",
+        "EHDAA:8124",
+        "EMAPA:17962",
+        "EV:0100111",
+        "FMA:7209",
+        "GAID:367",
+        "MA:0000384",
+        "MESH:D010053",
+        "MIAA:0000125",
+        "NCIT:C12404",
+        "SCTID:181464007",
+        "TAO:0000403",
+        "VHOG:0000251",
+        "Wikipedia:Ovary",
+        "XAO:0000258",
+        "ZFA:0000403",
+        "FBbt:00004865",
+        "UMLS:C0029939"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/d/d4/Gray589.png",
+        "https://upload.wikimedia.org/wikipedia/commons/c/cb/Female_anatomy.png"
+      ],
+      "external_definition": [
+        "Either of paired female reproductive organs involved in production of ova and female sex hormones.[AAO]",
+        "Female reproductive organ.[TAO]"
+      ],
+      "has_relational_adjective": [
+        "ovarian"
+      ],
+      "homology_notes": [
+        "(...) while it is likely that Urbilateria lacked a complex somatic reproductive system, it is at present impossible to speculate on whether or not it possessed a true gonad, let alone any other somatic adaptations for reproduction (reference 1); Examination of different vertebrate species shows that the adult gonad is remarkably similar in its morphology across different phylogenetic classes. Surprisingly, however, the cellular and molecular programs employed to create similar organs are not evolutionarily conserved (reference 2).[uncertain][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000992"
+      ],
+      "taxon_notes": [
+        "Ovaries of some kind are found in the female reproductive system of many animals that employ sexual reproduction, including invertebrates. However, they develop in a very different way in most invertebrates than they do in vertebrates, and are not truly homologous. Many of the features found in human ovaries are common to all vertebrates, including the presence of follicular cells, tunica albuginea, and so on. However, many species produce a far greater number of eggs during their lifetime than do humans, so that, in fish and amphibians, there may be hundreds, or even millions of fertile eggs present in the ovary at any given time. In these species, fresh eggs may be developing from the germinal epithelium throughout life. Corpora lutea are found only in mammals, and in some elasmobranch fish; in other species, the remnants of the follicle are quickly resorbed by the ovary. In birds, reptiles, and monotremes, the egg is relatively large, filling the follicle, and distorting the shape of the ovary at maturity. Amphibians and reptiles have no ovarian medulla; the central part of the ovary is a hollow, lymph-filled space. The ovary of teleosts is also often hollow, but in this case, the eggs are shed into the cavity, which opens into the oviduct. Although most normal female vertebrates have two ovaries, this is not the case in all species. In birds and platypuses, the right ovary never matures, so that only the left is functional. In some elasmobranchs, the reverse is true, with only the right ovary fully developing. In the primitive jawless fish, and some teleosts, there is only one ovary, formed by the fusion of the paired organs in the embryo"
+      ]
+    },
+    "label": "ovary",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000992",
+    "obo_id": "UBERON:0000992",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "organ_slim",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The gonad of a female organism which contains germ cells.",
+        "oboXrefs": [
+          {
+            "database": "ISBN",
+            "id": "0-683-40008-8",
+            "description": null,
+            "url": "https://www.worldcat.org/search?q=bn%3A0-683-40008-8"
+          },
+          {
+            "database": "MP",
+            "id": "0001126",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/MP_0001126"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Ovary",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Ovary"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000371",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000371"
+      },
+      {
+        "database": "BILA",
+        "id": "0000125",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000125"
+      },
+      {
+        "database": "BSA",
+        "id": "0000080",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BTO",
+        "id": "0000975",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000975"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0730",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0730"
+      },
+      {
+        "database": "EFO",
+        "id": "0000973",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000973"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0001360",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0001360"
+      },
+      {
+        "database": "EHDAA",
+        "id": "8124",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_8124"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17962",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17962"
+      },
+      {
+        "database": "EV",
+        "id": "0100111",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100111"
+      },
+      {
+        "database": "FMA",
+        "id": "7209",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7209"
+      },
+      {
+        "database": "GAID",
+        "id": "367",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000384",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000384"
+      },
+      {
+        "database": "MESH",
+        "id": "D010053",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D010053"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000125",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12404",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12404"
+      },
+      {
+        "database": "SCTID",
+        "id": "181464007",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/181464007"
+      },
+      {
+        "database": "TAO",
+        "id": "0000403",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000403"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000251",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000251"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Ovary",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Ovary"
+      },
+      {
+        "database": "XAO",
+        "id": "0000258",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000258"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000403",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000403"
+      },
+      {
+        "database": "FBbt",
+        "id": "00004865",
+        "description": null,
+        "url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00004865"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0029939",
+        "description": "ncithesaurus:Ovary",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0029939"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "animal ovary",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "EFO",
+            "id": "0000973",
+            "description": null,
+            "url": "http://www.ebi.ac.uk/efo/EFO_0000973"
+          }
+        ]
+      },
+      {
+        "name": "female organism genitalia gonad",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "female organism genitalia gonada",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "female organism reproductive system gonad",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "female organism reproductive system gonada",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "female reproductive system gonad",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "female reproductive system gonada",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "genitalia of female organism gonad",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "genitalia of female organism gonada",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "gonad of female organism genitalia",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "gonad of female organism reproductive system",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "gonad of female reproductive system",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "gonad of genitalia of female organism",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "gonad of reproductive system of female organism",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "gonada of female organism genitalia",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "gonada of female organism reproductive system",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "gonada of female reproductive system",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "gonada of genitalia of female organism",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "gonada of reproductive system of female organism",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "ovum-producing ovary",
+        "scope": "hasExactSynonym",
+        "type": "taxonomic disambiguation",
+        "xrefs": [
+          {
+            "database": "GO",
+            "id": "0061039",
+            "description": null,
+            "url": "http://amigo.geneontology.org/amigo/term/GO:0061039"
+          }
+        ]
+      },
+      {
+        "name": "reproductive system of female organism gonad",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "reproductive system of female organism gonada",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "ovaries",
+        "scope": "hasRelatedSynonym",
+        "type": "plural form",
+        "xrefs": []
+      },
+      {
+        "name": "ovarium",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Ovary",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Ovary"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000992/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      }
+    }
+  }
+}

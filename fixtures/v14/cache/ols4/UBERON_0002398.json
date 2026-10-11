@@ -1,0 +1,354 @@
+{
+  "retrieved_at": "2026-10-11T23:09:19Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002398",
+    "lang": "en",
+    "description": [
+      "Distal segment of the fore limb, including carpal region, metacarpal region and digits."
+    ],
+    "synonyms": [
+      "forefoot of quadruped",
+      "terminal segment of free upper limb",
+      "fore foot",
+      "fore paw",
+      "fore-paw",
+      "forefeet",
+      "forefoot",
+      "forelimb autopod",
+      "forelimb autopodium",
+      "forepaw",
+      "hand region",
+      "hand"
+    ],
+    "annotation": {
+      "curator note": [
+        "like all limb segments, this class encompasses both the unformed hand region of the embryo to the fully formed structure complete with skeleton"
+      ],
+      "database_cross_reference": [
+        "AAO:0010803",
+        "BTO:0004668",
+        "CALOHA:TS-2213",
+        "EHDAA2:0000728",
+        "EMAPA:17428",
+        "FMA:9712",
+        "GAID:56",
+        "MA:0000037",
+        "MESH:D006225",
+        "NCIT:C32712",
+        "NLXANAT:20090603",
+        "SCTID:302539009",
+        "VHOG:0000344",
+        "Wikipedia:Manus_(anatomy)",
+        "galen:Hand",
+        "UMLS:C0018563"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/7/76/LeftHand0.jpg"
+      ],
+      "has_relational_adjective": [
+        "manual"
+      ],
+      "id": [
+        "UBERON:0002398"
+      ]
+    },
+    "label": "manus",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002398",
+    "obo_id": "UBERON:0002398",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Distal segment of the fore limb, including carpal region, metacarpal region and digits.",
+        "oboXrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Hand",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Hand"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Manus_(anatomy)",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0010803",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010803"
+      },
+      {
+        "database": "BTO",
+        "id": "0004668",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0004668"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-2213",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-2213"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0000728",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0000728"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17428",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17428"
+      },
+      {
+        "database": "FMA",
+        "id": "9712",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/9712"
+      },
+      {
+        "database": "GAID",
+        "id": "56",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000037",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000037"
+      },
+      {
+        "database": "MESH",
+        "id": "D006225",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D006225"
+      },
+      {
+        "database": "NCIT",
+        "id": "C32712",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C32712"
+      },
+      {
+        "database": "NLXANAT",
+        "id": "20090603",
+        "description": null,
+        "url": "http://uri.neuinfo.org/nif/nifstd/nlx_anat_20090603"
+      },
+      {
+        "database": "SCTID",
+        "id": "302539009",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/302539009"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000344",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000344"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Manus_(anatomy)",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "galen",
+        "id": "Hand",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0018563",
+        "description": "ncithesaurus:Hand",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0018563"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "forelimb autopod",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "forelimb autopodium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "hand region",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "EHDAA2",
+            "id": "0000728",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/EHDAA2_0000728"
+          }
+        ]
+      },
+      {
+        "name": "hand",
+        "scope": "hasExactSynonym",
+        "type": "preferred term when talking about an instance of this class in Homo sapiens",
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "0000037",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000037"
+          }
+        ]
+      },
+      {
+        "name": "fore foot",
+        "scope": "hasNarrowSynonym",
+        "type": "indicates that a synonym is used in an inconsistent or confusing way, typically between species",
+        "xrefs": []
+      },
+      {
+        "name": "fore paw",
+        "scope": "hasNarrowSynonym",
+        "type": "taxonomic disambiguation",
+        "xrefs": [
+          {
+            "database": "EMAPA",
+            "id": "17428",
+            "description": null,
+            "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17428"
+          },
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "fore-paw",
+        "scope": "hasNarrowSynonym",
+        "type": "taxonomic disambiguation",
+        "xrefs": [
+          {
+            "database": "EMAPA",
+            "id": "17428",
+            "description": null,
+            "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17428"
+          }
+        ]
+      },
+      {
+        "name": "forefeet",
+        "scope": "hasNarrowSynonym",
+        "type": "plural form",
+        "xrefs": []
+      },
+      {
+        "name": "forefoot",
+        "scope": "hasNarrowSynonym",
+        "type": "indicates that a synonym is used in an inconsistent or confusing way, typically between species",
+        "xrefs": []
+      },
+      {
+        "name": "forepaw",
+        "scope": "hasNarrowSynonym",
+        "type": "taxonomic disambiguation",
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "0000037",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000037"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "has_skeleton": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002398/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002551"
+      }
+    }
+  }
+}

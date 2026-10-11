@@ -1,0 +1,198 @@
+{
+  "retrieved_at": "2026-10-11T23:09:11Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001134",
+    "lang": "en",
+    "description": [
+      "Muscle tissue that consists primarily of skeletal muscle fibers."
+    ],
+    "synonyms": [
+      "skeletal muscle",
+      "skeletal muscle system",
+      "somatic muscle"
+    ],
+    "annotation": {
+      "Contributor": [
+        "https://orcid.org/0000-0001-9114-8737",
+        "https://orcid.org/0000-0002-1572-1316",
+        "https://orcid.org/0000-0002-6601-2165",
+        "https://orcid.org/0000-0002-7073-9172"
+      ],
+      "database_cross_reference": [
+        "EMAPA:32716",
+        "FMA:14069",
+        "MA:0002439",
+        "NCIT:C13050",
+        "SCTID:426215008",
+        "Wikipedia:Skeletal_striated_muscle",
+        "UMLS:C0242692"
+      ],
+      "depiction": [
+        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Skeletal_muscle.jpg"
+      ],
+      "editor note": [
+        "TODO - add skeletal muscle organ? See GO:0060538 skeletal muscle organ development. Todo - group FBbt:00005073 - somatic muscle."
+      ],
+      "external_definition": [
+        "Muscle, composed of long cylindrical, multinucleated cells that attaches to the skeleton via tendons.[TAO]",
+        "Tissue which consists of skeletal muscle fibers surrounded by endomysium. Examples: Skeletal muscle tissue of biceps, Skeletal muscle tissue of diaphragm[FMA]"
+      ],
+      "homology_notes": [
+        "This result implies the following views in terms of evolutionary differentiation: (1) Arthropod striated muscle and vertebrate skeletal and cardiac muscles share a common ancestor. In other words, they did not evolve independently (...) (5) The divergence of vertebrate skeletal and cardiac muscles/vertebrate smooth muscle and nonmuscle is at least before that of vertebrates/arthropods. In other words, emergence of skeletal and cardiac musle type tissues preceded the vertebrate/arthropod divergence (ca. 700 MYA).[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0001134"
+      ]
+    },
+    "label": "skeletal muscle tissue",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001134",
+    "obo_id": "UBERON:0001134",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Muscle tissue that consists primarily of skeletal muscle fibers.",
+        "oboXrefs": [
+          {
+            "database": null,
+            "id": "https://github.com/obophenotype/uberon/issues/324",
+            "description": null,
+            "url": "https://github.com/obophenotype/uberon/issues/324"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "EMAPA",
+        "id": "32716",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:32716"
+      },
+      {
+        "database": "FMA",
+        "id": "14069",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/14069"
+      },
+      {
+        "database": "MA",
+        "id": "0002439",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0002439"
+      },
+      {
+        "database": "NCIT",
+        "id": "C13050",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C13050"
+      },
+      {
+        "database": "SCTID",
+        "id": "426215008",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/426215008"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Skeletal_striated_muscle",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Skeletal_striated_muscle"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0242692",
+        "description": "ncithesaurus:Skeletal_Muscle_Tissue",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0242692"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "skeletal muscle system",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001103",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001103"
+          }
+        ]
+      },
+      {
+        "name": "somatic muscle",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001103",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001103"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "composed_primarily_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001134/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002473"
+      }
+    }
+  }
+}

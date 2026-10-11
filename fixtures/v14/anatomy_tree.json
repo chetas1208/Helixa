@@ -1,0 +1,3252 @@
+{
+  "root_id": "UBERON:0013702",
+  "uberon_version": "2026-10-01",
+  "nodes": [
+    {
+      "id": "UBERON:0013702",
+      "ontology_id": "UBERON:0013702",
+      "ontology_status": "verified",
+      "label": "Body",
+      "ontology_label": "body proper",
+      "synonyms": [
+        "whole body",
+        "adult body",
+        "body proper",
+        "body"
+      ],
+      "type": "region",
+      "parent_ids": [],
+      "system_ids": [
+        "system:musculoskeletal",
+        "system:integumentary"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:body"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "Generic adult body proper. Illustrative procedural figure, not a patient scan.",
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0013702"
+      }
+    },
+    {
+      "id": "UBERON:0000033",
+      "ontology_id": "UBERON:0000033",
+      "ontology_status": "verified",
+      "label": "Head",
+      "ontology_label": "head",
+      "synonyms": [
+        "cranium",
+        "skull region",
+        "adult head",
+        "cephalic area",
+        "head (volume)"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:head"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The head is the anterior-most division of the body [GO].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000033"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000033"
+      }
+    },
+    {
+      "id": "DIAMOND:region-head-face",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Face",
+      "ontology_label": null,
+      "synonyms": [
+        "visage",
+        "face"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0000033"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:face"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "Front of the head. Uberon has UBERON:0001456 (face); Agent 1 bound the mesh to this DIAMOND id, so the API keeps it for interop.",
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent2",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+      }
+    },
+    {
+      "id": "UBERON:0000974",
+      "ontology_id": "UBERON:0000974",
+      "ontology_status": "verified",
+      "label": "Neck",
+      "ontology_label": "neck",
+      "synonyms": [
+        "cervical region",
+        "collum",
+        "neck (volume)"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:neck"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "An organism subdivision that extends from the head to the pectoral girdle, encompassing the cervical vertebral column.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000974"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000974"
+      }
+    },
+    {
+      "id": "UBERON:0000915",
+      "ontology_id": "UBERON:0000915",
+      "ontology_status": "verified",
+      "label": "Thorax",
+      "ontology_label": "thoracic segment of trunk",
+      "synonyms": [
+        "chest",
+        "rib cage",
+        "thorax",
+        "anterior subdivision of trunk",
+        "upper body",
+        "upper trunk"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:thorax"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "Subdivision of trunk that lies between the head and the abdomen.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000915"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000915"
+      }
+    },
+    {
+      "id": "UBERON:0000916",
+      "ontology_id": "UBERON:0000916",
+      "ontology_status": "verified",
+      "label": "Abdomen",
+      "ontology_label": "abdomen",
+      "synonyms": [
+        "belly",
+        "stomach region",
+        "adult abdomen",
+        "celiac region",
+        "abdominopelvic region",
+        "abdominopelvis"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:abdomen"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The subdivision of the vertebrate body between the thorax and pelvis. The ventral part of the abdomen contains the abdominal cavity and visceral organs. The dorsal part includes the abdominal section of the vertebral column.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000916"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000916"
+      }
+    },
+    {
+      "id": "UBERON:0002355",
+      "ontology_id": "UBERON:0002355",
+      "ontology_status": "verified",
+      "label": "Pelvis",
+      "ontology_label": "pelvic region of trunk",
+      "synonyms": [
+        "pelvic region",
+        "hips",
+        "pelvis region",
+        "lesser pelvis",
+        "pelvis",
+        "true pelvis"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:pelvis"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The lower segment of the trunk, inferioposterior to the abdomen proper, in the transition area between the trunk and the lower limbs.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002355"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002355"
+      }
+    },
+    {
+      "id": "UBERON:0001130",
+      "ontology_id": "UBERON:0001130",
+      "ontology_status": "verified",
+      "label": "Back / spine",
+      "ontology_label": "vertebral column",
+      "synonyms": [
+        "spine",
+        "back",
+        "vertebral column",
+        "dorsum",
+        "vertebral region",
+        "backbone",
+        "columna vertebralis",
+        "dorsal spine",
+        "spinal column",
+        "vertebral column skeleton"
+      ],
+      "type": "bone",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:spine"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "Subdivision of skeletal system that consists of all the vertebra and associated skeletal elements and joints in the body[modified from VSAO].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001130"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001130"
+      }
+    },
+    {
+      "id": "UBERON:0002102@left",
+      "ontology_id": "UBERON:0002102",
+      "ontology_status": "verified",
+      "label": "Left arm",
+      "ontology_label": "forelimb",
+      "synonyms": [
+        "left arm",
+        "left upper limb",
+        "left forelimb",
+        "anteriormost limb",
+        "fore limb",
+        "foreleg",
+        "forelimb",
+        "pectoral limb",
+        "superior member",
+        "upper extremity",
+        "upper limb",
+        "free part of upper limb",
+        "free upper limb",
+        "membrum superius",
+        "pectoral flipper"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "A",
+      "asset_ids": [
+        "mesh:arm_L"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "A (free) limb that is connected to a pectoral girdle. The extent of this structure includes autopod, stylopod and zeugopod regions when present, but excludes the pectoral girdle and its parts.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002102"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002102"
+      }
+    },
+    {
+      "id": "UBERON:0002102@right",
+      "ontology_id": "UBERON:0002102",
+      "ontology_status": "verified",
+      "label": "Right arm",
+      "ontology_label": "forelimb",
+      "synonyms": [
+        "right arm",
+        "right upper limb",
+        "right forelimb",
+        "anteriormost limb",
+        "fore limb",
+        "foreleg",
+        "forelimb",
+        "pectoral limb",
+        "superior member",
+        "upper extremity",
+        "upper limb",
+        "free part of upper limb",
+        "free upper limb",
+        "membrum superius",
+        "pectoral flipper"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "A",
+      "asset_ids": [
+        "mesh:arm_R"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "A (free) limb that is connected to a pectoral girdle. The extent of this structure includes autopod, stylopod and zeugopod regions when present, but excludes the pectoral girdle and its parts.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002102"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002102"
+      }
+    },
+    {
+      "id": "UBERON:0001467@left",
+      "ontology_id": "UBERON:0001467",
+      "ontology_status": "verified",
+      "label": "Left shoulder",
+      "ontology_label": "shoulder",
+      "synonyms": [
+        "left shoulder",
+        "shoulder region",
+        "articulatio humeri"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002102@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:shoulder_L"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "A subdivision of the pectoral complex consisting of the structures in the region of the shoulder joint (which connects the humerus, scapula and clavicle).",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001467"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001467"
+      }
+    },
+    {
+      "id": "UBERON:0001467@right",
+      "ontology_id": "UBERON:0001467",
+      "ontology_status": "verified",
+      "label": "Right shoulder",
+      "ontology_label": "shoulder",
+      "synonyms": [
+        "right shoulder",
+        "shoulder region",
+        "articulatio humeri"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002102@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:shoulder_R"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "A subdivision of the pectoral complex consisting of the structures in the region of the shoulder joint (which connects the humerus, scapula and clavicle).",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001467"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001467"
+      }
+    },
+    {
+      "id": "UBERON:0003822@left",
+      "ontology_id": "UBERON:0003822",
+      "ontology_status": "verified",
+      "label": "Left upper arm",
+      "ontology_label": "forelimb stylopod",
+      "synonyms": [
+        "left upper arm",
+        "left brachium",
+        "left forelimb stylopod",
+        "brachial region",
+        "forelimb propodium",
+        "proximal segment of free upper limb",
+        "stylopod of arm",
+        "stylopod of forelimb",
+        "arm",
+        "brachium",
+        "fore propodium",
+        "forelimb stylopodial element",
+        "forelimb stylopodium",
+        "regio brachialis",
+        "upper arm"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002102@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002102@left",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The part of the forelimb between pectoral region and the elbow, corresponding to the humerus.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003822"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003822"
+      }
+    },
+    {
+      "id": "UBERON:0003822@right",
+      "ontology_id": "UBERON:0003822",
+      "ontology_status": "verified",
+      "label": "Right upper arm",
+      "ontology_label": "forelimb stylopod",
+      "synonyms": [
+        "right upper arm",
+        "right brachium",
+        "right forelimb stylopod",
+        "brachial region",
+        "forelimb propodium",
+        "proximal segment of free upper limb",
+        "stylopod of arm",
+        "stylopod of forelimb",
+        "arm",
+        "brachium",
+        "fore propodium",
+        "forelimb stylopodial element",
+        "forelimb stylopodium",
+        "regio brachialis",
+        "upper arm"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002102@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002102@right",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The part of the forelimb between pectoral region and the elbow, corresponding to the humerus.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003822"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003822"
+      }
+    },
+    {
+      "id": "UBERON:0002386@left",
+      "ontology_id": "UBERON:0002386",
+      "ontology_status": "verified",
+      "label": "Left forearm",
+      "ontology_label": "forelimb zeugopod",
+      "synonyms": [
+        "left forearm",
+        "left forelimb zeugopod",
+        "antebrachial region",
+        "antibrachium",
+        "fore epipodium",
+        "forearm",
+        "forelimb epipodium",
+        "forelimb zeugopodium",
+        "forelimb zygopod",
+        "intermediate segment of free upper limb",
+        "lower segment of arm",
+        "zeugopod of arm",
+        "zeugopod of forelimb",
+        "antebrachium"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002102@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002102@left",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The middle limb segment of the pectoral free limb, between the autopod and stylopod segments. Includes as parts the forelimb zeugopodial skeleton, which includes as parts the radius and ulna, or their cartilage precursors, or evolutionary variants.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002386"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002386"
+      }
+    },
+    {
+      "id": "UBERON:0002386@right",
+      "ontology_id": "UBERON:0002386",
+      "ontology_status": "verified",
+      "label": "Right forearm",
+      "ontology_label": "forelimb zeugopod",
+      "synonyms": [
+        "right forearm",
+        "right forelimb zeugopod",
+        "antebrachial region",
+        "antibrachium",
+        "fore epipodium",
+        "forearm",
+        "forelimb epipodium",
+        "forelimb zeugopodium",
+        "forelimb zygopod",
+        "intermediate segment of free upper limb",
+        "lower segment of arm",
+        "zeugopod of arm",
+        "zeugopod of forelimb",
+        "antebrachium"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002102@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002102@right",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The middle limb segment of the pectoral free limb, between the autopod and stylopod segments. Includes as parts the forelimb zeugopodial skeleton, which includes as parts the radius and ulna, or their cartilage precursors, or evolutionary variants.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002386"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002386"
+      }
+    },
+    {
+      "id": "UBERON:0002398@left",
+      "ontology_id": "UBERON:0002398",
+      "ontology_status": "verified",
+      "label": "Left hand",
+      "ontology_label": "manus",
+      "synonyms": [
+        "left hand",
+        "left palm",
+        "manus",
+        "hand",
+        "forefoot of quadruped",
+        "terminal segment of free upper limb",
+        "fore foot",
+        "fore paw",
+        "fore-paw",
+        "forefeet",
+        "forefoot",
+        "forelimb autopod",
+        "forelimb autopodium",
+        "forepaw",
+        "hand region"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002102@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "A",
+      "asset_ids": [
+        "mesh:hand_L"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "Distal segment of the fore limb, including carpal region, metacarpal region and digits.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002398"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002398"
+      }
+    },
+    {
+      "id": "UBERON:0002398@right",
+      "ontology_id": "UBERON:0002398",
+      "ontology_status": "verified",
+      "label": "Right hand",
+      "ontology_label": "manus",
+      "synonyms": [
+        "right hand",
+        "right palm",
+        "manus",
+        "forefoot of quadruped",
+        "terminal segment of free upper limb",
+        "fore foot",
+        "fore paw",
+        "fore-paw",
+        "forefeet",
+        "forefoot",
+        "forelimb autopod",
+        "forelimb autopodium",
+        "forepaw",
+        "hand region",
+        "hand"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002102@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "A",
+      "asset_ids": [
+        "mesh:hand_R"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "Distal segment of the fore limb, including carpal region, metacarpal region and digits.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002398"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002398"
+      }
+    },
+    {
+      "id": "UBERON:0002103@left",
+      "ontology_id": "UBERON:0002103",
+      "ontology_status": "verified",
+      "label": "Left leg",
+      "ontology_label": "hindlimb",
+      "synonyms": [
+        "left leg",
+        "left lower limb",
+        "left hindlimb",
+        "hind limb",
+        "hindlimb",
+        "inferior member",
+        "lower extremity",
+        "lower limb",
+        "pelvic appendage",
+        "free lower limb",
+        "free part of lower limb",
+        "hind-limb",
+        "membrum inferius"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "A",
+      "asset_ids": [
+        "mesh:leg_L"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "A (free) limb that is connected to a pelvic girdle region. The extent of this structure includes autopod, stylopod and zeugopod regions when present, but excludes the pelvic girdle and its parts.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002103"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002103"
+      }
+    },
+    {
+      "id": "UBERON:0002103@right",
+      "ontology_id": "UBERON:0002103",
+      "ontology_status": "verified",
+      "label": "Right leg",
+      "ontology_label": "hindlimb",
+      "synonyms": [
+        "right leg",
+        "right lower limb",
+        "right hindlimb",
+        "hind limb",
+        "hindlimb",
+        "inferior member",
+        "lower extremity",
+        "lower limb",
+        "pelvic appendage",
+        "free lower limb",
+        "free part of lower limb",
+        "hind-limb",
+        "membrum inferius"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "A",
+      "asset_ids": [
+        "mesh:leg_R"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "A (free) limb that is connected to a pelvic girdle region. The extent of this structure includes autopod, stylopod and zeugopod regions when present, but excludes the pelvic girdle and its parts.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002103"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002103"
+      }
+    },
+    {
+      "id": "UBERON:0000376@left",
+      "ontology_id": "UBERON:0000376",
+      "ontology_status": "verified",
+      "label": "Left thigh",
+      "ontology_label": "hindlimb stylopod",
+      "synonyms": [
+        "left thigh",
+        "left hindlimb stylopod",
+        "stylopod of lower limb",
+        "thigh",
+        "femur",
+        "hind limb stylopod",
+        "hind limb stylopodium",
+        "hind propodium",
+        "hindlimb propodium",
+        "hindlimb stylopod",
+        "hindlimb stylopodium",
+        "proximal segment of free lower limb",
+        "stylopod of hind limb",
+        "stylopod of hindlimb"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002103@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002103@left",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The part of the hindlimb between pelvis and the knee, corresponding to the femur.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000376"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000376"
+      }
+    },
+    {
+      "id": "UBERON:0000376@right",
+      "ontology_id": "UBERON:0000376",
+      "ontology_status": "verified",
+      "label": "Right thigh",
+      "ontology_label": "hindlimb stylopod",
+      "synonyms": [
+        "right thigh",
+        "right hindlimb stylopod",
+        "stylopod of lower limb",
+        "thigh",
+        "femur",
+        "hind limb stylopod",
+        "hind limb stylopodium",
+        "hind propodium",
+        "hindlimb propodium",
+        "hindlimb stylopod",
+        "hindlimb stylopodium",
+        "proximal segment of free lower limb",
+        "stylopod of hind limb",
+        "stylopod of hindlimb"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002103@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002103@right",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The part of the hindlimb between pelvis and the knee, corresponding to the femur.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000376"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000376"
+      }
+    },
+    {
+      "id": "UBERON:0003823@left",
+      "ontology_id": "UBERON:0003823",
+      "ontology_status": "verified",
+      "label": "Left lower leg",
+      "ontology_label": "hindlimb zeugopod",
+      "synonyms": [
+        "left lower leg",
+        "left crus",
+        "left shin",
+        "crus of hindlimb",
+        "hindlimb epipodium",
+        "crus",
+        "hind epipodium",
+        "hind limb middle limb segment",
+        "hind limb zeudopodium",
+        "hind limb zeugopod",
+        "hindlimb middle limb segment",
+        "hindlimb zeudopodium",
+        "hindlimb zeugopod",
+        "hindlimb zeugopodium",
+        "intermediate segment of free lower limb"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002103@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002103@left",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The middle limb segment of the pelvic free limb, between the autopod and stylopod segments. Includes as parts the hindlimb zeugopodial skeleton, which includes as parts the tibia and fibula, or their cartilage precursors, or evolutionary variants.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003823"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003823"
+      }
+    },
+    {
+      "id": "UBERON:0003823@right",
+      "ontology_id": "UBERON:0003823",
+      "ontology_status": "verified",
+      "label": "Right lower leg",
+      "ontology_label": "hindlimb zeugopod",
+      "synonyms": [
+        "right lower leg",
+        "right crus",
+        "right shin",
+        "crus of hindlimb",
+        "hindlimb epipodium",
+        "crus",
+        "hind epipodium",
+        "hind limb middle limb segment",
+        "hind limb zeudopodium",
+        "hind limb zeugopod",
+        "hindlimb middle limb segment",
+        "hindlimb zeudopodium",
+        "hindlimb zeugopod",
+        "hindlimb zeugopodium",
+        "intermediate segment of free lower limb"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002103@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002103@right",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The middle limb segment of the pelvic free limb, between the autopod and stylopod segments. Includes as parts the hindlimb zeugopodial skeleton, which includes as parts the tibia and fibula, or their cartilage precursors, or evolutionary variants.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003823"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003823"
+      }
+    },
+    {
+      "id": "UBERON:0002387@left",
+      "ontology_id": "UBERON:0002387",
+      "ontology_status": "verified",
+      "label": "Left foot",
+      "ontology_label": "pes",
+      "synonyms": [
+        "left foot",
+        "pes",
+        "hind foot",
+        "hindfoot of quadruped",
+        "hindfoot",
+        "terminal segment of free lower limb",
+        "foot",
+        "hind limb autopodium",
+        "hind paw",
+        "hind-paw",
+        "hindfeet",
+        "hindlimb autopod",
+        "hindlimb autopodium",
+        "hindlimb distal free limb segment"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002103@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "A",
+      "asset_ids": [
+        "mesh:foot_L"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "Distal portion of the hind limb, including tarsal region, metatarsal region and digits.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002387"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002387"
+      }
+    },
+    {
+      "id": "UBERON:0002387@right",
+      "ontology_id": "UBERON:0002387",
+      "ontology_status": "verified",
+      "label": "Right foot",
+      "ontology_label": "pes",
+      "synonyms": [
+        "right foot",
+        "pes",
+        "hind foot",
+        "hindfoot of quadruped",
+        "hindfoot",
+        "terminal segment of free lower limb",
+        "foot",
+        "hind limb autopodium",
+        "hind paw",
+        "hind-paw",
+        "hindfeet",
+        "hindlimb autopod",
+        "hindlimb autopodium",
+        "hindlimb distal free limb segment"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002103@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "A",
+      "asset_ids": [
+        "mesh:foot_R"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "Distal portion of the hind limb, including tarsal region, metatarsal region and digits.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002387"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002387"
+      }
+    },
+    {
+      "id": "UBERON:0000955",
+      "ontology_id": "UBERON:0000955",
+      "ontology_status": "verified",
+      "label": "Brain",
+      "ontology_label": "brain",
+      "synonyms": [
+        "encephalon",
+        "synganglion",
+        "suprasegmental levels of nervous system",
+        "suprasegmental structures",
+        "the brain"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000033"
+      ],
+      "system_ids": [
+        "system:nervous"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [
+        "mesh:brain"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0003714"
+      ],
+      "description": "The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000955"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000955"
+      }
+    },
+    {
+      "id": "UBERON:0004548",
+      "ontology_id": "UBERON:0004548",
+      "ontology_status": "verified",
+      "label": "Left eye",
+      "ontology_label": "left eye",
+      "synonyms": [
+        "left eye",
+        "left eyeball",
+        "left orbital part of face",
+        "left orbital region"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "DIAMOND:region-head-face"
+      ],
+      "system_ids": [
+        "system:sensory"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:eye_L"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "An eye that is part of a left side of organism [Automatically generated definition].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004548"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004548"
+      }
+    },
+    {
+      "id": "UBERON:0004549",
+      "ontology_id": "UBERON:0004549",
+      "ontology_status": "verified",
+      "label": "Right eye",
+      "ontology_label": "right eye",
+      "synonyms": [
+        "right eye",
+        "right eyeball",
+        "right orbital part of face",
+        "right orbital region"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "DIAMOND:region-head-face"
+      ],
+      "system_ids": [
+        "system:sensory"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:eye_R"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "An eye that is part of a right side of organism [Automatically generated definition].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004549"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004549"
+      }
+    },
+    {
+      "id": "UBERON:0035295",
+      "ontology_id": "UBERON:0035295",
+      "ontology_status": "verified",
+      "label": "Left ear",
+      "ontology_label": "left ear",
+      "synonyms": [
+        "left ear"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000033"
+      ],
+      "system_ids": [
+        "system:sensory"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000033",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "The organ of hearing located on the left side of the head[ncit,modified].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0035295"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0035295"
+      }
+    },
+    {
+      "id": "UBERON:0035174",
+      "ontology_id": "UBERON:0035174",
+      "ontology_status": "verified",
+      "label": "Right ear",
+      "ontology_label": "right ear",
+      "synonyms": [
+        "right ear"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000033"
+      ],
+      "system_ids": [
+        "system:sensory"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000033",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "The organ of hearing located on the right side of the head.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0035174"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0035174"
+      }
+    },
+    {
+      "id": "UBERON:0000004",
+      "ontology_id": "UBERON:0000004",
+      "ontology_status": "verified",
+      "label": "Nose",
+      "ontology_label": "nose",
+      "synonyms": [
+        "nose",
+        "nasal organ",
+        "proboscis",
+        "nasal sac",
+        "nasus",
+        "olfactory apparatus",
+        "peripheral olfactory organ"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "DIAMOND:region-head-face"
+      ],
+      "system_ids": [
+        "system:respiratory"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "DIAMOND:region-head-face",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "The olfactory organ of vertebrates, consisting of nares, olfactory epithelia and the structures and skeletal framework of the nasal cavity.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000004"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000004"
+      }
+    },
+    {
+      "id": "UBERON:0000165",
+      "ontology_id": "UBERON:0000165",
+      "ontology_status": "verified",
+      "label": "Mouth",
+      "ontology_label": "mouth",
+      "synonyms": [
+        "mouth",
+        "oral opening",
+        "adult mouth",
+        "stoma",
+        "cavital oralis",
+        "cavitas oris",
+        "cavum oris",
+        "mouth cavity",
+        "oral region",
+        "oral vestibule",
+        "regio oralis",
+        "rima oris",
+        "stomatodaeum",
+        "trophic apparatus"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "DIAMOND:region-head-face"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "DIAMOND:region-head-face",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "The proximal portion of the digestive tract, containing the oral cavity and bounded by the oral opening. In vertebrates, this extends to the pharynx and includes gums, lips, tongue and parts of the palate. Typically also includes the teeth, except where these occur elsewhere (e.g. pharyngeal jaws) or protrude from the mouth (tusks).",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000165"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000165"
+      }
+    },
+    {
+      "id": "UBERON:0000948",
+      "ontology_id": "UBERON:0000948",
+      "ontology_status": "verified",
+      "label": "Heart",
+      "ontology_label": "heart",
+      "synonyms": [
+        "cardiac organ",
+        "vertebrate heart",
+        "branchial heart",
+        "cardium",
+        "chambered heart"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000915"
+      ],
+      "system_ids": [
+        "system:cardiovascular"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [
+        "mesh:heart"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0001133",
+        "UBERON:0002384"
+      ],
+      "description": "Taxon notes:\" the ascidian tube-like heart lacks chambers....The ascidian heart is formed after metamorphosis as a simple tube-like structure with a single-layered myoepithelium that is continuous with a single-layered pericar- dial wall. It lacks chambers and endocardium.... The innovation of the chambered heart was a key event in vertebrate evolution, because the chambered heart generates one-way blood flow with high pressure, a critical requirement for the efficient blood supply of large-body vertebrates... all extant vertebrates have hearts with two or more chambers (Moorman and Christoffels 2003)\" DOI:10.1101/gad.1485706",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000948"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000948"
+      }
+    },
+    {
+      "id": "UBERON:0002168",
+      "ontology_id": "UBERON:0002168",
+      "ontology_status": "verified",
+      "label": "Left lung",
+      "ontology_label": "left lung",
+      "synonyms": [
+        "left lung"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000915"
+      ],
+      "system_ids": [
+        "system:respiratory"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:lung_L"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "Lung which consists of the left upper lobe and left lower lobe.[FMA].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002168"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002168"
+      }
+    },
+    {
+      "id": "UBERON:0002167",
+      "ontology_id": "UBERON:0002167",
+      "ontology_status": "verified",
+      "label": "Right lung",
+      "ontology_label": "right lung",
+      "synonyms": [
+        "right lung"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000915"
+      ],
+      "system_ids": [
+        "system:respiratory"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:lung_R"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "Lung which consists of the right upper lobe, middle lobe and right lower lobe.[FMA].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002167"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002167"
+      }
+    },
+    {
+      "id": "UBERON:0002107",
+      "ontology_id": "UBERON:0002107",
+      "ontology_status": "verified",
+      "label": "Liver",
+      "ontology_label": "liver",
+      "synonyms": [
+        "hepatic organ",
+        "iecur",
+        "jecur"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [
+        "mesh:liver"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002107"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002107"
+      }
+    },
+    {
+      "id": "UBERON:0000945",
+      "ontology_id": "UBERON:0000945",
+      "ontology_status": "verified",
+      "label": "Stomach",
+      "ontology_label": "stomach",
+      "synonyms": [
+        "gaster",
+        "anterior intestine",
+        "mesenteron",
+        "stomach chamber",
+        "ventriculus"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [
+        "mesh:stomach"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "An expanded region of the vertebrate alimentary tract that serves as a food storage compartment and digestive organ. A stomach is lined, in whole or in part by a glandular epithelium.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000945"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000945"
+      }
+    },
+    {
+      "id": "UBERON:0001264",
+      "ontology_id": "UBERON:0001264",
+      "ontology_status": "verified",
+      "label": "Pancreas",
+      "ontology_label": "pancreas",
+      "synonyms": [
+        "pancreas"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:digestive",
+        "system:endocrine"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000916",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating hormones[GO].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001264"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001264"
+      }
+    },
+    {
+      "id": "UBERON:0004538",
+      "ontology_id": "UBERON:0004538",
+      "ontology_status": "verified",
+      "label": "Left kidney",
+      "ontology_label": "left kidney",
+      "synonyms": [
+        "left kidney"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:urinary"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:kidney_L"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "A kidney that is part of a left side of organism [Automatically generated definition].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004538"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004538"
+      }
+    },
+    {
+      "id": "UBERON:0004539",
+      "ontology_id": "UBERON:0004539",
+      "ontology_status": "verified",
+      "label": "Right kidney",
+      "ontology_label": "right kidney",
+      "synonyms": [
+        "right kidney"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:urinary"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:kidney_R"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "A kidney that is part of a right side of organism [Automatically generated definition].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004539"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004539"
+      }
+    },
+    {
+      "id": "UBERON:0001255",
+      "ontology_id": "UBERON:0001255",
+      "ontology_status": "verified",
+      "label": "Bladder",
+      "ontology_label": "urinary bladder",
+      "synonyms": [
+        "urinary bladder",
+        "bladder",
+        "urocyst",
+        "vesica urinaria",
+        "vesica"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0002355"
+      ],
+      "system_ids": [
+        "system:urinary"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [
+        "mesh:bladder"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "Distensible musculomembranous organ situated in the anterior part of the pelvic cavity in which urine collects before excretion[MP].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001255"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001255"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-thumb@left",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Left thumb",
+      "ontology_label": null,
+      "synonyms": [
+        "left thumb",
+        "digit 1"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_L_1"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent2",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-index@left",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Left index finger",
+      "ontology_label": null,
+      "synonyms": [
+        "left index"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_L_2"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent2",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-middle@left",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Left middle finger",
+      "ontology_label": null,
+      "synonyms": [
+        "left middle"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_L_3"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent2",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-ring@left",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Left ring finger",
+      "ontology_label": null,
+      "synonyms": [
+        "left ring"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_L_4"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent2",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-little@left",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Left little finger",
+      "ontology_label": null,
+      "synonyms": [
+        "left pinky",
+        "left little finger"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_L_5"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent2",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-thumb@right",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Right thumb",
+      "ontology_label": null,
+      "synonyms": [
+        "right thumb"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_R_1"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent2",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-index@right",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Right index finger",
+      "ontology_label": null,
+      "synonyms": [
+        "right index"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_R_2"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent2",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-middle@right",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Right middle finger",
+      "ontology_label": null,
+      "synonyms": [
+        "right middle"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_R_3"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent2",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-ring@right",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Right ring finger",
+      "ontology_label": null,
+      "synonyms": [
+        "right ring"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_R_4"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent2",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-little@right",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Right little finger",
+      "ontology_label": null,
+      "synonyms": [
+        "right pinky"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_R_5"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent2",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+      }
+    },
+    {
+      "id": "UBERON:0002106",
+      "ontology_id": "UBERON:0002106",
+      "ontology_status": "verified",
+      "label": "Spleen",
+      "ontology_label": "spleen",
+      "synonyms": [
+        "spleen",
+        "lien"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:cardiovascular"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000916",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "The organ that functions to filter blood and to store red corpuscles and platelets.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002106"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002106"
+      }
+    },
+    {
+      "id": "UBERON:0002108",
+      "ontology_id": "UBERON:0002108",
+      "ontology_status": "verified",
+      "label": "Small intestine",
+      "ontology_label": "small intestine",
+      "synonyms": [
+        "small bowel",
+        "anterior intestine",
+        "mid intestine",
+        "small intestine",
+        "intestinum tenue"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000916",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "Subdivision of digestive tract that connects the stomach to the large intestine and is where much of the digestion and absorption of food takes place (with the exception of ruminants). The mammalian small intestine is long and coiled and can be differentiated histologically into: duodenum, jejunem, ileum[WP,cjm,Kardong].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002108"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002108"
+      }
+    },
+    {
+      "id": "UBERON:0000059",
+      "ontology_id": "UBERON:0000059",
+      "ontology_status": "verified",
+      "label": "Large intestine",
+      "ontology_label": "large intestine",
+      "synonyms": [
+        "colon",
+        "intestinum crassum"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000916",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "A subdivision of the digestive tract that connects the small intestine to the cloaca or anus. Lacks or has few villi[Kardong].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000059"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000059"
+      }
+    },
+    {
+      "id": "UBERON:0002110",
+      "ontology_id": "UBERON:0002110",
+      "ontology_status": "verified",
+      "label": "Gallbladder",
+      "ontology_label": "gallbladder",
+      "synonyms": [
+        "gall bladder",
+        "cholecyst",
+        "vesica biliaris",
+        "vesica fellea"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002107",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "Rats do not have a gallbladder, but produce bile. The bile flows directly from the liver through the (hepatic) bile duct into the small intestine (Hebel and Stromberg, 1988)",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002110"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002110"
+      }
+    },
+    {
+      "id": "UBERON:0002046",
+      "ontology_id": "UBERON:0002046",
+      "ontology_status": "verified",
+      "label": "Thyroid",
+      "ontology_label": "thyroid gland",
+      "synonyms": [
+        "thyroid gland",
+        "thyroid",
+        "glandula thyroidea"
+      ],
+      "type": "gland",
+      "parent_ids": [
+        "UBERON:0000974"
+      ],
+      "system_ids": [
+        "system:endocrine"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000974",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "A two-lobed endocrine gland found in all vertebrates, located in front of and on either side of the trachea in humans, and producing various hormones, such as triiodothyronine and calcitonin[BTO].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002046"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002046"
+      }
+    },
+    {
+      "id": "UBERON:0001737",
+      "ontology_id": "UBERON:0001737",
+      "ontology_status": "verified",
+      "label": "Larynx",
+      "ontology_label": "larynx",
+      "synonyms": [
+        "voice box"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000974"
+      ],
+      "system_ids": [
+        "system:respiratory"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000974",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "A continuation of the pharynx that is involved in breathing, sound production, and protecting the trachea against food aspiration.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001737"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001737"
+      }
+    },
+    {
+      "id": "UBERON:0001043",
+      "ontology_id": "UBERON:0001043",
+      "ontology_status": "verified",
+      "label": "Oesophagus",
+      "ontology_label": "esophagus",
+      "synonyms": [
+        "esophagus",
+        "gullet",
+        "oesophagus"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000915"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000915",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "Tube that connects the pharynx to the stomach. In mammals, the oesophagus connects the buccal cavity with the stomach. The stratified squamous non-keratinised epithelium lining the buccal cavity is continued through the pharynx down into the oesophagus. The lowest part of the oesophagus (ca. 2 cm) is lined with gastric mucosa and covered by peritoneum. The main body of the oesophagus is lined with small, simple mucous glands. Each gland opens into the lumen by a long duct which pierces the muscularis mucosae (Wilson and Washington, 1989). A sphincter is situated at the point where the oesophagus enters the stomach to prevent gastro-oesophageal reflux, i.e. to prevent acidic gastric contents from reaching stratified epithelia of the oesophagus, where they can cause inflammation and irritation (Wilson and Washington, 1989; Brown et al., 1993).",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001043"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001043"
+      }
+    },
+    {
+      "id": "UBERON:0000947",
+      "ontology_id": "UBERON:0000947",
+      "ontology_status": "verified",
+      "label": "Aorta",
+      "ontology_label": "aorta",
+      "synonyms": [
+        "aorta",
+        "trunk of aortic tree",
+        "trunk of systemic arterial tree",
+        "arteria maxima",
+        "dorsal aorta"
+      ],
+      "type": "vessel",
+      "parent_ids": [
+        "UBERON:0000915"
+      ],
+      "system_ids": [
+        "system:cardiovascular"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000948",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The main trunk of the systemic arterial system that carries blood from the heart to all the organs and other structures of the body, bringing oxygenated blood to all parts of the body in the systemic circulation.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000947"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000947"
+      }
+    },
+    {
+      "id": "UBERON:0001723",
+      "ontology_id": "UBERON:0001723",
+      "ontology_status": "verified",
+      "label": "Tongue",
+      "ontology_label": "tongue",
+      "synonyms": [
+        "tongue",
+        "glossus"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000033"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "DIAMOND:region-head-face",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "A muscular organ in the floor of the mouth.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001723"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001723"
+      }
+    },
+    {
+      "id": "UBERON:0002240",
+      "ontology_id": "UBERON:0002240",
+      "ontology_status": "verified",
+      "label": "Spinal cord",
+      "ontology_label": "spinal cord",
+      "synonyms": [
+        "spinal cord",
+        "SpC",
+        "cerebro-cerebellar fissure",
+        "cerebrocerebellar fissure",
+        "fissura cerebro-cerebellaris",
+        "fissura cerebrocerebellaris",
+        "medulla spinalis",
+        "spinal cord structure",
+        "spinal medulla"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0001130"
+      ],
+      "system_ids": [
+        "system:nervous"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0001130",
+      "tissue_context_ids": [
+        "UBERON:0003714"
+      ],
+      "description": "Part of the central nervous system located in the vertebral canal continuous with and caudal to the brain; demarcated from brain by plane of foramen magnum. It is composed of an inner core of gray matter in which nerve cells predominate, and an outer layer of white matter in which myelinated nerve fibers predominate, and surrounds the central canal. (CUMBO).",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002240"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002240"
+      }
+    },
+    {
+      "id": "UBERON:0001235",
+      "ontology_id": "UBERON:0001235",
+      "ontology_status": "verified",
+      "label": "Adrenal gland",
+      "ontology_label": "adrenal cortex",
+      "synonyms": [
+        "suprarenal gland",
+        "adrenal gland cortex",
+        "cortex (glandula suprarenalis)",
+        "cortex of adrenal gland",
+        "cortex of suprarenal gland",
+        "suprarenal cortex",
+        "suprarenal",
+        "cortex glandulae suprarenalis"
+      ],
+      "type": "gland",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:endocrine"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000916",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The thick outer layer of the adrenal gland that produces and secretes steroid hormones such as corticosterone, estrone and aldosterone.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001235"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001235"
+      }
+    },
+    {
+      "id": "UBERON:0000995",
+      "ontology_id": "UBERON:0000995",
+      "ontology_status": "verified",
+      "label": "Uterus",
+      "ontology_label": "uterus",
+      "synonyms": [
+        "womb"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0002355"
+      ],
+      "system_ids": [
+        "system:reproductive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002355",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "The female muscular organ of gestation in which the developing embryo or fetus is nourished until birth.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000995"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000995"
+      }
+    },
+    {
+      "id": "UBERON:0002367",
+      "ontology_id": "UBERON:0002367",
+      "ontology_status": "verified",
+      "label": "Prostate",
+      "ontology_label": "prostate gland",
+      "synonyms": [
+        "prostate gland",
+        "prostate",
+        "male prostate",
+        "prostata"
+      ],
+      "type": "gland",
+      "parent_ids": [
+        "UBERON:0002355"
+      ],
+      "system_ids": [
+        "system:reproductive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002355",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "The prostate gland is a partly muscular, partly glandular body that is situated near the base of the mammalian male urethra and secretes an alkaline viscid fluid which is a major constituent of the ejaculatory fluid.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002367"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002367"
+      }
+    },
+    {
+      "id": "UBERON:0002097",
+      "ontology_id": "UBERON:0002097",
+      "ontology_status": "verified",
+      "label": "Skin",
+      "ontology_label": "skin of body",
+      "synonyms": [
+        "integument",
+        "skin of body",
+        "entire integument",
+        "entire skin",
+        "integumental organ",
+        "pelt",
+        "skin organ",
+        "skin"
+      ],
+      "type": "tissue",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:integumentary"
+      ],
+      "laterality": "none",
+      "level": "C",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0013702",
+      "tissue_context_ids": [
+        "UBERON:0002097"
+      ],
+      "description": "The organ covering the body that consists of the dermis and epidermis.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002097"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002097"
+      }
+    },
+    {
+      "id": "UBERON:0001134",
+      "ontology_id": "UBERON:0001134",
+      "ontology_status": "verified",
+      "label": "Skeletal muscle tissue",
+      "ontology_label": "skeletal muscle tissue",
+      "synonyms": [
+        "skeletal muscle",
+        "striated muscle tissue",
+        "skeletal muscle system",
+        "somatic muscle"
+      ],
+      "type": "tissue",
+      "parent_ids": [],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "none",
+      "level": "C",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0013702",
+      "tissue_context_ids": [
+        "UBERON:0001134"
+      ],
+      "description": "Muscle tissue that consists primarily of skeletal muscle fibers.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001134"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001134"
+      }
+    },
+    {
+      "id": "UBERON:0002481",
+      "ontology_id": "UBERON:0002481",
+      "ontology_status": "verified",
+      "label": "Bone tissue",
+      "ontology_label": "bone tissue",
+      "synonyms": [
+        "bone",
+        "osseous tissue",
+        "calcium tissue",
+        "mineralized bone tissue",
+        "osteogenic tissue",
+        "portion of bone tissue"
+      ],
+      "type": "tissue",
+      "parent_ids": [],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "none",
+      "level": "C",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0013702",
+      "tissue_context_ids": [
+        "UBERON:0002481"
+      ],
+      "description": "Skeletal tissue with a collagen-rich extracellular matrix vascularized, mineralized with hydroxyapatite and typically including osteocytes located in lacunae that communicate with one another by cell processes (in canaliculi). Bone is deposited by osteoblasts.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002481"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002481"
+      }
+    },
+    {
+      "id": "UBERON:0003714",
+      "ontology_id": "UBERON:0003714",
+      "ontology_status": "verified",
+      "label": "Neural tissue",
+      "ontology_label": "neural tissue",
+      "synonyms": [
+        "nervous tissue",
+        "neural tissue",
+        "nerve tissue",
+        "portion of neural tissue"
+      ],
+      "type": "tissue",
+      "parent_ids": [],
+      "system_ids": [
+        "system:nervous"
+      ],
+      "laterality": "none",
+      "level": "C",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000955",
+      "tissue_context_ids": [
+        "UBERON:0003714"
+      ],
+      "description": "Portion of tissue in the nervous system which consists of neurons and glial cells, and may also contain parts of the vasculature.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003714"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003714"
+      }
+    },
+    {
+      "id": "UBERON:0002384",
+      "ontology_id": "UBERON:0002384",
+      "ontology_status": "verified",
+      "label": "Connective tissue",
+      "ontology_label": "connective tissue",
+      "synonyms": [
+        "connective tissue",
+        "textus connectivus",
+        "Bindegewebe",
+        "portion of connective tissue"
+      ],
+      "type": "tissue",
+      "parent_ids": [],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "none",
+      "level": "C",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0013702",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002384"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002384"
+      }
+    },
+    {
+      "id": "UBERON:0001133",
+      "ontology_id": "UBERON:0001133",
+      "ontology_status": "verified",
+      "label": "Cardiac muscle tissue",
+      "ontology_label": "cardiac muscle tissue",
+      "synonyms": [
+        "heart muscle",
+        "cardiac muscle",
+        "myocardium tissue",
+        "cardiac muscle muscle tissue",
+        "cardiac muscle textus muscularis",
+        "cardiac musculature",
+        "heart muscle muscle tissue",
+        "heart muscle textus muscularis",
+        "heart myocardium muscle tissue",
+        "heart myocardium textus muscularis",
+        "muscle of heart muscle tissue",
+        "muscle of heart textus muscularis",
+        "muscle tissue of cardiac muscle",
+        "muscle tissue of heart muscle"
+      ],
+      "type": "tissue",
+      "parent_ids": [],
+      "system_ids": [
+        "system:cardiovascular"
+      ],
+      "laterality": "none",
+      "level": "C",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000948",
+      "tissue_context_ids": [
+        "UBERON:0001133"
+      ],
+      "description": "Muscle tissue composed of cardiac muscle cells, forming the muscles of the heart[ZFA,modified].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001133"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001133"
+      }
+    },
+    {
+      "id": "UBERON:0001013",
+      "ontology_id": "UBERON:0001013",
+      "ontology_status": "verified",
+      "label": "Adipose tissue",
+      "ontology_label": "adipose tissue",
+      "synonyms": [
+        "fat tissue",
+        "adipose",
+        "fatty depot",
+        "fatty tissue",
+        "bodyfat",
+        "fat"
+      ],
+      "type": "tissue",
+      "parent_ids": [],
+      "system_ids": [
+        "system:integumentary"
+      ],
+      "laterality": "none",
+      "level": "C",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0013702",
+      "tissue_context_ids": [
+        "UBERON:0001013"
+      ],
+      "description": "Portion of connective tissue composed of adipocytes enmeshed in areolar tissue.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001013"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001013"
+      }
+    },
+    {
+      "id": "UBERON:0001981",
+      "ontology_id": "UBERON:0001981",
+      "ontology_status": "verified",
+      "label": "Blood vessel",
+      "ontology_label": "blood vessel",
+      "synonyms": [
+        "vessel",
+        "blood vessel",
+        "region of vascular tree organ",
+        "vas sanguineum",
+        "vascular element",
+        "vascular tree organ region"
+      ],
+      "type": "vessel",
+      "parent_ids": [],
+      "system_ids": [
+        "system:cardiovascular"
+      ],
+      "laterality": "none",
+      "level": "C",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000948",
+      "tissue_context_ids": [
+        "UBERON:0001981"
+      ],
+      "description": "A vessel through which blood circulates in the body.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001981"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001981"
+      }
+    },
+    {
+      "id": "UBERON:0002098",
+      "ontology_id": "UBERON:0002098",
+      "ontology_status": "verified",
+      "label": "Apex of heart",
+      "ontology_label": "apex of heart",
+      "synonyms": [
+        "cardiac apex",
+        "heart apex",
+        "apex cordis"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000948"
+      ],
+      "system_ids": [
+        "system:cardiovascular"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000948",
+      "tissue_context_ids": [
+        "UBERON:0001133"
+      ],
+      "description": "The apex of the heart is the lowest superficial part of the heart. It is directed downward, forward, and to the left, and is overlapped by the left lung and pleura. [WP,unvetted].",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002098"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002098"
+      }
+    },
+    {
+      "id": "UBERON:0002048",
+      "ontology_id": "UBERON:0002048",
+      "ontology_status": "verified",
+      "label": "Lung",
+      "ontology_label": "lung",
+      "synonyms": [
+        "lung",
+        "pulmonary organ",
+        "pulmo"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000915"
+      ],
+      "system_ids": [
+        "system:respiratory"
+      ],
+      "laterality": "none",
+      "level": "C",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000915",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "Snakes and limbless lizards typically possess only the right lung as a major respiratory organ; the left lung is greatly reduced, or even absent. Amphisbaenians, however, have the opposite arrangement, with a major left lung, and a reduced or absent right lung [WP]",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002048"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002048"
+      }
+    },
+    {
+      "id": "UBERON:0002113",
+      "ontology_id": "UBERON:0002113",
+      "ontology_status": "verified",
+      "label": "Kidney",
+      "ontology_label": "kidney",
+      "synonyms": [
+        "kidney",
+        "reniculate kidney"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:urinary"
+      ],
+      "laterality": "none",
+      "level": "C",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000916",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": "A paired organ of the urinary tract that produces urine and maintains bodily fluid homeostasis, blood pressure, pH levels, red blood cell production and skeleton mineralization.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002113"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002113"
+      }
+    },
+    {
+      "id": "UBERON:0000956",
+      "ontology_id": "UBERON:0000956",
+      "ontology_status": "verified",
+      "label": "Cerebral cortex",
+      "ontology_label": "cerebral cortex",
+      "synonyms": [
+        "brain cortex",
+        "cortex",
+        "cortex cerebralis",
+        "cortex cerebri",
+        "cortex of cerebral hemisphere",
+        "cortical plate (CTXpl)",
+        "cortical plate (areas)",
+        "pallium of the brain"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000955"
+      ],
+      "system_ids": [
+        "system:nervous"
+      ],
+      "laterality": "midline",
+      "level": "C",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000955",
+      "tissue_context_ids": [
+        "UBERON:0003714"
+      ],
+      "description": "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon. It consists of the neocortex (6 layered cortex or isocortex), the hippocampal formation and the olfactory cortex.",
+      "description_source": {
+        "name": "Uberon",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000956"
+      },
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "2026-10-01",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000956"
+      }
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "retrieved_at": "2026-10-11T23:09:53Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000949",
+    "lang": "en",
+    "description": [
+      "Anatomical system that consists of the glands and parts of glands that produce endocrine secretions and help to integrate and control bodily metabolic activity."
+    ],
+    "synonyms": [
+      "endocrine system",
+      "systema endocrinum",
+      "endocrine glandular system"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0010279",
+        "CALOHA:TS-1301",
+        "EFO:0002969",
+        "EHDAA2:0002224",
+        "EMAPA:35306",
+        "EV:0100128",
+        "FMA:9668",
+        "GAID:439",
+        "MA:0000012",
+        "MESH:D004703",
+        "NCIT:C12705",
+        "SCTID:278876000",
+        "TAO:0001158",
+        "VHOG:0000098",
+        "Wikipedia:Endocrine_system",
+        "XAO:0000158",
+        "ZFA:0001158",
+        "FBbt:00005068",
+        "UMLS:C0014136"
+      ],
+      "external_definition": [
+        "Anatomical system containing glands which regulates bodily functions though the secretion of hormones.[AAO]"
+      ],
+      "has_relational_adjective": [
+        "endocrine"
+      ],
+      "homology_notes": [
+        "Multicellular organisms have complex endocrine systems, allowing responses to environmental stimuli, regulation of development, reproduction, and homeostasis. Nuclear receptors (NRs), a metazoan-specific family of ligand-activated transcription factors, play central roles in endocrine responses, as intermediates between signaling molecules and target genes. The NR family includes ligand-bound and orphan receptors, that is, receptors with no known ligand or for which there is no ligand Pocket. Understanding NR evolution has been further improved by comparison of several completed genomes, particularly those of deuterostomes and ecdysozoans. In contrast, evolution of NR ligands is still much debated. One hypothesis proposes that several independent gains and losses of ligand-binding ability in NRs occurred in protostomes and deuterostomes. A second hypothesis, pertaining to the NR3 subfamily (vertebrate steroid hormone receptors and estrogen related receptor), proposes that before the divergence of protostomes and deuterostomes, there was an ancestral steroid receptor (AncSR) that was ligand-activated and that orphan receptors secondarily lost the ability to bind a ligand. (...) Our analysis reveals that steroidogenesis has been independently elaborated in the 3 main bilaterian lineages (...).[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000949"
+      ]
+    },
+    "label": "endocrine system",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000949",
+    "obo_id": "UBERON:0000949",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Anatomical system that consists of the glands and parts of glands that produce endocrine secretions and help to integrate and control bodily metabolic activity.",
+        "oboXrefs": [
+          {
+            "database": "NLM",
+            "id": "endocrine+system",
+            "description": null,
+            "url": null
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Endocrine_system",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Endocrine_system"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0010279",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010279"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1301",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1301"
+      },
+      {
+        "database": "EFO",
+        "id": "0002969",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0002969"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0002224",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0002224"
+      },
+      {
+        "database": "EMAPA",
+        "id": "35306",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35306"
+      },
+      {
+        "database": "EV",
+        "id": "0100128",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100128"
+      },
+      {
+        "database": "FMA",
+        "id": "9668",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/9668"
+      },
+      {
+        "database": "GAID",
+        "id": "439",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000012",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000012"
+      },
+      {
+        "database": "MESH",
+        "id": "D004703",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D004703"
+      },
+      {
+        "database": "NCIT",
+        "id": "C12705",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12705"
+      },
+      {
+        "database": "SCTID",
+        "id": "278876000",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/278876000"
+      },
+      {
+        "database": "TAO",
+        "id": "0001158",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0001158"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000098",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000098"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Endocrine_system",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Endocrine_system"
+      },
+      {
+        "database": "XAO",
+        "id": "0000158",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000158"
+      },
+      {
+        "database": "ZFA",
+        "id": "0001158",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0001158"
+      },
+      {
+        "database": "FBbt",
+        "id": "00005068",
+        "description": null,
+        "url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00005068"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0014136",
+        "description": "ncithesaurus:Endocrine_System",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0014136"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "endocrine glandular system",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "EHDAA2",
+            "id": "0002224",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/EHDAA2_0002224"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/graph"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "composed_primarily_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002473"
+      },
+      "existence_ends_during": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000949/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002492"
+      }
+    }
+  }
+}

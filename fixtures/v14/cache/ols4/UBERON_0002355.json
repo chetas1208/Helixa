@@ -1,0 +1,264 @@
+{
+  "retrieved_at": "2026-10-11T23:09:15Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002355",
+    "lang": "en",
+    "description": [
+      "The lower segment of the trunk, inferioposterior to the abdomen proper, in the transition area between the trunk and the lower limbs."
+    ],
+    "synonyms": [
+      "pelvic region",
+      "pelvis region",
+      "lesser pelvis",
+      "pelvis",
+      "true pelvis"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "BTO:0001006",
+        "CALOHA:TS-2227",
+        "EFO:0002805",
+        "EMAPA:35931",
+        "EV:0100012",
+        "FMA:9578",
+        "GAID:87",
+        "MA:0000030",
+        "MESH:D010388",
+        "NCIT:C12767",
+        "SCTID:229765004",
+        "Wikipedia:Pelvis",
+        "galen:Pelvis",
+        "UMLS:C0030797"
+      ],
+      "external_ontology_notes": [
+        "MA and FMA differ in what they consider to be parts of the pelvis. MA includes ureter, urethra, urinary bladder, reproductive organs"
+      ],
+      "has_relational_adjective": [
+        "pelvic"
+      ],
+      "id": [
+        "UBERON:0002355"
+      ]
+    },
+    "label": "pelvic region of trunk",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002355",
+    "obo_id": "UBERON:0002355",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The lower segment of the trunk, inferioposterior to the abdomen proper, in the transition area between the trunk and the lower limbs.",
+        "oboXrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Pelvis",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Pelvis"
+          },
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          },
+          {
+            "database": null,
+            "id": "https://github.com/obophenotype/uberon/issues/720",
+            "description": null,
+            "url": "https://github.com/obophenotype/uberon/issues/720"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BTO",
+        "id": "0001006",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001006"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-2227",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-2227"
+      },
+      {
+        "database": "EFO",
+        "id": "0002805",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0002805"
+      },
+      {
+        "database": "EMAPA",
+        "id": "35931",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35931"
+      },
+      {
+        "database": "EV",
+        "id": "0100012",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100012"
+      },
+      {
+        "database": "FMA",
+        "id": "9578",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/9578"
+      },
+      {
+        "database": "GAID",
+        "id": "87",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000030",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000030"
+      },
+      {
+        "database": "MESH",
+        "id": "D010388",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D010388"
+      },
+      {
+        "database": "NCIT",
+        "id": "C12767",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12767"
+      },
+      {
+        "database": "SCTID",
+        "id": "229765004",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/229765004"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Pelvis",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Pelvis"
+      },
+      {
+        "database": "galen",
+        "id": "Pelvis",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0030797",
+        "description": "ncithesaurus:Pelvis",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0030797"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "lesser pelvis",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "9578",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/9578"
+          }
+        ]
+      },
+      {
+        "name": "pelvis",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "9578",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/9578"
+          },
+          {
+            "database": "MA",
+            "id": "0000030",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000030"
+          }
+        ]
+      },
+      {
+        "name": "true pelvis",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "9578",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/9578"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002355/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      }
+    }
+  }
+}

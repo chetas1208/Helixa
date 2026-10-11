@@ -1,0 +1,333 @@
+{
+  "retrieved_at": "2026-10-11T23:09:12Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000033",
+    "lang": "en",
+    "description": [
+      "The head is the anterior-most division of the body [GO]."
+    ],
+    "synonyms": [
+      "adult head",
+      "cephalic area",
+      "head (volume)"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0010335",
+        "AEO:0000106",
+        "BILA:0000115",
+        "BIRNLEX:1230",
+        "BTO:0000282",
+        "CALOHA:TS-0436",
+        "EFO:0000964",
+        "EHDAA2:0003106",
+        "EMAPA:31858",
+        "FMA:7154",
+        "GAID:61",
+        "HAO:0000397",
+        "MA:0000023",
+        "MAT:0000294",
+        "MESH:D006257",
+        "MIAA:0000294",
+        "NCIT:C12419",
+        "SCTID:302548004",
+        "SPD:0000016",
+        "TAO:0001114",
+        "TGMA:0000002",
+        "VHOG:0001644",
+        "WBbt:0005739",
+        "Wikipedia:Head",
+        "XAO:0003024",
+        "galen:Head",
+        "UMLS:C0018670"
+      ],
+      "external_definition": [
+        "Organism subdivision that is the part of the body consisting of the cranial and pharyngeal regions.[AAO]",
+        "Organism subdivision which is the part of the body which consists of the cranial and pharygeal regions.[TAO]"
+      ],
+      "homology_notes": [
+        "Vertebrate evolution has been characterized by a fresh and vast array of cranial structures that collectively form the head.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000033"
+      ],
+      "mutually spatially disjoint with": [
+        "http://purl.obolibrary.org/obo/UBERON_0000948"
+      ]
+    },
+    "label": "head",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000033",
+    "obo_id": "UBERON:0000033",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The head is the anterior-most division of the body [GO].",
+        "oboXrefs": [
+          {
+            "database": "GO",
+            "id": "0060322",
+            "description": null,
+            "url": "http://amigo.geneontology.org/amigo/term/GO:0060322"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Head",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Head"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0010335",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010335"
+      },
+      {
+        "database": "AEO",
+        "id": "0000106",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AEO_0000106"
+      },
+      {
+        "database": "BILA",
+        "id": "0000115",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000115"
+      },
+      {
+        "database": "BIRNLEX",
+        "id": "1230",
+        "description": null,
+        "url": "http://uri.neuinfo.org/nif/nifstd/birnlex_1230"
+      },
+      {
+        "database": "BTO",
+        "id": "0000282",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000282"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0436",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0436"
+      },
+      {
+        "database": "EFO",
+        "id": "0000964",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000964"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0003106",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0003106"
+      },
+      {
+        "database": "EMAPA",
+        "id": "31858",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:31858"
+      },
+      {
+        "database": "FMA",
+        "id": "7154",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7154"
+      },
+      {
+        "database": "GAID",
+        "id": "61",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "HAO",
+        "id": "0000397",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/HAO_0000397"
+      },
+      {
+        "database": "MA",
+        "id": "0000023",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000023"
+      },
+      {
+        "database": "MAT",
+        "id": "0000294",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000294"
+      },
+      {
+        "database": "MESH",
+        "id": "D006257",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D006257"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000294",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12419",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12419"
+      },
+      {
+        "database": "SCTID",
+        "id": "302548004",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/302548004"
+      },
+      {
+        "database": "SPD",
+        "id": "0000016",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/SPD_0000016"
+      },
+      {
+        "database": "TAO",
+        "id": "0001114",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0001114"
+      },
+      {
+        "database": "TGMA",
+        "id": "0000002",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TGMA_0000002"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001644",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001644"
+      },
+      {
+        "database": "WBbt",
+        "id": "0005739",
+        "description": null,
+        "url": "http://www.wormbase.org/get?name=0005739"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Head",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Head"
+      },
+      {
+        "database": "XAO",
+        "id": "0003024",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0003024"
+      },
+      {
+        "database": "galen",
+        "id": "Head",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0018670",
+        "description": "ncithesaurus:Head",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0018670"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "head (volume)",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "7154",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/7154"
+          }
+        ]
+      },
+      {
+        "name": "cephalic area",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "SPD",
+            "id": "0000016",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/SPD_0000016"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000033/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      }
+    }
+  }
+}

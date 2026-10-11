@@ -1,0 +1,24 @@
+{
+  "retrieved_at": "2026-10-11T23:10:48Z",
+  "source_version": "release 116",
+  "source_url": "https://rest.ensembl.org/overlap/region/homo_sapiens/11:66546395-66546634?feature=exon;content-type=application/json",
+  "payload": [
+    {
+      "end": 66546786,
+      "constitutive": 0,
+      "Parent": "ENST00000502692",
+      "seq_region_name": "11",
+      "rank": 1,
+      "source": "ensembl_havana",
+      "start": 66546395,
+      "version": 1,
+      "strand": 1,
+      "ensembl_end_phase": 0,
+      "assembly_name": "GRCh38",
+      "exon_id": "ENSE00002085197",
+      "ensembl_phase": -1,
+      "id": "ENSE00002085197",
+      "feature_type": "exon"
+    }
+  ]
+}

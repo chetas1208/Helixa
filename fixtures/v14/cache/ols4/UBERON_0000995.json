@@ -1,0 +1,249 @@
+{
+  "retrieved_at": "2026-10-11T23:09:43Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000995",
+    "lang": "en",
+    "description": [
+      "The female muscular organ of gestation in which the developing embryo or fetus is nourished until birth."
+    ],
+    "synonyms": [],
+    "annotation": {
+      "database_cross_reference": [
+        "BTO:0001424",
+        "CALOHA:TS-1102",
+        "EFO:0000975",
+        "EMAPA:29915",
+        "EV:0100113",
+        "FMA:17558",
+        "GAID:172",
+        "MA:0000389",
+        "MAT:0000127",
+        "MESH:D014599",
+        "MIAA:0000127",
+        "NCIT:C12405",
+        "SCTID:181452004",
+        "VHOG:0001137",
+        "Wikipedia:Uterus",
+        "galen:Uterus",
+        "UMLS:C0042149"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/6/6a/Female_reproductive_system_lateral_nolabel.png",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/uterus-female/v1.2/assets/3d-vh-f-uterus.glb",
+        "https://upload.wikimedia.org/wikipedia/commons/c/cb/Female_anatomy.png"
+      ],
+      "development_notes": [
+        "Two uteruses usually form initially in a female fetus, and in placental mammals they may partially or completely fuse into a single uterus depending on the species. In many species with two uteruses, only one is functional. Humans and other higher primates such as chimpanzees, along with horses, usually have a single completely fused uterus, although in some individuals the uteruses may not have completely fused [Wikipedia:Uterus]"
+      ],
+      "external_definition": [
+        "The hollow muscular organ in female mammals in which the blastocyst normally becomes embedded and in which the developing embryo and fetus is nourished. Its cavity opens into the vagina below and into a uterine tube on either side. [TFD][VHOG]"
+      ],
+      "has_relational_adjective": [
+        "uterine"
+      ],
+      "homology_notes": [
+        "An infundibulum, uterine tube, uterus, and vagina also differentiate along the oviducts of eutherian mammals.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000995"
+      ],
+      "taxon_notes": [
+        "Most animals that lay eggs, such as birds and reptiles, have an oviduct instead of a uterus. In monotremes, mammals which lay eggs and include the platypus, either the term uterus or oviduct is used to describe the same organ, but the egg does not develop a placenta within the mother and thus does not receive further nourishment after formation and fertilization. Marsupials have two uteruses, each of which connect to a lateral vagina and which both use a third, middle 'vagina' which functions as the birth canal. Marsupial embryos form a choriovitelline 'placenta' (which can be thought of as something between a monotreme egg and a 'true' placenta), in which the egg's yolk sac supplies a large part of the embryo's nutrition but also attaches to the uterine wall and takes nutrients from the mother's bloodstream."
+      ]
+    },
+    "label": "uterus",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000995",
+    "obo_id": "UBERON:0000995",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "organ_slim",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The female muscular organ of gestation in which the developing embryo or fetus is nourished until birth.",
+        "oboXrefs": [
+          {
+            "database": "MGI",
+            "id": "csmith",
+            "description": null,
+            "url": "http://www.informatics.jax.org/accession/csmith"
+          },
+          {
+            "database": "MP",
+            "id": "0001120",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/MP_0001120"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BTO",
+        "id": "0001424",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001424"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1102",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1102"
+      },
+      {
+        "database": "EFO",
+        "id": "0000975",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000975"
+      },
+      {
+        "database": "EMAPA",
+        "id": "29915",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:29915"
+      },
+      {
+        "database": "EV",
+        "id": "0100113",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100113"
+      },
+      {
+        "database": "FMA",
+        "id": "17558",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/17558"
+      },
+      {
+        "database": "GAID",
+        "id": "172",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000389",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000389"
+      },
+      {
+        "database": "MAT",
+        "id": "0000127",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000127"
+      },
+      {
+        "database": "MESH",
+        "id": "D014599",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D014599"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000127",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12405",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12405"
+      },
+      {
+        "database": "SCTID",
+        "id": "181452004",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/181452004"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001137",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001137"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Uterus",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Uterus"
+      },
+      {
+        "database": "galen",
+        "id": "Uterus",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0042149",
+        "description": "ncithesaurus:Uterus",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0042149"
+      }
+    ],
+    "obo_synonym": null,
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "immediate_transformation_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000995/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002495"
+      }
+    }
+  }
+}

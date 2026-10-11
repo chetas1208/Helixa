@@ -1,0 +1,210 @@
+{
+  "retrieved_at": "2026-10-11T23:12:48Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0004023",
+    "lang": "en",
+    "description": [
+      "The transient proliferative population of neurons that expands exponentially during late prenatal development; it is a continuous germinal zone distinct from the ventricular zone that surrounds the brain ventricles[MP]."
+    ],
+    "synonyms": [
+      "embryonic/fetal subventricular zone",
+      "fetal subventricular zone",
+      "GE",
+      "SVZ",
+      "embryonic GE",
+      "embryonic SVZ",
+      "embryonic subventricular zone",
+      "subependymal layer",
+      "subventricular zone"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "DHBA:10549",
+        "EMAPA:32665",
+        "PBA:128012818",
+        "Wikipedia:Ganglionic_eminence",
+        "MESH:D000097803"
+      ],
+      "development_notes": [
+        "contributes significantly in building up the GABAergic cortical cell population[WP]"
+      ],
+      "id": [
+        "UBERON:0004023"
+      ]
+    },
+    "label": "ganglionic eminence",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0004023",
+    "obo_id": "UBERON:0004023",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The transient proliferative population of neurons that expands exponentially during late prenatal development; it is a continuous germinal zone distinct from the ventricular zone that surrounds the brain ventricles[MP].",
+        "oboXrefs": [
+          {
+            "database": "MP",
+            "id": "0004274",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/MP_0004274"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "DHBA",
+        "id": "10549",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/dhbao/DHBA_10549"
+      },
+      {
+        "database": "EMAPA",
+        "id": "32665",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:32665"
+      },
+      {
+        "database": "PBA",
+        "id": "128012818",
+        "description": null,
+        "url": "https://biopragmatics.github.io/providers/pba/128012818"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Ganglionic_eminence",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Ganglionic_eminence"
+      },
+      {
+        "database": "MESH",
+        "id": "D000097803",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D000097803"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "embryonic subventricular zone",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "MP",
+            "id": "0004274",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/MP_0004274"
+          }
+        ]
+      },
+      {
+        "name": "subependymal layer",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "MP",
+            "id": "0004274",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/MP_0004274"
+          }
+        ]
+      },
+      {
+        "name": "GE",
+        "scope": "hasBroadSynonym",
+        "type": "abbreviation",
+        "xrefs": []
+      },
+      {
+        "name": "SVZ",
+        "scope": "hasBroadSynonym",
+        "type": "abbreviation",
+        "xrefs": [
+          {
+            "database": "MP",
+            "id": "0004274",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/MP_0004274"
+          }
+        ]
+      },
+      {
+        "name": "embryonic GE",
+        "scope": "hasBroadSynonym",
+        "type": "abbreviation",
+        "xrefs": []
+      },
+      {
+        "name": "embryonic SVZ",
+        "scope": "hasBroadSynonym",
+        "type": "abbreviation",
+        "xrefs": []
+      },
+      {
+        "name": "subventricular zone",
+        "scope": "hasBroadSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "DHBA",
+            "id": "SZ",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004023/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      }
+    }
+  }
+}

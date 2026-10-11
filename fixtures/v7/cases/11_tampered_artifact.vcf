@@ -1,0 +1,5 @@
+##fileformat=VCFv4.2
+##assembly=GRCh38
+##contig=<ID=chr22,length=120000>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr22	10001	rs_tamper	A	T	50	PASS	TAMPERED_BYTE_PAYLOAD

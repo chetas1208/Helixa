@@ -1,0 +1,295 @@
+{
+  "retrieved_at": "2026-10-11T23:09:50Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0004535",
+    "lang": "en",
+    "description": [
+      "Anatomical system that has as its parts the heart and blood vessels."
+    ],
+    "synonyms": [
+      "CV system",
+      "Herz und Gefaesssystem"
+    ],
+    "annotation": {
+      "curator note": [
+        "we treat cardiovascular as part of circulatory system, with the latter including other kinds of circulation, including lymph."
+      ],
+      "database_cross_reference": [
+        "AAO:0011001",
+        "BILA:0000016",
+        "BTO:0000088",
+        "CALOHA:TS-1297",
+        "EFO:0000791",
+        "EHDAA:394",
+        "EMAPA:16104",
+        "EV:0100017",
+        "FMA:7161",
+        "GAID:467",
+        "MA:0000010",
+        "MAT:0000016",
+        "MESH:D002319",
+        "MIAA:0000016",
+        "NCIT:C12686",
+        "SCTID:278198007",
+        "TAO:0000010",
+        "VHOG:0000302",
+        "WikipediaCategory:Cardiovascular_system",
+        "XAO:0000100",
+        "XAO:0001010",
+        "ZFA:0000010",
+        "UMLS:C0007226"
+      ],
+      "homology_notes": [
+        "The vessels of the cardiovascular system are as varied as the diverse organs they supply. However, these variations are based on modifications of a fundamental plan of organization common to vertebrates.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0004535"
+      ]
+    },
+    "label": "cardiovascular system",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0004535",
+    "obo_id": "UBERON:0004535",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Anatomical system that has as its parts the heart and blood vessels.",
+        "oboXrefs": [
+          {
+            "database": "BTO",
+            "id": "0000088",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000088"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0011001",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0011001"
+      },
+      {
+        "database": "BILA",
+        "id": "0000016",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000016"
+      },
+      {
+        "database": "BTO",
+        "id": "0000088",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000088"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1297",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1297"
+      },
+      {
+        "database": "EFO",
+        "id": "0000791",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000791"
+      },
+      {
+        "database": "EHDAA",
+        "id": "394",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_394"
+      },
+      {
+        "database": "EMAPA",
+        "id": "16104",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:16104"
+      },
+      {
+        "database": "EV",
+        "id": "0100017",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100017"
+      },
+      {
+        "database": "FMA",
+        "id": "7161",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7161"
+      },
+      {
+        "database": "GAID",
+        "id": "467",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000010",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000010"
+      },
+      {
+        "database": "MAT",
+        "id": "0000016",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000016"
+      },
+      {
+        "database": "MESH",
+        "id": "D002319",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D002319"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000016",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12686",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12686"
+      },
+      {
+        "database": "SCTID",
+        "id": "278198007",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/278198007"
+      },
+      {
+        "database": "TAO",
+        "id": "0000010",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000010"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000302",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000302"
+      },
+      {
+        "database": "WikipediaCategory",
+        "id": "Cardiovascular_system",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "XAO",
+        "id": "0000100",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000100"
+      },
+      {
+        "database": "XAO",
+        "id": "0001010",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0001010"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000010",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000010"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0007226",
+        "description": "ncithesaurus:Cardiovascular_System",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0007226"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "CV system",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000088",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000088"
+          }
+        ]
+      },
+      {
+        "name": "Herz und Gefaesssystem",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000088",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000088"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004535/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      }
+    }
+  }
+}

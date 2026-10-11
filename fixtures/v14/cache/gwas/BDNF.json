@@ -1,0 +1,2204 @@
+{
+  "retrieved_at": "2026-10-11T23:11:54Z",
+  "source_version": "GWAS Catalog REST API v2",
+  "source_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=BDNF&size=40",
+  "payload": {
+    "_embedded": {
+      "associations": [
+        {
+          "association_id": 226315732,
+          "risk_frequency": "0.8215",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -38,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.048-0.065]",
+          "beta": "0.05622 unit increase",
+          "p_value": 2e-38,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004338",
+              "efo_trait": "body weight"
+            }
+          ],
+          "reported_trait": [
+            "Weight (mean, inv-normal transformed)"
+          ],
+          "accession_id": "GCST90480727",
+          "locations": [
+            "11:27662071"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.048,
+          "ci_upper": 0.065,
+          "snp_effect_allele": [
+            "rs4923464-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs4923464",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226315732"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226315732/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs4923464"
+            }
+          }
+        },
+        {
+          "association_id": 226311289,
+          "risk_frequency": "0.8215",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -39,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.049-0.066]",
+          "beta": "0.05751 unit increase",
+          "p_value": 4e-39,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004338",
+              "efo_trait": "body weight"
+            }
+          ],
+          "reported_trait": [
+            "Weight (maximum, inv-normal transformed)"
+          ],
+          "accession_id": "GCST90480726",
+          "locations": [
+            "11:27662071"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.049,
+          "ci_upper": 0.066,
+          "snp_effect_allele": [
+            "rs4923464-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs4923464",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226311289"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226311289/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs4923464"
+            }
+          }
+        },
+        {
+          "association_id": 226269471,
+          "risk_frequency": "0.8398",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -15,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.019-0.032]",
+          "beta": "0.02574 unit decrease",
+          "p_value": 3.0000000000000002e-15,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009282",
+              "efo_trait": "sodium measurement"
+            }
+          ],
+          "reported_trait": [
+            "sodium (minimum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480704",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.019,
+          "ci_upper": 0.032,
+          "snp_effect_allele": [
+            "rs6265-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226269471"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226269471/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 226267916,
+          "risk_frequency": "0.8398",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -22,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.027-0.04]",
+          "beta": "0.03368 unit decrease",
+          "p_value": 2e-22,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009282",
+              "efo_trait": "sodium measurement"
+            }
+          ],
+          "reported_trait": [
+            "Sodium (mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480703",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.027,
+          "ci_upper": 0.04,
+          "snp_effect_allele": [
+            "rs6265-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226267916"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226267916/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 226266109,
+          "risk_frequency": "0.8655",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.02-0.034]",
+          "beta": "0.02685 unit decrease",
+          "p_value": 2e-13,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009282",
+              "efo_trait": "sodium measurement"
+            }
+          ],
+          "reported_trait": [
+            "sodium (maximum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480702",
+          "locations": [
+            "11:27672694"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.02,
+          "ci_upper": 0.034,
+          "snp_effect_allele": [
+            "rs2049045-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2049045",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226266109"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226266109/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2049045"
+            }
+          }
+        },
+        {
+          "association_id": 226265769,
+          "risk_frequency": "0.7904",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -14,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.043-0.074]",
+          "beta": "0.05809 unit increase",
+          "p_value": 2e-14,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009959",
+              "efo_trait": "diverticular disease"
+            }
+          ],
+          "reported_trait": [
+            "Diverticulosis and diverticulitis (PheCode 562)"
+          ],
+          "accession_id": "GCST90480330",
+          "locations": [
+            "11:27700731"
+          ],
+          "mapped_genes": [
+            "BDNF"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.043,
+          "ci_upper": 0.074,
+          "snp_effect_allele": [
+            "rs61888800-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs61888800",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226265769"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226265769/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs61888800"
+            }
+          }
+        },
+        {
+          "association_id": 226264249,
+          "risk_frequency": "0.7903",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -14,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.043-0.076]",
+          "beta": "0.05931 unit increase",
+          "p_value": 9e-14,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009959",
+              "efo_trait": "diverticular disease"
+            }
+          ],
+          "reported_trait": [
+            "Diverticulosis (PheCode 562.1)"
+          ],
+          "accession_id": "GCST90480328",
+          "locations": [
+            "11:27679818"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.043,
+          "ci_upper": 0.076,
+          "snp_effect_allele": [
+            "rs10835211-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs10835211",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226264249"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226264249/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs10835211"
+            }
+          }
+        },
+        {
+          "association_id": 226253624,
+          "risk_frequency": "0.8204",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -16,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.036-0.061]",
+          "beta": "0.04839 unit increase",
+          "p_value": 3e-16,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0003916",
+              "efo_trait": "overnutrition"
+            },
+            {
+              "efo_id": "MONDO_0011122",
+              "efo_trait": "obesity disorder"
+            }
+          ],
+          "reported_trait": [
+            "Overweight, obesity and other hyperalimentation (PheCode 278)"
+          ],
+          "accession_id": "GCST90479955",
+          "locations": [
+            "11:27662071"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.036,
+          "ci_upper": 0.061,
+          "snp_effect_allele": [
+            "rs4923464-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs4923464",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226253624"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226253624/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs4923464"
+            }
+          }
+        },
+        {
+          "association_id": 226252449,
+          "risk_frequency": "0.8202",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -18,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.04-0.065]",
+          "beta": "0.05287 unit increase",
+          "p_value": 2e-18,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0011122",
+              "efo_trait": "obesity disorder"
+            }
+          ],
+          "reported_trait": [
+            "Obesity (PheCode 278.1)"
+          ],
+          "accession_id": "GCST90479952",
+          "locations": [
+            "11:27662071"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.04,
+          "ci_upper": 0.065,
+          "snp_effect_allele": [
+            "rs4923464-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs4923464",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226252449"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226252449/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs4923464"
+            }
+          }
+        },
+        {
+          "association_id": 226251994,
+          "risk_frequency": "0.8201",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.046-0.085]",
+          "beta": "0.0655 unit increase",
+          "p_value": 1e-12,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005139",
+              "efo_trait": "morbid obesity"
+            }
+          ],
+          "reported_trait": [
+            "Morbid obesity (PheCode 278.11)"
+          ],
+          "accession_id": "GCST90479951",
+          "locations": [
+            "11:27662071"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.046,
+          "ci_upper": 0.085,
+          "snp_effect_allele": [
+            "rs4923464-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs4923464",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226251994"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226251994/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs4923464"
+            }
+          }
+        },
+        {
+          "association_id": 226240999,
+          "risk_frequency": "0.8106",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -21,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.036-0.058]",
+          "beta": "0.0472 unit increase",
+          "p_value": 1e-21,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0011122",
+              "efo_trait": "obesity disorder"
+            }
+          ],
+          "reported_trait": [
+            "Obesity (PheCode 278.1)"
+          ],
+          "accession_id": "GCST90475762",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.036,
+          "ci_upper": 0.058,
+          "snp_effect_allele": [
+            "rs6265-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226240999"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226240999/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 226238302,
+          "risk_frequency": "0.811",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.066-0.122]",
+          "beta": "0.09422 unit decrease",
+          "p_value": 2e-11,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005391",
+              "efo_trait": "restless legs syndrome"
+            }
+          ],
+          "reported_trait": [
+            "Restless legs syndrome (PheCode 327.71)"
+          ],
+          "accession_id": "GCST90475829",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.066,
+          "ci_upper": 0.122,
+          "snp_effect_allele": [
+            "rs6265-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226238302"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226238302/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 226236368,
+          "risk_frequency": "0.8107",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -17,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.032-0.054]",
+          "beta": "0.04294 unit increase",
+          "p_value": 4e-17,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0003916",
+              "efo_trait": "overnutrition"
+            },
+            {
+              "efo_id": "MONDO_0011122",
+              "efo_trait": "obesity disorder"
+            }
+          ],
+          "reported_trait": [
+            "Overweight, obesity and other hyperalimentation (PheCode 278)"
+          ],
+          "accession_id": "GCST90475759",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.032,
+          "ci_upper": 0.054,
+          "snp_effect_allele": [
+            "rs6265-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226236368"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226236368/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 226148488,
+          "risk_frequency": "0.8215",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -39,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.044-0.06]",
+          "beta": "0.05192 unit increase",
+          "p_value": 7e-39,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004340",
+              "efo_trait": "body mass index"
+            }
+          ],
+          "reported_trait": [
+            "Body mass index (BMI, minimum, inv-normal transformed)"
+          ],
+          "accession_id": "GCST90479523",
+          "locations": [
+            "11:27662071"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.044,
+          "ci_upper": 0.06,
+          "snp_effect_allele": [
+            "rs4923464-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs4923464",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226148488"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226148488/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs4923464"
+            }
+          }
+        },
+        {
+          "association_id": 226145221,
+          "risk_frequency": "0.8215",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -49,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.055-0.071]",
+          "beta": "0.06299 unit increase",
+          "p_value": 2e-49,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004340",
+              "efo_trait": "body mass index"
+            }
+          ],
+          "reported_trait": [
+            "Body mass index (BMI, mean, inv-normal transformed)"
+          ],
+          "accession_id": "GCST90479522",
+          "locations": [
+            "11:27662071"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.055,
+          "ci_upper": 0.071,
+          "snp_effect_allele": [
+            "rs4923464-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs4923464",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226145221"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226145221/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs4923464"
+            }
+          }
+        },
+        {
+          "association_id": 226139358,
+          "risk_frequency": "0.8215",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -49,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.056-0.073]",
+          "beta": "0.06418 unit increase",
+          "p_value": 2e-49,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004340",
+              "efo_trait": "body mass index"
+            }
+          ],
+          "reported_trait": [
+            "Body mass index (BMI, maximum, inv-normal transformed)"
+          ],
+          "accession_id": "GCST90479521",
+          "locations": [
+            "11:27662071"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.056,
+          "ci_upper": 0.073,
+          "snp_effect_allele": [
+            "rs4923464-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs4923464",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226139358"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226139358/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs4923464"
+            }
+          }
+        },
+        {
+          "association_id": 226133244,
+          "risk_frequency": "0.8232",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.018-0.032]",
+          "beta": "0.02482 unit increase",
+          "p_value": 9e-13,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_2050094",
+              "efo_trait": "blood sodium bicarbonate amount"
+            }
+          ],
+          "reported_trait": [
+            "Bicarbonate (mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90479519",
+          "locations": [
+            "11:27656036"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.018,
+          "ci_upper": 0.032,
+          "snp_effect_allele": [
+            "rs11030099-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11030099",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226133244"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226133244/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11030099"
+            }
+          }
+        },
+        {
+          "association_id": 226130265,
+          "risk_frequency": "0.8214",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -14,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.019-0.032]",
+          "beta": "0.02524 unit increase",
+          "p_value": 5e-14,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_2050094",
+              "efo_trait": "blood sodium bicarbonate amount"
+            }
+          ],
+          "reported_trait": [
+            "Bicarbonate (maximum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90479518",
+          "locations": [
+            "11:27662071"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.019,
+          "ci_upper": 0.032,
+          "snp_effect_allele": [
+            "rs4923464-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs4923464",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226130265"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226130265/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs4923464"
+            }
+          }
+        },
+        {
+          "association_id": 226129210,
+          "risk_frequency": "0.8138",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -21,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.035-0.053]",
+          "beta": "0.044 unit increase",
+          "p_value": 5e-21,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004338",
+              "efo_trait": "body weight"
+            }
+          ],
+          "reported_trait": [
+            "What is your weight? (pounds, inv-normal transformed)"
+          ],
+          "accession_id": "GCST90480729",
+          "locations": [
+            "11:27662071"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.035,
+          "ci_upper": 0.053,
+          "snp_effect_allele": [
+            "rs4923464-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs4923464",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226129210"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226129210/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs4923464"
+            }
+          }
+        },
+        {
+          "association_id": 226090602,
+          "risk_frequency": "0.8395",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -22,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.027-0.04]",
+          "beta": "0.03351 unit decrease",
+          "p_value": 9e-22,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_1000959",
+              "efo_trait": "chloride level"
+            }
+          ],
+          "reported_trait": [
+            "chloride  (minimum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90479541",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.027,
+          "ci_upper": 0.04,
+          "snp_effect_allele": [
+            "rs6265-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226090602"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226090602/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 226089031,
+          "risk_frequency": "0.8395",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -29,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.033-0.047]",
+          "beta": "0.04013 unit decrease",
+          "p_value": 5.999999999999999e-29,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_1000959",
+              "efo_trait": "chloride level"
+            }
+          ],
+          "reported_trait": [
+            "chloride  (mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90479540",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.033,
+          "ci_upper": 0.047,
+          "snp_effect_allele": [
+            "rs6265-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226089031"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226089031/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 226087232,
+          "risk_frequency": "0.8395",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -19,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.023-0.036]",
+          "beta": "0.02953 unit decrease",
+          "p_value": 6.999999999999999e-19,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_1000959",
+              "efo_trait": "chloride level"
+            }
+          ],
+          "reported_trait": [
+            "chloride  (maximum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90479539",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.023,
+          "ci_upper": 0.036,
+          "snp_effect_allele": [
+            "rs6265-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226087232"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226087232/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 226020396,
+          "risk_frequency": "0.811",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -18,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.021-0.034]",
+          "beta": "0.02739 unit decrease",
+          "p_value": 2e-18,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009282",
+              "efo_trait": "sodium measurement"
+            }
+          ],
+          "reported_trait": [
+            "sodium (minimum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90476397",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.021,
+          "ci_upper": 0.034,
+          "snp_effect_allele": [
+            "rs6265-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226020396"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226020396/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 226018154,
+          "risk_frequency": "0.811",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -29,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.03-0.042]",
+          "beta": "0.0359 unit decrease",
+          "p_value": 5e-29,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009282",
+              "efo_trait": "sodium measurement"
+            }
+          ],
+          "reported_trait": [
+            "Sodium (mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90476395",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.03,
+          "ci_upper": 0.042,
+          "snp_effect_allele": [
+            "rs6265-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226018154"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226018154/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 225984780,
+          "risk_frequency": "0.8108",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -28,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.03-0.042]",
+          "beta": "0.03588 unit decrease",
+          "p_value": 2e-28,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_1000959",
+              "efo_trait": "chloride level"
+            }
+          ],
+          "reported_trait": [
+            "chloride  (minimum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90475197",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.03,
+          "ci_upper": 0.042,
+          "snp_effect_allele": [
+            "rs6265-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/225984780"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/225984780/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 225981593,
+          "risk_frequency": "0.8108",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -42,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.038-0.051]",
+          "beta": "0.04492 unit decrease",
+          "p_value": 2e-42,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_1000959",
+              "efo_trait": "chloride level"
+            }
+          ],
+          "reported_trait": [
+            "chloride  (mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90475194",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.038,
+          "ci_upper": 0.051,
+          "snp_effect_allele": [
+            "rs6265-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/225981593"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/225981593/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 225975475,
+          "risk_frequency": "0.7967",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -27,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.027-0.039]",
+          "beta": "0.03316 unit decrease",
+          "p_value": 9e-27,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_1000959",
+              "efo_trait": "chloride level"
+            }
+          ],
+          "reported_trait": [
+            "chloride  (maximum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90475192",
+          "locations": [
+            "11:27656036"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.027,
+          "ci_upper": 0.039,
+          "snp_effect_allele": [
+            "rs11030099-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11030099",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/225975475"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/225975475/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11030099"
+            }
+          }
+        },
+        {
+          "association_id": 222911023,
+          "risk_frequency": "0.500499999999998",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -6,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.022-0.055]",
+          "beta": "0.0387 unit decrease",
+          "p_value": 4.9999999999999996e-06,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004340",
+              "efo_trait": "body mass index"
+            }
+          ],
+          "reported_trait": [
+            "Body mass index in pregnancy"
+          ],
+          "accession_id": "GCST90837224",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [
+            {
+              "efo_id": "EFO_0002950",
+              "efo_trait": "pregnancy"
+            }
+          ],
+          "pubmed_id": "42509370",
+          "first_author": "Liu S",
+          "ci_lower": 0.022,
+          "ci_upper": 0.055,
+          "snp_effect_allele": [
+            "rs6265-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/222911023"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/222911023/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 222833818,
+          "risk_frequency": "0.2075",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.03-1.06]",
+          "or_per_copy_num": 1.04,
+          "or_value": "1.04",
+          "beta": "-",
+          "p_value": 5e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0000195",
+              "efo_trait": "metabolic syndrome"
+            }
+          ],
+          "reported_trait": [
+            "Metabolic syndrome (inferred from medication usage records)"
+          ],
+          "accession_id": "GCST90693229",
+          "locations": [
+            "11:27726946"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "CBX3P1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42472903",
+          "first_author": "Wu CX",
+          "ci_lower": 1.03,
+          "ci_upper": 1.06,
+          "snp_effect_allele": [
+            "rs17309930-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs17309930",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/222833818"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/222833818/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs17309930"
+            }
+          }
+        },
+        {
+          "association_id": 222833499,
+          "risk_frequency": "0.2627",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.03-1.05]",
+          "or_per_copy_num": 1.04,
+          "or_value": "1.04",
+          "beta": "-",
+          "p_value": 3e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0000195",
+              "efo_trait": "metabolic syndrome"
+            }
+          ],
+          "reported_trait": [
+            "Metabolic syndrome"
+          ],
+          "accession_id": "GCST90693228",
+          "locations": [
+            "11:27679818"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42472903",
+          "first_author": "Wu CX",
+          "ci_lower": 1.03,
+          "ci_upper": 1.05,
+          "snp_effect_allele": [
+            "rs10835211-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs10835211",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/222833499"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/222833499/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs10835211"
+            }
+          }
+        },
+        {
+          "association_id": 222411394,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 1e-09,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004784",
+              "efo_trait": "self reported educational attainment"
+            }
+          ],
+          "reported_trait": [
+            "Noncognitive aspects of educational attainment (multivariate analysis)"
+          ],
+          "accession_id": "GCST90860823",
+          "locations": [
+            "11:27664649"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42062297",
+          "first_author": "Londono-Correa D",
+          "snp_effect_allele": [
+            "rs10767659-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs10767659",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/222411394"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/222411394/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs10767659"
+            }
+          }
+        },
+        {
+          "association_id": 218950214,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 2e-09,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004340",
+              "efo_trait": "body mass index"
+            }
+          ],
+          "reported_trait": [
+            "Body mass index variance"
+          ],
+          "accession_id": "GCST90841371",
+          "locations": [
+            "11:27658369"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "38710707",
+          "first_author": "Kemper KE",
+          "snp_effect_allele": [
+            "rs6265-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6265",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218950214"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218950214/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6265"
+            }
+          }
+        },
+        {
+          "association_id": 218093567,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 1e-08,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004503",
+              "efo_trait": "hematological measurement"
+            }
+          ],
+          "reported_trait": [
+            "Hematological traits (multi-trait analysis)"
+          ],
+          "accession_id": "GCST90838671",
+          "locations": [
+            "11:27673917"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "38627641",
+          "first_author": "Troubat L",
+          "snp_effect_allele": [
+            "rs11030108-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11030108",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218093567"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218093567/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11030108"
+            }
+          }
+        },
+        {
+          "association_id": 218082187,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 6.000000000000001e-09,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004503",
+              "efo_trait": "hematological measurement"
+            }
+          ],
+          "reported_trait": [
+            "Hematological traits (multi-trait analysis)"
+          ],
+          "accession_id": "GCST90838669",
+          "locations": [
+            "11:27718364"
+          ],
+          "mapped_genes": [
+            "BDNF"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "38627641",
+          "first_author": "Troubat L",
+          "snp_effect_allele": [
+            "rs75707145-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs75707145",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218082187"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218082187/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs75707145"
+            }
+          }
+        },
+        {
+          "association_id": 217553323,
+          "risk_frequency": "0.680502",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -42,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.052-0.069]",
+          "beta": "0.0602025 unit decrease",
+          "p_value": 5e-42,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0801227",
+              "efo_trait": "body shape measurement"
+            }
+          ],
+          "reported_trait": [
+            "Body shape phenotype PC1"
+          ],
+          "accession_id": "GCST90832989",
+          "locations": [
+            "11:27688083"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "BDNF-AS"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "38640244",
+          "first_author": "Peruchet-Noray L",
+          "ci_lower": 0.052,
+          "ci_upper": 0.069,
+          "snp_effect_allele": [
+            "rs61888762-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs61888762",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/217553323"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/217553323/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs61888762"
+            }
+          }
+        },
+        {
+          "association_id": 217428522,
+          "risk_frequency": "0.074",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -7,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.76822212429656-3.57923341415128]",
+          "or_per_copy_num": 2.5157266,
+          "or_value": "2.5157266",
+          "beta": "-",
+          "p_value": 3e-07,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004352",
+              "efo_trait": "mortality"
+            },
+            {
+              "efo_id": "MONDO_0005575",
+              "efo_trait": "colorectal cancer"
+            }
+          ],
+          "reported_trait": [
+            "Colorectal cancer specific mortality in colorectal cancer"
+          ],
+          "accession_id": "GCST90832127",
+          "locations": [
+            "11:27758984"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "CBX3P1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41609390",
+          "first_author": "Lawler T",
+          "ci_lower": 1.7682221,
+          "ci_upper": 3.5792334,
+          "snp_effect_allele": [
+            "rs4554852-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs4554852",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/217428522"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/217428522/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs4554852"
+            }
+          }
+        },
+        {
+          "association_id": 216891357,
+          "risk_frequency": "0.207722",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.067-0.131]",
+          "beta": "0.0989676 unit increase",
+          "p_value": 5e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0008591",
+              "efo_trait": "free cholesterol measurement"
+            }
+          ],
+          "reported_trait": [
+            "Free Cholesterol to Cholesterol in Very Large HDL percentage"
+          ],
+          "accession_id": "GCST90828015",
+          "locations": [
+            "11:27723312"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "CBX3P1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39091897",
+          "first_author": "Farashi S",
+          "ci_lower": 0.067,
+          "ci_upper": 0.131,
+          "snp_effect_allele": [
+            "rs12273363-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs12273363",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/216891357"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/216891357/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs12273363"
+            }
+          }
+        },
+        {
+          "association_id": 216888989,
+          "risk_frequency": "0.207722",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.067-0.131]",
+          "beta": "0.0989676 unit decrease",
+          "p_value": 5e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0920022",
+              "efo_trait": "cholesteryl esters in HDL measurement"
+            }
+          ],
+          "reported_trait": [
+            "Cholesteryl Esters to Cholesterol in Very Large HDL percentage"
+          ],
+          "accession_id": "GCST90828011",
+          "locations": [
+            "11:27723312"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "CBX3P1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39091897",
+          "first_author": "Farashi S",
+          "ci_lower": 0.067,
+          "ci_upper": 0.131,
+          "snp_effect_allele": [
+            "rs12273363-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs12273363",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/216888989"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/216888989/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs12273363"
+            }
+          }
+        },
+        {
+          "association_id": 216888730,
+          "risk_frequency": "0.207728",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.039-0.08]",
+          "beta": "0.0596396 unit decrease",
+          "p_value": 7.000000000000001e-09,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0022257",
+              "efo_trait": "cholesteryl esters to total lipids in very large HDL percentage"
+            }
+          ],
+          "reported_trait": [
+            "Cholesteryl Esters to Total Lipids in Very Large HDL percentage"
+          ],
+          "accession_id": "GCST90828010",
+          "locations": [
+            "11:27726946"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "CBX3P1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39091897",
+          "first_author": "Farashi S",
+          "ci_lower": 0.039,
+          "ci_upper": 0.08,
+          "snp_effect_allele": [
+            "rs17309930-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs17309930",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/216888730"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/216888730/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs17309930"
+            }
+          }
+        },
+        {
+          "association_id": 216880354,
+          "risk_frequency": "0.207728",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.013-0.025]",
+          "beta": "0.0190478 unit increase",
+          "p_value": 3e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0008591",
+              "efo_trait": "free cholesterol measurement"
+            }
+          ],
+          "reported_trait": [
+            "Total Free Cholesterol to Total Cholesterol percentage"
+          ],
+          "accession_id": "GCST90827981",
+          "locations": [
+            "11:27726946"
+          ],
+          "mapped_genes": [
+            "BDNF",
+            "CBX3P1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39091897",
+          "first_author": "Farashi S",
+          "ci_lower": 0.013,
+          "ci_upper": 0.025,
+          "snp_effect_allele": [
+            "rs17309930-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs17309930",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/216880354"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/216880354/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs17309930"
+            }
+          }
+        }
+      ]
+    },
+    "_links": {
+      "first": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=BDNF&page=0&size=40"
+      },
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=BDNF&page=0&size=40"
+      },
+      "next": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=BDNF&page=1&size=40"
+      },
+      "last": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=BDNF&page=10&size=40"
+      }
+    },
+    "page": {
+      "size": 40,
+      "totalElements": 420,
+      "totalPages": 11,
+      "number": 0
+    }
+  }
+}

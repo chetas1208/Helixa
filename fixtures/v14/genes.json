@@ -1,0 +1,206 @@
+{
+  "genes": [
+    {
+      "gene_id": "ENSG00000092054",
+      "version": 16,
+      "symbol": "MYH7",
+      "description": "myosin heavy chain 7",
+      "biotype": "protein_coding",
+      "assembly": "GRCh38",
+      "assembly_patch": "GRCh38",
+      "ensembl_release": 116,
+      "contig": "14",
+      "start": 23412732,
+      "end": 23436137,
+      "strand": -1,
+      "canonical_transcript": "ENST00000355349.4",
+      "locus_ids": [
+        "grch38:MYH7:14:23412700-23412939"
+      ],
+      "panel_reason": "HPA: group enriched in heart muscle, skeletal muscle, tongue",
+      "source": {
+        "name": "Ensembl REST",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/lookup/id/ENSG00000092054"
+      },
+      "retrieved_at": "2026-10-11T23:10:05Z"
+    },
+    {
+      "gene_id": "ENSG00000007372",
+      "version": 26,
+      "symbol": "PAX6",
+      "description": "paired box 6",
+      "biotype": "protein_coding",
+      "assembly": "GRCh38",
+      "assembly_patch": "GRCh38",
+      "ensembl_release": 116,
+      "contig": "11",
+      "start": 31784779,
+      "end": 31817967,
+      "strand": -1,
+      "canonical_transcript": "ENST00000640368.2",
+      "locus_ids": [
+        "grch38:PAX6:11:31784750-31784989"
+      ],
+      "panel_reason": "HPA: group enriched in brain, retina",
+      "source": {
+        "name": "Ensembl REST",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/lookup/id/ENSG00000007372"
+      },
+      "retrieved_at": "2026-10-11T23:10:10Z"
+    },
+    {
+      "gene_id": "ENSG00000108821",
+      "version": 16,
+      "symbol": "COL1A1",
+      "description": "collagen type I alpha 1 chain",
+      "biotype": "protein_coding",
+      "assembly": "GRCh38",
+      "assembly_patch": "GRCh38",
+      "ensembl_release": 116,
+      "contig": "17",
+      "start": 50184101,
+      "end": 50201704,
+      "strand": -1,
+      "canonical_transcript": "ENST00000225964.10",
+      "locus_ids": [
+        "grch38:COL1A1:17:50184080-50184319"
+      ],
+      "panel_reason": "HPA: tissue enhanced in cervix, gallbladder, ovary",
+      "source": {
+        "name": "Ensembl REST",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/lookup/id/ENSG00000108821"
+      },
+      "retrieved_at": "2026-10-11T23:10:12Z"
+    },
+    {
+      "gene_id": "ENSG00000001626",
+      "version": 20,
+      "symbol": "CFTR",
+      "description": "CF transmembrane conductance regulator",
+      "biotype": "protein_coding",
+      "assembly": "GRCh38",
+      "assembly_patch": "GRCh38",
+      "ensembl_release": 116,
+      "contig": "7",
+      "start": 117287120,
+      "end": 117715971,
+      "strand": 1,
+      "canonical_transcript": "ENST00000003084.11",
+      "locus_ids": [
+        "grch38:CFTR:7:117287100-117287339"
+      ],
+      "panel_reason": "HPA: tissue enhanced in gallbladder, intestine, pancreas",
+      "source": {
+        "name": "Ensembl REST",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/lookup/id/ENSG00000001626"
+      },
+      "retrieved_at": "2026-10-11T23:10:15Z"
+    },
+    {
+      "gene_id": "ENSG00000244734",
+      "version": 6,
+      "symbol": "HBB",
+      "description": "hemoglobin subunit beta",
+      "biotype": "protein_coding",
+      "assembly": "GRCh38",
+      "assembly_patch": "GRCh38",
+      "ensembl_release": 116,
+      "contig": "11",
+      "start": 5225464,
+      "end": 5229395,
+      "strand": -1,
+      "canonical_transcript": "ENST00000335295.4",
+      "locus_ids": [
+        "grch38:HBB:11:5225464-5225703"
+      ],
+      "panel_reason": "HPA: tissue enriched in bone marrow",
+      "source": {
+        "name": "Ensembl REST",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/lookup/id/ENSG00000244734"
+      },
+      "retrieved_at": "2026-10-11T23:10:19Z"
+    },
+    {
+      "gene_id": "ENSG00000077498",
+      "version": 9,
+      "symbol": "TYR",
+      "description": "tyrosinase",
+      "biotype": "protein_coding",
+      "assembly": "GRCh38",
+      "assembly_patch": "GRCh38",
+      "ensembl_release": 116,
+      "contig": "11",
+      "start": 89177875,
+      "end": 89295759,
+      "strand": 1,
+      "canonical_transcript": "ENST00000263321.6",
+      "locus_ids": [
+        "grch38:TYR:11:89177875-89178114"
+      ],
+      "panel_reason": "HPA: tissue enriched in skin 1",
+      "source": {
+        "name": "Ensembl REST",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/lookup/id/ENSG00000077498"
+      },
+      "retrieved_at": "2026-10-11T23:10:20Z"
+    },
+    {
+      "gene_id": "ENSG00000176697",
+      "version": 22,
+      "symbol": "BDNF",
+      "description": "brain derived neurotrophic factor",
+      "biotype": "protein_coding",
+      "assembly": "GRCh38",
+      "assembly_patch": "GRCh38",
+      "ensembl_release": 116,
+      "contig": "11",
+      "start": 27654893,
+      "end": 27722058,
+      "strand": -1,
+      "canonical_transcript": "ENST00000356660.9",
+      "locus_ids": [
+        "grch38:BDNF:11:27654893-27655132"
+      ],
+      "panel_reason": "HPA: tissue enhanced in brain",
+      "source": {
+        "name": "Ensembl REST",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/lookup/id/ENSG00000176697"
+      },
+      "retrieved_at": "2026-10-11T23:10:21Z"
+    },
+    {
+      "gene_id": "ENSG00000248746",
+      "version": 8,
+      "symbol": "ACTN3",
+      "description": "actinin alpha 3",
+      "biotype": "protein_coding",
+      "assembly": "GRCh38",
+      "assembly_patch": "GRCh38",
+      "ensembl_release": 116,
+      "contig": "11",
+      "start": 66546395,
+      "end": 66563334,
+      "strand": 1,
+      "canonical_transcript": "ENST00000513398.2",
+      "locus_ids": [
+        "grch38:ACTN3:11:66546395-66546634"
+      ],
+      "panel_reason": "HPA: tissue enriched in skeletal muscle",
+      "source": {
+        "name": "Ensembl REST",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/lookup/id/ENSG00000248746"
+      },
+      "retrieved_at": "2026-10-11T23:10:23Z"
+    }
+  ],
+  "ensembl_release": 116,
+  "assembly": "GRCh38"
+}

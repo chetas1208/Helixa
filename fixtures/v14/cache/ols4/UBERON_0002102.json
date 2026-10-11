@@ -1,0 +1,349 @@
+{
+  "retrieved_at": "2026-10-11T23:09:16Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002102",
+    "lang": "en",
+    "description": [
+      "A (free) limb that is connected to a pectoral girdle. The extent of this structure includes autopod, stylopod and zeugopod regions when present, but excludes the pectoral girdle and its parts."
+    ],
+    "synonyms": [
+      "anteriormost limb",
+      "fore limb",
+      "foreleg",
+      "forelimb",
+      "pectoral limb",
+      "superior member",
+      "upper extremity",
+      "upper limb",
+      "free part of upper limb",
+      "free upper limb",
+      "membrum superius",
+      "pectoral flipper"
+    ],
+    "annotation": {
+      "curator note": [
+        "Note distinction between arm and forelimb. hand is part of forelimb, but not part of arm"
+      ],
+      "database_cross_reference": [
+        "AAO:0000205",
+        "BTO:0001729",
+        "CALOHA:TS-2214",
+        "EFO:0000882",
+        "EHDAA2:0002133",
+        "EHDAA:6208",
+        "EMAPA:17412",
+        "EV:0100014",
+        "FMA:24878",
+        "GAID:1215",
+        "GAID:51",
+        "MA:0000025",
+        "MAT:0000394",
+        "MESH:D005552",
+        "MIAA:0000394",
+        "NCIT:C12671",
+        "SCTID:182245002",
+        "VHOG:0000338",
+        "VSAO:0000148",
+        "Wikipedia:Forelimb",
+        "XAO:0003030",
+        "galen:UpperExtremity",
+        "UMLS:C1140618"
+      ],
+      "external_definition": [
+        "Upper limb, which connects the manus with the pectoral girdle.[AAO]"
+      ],
+      "external_ontology_notes": [
+        "note that this corresponds to FMA:'free upper limb' (a limb segment), NOT FMA:'upper limb'. Both MA and FMA consider shoulder (and shoulder bones) part of upper limb"
+      ],
+      "id": [
+        "UBERON:0002102"
+      ],
+      "mutually spatially disjoint with": [
+        "http://purl.obolibrary.org/obo/UBERON_0002103"
+      ]
+    },
+    "label": "forelimb",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002102",
+    "obo_id": "UBERON:0002102",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "A (free) limb that is connected to a pectoral girdle. The extent of this structure includes autopod, stylopod and zeugopod regions when present, but excludes the pectoral girdle and its parts.",
+        "oboXrefs": [
+          {
+            "database": "UBERONREF",
+            "id": "0000003",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000205",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000205"
+      },
+      {
+        "database": "BTO",
+        "id": "0001729",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001729"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-2214",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-2214"
+      },
+      {
+        "database": "EFO",
+        "id": "0000882",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000882"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0002133",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0002133"
+      },
+      {
+        "database": "EHDAA",
+        "id": "6208",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_6208"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17412",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17412"
+      },
+      {
+        "database": "EV",
+        "id": "0100014",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100014"
+      },
+      {
+        "database": "FMA",
+        "id": "24878",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/24878"
+      },
+      {
+        "database": "GAID",
+        "id": "1215",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "GAID",
+        "id": "51",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000025",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000025"
+      },
+      {
+        "database": "MAT",
+        "id": "0000394",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000394"
+      },
+      {
+        "database": "MESH",
+        "id": "D005552",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D005552"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000394",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12671",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12671"
+      },
+      {
+        "database": "SCTID",
+        "id": "182245002",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/182245002"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000338",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000338"
+      },
+      {
+        "database": "VSAO",
+        "id": "0000148",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VSAO_0000148"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Forelimb",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Forelimb"
+      },
+      {
+        "database": "XAO",
+        "id": "0003030",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0003030"
+      },
+      {
+        "database": "galen",
+        "id": "UpperExtremity",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C1140618",
+        "description": "ncithesaurus:Upper_Extremity",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C1140618"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "free part of upper limb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "24878",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/24878"
+          }
+        ]
+      },
+      {
+        "name": "free upper limb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "24878",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/24878"
+          },
+          {
+            "database": "UBERONREF",
+            "id": "0000003",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "membrum superius",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "7183",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/7183"
+          },
+          {
+            "database": "FMA",
+            "id": "TA",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "pectoral flipper",
+        "scope": "hasNarrowSynonym",
+        "type": "taxonomic disambiguation",
+        "xrefs": []
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "anterior_to": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBSPO_0000096"
+      },
+      "connected_to": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002170"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "has_skeleton": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002102/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002551"
+      }
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "retrieved_at": "2026-10-11T23:10:52Z",
+  "source_version": "Human Protein Atlas (proteinatlas.org 2026-10-11)",
+  "source_url": "https://www.proteinatlas.org/ENSG00000092054.json",
+  "payload": {
+    "Gene": "MYH7",
+    "Gene synonym": [
+      "CMD1S",
+      "CMH1",
+      "MPD1"
+    ],
+    "Ensembl": "ENSG00000092054",
+    "Gene description": "Myosin heavy chain 7",
+    "Uniprot": [
+      "P12883"
+    ],
+    "Chromosome": "14",
+    "Position": "23412740-23435660",
+    "Protein class": [
+      "Candidate cardiovascular disease genes",
+      "Disease related genes",
+      "FDA approved drug targets",
+      "Human disease related genes",
+      "Plasma proteins",
+      "Predicted intracellular proteins"
+    ],
+    "Biological process": null,
+    "Molecular function": [
+      "Actin-binding",
+      "Calmodulin-binding",
+      "Motor protein",
+      "Muscle protein",
+      "Myosin"
+    ],
+    "Disease involvement": [
+      "Cardiomyopathy",
+      "Disease variant",
+      "FDA approved drug targets"
+    ],
+    "Evidence": "Evidence at protein level",
+    "HPA evidence": "Evidence at protein level",
+    "UniProt evidence": "Evidence at protein level",
+    "NeXtProt evidence": "Evidence at protein level",
+    "RNA tissue specificity": "Group enriched",
+    "RNA tissue distribution": "Detected in many",
+    "RNA tissue specificity score": "71",
+    "RNA tissue specific nTPM": {
+      "heart muscle": "7145.3",
+      "skeletal muscle": "13633.1",
+      "tongue": "5024.6"
+    },
+    "RNA single cell type specificity": "Group enriched",
+    "RNA single cell type distribution": "Detected in some",
+    "RNA single cell type specificity score": "18",
+    "RNA single cell type specific nCPM": {
+      "Cardiomyocytes": "2902.2",
+      "Myonuclei": "1585.1"
+    },
+    "RNA single cell type group specificity": "Cell type enriched",
+    "RNA single cell type group distribution": "Detected in some",
+    "RNA single cell type group specificity score": "23",
+    "RNA single cell type group specific nCPM": {
+      "Myocytes": "2902.2"
+    },
+    "RNA single nuclei brain specificity": "Low cell type specificity",
+    "RNA single nuclei brain distribution": "Detected in some",
+    "RNA single nuclei brain specificity score": null,
+    "RNA single nuclei brain specific nCPM": null,
+    "RNA cancer specificity": "Group enriched",
+    "RNA cancer distribution": "Detected in some",
+    "RNA cancer specificity score": "8",
+    "RNA cancer specific pTPM": {
+      "Head and Neck Squamous Cell Carcinoma (TCGA)": "18.6",
+      "Prostate Adenocarcinoma (TCGA)": "21.3"
+    },
+    "RNA brain regional specificity": "Low region specificity",
+    "RNA brain regional distribution": "Detected in many",
+    "RNA brain regional specificity score": null,
+    "RNA brain regional specific nTPM": null,
+    "RNA blood cell specificity": "Not detected in immune cells",
+    "RNA blood cell distribution": "Not detected",
+    "RNA blood cell specificity score": null,
+    "RNA blood cell specific nTPM": null,
+    "RNA blood lineage specificity": "Not detected",
+    "RNA blood lineage distribution": "Not detected",
+    "RNA blood lineage specificity score": null,
+    "RNA blood lineage specific nTPM": null,
+    "RNA cell line specificity": "Not detected",
+    "RNA cell line distribution": "Not detected",
+    "RNA cell line specificity score": null,
+    "RNA cell line specific nTPM": null,
+    "RNA tissue cell type enrichment": [
+      "Heart muscle - Cardiomyocytes",
+      "Pituitary gland - Corticotropes",
+      "Skeletal muscle - Skeletal myocytes"
+    ],
+    "RNA mouse brain regional specificity": "Low region specificity",
+    "RNA mouse brain regional distribution": "Detected in many",
+    "RNA mouse brain regional specificity score": null,
+    "RNA mouse brain regional specific nTPM": null,
+    "RNA pig brain regional specificity": "Low region specificity",
+    "RNA pig brain regional distribution": "Detected in many",
+    "RNA pig brain regional specificity score": null,
+    "RNA pig brain regional specific nTPM": null,
+    "Protein cell type specificity": "Cell type enhanced",
+    "Protein cell type distribution": "Detected in many",
+    "Protein cell type specificity score": null,
+    "Protein cell type specific Intensity": {
+      "Cardiomyocytes": "64186889489.8",
+      "Skeletal myofibers": "126544024149.7"
+    },
+    "Protein tissue specificity": "Group enriched",
+    "Protein tissue distribution": "Detected in many",
+    "Protein tissue specificity score": null,
+    "Protein tissue specific Intensity": {
+      "heart muscle": "15968423243.8",
+      "skeletal muscle": "35364690604.8"
+    },
+    "Antibody": [
+      "HPA001239",
+      "HPA001349",
+      "CAB015384"
+    ],
+    "Reliability (IH)": "Enhanced",
+    "Reliability (Mouse Brain)": null,
+    "Reliability (IF)": "Uncertain",
+    "Subcellular location": [
+      "Focal adhesion sites"
+    ],
+    "Secretome location": null,
+    "Secretome function": null,
+    "CCD Protein": "NA",
+    "CCD Transcript": "NA",
+    "Blood concentration - Conc. blood IM [pg/L]": null,
+    "Blood concentration - Conc. blood MS [pg/L]": "14000000",
+    "Blood expression cluster": null,
+    "Tissue expression cluster": "Cluster 62: Skeletal muscle - Muscle contraction",
+    "Brain expression cluster": "Cluster 56: Hypothalamus - Neuropeptide signaling",
+    "Cell line expression cluster": "Cluster 33: Sarcoma - Muscle contraction",
+    "Single cell expression cluster": "Cluster 55: Myocytes - Oxidative muscle function",
+    "Interactions": 14,
+    "Subcellular main location": [
+      "Focal adhesion sites"
+    ],
+    "Subcellular additional location": null,
+    "Antibody RRID": {
+      "CAB015384": null,
+      "HPA001239": null,
+      "HPA001349": null
+    },
+    "Cancer prognostics - Bladder Urothelial Carcinoma (TCGA)": null,
+    "Cancer prognostics - Breast Invasive Carcinoma (TCGA)": null,
+    "Cancer prognostics - Breast Invasive Carcinoma (validation)": null,
+    "Cancer prognostics - Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Colon Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Colon Adenocarcinoma (validation)": null,
+    "Cancer prognostics - Glioblastoma Multiforme (TCGA)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "2.50e-1"
+    },
+    "Cancer prognostics - Glioblastoma Multiforme (validation)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "4.28e-2"
+    },
+    "Cancer prognostics - Head and Neck Squamous Cell Carcinoma (TCGA)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "1.12e-2"
+    },
+    "Cancer prognostics - Kidney Chromophobe (TCGA)": null,
+    "Cancer prognostics - Kidney Renal Clear Cell Carcinoma (TCGA)": null,
+    "Cancer prognostics - Kidney Renal Clear Cell Carcinoma (validation)": null,
+    "Cancer prognostics - Kidney Renal Papillary Cell Carcinoma (TCGA)": null,
+    "Cancer prognostics - Liver Hepatocellular Carcinoma (TCGA)": null,
+    "Cancer prognostics - Liver Hepatocellular Carcinoma (validation)": null,
+    "Cancer prognostics - Lung Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Lung Adenocarcinoma (validation)": null,
+    "Cancer prognostics - Lung Squamous Cell Carcinoma (TCGA)": null,
+    "Cancer prognostics - Lung Squamous Cell Carcinoma (validation)": null,
+    "Cancer prognostics - Ovary Serous Cystadenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Ovary Serous Cystadenocarcinoma (validation)": null,
+    "Cancer prognostics - Pancreatic Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Pancreatic Adenocarcinoma (validation)": null,
+    "Cancer prognostics - Prostate Adenocarcinoma (TCGA)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "2.19e-1"
+    },
+    "Cancer prognostics - Rectum Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Rectum Adenocarcinoma (validation)": null,
+    "Cancer prognostics - Skin Cutaneous Melanoma (TCGA)": null,
+    "Cancer prognostics - Stomach Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Testicular Germ Cell Tumor (TCGA)": null,
+    "Cancer prognostics - Thyroid Carcinoma (TCGA)": null,
+    "Cancer prognostics - Uterine Corpus Endometrial Carcinoma (TCGA)": null
+  }
+}

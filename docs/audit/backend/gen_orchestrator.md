@@ -1,0 +1,35 @@
+# gen_orchestrator audit: services/runtime/genomics/orchestrator.py
+
+Tests: `services/tests/test_audit_gen_orchestrator.py` (run with `MONGODB_DATABASE=diamond_audit_gen_orchestrator`; no Mongo access needed, uses tmp_path scratch/CAS).
+
+## FIXED
+
+1. orchestrator.py (`_declared_assembly`, REFERENCE_RESOLVED event, `ScientificEvidenceReceipt.create`): `declared_assembly` / `declared_ref` were hard-coded to `"GRCh38"` for every VCF, so receipts claimed a header declaration that did not exist (e.g. `absent_assembly.vcf`) or contradicted the file (`##assembly=GRCh37`). This violates ADR-006 (header declarations are reported, never invented; missing metadata is not GRCh38). Failing tests before fix: `test_receipt_does_not_fabricate_declared_reference`, `test_receipt_declared_reference_reports_non_grch38_header`. Fix: read the verbatim first `##assembly=` / `##reference=` header value (gzip aware, header only, `None` when absent or unreadable). Valid fixtures still yield `GRCh38` (`test_receipt_declared_reference_is_read_from_vcf_header`).
+2. orchestrator.py `emit`: `asyncio.iscoroutinefunction(event_callback)` is False for callable objects with `async def __call__`; the coroutine was never awaited (RuntimeWarning) and every event was silently dropped. Failing test: `test_async_callable_object_callback_is_awaited`. Fix: call the callback and `await` the result when `inspect.isawaitable`.
+3. orchestrator.py normalization `except` branch: the fallback `view_header(...)` call was unguarded, so when bcftools is unavailable/failing, the fallback raised too and crashed the pipeline despite the "record without crashing pipeline" intent (the pysam validation had already succeeded). Failing test: `test_missing_bcftools_does_not_crash_pipeline` (FileNotFoundError). Fix: guard the fallback receipt capture; the dead `else None` branch (would append `None` to the receipts list) was removed.
+4. orchestrator.py `execute_pipeline` run_id: caller-supplied `run_id` is interpolated into the scratch filename `norm_{run_id}_{name}`; `run_id="a/../../../x"` writes the derived artifact outside `scratch_root`. Failing test: `test_run_id_with_path_components_is_rejected[...]` (5 params). Fix: fail closed with `ValueError` on `..`, `/`, `\`, NUL (same policy as ADR-011), before any work. Not reachable via the HTTP routes today (`{id}` path params cannot contain `/`), so this is defense in depth at the library trust boundary.
+5. orchestrator.py default FASTA: `Path("fixtures/references/ref_synthetic_chr22.fasta").resolve()` depended on the process cwd; from any other cwd the reference silently vanished (`selected_fasta_sha256=None`, no REF check). Failing test: `test_default_reference_does_not_depend_on_cwd`. Fix: anchor `DEFAULT_FASTA_PATH` to the repo root via `__file__`. Behavior from the repo root is unchanged.
+
+Already fixed by the gen_contracts_models unit during this audit (regression tests kept, passing): `run.overall_status` stayed `PASS` after `run.status = FAIL` and `run.tool_traces` stayed empty while `tool_receipts` was populated (the orchestrator assigns `run.status` / appends to `tool_receipts` after construction). Tests: `test_run_overall_status_mirrors_status`, `test_run_tool_traces_mirror_tool_receipts`. These depend on the `ValidationRun.__setattr__` alias sync in contracts.py.
+
+## UNVERIFIED/NEEDS OTHER OWNER
+
+- orchestrator.py `_persist_to_mongo` (except: pass): any Mongo failure is swallowed silently and partially (receipt upserted before run). The route then returns a `run_id` / `evidence_receipt_id` that may 404 later. Comment documents this as intentional offline degradation, so changed behavior was not made. Suggest at least logging (design decision).
+- orchestrator.py `stream_pipeline`: if the consumer abandons the generator (SSE client disconnect, `break` in routes/validation.py), the worker task is neither awaited nor cancelled; it runs to completion (and persists) and, with only the generator frame holding a reference, may be garbage collected while pending. Whether abandoned runs should be cancelled or completed is a product decision; not reproduced as a failure.
+- orchestrator.py `execute_pipeline`: `validator.validate` and the bcftools subprocess are synchronous inside an `async def`, blocking the event loop for the pipeline duration (up to the 15 s bcftools timeout). Performance, not correctness; fix would need `asyncio.to_thread` (behavior/threading change).
+- orchestrator.py normalization failure is not surfaced in the NORMALIZATION_CHECKED event, receipt or status (empty `derived_artifacts`, no error). The failed `norm` receipt is lost because `BcftoolsAdapter.normalize` raises after `_execute` (needs gen_bcftools owner to attach it to the exception).
+- orchestrator.py findings: `ValidationFinding.run_id` is never set to the orchestrator's `run_id` (stays `None` in persisted runs). Probably should be linked; not changed because consumers (findings endpoint) may rely on current shape.
+- orchestrator.py `cas_root` / `scratch_root` defaults (`artifacts/cas`, `artifacts/scratch`) remain cwd-relative; callers (routes, scripts) run from the repo root. Output location only, not scientific result.
+- orchestrator.py `vcf_path` that is a directory raises `IsADirectoryError` from the hasher rather than `FileNotFoundError` (`exists()` vs `is_file()`); edge case, routes resolve only files.
+- Hard-coded tool versions ("pysam 0.24.1", "bcftools 1.24", validator-v5) in events and `tool_chain`: pysam matches the installed 0.24.1; the bcftools string is not read from the binary. Tests pin these values.
+- `run_id` values are not checked for uniqueness; replays upsert the same `run_id` document (by design in `_persist_to_mongo`).
+
+## VERIFIED OK
+
+- Source-byte immutability invariant (pre/post SHA-256, FATAL RuntimeError on mismatch); derived artifacts written only under scratch with `parent_artifact_sha256` set; no `--check-ref s` usage (`test_source_bytes_unchanged_and_derived_artifact_recorded`).
+- Phase ordering and exactly seven events (INGESTED ... EVIDENCE_COMMITTED), also through `stream_pipeline`; errors raised by the worker (missing VCF) propagate to the stream consumer via `await task` after the sentinel.
+- Missing VCF raises `FileNotFoundError` before any hashing; missing FASTA yields `selected_fasta_sha256=None` and skips normalization (validator reports INCONCLUSIVE per ADR-006).
+- Normalization is attempted only for PASS/WARNING runs; FAIL/ERROR/INCONCLUSIVE runs are never normalized.
+- Evidence receipt digest is created by `ScientificEvidenceReceipt.create` over run_id, source hash, FASTA hash, tool chain, findings summary, status, derived hashes; findings summary counts derive from actual findings.
+- No shell invocation or env handling in this file; subprocess use is delegated to the allowlisted adapter.
+- Existing tests covering this file pass: `test_m02_genomics.py`, `test_genomics_validator.py` (and `test_api_routes.py` when run on its own database; it shows an order-dependent dataset-listing assertion when run after `test_m02_genomics.py` in the same database, unrelated to this file).

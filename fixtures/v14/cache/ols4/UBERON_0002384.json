@@ -1,0 +1,297 @@
+{
+  "retrieved_at": "2026-10-11T23:09:24Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002384",
+    "lang": "en",
+    "description": [
+      "Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance."
+    ],
+    "synonyms": [
+      "textus connectivus",
+      "Bindegewebe",
+      "portion of connective tissue"
+    ],
+    "annotation": {
+      "Contributor": [
+        "https://orcid.org/0000-0002-6601-2165",
+        "https://orcid.org/0000-0003-3162-7490"
+      ],
+      "database_cross_reference": [
+        "AAO:0000098",
+        "BTO:0000421",
+        "CALOHA:TS-2009",
+        "EFO:0000952",
+        "EMAPA:35251",
+        "FMA:9640",
+        "GAID:100",
+        "MA:0000011",
+        "MAT:0000301",
+        "MESH:D003238",
+        "MIAA:0000301",
+        "NCIT:C12374",
+        "SCTID:361919005",
+        "TAO:0001641",
+        "VSAO:0000017",
+        "XAO:0001017",
+        "ZFA:0001632",
+        "galen:ConnectiveTissue",
+        "UMLS:C0009780"
+      ],
+      "external_definition": [
+        "One of the four types of tissue in traditional classifications. It is largely a category of exclusion rather than one with a precise definition, but there are certain characteristics shared by all or most tissues in this category, such as involvement in structure and support, derived from mesoderm, and characterized largely by the traits of non-living tissue.[AAO]",
+        "Portion of tissue that consists of mesodermally derived cells and intercellular matrix comprised of protein fibers and carbohydrates, which supports, ensheathes and binds together other tissues.[TAO]",
+        "Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance.[VSAO]"
+      ],
+      "external_ontology_notes": [
+        "MA also has set of connective tissues"
+      ],
+      "id": [
+        "UBERON:0002384"
+      ]
+    },
+    "label": "connective tissue",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002384",
+    "obo_id": "UBERON:0002384",
+    "in_subset": [
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Tissue with cells that deposit non-polarized extracellular matrix including connective tissue fibers and ground substance.",
+        "oboXrefs": [
+          {
+            "database": "GO_REF",
+            "id": "0000034",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/go/references/0000034"
+          },
+          {
+            "database": "PSPUB",
+            "id": "0000170",
+            "description": null,
+            "url": null
+          },
+          {
+            "database": "VSAO",
+            "id": "0000017",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VSAO_0000017"
+          },
+          {
+            "database": null,
+            "id": "http://dx.plos.org/10.1371/journal.pone.0051070",
+            "description": null,
+            "url": "http://dx.plos.org/10.1371/journal.pone.0051070"
+          },
+          {
+            "database": null,
+            "id": "https://github.com/obophenotype/uberon/issues/23",
+            "description": null,
+            "url": "https://github.com/obophenotype/uberon/issues/23"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000098",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000098"
+      },
+      {
+        "database": "BTO",
+        "id": "0000421",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000421"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-2009",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-2009"
+      },
+      {
+        "database": "EFO",
+        "id": "0000952",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000952"
+      },
+      {
+        "database": "EMAPA",
+        "id": "35251",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35251"
+      },
+      {
+        "database": "FMA",
+        "id": "9640",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/9640"
+      },
+      {
+        "database": "GAID",
+        "id": "100",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000011",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000011"
+      },
+      {
+        "database": "MAT",
+        "id": "0000301",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000301"
+      },
+      {
+        "database": "MESH",
+        "id": "D003238",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D003238"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000301",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12374",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12374"
+      },
+      {
+        "database": "SCTID",
+        "id": "361919005",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/361919005"
+      },
+      {
+        "database": "TAO",
+        "id": "0001641",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0001641"
+      },
+      {
+        "database": "VSAO",
+        "id": "0000017",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VSAO_0000017"
+      },
+      {
+        "database": "XAO",
+        "id": "0001017",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0001017"
+      },
+      {
+        "database": "ZFA",
+        "id": "0001632",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0001632"
+      },
+      {
+        "database": "galen",
+        "id": "ConnectiveTissue",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0009780",
+        "description": "ncithesaurus:Connective_Tissue",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0009780"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "portion of connective tissue",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "9640",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/9640"
+          }
+        ]
+      },
+      {
+        "name": "Bindegewebe",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000421",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000421"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384/graph"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002384/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      }
+    }
+  }
+}

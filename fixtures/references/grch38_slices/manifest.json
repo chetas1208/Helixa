@@ -1,0 +1,1498 @@
+{
+  "reference_asset_id": "grch38_slices_ensembl116",
+  "assembly": "GRCh38",
+  "assembly_patch": "GRCh38.p14",
+  "ensembl_release": 116,
+  "retrieved_at": "2026-10-11T23:50:29Z",
+  "immutable": true,
+  "loci": [
+    {
+      "locus_id": "grch38:MYH7:14:23412700-23412939",
+      "gene_id": "ENSG00000092054",
+      "gene_symbol": "MYH7",
+      "assembly": "GRCh38",
+      "contig": "14",
+      "start": 23412700,
+      "end": 23412939,
+      "length": 240,
+      "gene_strand": -1,
+      "sequence_sha256": "3baa050b626caee60109201329ac24d0472d179b4ead83e3a0576922de2f3627",
+      "reference_asset_id": "grch38_slices_ensembl116",
+      "label": "MYH7 region (GRCh38 14:23,412,700-23,412,939)",
+      "features": [
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004021211",
+          "transcript_id": "ENST00000355349",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001527588",
+          "transcript_id": "ENST00000713768",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004021211",
+          "transcript_id": "ENST00000713769",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004021211",
+          "transcript_id": "ENST00000858539",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004295418",
+          "transcript_id": "ENST00000858540",
+          "start": 23412738,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004021211",
+          "transcript_id": "ENST00000858541",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004021211",
+          "transcript_id": "ENST00000858542",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004021211",
+          "transcript_id": "ENST00000858543",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004295412",
+          "transcript_id": "ENST00000858544",
+          "start": 23412742,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004295412",
+          "transcript_id": "ENST00000858545",
+          "start": 23412742,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004295412",
+          "transcript_id": "ENST00000858546",
+          "start": 23412742,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004295412",
+          "transcript_id": "ENST00000858547",
+          "start": 23412742,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004295412",
+          "transcript_id": "ENST00000858548",
+          "start": 23412742,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004021211",
+          "transcript_id": "ENST00000858549",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004021211",
+          "transcript_id": "ENST00000858550",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004295412",
+          "transcript_id": "ENST00000858551",
+          "start": 23412742,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461432",
+          "transcript_id": "ENST00000965935",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461432",
+          "transcript_id": "ENST00000965936",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461432",
+          "transcript_id": "ENST00000965937",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461425",
+          "transcript_id": "ENST00000965938",
+          "start": 23412733,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461419",
+          "transcript_id": "ENST00000965939",
+          "start": 23412739,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461432",
+          "transcript_id": "ENST00000965940",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461432",
+          "transcript_id": "ENST00000965941",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461428",
+          "transcript_id": "ENST00000965942",
+          "start": 23412737,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461419",
+          "transcript_id": "ENST00000965943",
+          "start": 23412739,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461432",
+          "transcript_id": "ENST00000965944",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461419",
+          "transcript_id": "ENST00000965945",
+          "start": 23412739,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461419",
+          "transcript_id": "ENST00000965946",
+          "start": 23412739,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461419",
+          "transcript_id": "ENST00000965947",
+          "start": 23412739,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004021211",
+          "transcript_id": "ENST00000965948",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461432",
+          "transcript_id": "ENST00000965949",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461432",
+          "transcript_id": "ENST00000965950",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004295412",
+          "transcript_id": "ENST00000965951",
+          "start": 23412742,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461432",
+          "transcript_id": "ENST00000965952",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461432",
+          "transcript_id": "ENST00000965953",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461414",
+          "transcript_id": "ENST00000965954",
+          "start": 23412743,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461414",
+          "transcript_id": "ENST00000965955",
+          "start": 23412743,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461432",
+          "transcript_id": "ENST00000965956",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461414",
+          "transcript_id": "ENST00000965957",
+          "start": 23412743,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461432",
+          "transcript_id": "ENST00000965958",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004461433",
+          "transcript_id": "ENST00000965959",
+          "start": 23412744,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618432",
+          "transcript_id": "ENST00001039988",
+          "start": 23412732,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618401",
+          "transcript_id": "ENST00001039989",
+          "start": 23412735,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618386",
+          "transcript_id": "ENST00001039990",
+          "start": 23412739,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618414",
+          "transcript_id": "ENST00001039992",
+          "start": 23412737,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618386",
+          "transcript_id": "ENST00001039994",
+          "start": 23412739,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004480055",
+          "transcript_id": "ENST00001039995",
+          "start": 23412738,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001527588",
+          "transcript_id": "ENST00001039998",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618386",
+          "transcript_id": "ENST00001040004",
+          "start": 23412739,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001527588",
+          "transcript_id": "ENST00001040011",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618292",
+          "transcript_id": "ENST00001040015",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001527588",
+          "transcript_id": "ENST00001040017",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618292",
+          "transcript_id": "ENST00001040024",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618386",
+          "transcript_id": "ENST00001040026",
+          "start": 23412739,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618386",
+          "transcript_id": "ENST00001040029",
+          "start": 23412739,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618386",
+          "transcript_id": "ENST00001040031",
+          "start": 23412739,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001527588",
+          "transcript_id": "ENST00001040037",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618386",
+          "transcript_id": "ENST00001040038",
+          "start": 23412739,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618392",
+          "transcript_id": "ENST00001040050",
+          "start": 23412741,
+          "end": 23412820,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001527588",
+          "transcript_id": "ENST00001040086",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004618292",
+          "transcript_id": "ENST00001040114",
+          "start": 23412741,
+          "end": 23412871,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004021211",
+          "transcript_id": "ENST00001136909",
+          "start": 23412740,
+          "end": 23412871,
+          "strand": -1
+        }
+      ],
+      "fasta_file": "MYH7_14_23412700-23412939.fa",
+      "source": {
+        "name": "Ensembl REST /sequence/region",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/sequence/region/homo_sapiens/14:23412700..23412939:1?content-type=text/plain"
+      },
+      "canonical_transcript": "ENST00000355349.4"
+    },
+    {
+      "locus_id": "grch38:PAX6:11:31784750-31784989",
+      "gene_id": "ENSG00000007372",
+      "gene_symbol": "PAX6",
+      "assembly": "GRCh38",
+      "contig": "11",
+      "start": 31784750,
+      "end": 31784989,
+      "length": 240,
+      "gene_strand": -1,
+      "sequence_sha256": "20d848716b5954fb33d1c3d7053be63de71700cd4e8da712b9d82092c1ebdb1d",
+      "reference_asset_id": "grch38_slices_ensembl116",
+      "label": "PAX6 region (GRCh38 11:31,784,750-31,784,989)",
+      "features": [
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000606377",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000639386",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000419022",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000643871",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000638914",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000640610",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000379132",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000379109",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000379129",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000639916",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004801541",
+          "transcript_id": "ENST00000638685",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000379107",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000639409",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000640975",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004801541",
+          "transcript_id": "ENST00000638963",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000638965",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00000241001",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003805250",
+          "transcript_id": "ENST00001142762",
+          "start": 31784779,
+          "end": 31790019,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003804367",
+          "transcript_id": "ENST00000640961",
+          "start": 31783393,
+          "end": 31790324,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004803930",
+          "transcript_id": "ENST00000379163",
+          "start": 31783393,
+          "end": 31790324,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003804367",
+          "transcript_id": "ENST00000350638",
+          "start": 31783393,
+          "end": 31790324,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004803930",
+          "transcript_id": "ENST00000640231",
+          "start": 31783393,
+          "end": 31790324,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004803927",
+          "transcript_id": "ENST00000395934",
+          "start": 31783393,
+          "end": 31790324,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003804367",
+          "transcript_id": "ENST00000919838",
+          "start": 31783393,
+          "end": 31790324,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003804367",
+          "transcript_id": "ENST00000948241",
+          "start": 31783393,
+          "end": 31790324,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003804367",
+          "transcript_id": "ENST00000948242",
+          "start": 31783393,
+          "end": 31790324,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003804367",
+          "transcript_id": "ENST00000948243",
+          "start": 31783393,
+          "end": 31790324,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004500523",
+          "transcript_id": "ENST00000984622",
+          "start": 31783393,
+          "end": 31786434,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003804367",
+          "transcript_id": "ENST00001143949",
+          "start": 31783393,
+          "end": 31790324,
+          "strand": 1
+        }
+      ],
+      "fasta_file": "PAX6_11_31784750-31784989.fa",
+      "source": {
+        "name": "Ensembl REST /sequence/region",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/sequence/region/homo_sapiens/11:31784750..31784989:1?content-type=text/plain"
+      },
+      "canonical_transcript": "ENST00000640368.2"
+    },
+    {
+      "locus_id": "grch38:COL1A1:17:50184080-50184319",
+      "gene_id": "ENSG00000108821",
+      "gene_symbol": "COL1A1",
+      "assembly": "GRCh38",
+      "contig": "17",
+      "start": 50184080,
+      "end": 50184319,
+      "length": 240,
+      "gene_strand": -1,
+      "sequence_sha256": "2e9b28514fb7b3e8a448e4b96385ed161774ae42307f64d16fab62a0d7782e88",
+      "reference_asset_id": "grch38_slices_ensembl116",
+      "label": "COL1A1 region (GRCh38 17:50,184,080-50,184,319)",
+      "features": [
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000225964",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000861333",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000861334",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000861335",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000861336",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000861337",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000861338",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000861339",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000861340",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000861341",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000861342",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000861343",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000861344",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000919350",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000963828",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00000984220",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001132088",
+          "transcript_id": "ENST00001140874",
+          "start": 50184101,
+          "end": 50185648,
+          "strand": -1
+        }
+      ],
+      "fasta_file": "COL1A1_17_50184080-50184319.fa",
+      "source": {
+        "name": "Ensembl REST /sequence/region",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/sequence/region/homo_sapiens/17:50184080..50184319:1?content-type=text/plain"
+      },
+      "canonical_transcript": "ENST00000225964.10"
+    },
+    {
+      "locus_id": "grch38:CFTR:7:117287100-117287339",
+      "gene_id": "ENSG00000001626",
+      "gene_symbol": "CFTR",
+      "assembly": "GRCh38",
+      "contig": "7",
+      "start": 117287100,
+      "end": 117287339,
+      "length": 240,
+      "gene_strand": 1,
+      "sequence_sha256": "584088ddfb1f63ced03b05f4d3fd384e76c8e8cddbb44edcc844b9b378fd3974",
+      "reference_asset_id": "grch38_slices_ensembl116",
+      "label": "CFTR region (GRCh38 7:117,287,100-117,287,339)",
+      "features": [
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004746386",
+          "transcript_id": "ENST00001112536",
+          "start": 117286785,
+          "end": 117287335,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004746387",
+          "transcript_id": "ENST00001112537",
+          "start": 117286789,
+          "end": 117287339,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003896886",
+          "transcript_id": "ENST00000673785",
+          "start": 117287120,
+          "end": 117287165,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003976973",
+          "transcript_id": "ENST00000436097",
+          "start": 117287128,
+          "end": 117287165,
+          "strand": 1
+        }
+      ],
+      "fasta_file": "CFTR_7_117287100-117287339.fa",
+      "source": {
+        "name": "Ensembl REST /sequence/region",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/sequence/region/homo_sapiens/7:117287100..117287339:1?content-type=text/plain"
+      },
+      "canonical_transcript": "ENST00000003084.11"
+    },
+    {
+      "locus_id": "grch38:HBB:11:5225464-5225703",
+      "gene_id": "ENSG00000244734",
+      "gene_symbol": "HBB",
+      "assembly": "GRCh38",
+      "contig": "11",
+      "start": 5225464,
+      "end": 5225703,
+      "length": 240,
+      "gene_strand": -1,
+      "sequence_sha256": "655c9aae6bacfdd2876f08d07a8e4615788b958692de9eb7193027766a428c7c",
+      "reference_asset_id": "grch38_slices_ensembl116",
+      "label": "HBB region (GRCh38 11:5,225,464-5,225,703)",
+      "features": [
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004111530",
+          "transcript_id": "ENST00000759072",
+          "start": 5225464,
+          "end": 5225728,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001600613",
+          "transcript_id": "ENST00000335295",
+          "start": 5225464,
+          "end": 5225726,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001600613",
+          "transcript_id": "ENST00000647020",
+          "start": 5225464,
+          "end": 5225726,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003781733",
+          "transcript_id": "ENST00000633227",
+          "start": 5225467,
+          "end": 5225726,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001866802",
+          "transcript_id": "ENST00000475226",
+          "start": 5225655,
+          "end": 5225726,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001600613",
+          "transcript_id": "ENST00000883533",
+          "start": 5225464,
+          "end": 5225726,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001600613",
+          "transcript_id": "ENST00001098717",
+          "start": 5225464,
+          "end": 5225726,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001600613",
+          "transcript_id": "ENST00001098718",
+          "start": 5225464,
+          "end": 5225726,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004725784",
+          "transcript_id": "ENST00001098719",
+          "start": 5225464,
+          "end": 5225657,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004725791",
+          "transcript_id": "ENST00001098720",
+          "start": 5225464,
+          "end": 5225726,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001600613",
+          "transcript_id": "ENST00001098721",
+          "start": 5225464,
+          "end": 5225726,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001600613",
+          "transcript_id": "ENST00001098722",
+          "start": 5225464,
+          "end": 5225726,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004725791",
+          "transcript_id": "ENST00001098723",
+          "start": 5225464,
+          "end": 5225726,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004725791",
+          "transcript_id": "ENST00001098724",
+          "start": 5225464,
+          "end": 5225726,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004725788",
+          "transcript_id": "ENST00001098725",
+          "start": 5225464,
+          "end": 5225771,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004725778",
+          "transcript_id": "ENST00001098726",
+          "start": 5225464,
+          "end": 5225657,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004725778",
+          "transcript_id": "ENST00001098727",
+          "start": 5225464,
+          "end": 5225657,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00004725783",
+          "transcript_id": "ENST00001098728",
+          "start": 5225464,
+          "end": 5225997,
+          "strand": -1
+        }
+      ],
+      "fasta_file": "HBB_11_5225464-5225703.fa",
+      "source": {
+        "name": "Ensembl REST /sequence/region",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/sequence/region/homo_sapiens/11:5225464..5225703:1?content-type=text/plain"
+      },
+      "canonical_transcript": "ENST00000335295.4"
+    },
+    {
+      "locus_id": "grch38:TYR:11:89177875-89178114",
+      "gene_id": "ENSG00000077498",
+      "gene_symbol": "TYR",
+      "assembly": "GRCh38",
+      "contig": "11",
+      "start": 89177875,
+      "end": 89178114,
+      "length": 240,
+      "gene_strand": 1,
+      "sequence_sha256": "ff8ab58c29cbea3266c79eb1cfb6723d3a1ac028a54057604267ee484794c936",
+      "reference_asset_id": "grch38_slices_ensembl116",
+      "label": "TYR region (GRCh38 11:89,177,875-89,178,114)",
+      "features": [
+        {
+          "feature_type": "exon",
+          "id": "ENSE00002200807",
+          "transcript_id": "ENST00000263321",
+          "start": 89177875,
+          "end": 89178772,
+          "strand": 1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00001153844",
+          "transcript_id": "ENST00000526139",
+          "start": 89177893,
+          "end": 89178772,
+          "strand": 1
+        }
+      ],
+      "fasta_file": "TYR_11_89177875-89178114.fa",
+      "source": {
+        "name": "Ensembl REST /sequence/region",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/sequence/region/homo_sapiens/11:89177875..89178114:1?content-type=text/plain"
+      },
+      "canonical_transcript": "ENST00000263321.6"
+    },
+    {
+      "locus_id": "grch38:BDNF:11:27654893-27655132",
+      "gene_id": "ENSG00000176697",
+      "gene_symbol": "BDNF",
+      "assembly": "GRCh38",
+      "contig": "11",
+      "start": 27654893,
+      "end": 27655132,
+      "length": 240,
+      "gene_strand": -1,
+      "sequence_sha256": "f50372a38be8982a3a13dd864046154ec5aa350325dc5ea1ac162890eb842be9",
+      "reference_asset_id": "grch38_slices_ensembl116",
+      "label": "BDNF region (GRCh38 11:27,654,893-27,655,132)",
+      "features": [
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000439476",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00002197607",
+          "transcript_id": "ENST00000525528",
+          "start": 27654893,
+          "end": 27659658,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003555819",
+          "transcript_id": "ENST00000395986",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000533131",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000356660",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000418212",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000533246",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000530861",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000395983",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003555819",
+          "transcript_id": "ENST00000438929",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000530786",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000584049",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000532997",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000395978",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000395981",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000525950",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003555819",
+          "transcript_id": "ENST00000314915",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000935834",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000935835",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000935836",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000935837",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000935838",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000935839",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000935840",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000969519",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000969520",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000969521",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00000969522",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00001104180",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        },
+        {
+          "feature_type": "exon",
+          "id": "ENSE00003753027",
+          "transcript_id": "ENST00001104181",
+          "start": 27654893,
+          "end": 27658585,
+          "strand": -1
+        }
+      ],
+      "fasta_file": "BDNF_11_27654893-27655132.fa",
+      "source": {
+        "name": "Ensembl REST /sequence/region",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/sequence/region/homo_sapiens/11:27654893..27655132:1?content-type=text/plain"
+      },
+      "canonical_transcript": "ENST00000356660.9"
+    },
+    {
+      "locus_id": "grch38:ACTN3:11:66546395-66546634",
+      "gene_id": "ENSG00000248746",
+      "gene_symbol": "ACTN3",
+      "assembly": "GRCh38",
+      "contig": "11",
+      "start": 66546395,
+      "end": 66546634,
+      "length": 240,
+      "gene_strand": 1,
+      "sequence_sha256": "7407d99027946a7a7f90cbeef85f05a33aa0a79657d45cd357a35eb0143d26ea",
+      "reference_asset_id": "grch38_slices_ensembl116",
+      "label": "ACTN3 region (GRCh38 11:66,546,395-66,546,634)",
+      "features": [
+        {
+          "feature_type": "exon",
+          "id": "ENSE00002085197",
+          "transcript_id": "ENST00000502692",
+          "start": 66546395,
+          "end": 66546786,
+          "strand": 1
+        }
+      ],
+      "fasta_file": "ACTN3_11_66546395-66546634.fa",
+      "source": {
+        "name": "Ensembl REST /sequence/region",
+        "version": "release 116",
+        "url": "https://rest.ensembl.org/sequence/region/homo_sapiens/11:66546395..66546634:1?content-type=text/plain"
+      },
+      "canonical_transcript": "ENST00000513398.2"
+    }
+  ]
+}

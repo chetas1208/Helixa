@@ -1,0 +1,12 @@
+{
+  "name": "HELIXA",
+  "short_name": "HELIXA",
+  "description": "HELIXA — The Living Genome Studio. Explore Life's Code. Research use only.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070b12",
+  "theme_color": "#070b12",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

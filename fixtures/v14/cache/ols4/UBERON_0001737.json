@@ -1,0 +1,263 @@
+{
+  "retrieved_at": "2026-10-11T23:09:39Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001737",
+    "lang": "en",
+    "description": [
+      "A continuation of the pharynx that is involved in breathing, sound production, and protecting the trachea against food aspiration."
+    ],
+    "synonyms": [],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0000268",
+        "BTO:0001208",
+        "CALOHA:TS-0532",
+        "EFO:0000838",
+        "EHDAA2:0004063",
+        "EMAPA:18333",
+        "EV:0100039",
+        "FMA:55097",
+        "GAID:108",
+        "MA:0000414",
+        "MAT:0000187",
+        "MESH:D007830",
+        "MIAA:0000187",
+        "NCIT:C12420",
+        "SCTID:181212004",
+        "VHOG:0001279",
+        "Wikipedia:Larynx",
+        "XAO:0003081",
+        "galen:Larynx",
+        "UMLS:C0023078"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/8/8a/Larynx_external_en.svg",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-female/v1.1/assets/3d-vh-f-larynx.glb",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/larynx-male/v1.1/assets/3d-vh-m-larynx.glb"
+      ],
+      "external_definition": [
+        "An anatomical cluster consisting of the epiglottus, the arytenoid cartilages, the thyroid cartilage, the cricoid cartilage and the muscles, membranes, and ligaments connecting them, and also of the mucosal covering these structures.[FEED]",
+        "Anatomical structure consisting of a narrowly triangular chamber supported by a series of semicircular cartilages in which part of the sound-production system is located.[AAO]"
+      ],
+      "has_relational_adjective": [
+        "laryngeal"
+      ],
+      "homology_notes": [
+        "(In anura) a dorsal pair of arytenoid cartilages (...), which support vocal cords, and a ventral pair (often fused) of cricoid cartilage (...). These cartilages are regarded as derivatives of posterior visceral arches of ancestors. Together they constitute the larynx, a structure characteristic of tetrapods. (...) (In mammals) Paired arytenoid cartilages help support and control the vocal cords. The cricoid cartilage is single. Two additional cartilages are present that are lacking in other vertebrates: a large ventral thyroid cartilage (...) and a cartilage in the epiglottis.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0001737"
+      ]
+    },
+    "label": "larynx",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001737",
+    "obo_id": "UBERON:0001737",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "A continuation of the pharynx that is involved in breathing, sound production, and protecting the trachea against food aspiration.",
+        "oboXrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Larynx",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Larynx"
+          },
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000268",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000268"
+      },
+      {
+        "database": "BTO",
+        "id": "0001208",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001208"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0532",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0532"
+      },
+      {
+        "database": "EFO",
+        "id": "0000838",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000838"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0004063",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0004063"
+      },
+      {
+        "database": "EMAPA",
+        "id": "18333",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:18333"
+      },
+      {
+        "database": "EV",
+        "id": "0100039",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100039"
+      },
+      {
+        "database": "FMA",
+        "id": "55097",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/55097"
+      },
+      {
+        "database": "GAID",
+        "id": "108",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000414",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000414"
+      },
+      {
+        "database": "MAT",
+        "id": "0000187",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000187"
+      },
+      {
+        "database": "MESH",
+        "id": "D007830",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D007830"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000187",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12420",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12420"
+      },
+      {
+        "database": "SCTID",
+        "id": "181212004",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/181212004"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001279",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001279"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Larynx",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Larynx"
+      },
+      {
+        "database": "XAO",
+        "id": "0003081",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0003081"
+      },
+      {
+        "database": "galen",
+        "id": "Larynx",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0023078",
+        "description": "ncithesaurus:Larynx",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0023078"
+      }
+    ],
+    "obo_synonym": null,
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "innervated_by": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002005"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001737/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      }
+    }
+  }
+}

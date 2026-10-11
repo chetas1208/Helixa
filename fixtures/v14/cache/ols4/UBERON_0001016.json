@@ -1,0 +1,401 @@
+{
+  "retrieved_at": "2026-10-11T23:09:49Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001016",
+    "lang": "en",
+    "description": [
+      "The nervous system is an organ system containing predominantly neuron and glial cells. In bilaterally symmetrical organism, it is arranged in a network of tree-like structures connected to a central body. The main functions of the nervous system are to regulate and control body functions, and to receive sensory input, process this information, and generate behavior [CUMBO]."
+    ],
+    "synonyms": [
+      "nerve net",
+      "neurological system",
+      "systema nervosum"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0000324",
+        "BILA:0000079",
+        "BIRNLEX:844",
+        "BTO:0001484",
+        "CALOHA:TS-1313",
+        "EFO:0000802",
+        "EHDAA2:0001246",
+        "EHDAA:826",
+        "EMAPA:16469",
+        "EV:0100162",
+        "FMA:7157",
+        "GAID:466",
+        "MA:0000016",
+        "MAT:0000026",
+        "MESH:D009420",
+        "MIAA:0000026",
+        "NCIT:C12755",
+        "SCTID:278196006",
+        "TAO:0000396",
+        "VHOG:0000402",
+        "WBbt:0005735",
+        "Wikipedia:Nervous_system",
+        "XAO:0000177",
+        "ZFA:0000396",
+        "neuronames:3236",
+        "FBbt:00005093",
+        "UMLS:C0027763"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/b/b2/TE-Nervous_system_diagram.svg",
+        "http://upload.wikimedia.org/wikipedia/commons/b/ba/Nervous_system_diagram.png"
+      ],
+      "external_definition": [
+        "A regulatory system of the body that consists of neurons and neuroglial cells. The nervous system is divided into two parts, the central nervous system (CNS) and the peripheral nervous system (PNS). (Source: BioGlossary, www.Biology-Text.com)[TAO]",
+        "Anatomical system consisting of nerve bodies and nerve fibers which regulate the response of the body to external and internal stimuli.[AAO]"
+      ],
+      "has_relational_adjective": [
+        "nervous",
+        "neural"
+      ],
+      "homology_notes": [
+        "Nervous systems evolved in the ancestor of Eumetazoa.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0001016"
+      ],
+      "never in taxon": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_6040"
+      ]
+    },
+    "label": "nervous system",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001016",
+    "obo_id": "UBERON:0001016",
+    "in_subset": [
+      "cumbo",
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The nervous system is an organ system containing predominantly neuron and glial cells. In bilaterally symmetrical organism, it is arranged in a network of tree-like structures connected to a central body. The main functions of the nervous system are to regulate and control body functions, and to receive sensory input, process this information, and generate behavior [CUMBO].",
+        "oboXrefs": [
+          {
+            "database": "BIRNLEX",
+            "id": "844",
+            "description": null,
+            "url": "http://uri.neuinfo.org/nif/nifstd/birnlex_844"
+          },
+          {
+            "database": "ISBN",
+            "id": "0-14-051288-8",
+            "description": null,
+            "url": "https://www.worldcat.org/search?q=bn%3A0-14-051288-8"
+          },
+          {
+            "database": "ISBN",
+            "id": "3110148986",
+            "description": null,
+            "url": "https://www.worldcat.org/search?q=bn%3A3110148986"
+          },
+          {
+            "database": "NLM",
+            "id": "nervous+system",
+            "description": null,
+            "url": null
+          },
+          {
+            "database": "WB",
+            "id": "rynl",
+            "description": null,
+            "url": "http://www.wormbase.org/get?name=rynl"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Nervous_system",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Nervous_system"
+          },
+          {
+            "database": "ZFIN",
+            "id": "curator",
+            "description": null,
+            "url": "https://zfin.org/curator"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000324",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000324"
+      },
+      {
+        "database": "BILA",
+        "id": "0000079",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000079"
+      },
+      {
+        "database": "BIRNLEX",
+        "id": "844",
+        "description": null,
+        "url": "http://uri.neuinfo.org/nif/nifstd/birnlex_844"
+      },
+      {
+        "database": "BTO",
+        "id": "0001484",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001484"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1313",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1313"
+      },
+      {
+        "database": "EFO",
+        "id": "0000802",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000802"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0001246",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0001246"
+      },
+      {
+        "database": "EHDAA",
+        "id": "826",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_826"
+      },
+      {
+        "database": "EMAPA",
+        "id": "16469",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:16469"
+      },
+      {
+        "database": "EV",
+        "id": "0100162",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100162"
+      },
+      {
+        "database": "FMA",
+        "id": "7157",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7157"
+      },
+      {
+        "database": "GAID",
+        "id": "466",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000016",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000016"
+      },
+      {
+        "database": "MAT",
+        "id": "0000026",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000026"
+      },
+      {
+        "database": "MESH",
+        "id": "D009420",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D009420"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000026",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12755",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12755"
+      },
+      {
+        "database": "SCTID",
+        "id": "278196006",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/278196006"
+      },
+      {
+        "database": "TAO",
+        "id": "0000396",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000396"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000402",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000402"
+      },
+      {
+        "database": "WBbt",
+        "id": "0005735",
+        "description": null,
+        "url": "http://www.wormbase.org/get?name=0005735"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Nervous_system",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Nervous_system"
+      },
+      {
+        "database": "XAO",
+        "id": "0000177",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000177"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000396",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000396"
+      },
+      {
+        "database": "neuronames",
+        "id": "3236",
+        "description": null,
+        "url": "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=3236"
+      },
+      {
+        "database": "FBbt",
+        "id": "00005093",
+        "description": null,
+        "url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00005093"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0027763",
+        "description": "ncithesaurus:Nervous_System",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0027763"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "neurological system",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "GO",
+            "id": "0050877",
+            "description": null,
+            "url": "http://amigo.geneontology.org/amigo/term/GO:0050877"
+          }
+        ]
+      },
+      {
+        "name": "systema nervosum",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Nervous_system",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Nervous_system"
+          }
+        ]
+      },
+      {
+        "name": "nerve net",
+        "scope": "hasNarrowSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Nerve_net",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Nerve_net"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/graph"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "capable_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002215"
+      },
+      "composed_primarily_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002473"
+      },
+      "existence_ends_during": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002492"
+      },
+      "immediate_transformation_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002495"
+      }
+    }
+  }
+}

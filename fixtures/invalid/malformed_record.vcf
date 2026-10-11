@@ -1,0 +1,5 @@
+##fileformat=VCFv4.2
+##reference=GRCh38
+##contig=<ID=chr22,length=120000>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr22	INVALID_POS	rs101	A	G	50	PASS	.

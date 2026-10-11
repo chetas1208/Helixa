@@ -1,0 +1,366 @@
+{
+  "retrieved_at": "2026-10-11T23:09:52Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001008",
+    "lang": "en",
+    "description": [
+      "EDITOR_NOTE In various sources such as Encyclopedia Britannica, the excretory and urinary systems are indeed the same system (see wikipedia talk page); we merge two BTO classes here",
+      "The renal system in an anatomical system that maintains fluid balance and contributes to electrolyte balance, acid/base balance, and disposal of nitrogenous waste products."
+    ],
+    "synonyms": [
+      "excretory system",
+      "renal/urinary system",
+      "urinary system",
+      "urinary tract",
+      "renal or urinary system",
+      "systema urinaria",
+      "systema urinarium"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0010257",
+        "BILA:0000015",
+        "BTO:0001244",
+        "BTO:0003092",
+        "CALOHA:TS-1323",
+        "EFO:0000803",
+        "EHDAA2:0001601",
+        "EHDAA:5901",
+        "EMAPA:17366",
+        "EV:0100095",
+        "FMA:7159",
+        "GAID:391",
+        "MA:0000325",
+        "MAT:0000027",
+        "MESH:D014551",
+        "MIAA:0000027",
+        "NCIT:C12413",
+        "SCTID:362204003",
+        "TADS:0000162",
+        "TAO:0000163",
+        "VHOG:0000723",
+        "WBbt:0005736",
+        "Wikipedia:Excretory_system",
+        "XAO:0000143",
+        "ZFA:0000163",
+        "galen:UrinaryTract",
+        "FBbt:00005056",
+        "UMLS:C1508753"
+      ],
+      "external_definition": [
+        "An anatomical system which consists of organs and tissues which produce, store, and excrete urine.[AAO]"
+      ],
+      "homology_notes": [
+        "Evolution of vertebrate renal anatomy appears quite conservative when compared, for example, to evolution of respiratory and cardiovascular systems in vertebrates. Major anatomical changes in vertebrates kidneys separate those of birds and mammals from kidneys of lower vertebrates. General increase in animal size from fish to mammals is reflected by an increase in total number of nephrons per kidney, rather than by constant change in tubular dimensions.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0001008"
+      ],
+      "never in taxon": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_110815",
+        "http://purl.obolibrary.org/obo/NCBITaxon_147099"
+      ],
+      "taxon_notes": [
+        "In humans, the renal system comprises a pair of kidneys, a pair of ureters, urinary bladder, urethra, sphincter muscle and associated blood vessels",
+        "This definition is inclusive of the organs of the vertebrate renal system, as well as the Malpighian tubules of insects, and allows for future incorporation of structures such as the antennal glands of crustaceans"
+      ]
+    },
+    "label": "renal system",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001008",
+    "obo_id": "UBERON:0001008",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The renal system in an anatomical system that maintains fluid balance and contributes to electrolyte balance, acid/base balance, and disposal of nitrogenous waste products.",
+        "oboXrefs": [
+          {
+            "database": "DOI",
+            "id": "10.1371/journal.pone.0099864",
+            "description": null,
+            "url": null
+          },
+          {
+            "database": "GO",
+            "id": "0072001",
+            "description": null,
+            "url": "http://amigo.geneontology.org/amigo/term/GO:0072001"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0010257",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010257"
+      },
+      {
+        "database": "BILA",
+        "id": "0000015",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000015"
+      },
+      {
+        "database": "BTO",
+        "id": "0001244",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001244"
+      },
+      {
+        "database": "BTO",
+        "id": "0003092",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0003092"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1323",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1323"
+      },
+      {
+        "database": "EFO",
+        "id": "0000803",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000803"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0001601",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0001601"
+      },
+      {
+        "database": "EHDAA",
+        "id": "5901",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_5901"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17366",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17366"
+      },
+      {
+        "database": "EV",
+        "id": "0100095",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100095"
+      },
+      {
+        "database": "FMA",
+        "id": "7159",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7159"
+      },
+      {
+        "database": "GAID",
+        "id": "391",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000325",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000325"
+      },
+      {
+        "database": "MAT",
+        "id": "0000027",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000027"
+      },
+      {
+        "database": "MESH",
+        "id": "D014551",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D014551"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000027",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12413",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12413"
+      },
+      {
+        "database": "SCTID",
+        "id": "362204003",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/362204003"
+      },
+      {
+        "database": "TADS",
+        "id": "0000162",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TADS_0000162"
+      },
+      {
+        "database": "TAO",
+        "id": "0000163",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000163"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000723",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000723"
+      },
+      {
+        "database": "WBbt",
+        "id": "0005736",
+        "description": null,
+        "url": "http://www.wormbase.org/get?name=0005736"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Excretory_system",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Excretory_system"
+      },
+      {
+        "database": "XAO",
+        "id": "0000143",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000143"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000163",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000163"
+      },
+      {
+        "database": "galen",
+        "id": "UrinaryTract",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "FBbt",
+        "id": "00005056",
+        "description": null,
+        "url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00005056"
+      },
+      {
+        "database": "UMLS",
+        "id": "C1508753",
+        "description": "ncithesaurus:Urinary_System",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C1508753"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "systema urinaria",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "7159",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/7159"
+          }
+        ]
+      },
+      {
+        "name": "systema urinarium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0003092",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0003092"
+          }
+        ]
+      },
+      {
+        "name": "renal or urinary system",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "EHDAA",
+            "id": "5901",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/EHDAA_5901"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/graph"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "capable_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002215"
+      },
+      "existence_ends_during": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001008/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002492"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+##fileformat=VCFv4.2
+##assembly=GRCh38
+##contig=<ID=chr22,length=120000>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr22	105002	rs105002	C	T	50	PASS	.

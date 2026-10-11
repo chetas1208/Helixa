@@ -1,0 +1,177 @@
+{
+  "retrieved_at": "2026-10-11T23:09:24Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0004548",
+    "lang": "en",
+    "description": [
+      "An eye that is part of a left side of organism [Automatically generated definition]."
+    ],
+    "synonyms": [
+      "left eyeball",
+      "left orbital part of face",
+      "left orbital region"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "FMA:12515",
+        "MA:0002949",
+        "NCIT:C119334",
+        "SCTID:362503005",
+        "EMAPA:37362"
+      ],
+      "depiction": [
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-left/v1.3/assets/3d-vh-f-eye-l.glb",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-male-left/v1.3/assets/3d-vh-m-eye-l.glb"
+      ],
+      "id": [
+        "UBERON:0004548"
+      ],
+      "implements_design_pattern": [
+        "https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern"
+      ]
+    },
+    "label": "left eye",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0004548",
+    "obo_id": "UBERON:0004548",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "An eye that is part of a left side of organism [Automatically generated definition].",
+        "oboXrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "FMA",
+        "id": "12515",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/12515"
+      },
+      {
+        "database": "MA",
+        "id": "0002949",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0002949"
+      },
+      {
+        "database": "NCIT",
+        "id": "C119334",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C119334"
+      },
+      {
+        "database": "SCTID",
+        "id": "362503005",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/362503005"
+      },
+      {
+        "database": "EMAPA",
+        "id": "37362",
+        "description": "MA:th",
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:37362"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "left eyeball",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "12515",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/12515"
+          }
+        ]
+      },
+      {
+        "name": "left orbital part of face",
+        "scope": "hasNarrowSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "54450",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/54450"
+          }
+        ]
+      },
+      {
+        "name": "left orbital region",
+        "scope": "hasNarrowSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "54450",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/54450"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548/graph"
+      },
+      "in_left_side_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004548/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBSPO_0000120"
+      }
+    }
+  }
+}

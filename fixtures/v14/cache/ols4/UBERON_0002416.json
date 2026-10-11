@@ -1,0 +1,374 @@
+{
+  "retrieved_at": "2026-10-11T23:09:54Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002416",
+    "lang": "en",
+    "description": [
+      "Connected anatomical system that forms a barrier between an animal and its environment. In vertebrates, the integumental system consists of the epidermis, dermis plus associated glands and adnexa such as hair and scales. In invertebrates, the integumental system may include cuticle."
+    ],
+    "synonyms": [
+      "body surface",
+      "external covering of organism",
+      "dermal system",
+      "integumentary system",
+      "integumentum commune",
+      "organism surface",
+      "surface"
+    ],
+    "annotation": {
+      "Contributor": [
+        "https://orcid.org/0000-0002-0956-8634",
+        "https://orcid.org/0000-0002-6601-2165"
+      ],
+      "database_cross_reference": [
+        "AEO:0000154",
+        "BILA:0000118",
+        "CALOHA:TS-1299",
+        "CARO:0002001",
+        "EFO:0000807",
+        "EHDAA2:0000836",
+        "EHDAA2_RETIRED:0003154",
+        "EHDAA:6520",
+        "EMAPA:17524",
+        "EV:0100151",
+        "FMA:72979",
+        "HAO:0000421",
+        "MA:0000014",
+        "MAT:0000033",
+        "MESH:D034582",
+        "MIAA:0000033",
+        "NCIT:C12907",
+        "SCTID:361692004",
+        "TADS:0000108",
+        "VHOG:0000403",
+        "Wikipedia:Integumentary_system",
+        "XAO:0000176",
+        "galen:Surface",
+        "FBbt:00004969",
+        "UMLS:C0037267"
+      ],
+      "has_alternative_id": [
+        "UBERON:0007029"
+      ],
+      "homology_notes": [
+        "(...) the integument of many tetrapods is reinforced by a morphologically and structurally diverse assemblage of skeletal elements. These elements are widely understood to be derivatives of the once all-encompassing dermal skeleton of stem-gnathostomes (...).[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0002416"
+      ]
+    },
+    "label": "integumental system",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002416",
+    "obo_id": "UBERON:0002416",
+    "in_subset": [
+      "efo_slim",
+      "grouping_class",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Connected anatomical system that forms a barrier between an animal and its environment. In vertebrates, the integumental system consists of the epidermis, dermis plus associated glands and adnexa such as hair and scales. In invertebrates, the integumental system may include cuticle.",
+        "oboXrefs": [
+          {
+            "database": "CARO",
+            "id": "0002001",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/CARO_0002001"
+          },
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          },
+          {
+            "database": null,
+            "id": "https://github.com/obophenotype/uberon/issues/29",
+            "description": null,
+            "url": "https://github.com/obophenotype/uberon/issues/29"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AEO",
+        "id": "0000154",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AEO_0000154"
+      },
+      {
+        "database": "BILA",
+        "id": "0000118",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000118"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1299",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1299"
+      },
+      {
+        "database": "CARO",
+        "id": "0002001",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/CARO_0002001"
+      },
+      {
+        "database": "EFO",
+        "id": "0000807",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000807"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0000836",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0000836"
+      },
+      {
+        "database": "EHDAA2_RETIRED",
+        "id": "0003154",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0003154"
+      },
+      {
+        "database": "EHDAA",
+        "id": "6520",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_6520"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17524",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17524"
+      },
+      {
+        "database": "EV",
+        "id": "0100151",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100151"
+      },
+      {
+        "database": "FMA",
+        "id": "72979",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/72979"
+      },
+      {
+        "database": "HAO",
+        "id": "0000421",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/HAO_0000421"
+      },
+      {
+        "database": "MA",
+        "id": "0000014",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000014"
+      },
+      {
+        "database": "MAT",
+        "id": "0000033",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000033"
+      },
+      {
+        "database": "MESH",
+        "id": "D034582",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D034582"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000033",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12907",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12907"
+      },
+      {
+        "database": "SCTID",
+        "id": "361692004",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/361692004"
+      },
+      {
+        "database": "TADS",
+        "id": "0000108",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TADS_0000108"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000403",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000403"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Integumentary_system",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Integumentary_system"
+      },
+      {
+        "database": "XAO",
+        "id": "0000176",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000176"
+      },
+      {
+        "database": "galen",
+        "id": "Surface",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "FBbt",
+        "id": "00004969",
+        "description": null,
+        "url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00004969"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0037267",
+        "description": "ncithesaurus:Integumentary_System",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0037267"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "integumentary system",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "72979",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/72979"
+          }
+        ]
+      },
+      {
+        "name": "dermal system",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "MIAA",
+            "id": "0000033",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "integumentum commune",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Integumentary_system",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Integumentary_system"
+          }
+        ]
+      },
+      {
+        "name": "organism surface",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "EHDAA2",
+            "id": "0003154",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/EHDAA2_0003154"
+          }
+        ]
+      },
+      {
+        "name": "surface",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BILA",
+            "id": "0000118",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BILA_0000118"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/graph"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      },
+      "bounding_layer_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002007"
+      },
+      "surrounded_by": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002219"
+      },
+      "existence_ends_during": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002416/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002492"
+      }
+    }
+  }
+}

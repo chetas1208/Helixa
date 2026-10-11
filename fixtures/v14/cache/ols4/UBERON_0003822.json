@@ -1,0 +1,335 @@
+{
+  "retrieved_at": "2026-10-11T23:09:18Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0003822",
+    "lang": "en",
+    "description": [
+      "The part of the forelimb between pectoral region and the elbow, corresponding to the humerus."
+    ],
+    "synonyms": [
+      "brachial region",
+      "forelimb propodium",
+      "proximal segment of free upper limb",
+      "stylopod of arm",
+      "stylopod of forelimb",
+      "arm",
+      "brachium",
+      "fore propodium",
+      "forelimb stylopodial element",
+      "forelimb stylopodium",
+      "regio brachialis",
+      "upper arm",
+      "wing stylopod"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0000199",
+        "EHDAA2:0002112",
+        "EHDAA:4186",
+        "EHDAA:6234",
+        "EMAPA:17424",
+        "FMA:24890",
+        "MA:0000035",
+        "MESH:D001132",
+        "NCIT:C32141",
+        "SCTID:302538001",
+        "VHOG:0000343",
+        "VSAO:0005057",
+        "galen:Arm",
+        "UMLS:C0446516"
+      ],
+      "external_definition": [
+        "Segment of the hindleg corresponding to the humerus.[AAO]"
+      ],
+      "homology_notes": [
+        "Most anatomists now agree that the three proximal bones of the tetrapod limbs are homologous to the two or three proximal elements of the paired fin skeleton of other sarcopterygians, that is the humerus-femur, radius-tibia, and ulna-fibula.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0003822"
+      ],
+      "terminology_notes": [
+        "anatomical usage, the term arm refers specifically to the segment between the shoulder and the elbow, while the segment between the elbow and wrist is the forearm. However, in common, literary, and historical usage, arm refers to the entire upper limb from shoulder to wrist. FMA uses the term Arm for this class, so we place it here. Naming conventions for pod terms under discussion within phenoscape group."
+      ]
+    },
+    "label": "forelimb stylopod",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0003822",
+    "obo_id": "UBERON:0003822",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The part of the forelimb between pectoral region and the elbow, corresponding to the humerus.",
+        "oboXrefs": [
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000199",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000199"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0002112",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0002112"
+      },
+      {
+        "database": "EHDAA",
+        "id": "4186",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_4186"
+      },
+      {
+        "database": "EHDAA",
+        "id": "6234",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_6234"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17424",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17424"
+      },
+      {
+        "database": "FMA",
+        "id": "24890",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/24890"
+      },
+      {
+        "database": "MA",
+        "id": "0000035",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000035"
+      },
+      {
+        "database": "MESH",
+        "id": "D001132",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D001132"
+      },
+      {
+        "database": "NCIT",
+        "id": "C32141",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C32141"
+      },
+      {
+        "database": "SCTID",
+        "id": "302538001",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/302538001"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000343",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000343"
+      },
+      {
+        "database": "VSAO",
+        "id": "0005057",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VSAO_0005057"
+      },
+      {
+        "database": "galen",
+        "id": "Arm",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0446516",
+        "description": "ncithesaurus:Arm",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0446516"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "brachium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "VSAO",
+            "id": "0005057",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VSAO_0005057"
+          }
+        ]
+      },
+      {
+        "name": "fore propodium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "AAO",
+            "id": "0000199",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/AAO_0000199"
+          }
+        ]
+      },
+      {
+        "name": "forelimb stylopodial element",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "th",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:th"
+          }
+        ]
+      },
+      {
+        "name": "forelimb stylopodium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "regio brachialis",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "24890",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/24890"
+          },
+          {
+            "database": "FMA",
+            "id": "TA",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "upper arm",
+        "scope": "hasExactSynonym",
+        "type": "preferred term when talking about an instance of this class in Homo sapiens",
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "0000035",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000035"
+          }
+        ]
+      },
+      {
+        "name": "arm",
+        "scope": "hasRelatedSynonym",
+        "type": "indicates that a synonym is used in an inconsistent or confusing way, typically between species",
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "24890",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/24890"
+          }
+        ]
+      },
+      {
+        "name": "wing stylopod",
+        "scope": "hasNarrowSynonym",
+        "type": "taxonomic disambiguation",
+        "xrefs": [
+          {
+            "database": "NCBITaxon",
+            "id": "8782",
+            "description": null,
+            "url": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=8782"
+          },
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      },
+      "has_skeleton": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003822/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002551"
+      }
+    }
+  }
+}

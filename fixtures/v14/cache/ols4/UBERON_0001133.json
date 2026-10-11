@@ -1,0 +1,500 @@
+{
+  "retrieved_at": "2026-10-11T23:09:29Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001133",
+    "lang": "en",
+    "description": [
+      "Muscle tissue composed of cardiac muscle cells, forming the muscles of the heart[ZFA,modified]."
+    ],
+    "synonyms": [
+      "cardiac muscle",
+      "cardiac muscle muscle tissue",
+      "cardiac muscle textus muscularis",
+      "cardiac musculature",
+      "heart muscle muscle tissue",
+      "heart muscle textus muscularis",
+      "heart myocardium muscle tissue",
+      "heart myocardium textus muscularis",
+      "muscle of heart muscle tissue",
+      "muscle of heart textus muscularis",
+      "muscle tissue of cardiac muscle",
+      "muscle tissue of heart muscle",
+      "muscle tissue of heart myocardium",
+      "muscle tissue of muscle of heart",
+      "muscle tissue of myocardium",
+      "myocardium muscle tissue",
+      "myocardium textus muscularis",
+      "textus muscularis of cardiac muscle",
+      "textus muscularis of heart muscle",
+      "textus muscularis of heart myocardium",
+      "textus muscularis of muscle of heart",
+      "textus muscularis of myocardium"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0010245",
+        "AEO:0000142",
+        "BILA:0000134",
+        "BTO:0000199",
+        "CALOHA:TS-0440",
+        "EHDAA2:0003142",
+        "EMAPA:32688",
+        "FMA:14068",
+        "TAO:0005280",
+        "Wikipedia:Cardiac_muscle",
+        "ZFA:0005280",
+        "galen:CardiacMuscle",
+        "galen:CardiacMuscleTissue",
+        "ncithesaurus:Heart_Muscle"
+      ],
+      "editor note": [
+        "check relationship with myocardium. part_of in MA - but we also have a more specific class 'cardiac muscle tissue of myocardium'. Check ncit"
+      ],
+      "has_alternative_id": [
+        "UBERON:0007096"
+      ],
+      "id": [
+        "UBERON:0001133"
+      ]
+    },
+    "label": "cardiac muscle tissue",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001133",
+    "obo_id": "UBERON:0001133",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Muscle tissue composed of cardiac muscle cells, forming the muscles of the heart[ZFA,modified].",
+        "oboXrefs": [
+          {
+            "database": "ZFA",
+            "id": "0005280",
+            "description": null,
+            "url": "https://zfin.org/action/ontology/term/ZFA:0005280"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0010245",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010245"
+      },
+      {
+        "database": "AEO",
+        "id": "0000142",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AEO_0000142"
+      },
+      {
+        "database": "BILA",
+        "id": "0000134",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000134"
+      },
+      {
+        "database": "BTO",
+        "id": "0000199",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000199"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0440",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0440"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0003142",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0003142"
+      },
+      {
+        "database": "EMAPA",
+        "id": "32688",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:32688"
+      },
+      {
+        "database": "FMA",
+        "id": "14068",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/14068"
+      },
+      {
+        "database": "TAO",
+        "id": "0005280",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0005280"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Cardiac_muscle",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Cardiac_muscle"
+      },
+      {
+        "database": "ZFA",
+        "id": "0005280",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0005280"
+      },
+      {
+        "database": "galen",
+        "id": "CardiacMuscle",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "galen",
+        "id": "CardiacMuscleTissue",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "ncithesaurus",
+        "id": "Heart_Muscle",
+        "description": null,
+        "url": null
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "cardiac muscle muscle tissue",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "cardiac muscle textus muscularis",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "heart muscle muscle tissue",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "heart muscle textus muscularis",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "heart myocardium muscle tissue",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "heart myocardium textus muscularis",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "muscle of heart muscle tissue",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "muscle of heart textus muscularis",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "muscle tissue of cardiac muscle",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "muscle tissue of heart muscle",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "muscle tissue of heart myocardium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "muscle tissue of muscle of heart",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "muscle tissue of myocardium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "myocardium muscle tissue",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "myocardium textus muscularis",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "textus muscularis of cardiac muscle",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "textus muscularis of heart muscle",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "textus muscularis of heart myocardium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "textus muscularis of muscle of heart",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "textus muscularis of myocardium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "cardiac musculature",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BILA",
+            "id": "0000134",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BILA_0000134"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      },
+      "composed_primarily_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001133/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002473"
+      }
+    }
+  }
+}

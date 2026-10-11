@@ -1,0 +1,263 @@
+{
+  "retrieved_at": "2026-10-11T23:09:11Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002481",
+    "lang": "en",
+    "description": [
+      "Skeletal tissue with a collagen-rich extracellular matrix vascularized, mineralized with hydroxyapatite and typically including osteocytes located in lacunae that communicate with one another by cell processes (in canaliculi). Bone is deposited by osteoblasts."
+    ],
+    "synonyms": [
+      "calcium tissue",
+      "osseous tissue",
+      "bone",
+      "mineralized bone tissue",
+      "osteogenic tissue",
+      "portion of bone tissue"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "CALOHA:TS-2011",
+        "EMAPA:35179",
+        "FMA:224804",
+        "MA:0002780",
+        "MESH:D001842",
+        "NCIT:C13076",
+        "VSAO:0000047",
+        "Wikipedia:Bone_tissue",
+        "XAO:0004040",
+        "ZFA:0005621",
+        "galen:BoneTissue",
+        "UMLS:C0391978"
+      ],
+      "editor note": [
+        "see https://github.com/obophenotype/uberon/issues/27"
+      ],
+      "external_definition": [
+        "Skeletal tissue with a collagen-rich extracellular matrix vascularized, mineralized with hydroxyapatite and typically including osteocytes located in lacunae that communicate with one another by cell processes (in canaliculi). Bone is deposited by osteoblasts.[VSAO]"
+      ],
+      "id": [
+        "UBERON:0002481"
+      ]
+    },
+    "label": "bone tissue",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002481",
+    "obo_id": "UBERON:0002481",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Skeletal tissue with a collagen-rich extracellular matrix vascularized, mineralized with hydroxyapatite and typically including osteocytes located in lacunae that communicate with one another by cell processes (in canaliculi). Bone is deposited by osteoblasts.",
+        "oboXrefs": [
+          {
+            "database": "GO_REF",
+            "id": "0000034",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/go/references/0000034"
+          },
+          {
+            "database": "PSPUB",
+            "id": "0000170",
+            "description": null,
+            "url": null
+          },
+          {
+            "database": "VSAO",
+            "id": "0000047",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VSAO_0000047"
+          },
+          {
+            "database": null,
+            "id": "http://dx.plos.org/10.1371/journal.pone.0051070",
+            "description": null,
+            "url": "http://dx.plos.org/10.1371/journal.pone.0051070"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "CALOHA",
+        "id": "TS-2011",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-2011"
+      },
+      {
+        "database": "EMAPA",
+        "id": "35179",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35179"
+      },
+      {
+        "database": "FMA",
+        "id": "224804",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/224804"
+      },
+      {
+        "database": "MA",
+        "id": "0002780",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0002780"
+      },
+      {
+        "database": "MESH",
+        "id": "D001842",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D001842"
+      },
+      {
+        "database": "NCIT",
+        "id": "C13076",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C13076"
+      },
+      {
+        "database": "VSAO",
+        "id": "0000047",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VSAO_0000047"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Bone_tissue",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Bone_tissue"
+      },
+      {
+        "database": "XAO",
+        "id": "0004040",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0004040"
+      },
+      {
+        "database": "ZFA",
+        "id": "0005621",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0005621"
+      },
+      {
+        "database": "galen",
+        "id": "BoneTissue",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0391978",
+        "description": "ncithesaurus:Bone_Tissue",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0391978"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "osteogenic tissue",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "VSAO",
+            "id": "curator",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "bone",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "MESH",
+            "id": "A02.835.232",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "portion of bone tissue",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "224804",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/224804"
+          }
+        ]
+      },
+      {
+        "name": "mineralized bone tissue",
+        "scope": "hasNarrowSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "XAO",
+            "id": "0004040",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/XAO_0004040"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002481/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      }
+    }
+  }
+}

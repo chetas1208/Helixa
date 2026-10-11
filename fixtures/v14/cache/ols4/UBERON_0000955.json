@@ -1,0 +1,457 @@
+{
+  "retrieved_at": "2026-10-11T23:09:22Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000955",
+    "lang": "en",
+    "description": [
+      "The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP]."
+    ],
+    "synonyms": [
+      "synganglion",
+      "encephalon",
+      "suprasegmental levels of nervous system",
+      "suprasegmental structures",
+      "the brain"
+    ],
+    "annotation": {
+      "Contributor": [
+        "https://orcid.org/0000-0002-6601-2165"
+      ],
+      "database_cross_reference": [
+        "AAO:0010478",
+        "ABA:Brain",
+        "BAMS:Br",
+        "BAMS:Brain",
+        "BILA:0000135",
+        "BIRNLEX:796",
+        "BTO:0000142",
+        "CALOHA:TS-0095",
+        "DHBA:10155",
+        "EFO:0000302",
+        "EHDAA2:0000183",
+        "EHDAA:2641",
+        "EHDAA:6485",
+        "EMAPA:16894",
+        "EV:0100164",
+        "FMA:50801",
+        "GAID:571",
+        "HBA:4005",
+        "MA:0000168",
+        "MAT:0000098",
+        "MBA:8",
+        "MBA:997",
+        "MESH:D001921",
+        "MIAA:0000098",
+        "NCIT:C12439",
+        "PBA:3999",
+        "SCTID:258335003",
+        "TAO:0000008",
+        "VHOG:0000157",
+        "Wikipedia:Brain",
+        "XAO:0000010",
+        "ZFA:0000008",
+        "galen:Brain",
+        "FBbt:00005095",
+        "UMLS:C0006104",
+        "UMLS:C1269537",
+        "neuronames:21"
+      ],
+      "depiction": [
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/brain-female/v1.4/assets/3d-allen-f-brain.glb",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/brain-male/v1.4/assets/3d-allen-m-brain.glb"
+      ],
+      "editor note": [
+        "requires review for applicability to invertebrate structures, e.g. synganglion"
+      ],
+      "external_definition": [
+        "Cavitated compound organ which is comprised of gray and white matter and surrounds the cerebral ventricular system.[TAO]",
+        "Part of the central nervous system situated within the cranium and composed of both nerve cell bodies and nerve fibers.[AAO]",
+        "The part of the central nervous system contained within the cranium, comprising the forebrain, midbrain, hindbrain, and metencephalon. It is derived from the anterior part of the embryonic neural tube (or the encephalon). Does not include retina. (CUMBO)"
+      ],
+      "homology_notes": [
+        "(...) at some stage of its development, every chordate exhibits five uniquely derived characters or synapomorphies of the group: (...) (4) a single, tubular nerve cord that is located dorsal to the notochord (...) (reference 1); The neural tube is destined to differentiate into the brain and spinal cord (the central nervous system) (reference 2).[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000955"
+      ]
+    },
+    "label": "brain",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000955",
+    "obo_id": "UBERON:0000955",
+    "in_subset": [
+      "cumbo",
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "major_organ",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP].",
+        "oboXrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Brain",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Brain"
+          },
+          {
+            "database": null,
+            "id": "https://github.com/obophenotype/uberon/issues/300",
+            "description": null,
+            "url": "https://github.com/obophenotype/uberon/issues/300"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0010478",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010478"
+      },
+      {
+        "database": "ABA",
+        "id": "Brain",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BAMS",
+        "id": "Br",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BAMS",
+        "id": "Brain",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BILA",
+        "id": "0000135",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000135"
+      },
+      {
+        "database": "BIRNLEX",
+        "id": "796",
+        "description": null,
+        "url": "http://uri.neuinfo.org/nif/nifstd/birnlex_796"
+      },
+      {
+        "database": "BTO",
+        "id": "0000142",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000142"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0095",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0095"
+      },
+      {
+        "database": "DHBA",
+        "id": "10155",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/dhbao/DHBA_10155"
+      },
+      {
+        "database": "EFO",
+        "id": "0000302",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000302"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0000183",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0000183"
+      },
+      {
+        "database": "EHDAA",
+        "id": "2641",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_2641"
+      },
+      {
+        "database": "EHDAA",
+        "id": "6485",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_6485"
+      },
+      {
+        "database": "EMAPA",
+        "id": "16894",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:16894"
+      },
+      {
+        "database": "EV",
+        "id": "0100164",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100164"
+      },
+      {
+        "database": "FMA",
+        "id": "50801",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/50801"
+      },
+      {
+        "database": "GAID",
+        "id": "571",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "HBA",
+        "id": "4005",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/hbao/HBA_4005"
+      },
+      {
+        "database": "MA",
+        "id": "0000168",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000168"
+      },
+      {
+        "database": "MAT",
+        "id": "0000098",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000098"
+      },
+      {
+        "database": "MBA",
+        "id": "8",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/mbao/MBA_8"
+      },
+      {
+        "database": "MBA",
+        "id": "997",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/mbao/MBA_997"
+      },
+      {
+        "database": "MESH",
+        "id": "D001921",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D001921"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000098",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12439",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12439"
+      },
+      {
+        "database": "PBA",
+        "id": "3999",
+        "description": null,
+        "url": "https://biopragmatics.github.io/providers/pba/3999"
+      },
+      {
+        "database": "SCTID",
+        "id": "258335003",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/258335003"
+      },
+      {
+        "database": "TAO",
+        "id": "0000008",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000008"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000157",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000157"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Brain",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Brain"
+      },
+      {
+        "database": "XAO",
+        "id": "0000010",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000010"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000008",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000008"
+      },
+      {
+        "database": "galen",
+        "id": "Brain",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "FBbt",
+        "id": "00005095",
+        "description": null,
+        "url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00005095"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0006104",
+        "description": "ncithesaurus:Brain",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0006104"
+      },
+      {
+        "database": "UMLS",
+        "id": "C1269537",
+        "description": "BIRNLEX:796",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C1269537"
+      },
+      {
+        "database": "neuronames",
+        "id": "21",
+        "description": "BIRNLEX:796",
+        "url": "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "encephalon",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000142",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000142"
+          }
+        ]
+      },
+      {
+        "name": "suprasegmental levels of nervous system",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "NeuroNames",
+            "id": "21",
+            "description": null,
+            "url": "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21"
+          }
+        ]
+      },
+      {
+        "name": "suprasegmental structures",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "NeuroNames",
+            "id": "21",
+            "description": null,
+            "url": "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21"
+          }
+        ]
+      },
+      {
+        "name": "the brain",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "NeuroNames",
+            "id": "21",
+            "description": null,
+            "url": "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "in_anterior_side_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBSPO_0000123"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      },
+      "composed_primarily_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002473"
+      },
+      "existence_ends_during": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002492"
+      },
+      "immediate_transformation_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000955/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002495"
+      }
+    }
+  }
+}

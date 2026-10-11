@@ -1,0 +1,166 @@
+{
+  "retrieved_at": "2026-10-11T23:09:13Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000915",
+    "lang": "en",
+    "description": [
+      "Subdivision of trunk that lies between the head and the abdomen."
+    ],
+    "synonyms": [
+      "anterior subdivision of trunk",
+      "upper body",
+      "thorax",
+      "upper trunk"
+    ],
+    "annotation": {
+      "curator note": [
+        "note that we use the slightly verbose term 'thoracic segment of trunk' to avoid confusuon with insect thorax. todo - taxonomic constraints. Also, in FMA 'thorax' is a synonym for chest"
+      ],
+      "database_cross_reference": [
+        "EMAPA:35862",
+        "FMA:259209",
+        "MA:0000022",
+        "SCTID:302551006",
+        "Wikipedia:Thorax"
+      ],
+      "id": [
+        "UBERON:0000915"
+      ],
+      "mutually spatially disjoint with": [
+        "http://purl.obolibrary.org/obo/UBERON_0000026",
+        "http://purl.obolibrary.org/obo/UBERON_0000033",
+        "http://purl.obolibrary.org/obo/UBERON_0002417"
+      ]
+    },
+    "label": "thoracic segment of trunk",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000915",
+    "obo_id": "UBERON:0000915",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Subdivision of trunk that lies between the head and the abdomen.",
+        "oboXrefs": [
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "EMAPA",
+        "id": "35862",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35862"
+      },
+      {
+        "database": "FMA",
+        "id": "259209",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/259209"
+      },
+      {
+        "database": "MA",
+        "id": "0000022",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000022"
+      },
+      {
+        "database": "SCTID",
+        "id": "302551006",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/302551006"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Thorax",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Thorax"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "thorax",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "0000022",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000022"
+          }
+        ]
+      },
+      {
+        "name": "upper trunk",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "259209",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/259209"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915/graph"
+      },
+      "has_skeleton": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000915/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002551"
+      }
+    }
+  }
+}

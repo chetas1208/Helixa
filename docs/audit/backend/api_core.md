@@ -1,0 +1,29 @@
+# Audit: api_core (services/api/app/main.py, config.py, middleware/*, dependencies/*)
+
+Scope note: `services/api/app/middleware/` does not exist (security headers and CORS live in `main.py`). `dependencies/` contains only `__init__.py`.
+
+## FIXED
+1. services/api/app/main.py:75-80 (original) - The "mandatory" security-headers middleware never ran for unhandled-exception 500 responses: Starlette's `ServerErrorMiddleware` sits outside user middleware, so a 500 carried no `X-Content-Type-Options`, `X-Frame-Options` or `Referrer-Policy`. Reproduced with a route that raises: response headers were only `content-length` and `content-type`.
+   - Failing test: `services/tests/test_audit_api_core.py::test_unhandled_exception_response_carries_security_headers` (failed with `None == 'nosniff'`).
+   - Fix: extracted `_apply_security_headers()` (used by the existing middleware, behavior unchanged) and registered an `Exception` handler that returns the same plain-text `Internal Server Error` 500 body with those headers. No exception detail is exposed.
+2. services/api/app/main.py (end of file) - Task contract: routers from `routes/fixtures.py` and `routes/findings.py` must be included defensively, only if the modules import cleanly. Added `include_optional_routers(app)` (called once at import, after all existing routers so existing routes win on conflicts). A missing module is skipped silently; an import error or a module without `router` is skipped with a warning, and the other router is still included.
+   - Failing tests (failed before the helper existed): `test_optional_routers_are_included_when_modules_import_cleanly`, `test_optional_routers_missing_modules_are_skipped`, `test_optional_routers_broken_module_does_not_break_others`, `test_optional_router_module_without_router_attribute_is_skipped`.
+   - Confirmed the real app now exposes `/api/fixtures` and `/api/runs/{run_id}/findings` in OpenAPI.
+
+## UNVERIFIED/NEEDS OTHER OWNER
+- services/api/app/dependencies/__init__.py:21-25 - `get_mongo_client` falls back to `MongoDBClient()` on every call when `app.state.mongo` is unset (app used without lifespan, or a minimal test app). Each dependency (`get_run_repo`, etc.) calls it separately, so one request can create several never-closed clients, which is in tension with ADR-001. NOT changed: caching the fallback on `app.state` would bind an `AsyncMongoClient` to the first event loop, and the existing tests (`test_api_routes.py`, `ASGITransport` without lifespan, one loop per test) rely on per-call clients. In production the lifespan always sets `app.state.mongo`, so the fallback is not reached. A safe fix needs a design decision (ADR-001 owner).
+- services/api/app/config.py:29-30 - `max_upload_mb` and `fixtures_dir` (env `MAX_UPLOAD_MB`, `FIXTURES_DIR`) are never read anywhere; `config` is only consumed in `main.py` for Mongo settings. The env vars are therefore silently ignored by upload/fixture resolution. Needs the owners of routes/datasets.py, routes/validation.py (and routes/fixtures.py) to consume them; not changed here.
+- CORS headers are also absent on unhandled-exception 500 responses (same Starlette ordering), so a browser reports a CORS failure instead of a 500. Not fixed: adding CORS headers to the error handler requires reflecting the request Origin and is beyond the reproduced defect (security headers).
+- services/api/app/routes/runs.py:63 and investigations.py:58 both register `POST /api/runs/{id}/evolve`; the first-included (runs) wins and the investigations one is unreachable. Belongs to route_runs / route_investigations_capabilities owners.
+- services/api/app/main.py lifespan shutdown: `await app.state.mongo.close()` is not guarded; an exception from close would surface at shutdown. No reproduction; left as is.
+- config.py:12-14 `else: load_dotenv()` searches parent directories for a `.env` when the repo root has none (could load a stray `.env` outside the repo). No reproduction of harm; left as is.
+- services/integrations/mongodb/client.py uses `x or int(env)` for pool/timeouts, so an explicit `0` from `AppConfig` falls back to the env default. Belongs to the mongo_client owner.
+
+## VERIFIED OK
+- CORS: only `http://127.0.0.1:5173` and `http://localhost:5173` are allowed (matches vite dev port); other origins get 400 on preflight with no allow-origin header; methods GET/POST/OPTIONS cover every route in `routes/*` (no PUT/DELETE/PATCH routes exist). Tested in `test_cors_allows_only_local_frontend_origins`.
+- Security headers present on normal and 404 responses (`test_not_found_response_carries_security_headers`, `test_api_health_endpoint`).
+- Lifespan: client is created per app lifespan and closed on shutdown; index-init failure is logged and non-fatal ("will retry on requests"); a `MONGODB_REQUIRE_ATLAS` `ConfigurationError` at construction still aborts startup (fail-closed, per ADR-018 honesty). Verified manually with `TestClient(app)` as context manager (`/api/health` -> CONNECTED).
+- config.py: env is read after `.env` is loaded; `load_dotenv` does not override already-set variables, so test-supplied `MONGODB_DATABASE` wins; `python-dotenv` is declared in pyproject. Invalid integer env values fail fast at import.
+- dependencies/__init__.py: every repo factory is a thin constructor over `get_mongo_client`; no BSON handling or state held.
+- Router include order unchanged for existing routers; `app.openapi()` builds with the new routers present.
+- Tests run: `MONGODB_DATABASE=diamond_audit_api_core .venv/bin/pytest -q services/tests/test_audit_api_core.py services/tests/test_api_routes.py services/tests/test_m02_genomics.py services/tests/test_m01_durability.py` -> all pass; `ruff check` on owned files clean. Full-suite failures seen during the run are other units' in-flight audit tests (gen_orchestrator, new_findings_endpoint, route_investigations_capabilities), not api_core.

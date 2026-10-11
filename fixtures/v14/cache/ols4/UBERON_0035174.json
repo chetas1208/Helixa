@@ -1,0 +1,106 @@
+{
+  "retrieved_at": "2026-10-11T23:09:26Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035174",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0035174",
+    "lang": "en",
+    "description": [
+      "The organ of hearing located on the right side of the head."
+    ],
+    "synonyms": [],
+    "annotation": {
+      "database_cross_reference": [
+        "FMA:53641",
+        "NCIT:C81285",
+        "SCTID:368570004",
+        "UMLS:C0229298"
+      ],
+      "id": [
+        "UBERON:0035174"
+      ]
+    },
+    "label": "right ear",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": false,
+    "is_root": false,
+    "short_form": "UBERON_0035174",
+    "obo_id": "UBERON:0035174",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The organ of hearing located on the right side of the head.",
+        "oboXrefs": [
+          {
+            "database": "ncithesaurus",
+            "id": "Right_Ear",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "FMA",
+        "id": "53641",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/53641"
+      },
+      {
+        "database": "NCIT",
+        "id": "C81285",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C81285"
+      },
+      {
+        "database": "SCTID",
+        "id": "368570004",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/368570004"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0229298",
+        "description": null,
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0229298"
+      }
+    ],
+    "obo_synonym": null,
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035174?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035174/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035174/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035174/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035174/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035174/jstree"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035174/graph"
+      },
+      "in_right_side_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035174/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBSPO_0000121"
+      }
+    }
+  }
+}

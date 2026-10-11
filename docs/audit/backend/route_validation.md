@@ -1,0 +1,23 @@
+# route_validation audit (services/api/app/routes/validation.py)
+
+## FIXED
+1. validation.py `resolve_fixture_path` (was :23-42): path traversal / arbitrary file read. The first candidate `Path(filename)` and the unrestricted glob accepted absolute paths, `../` paths, any file in CWD (`pyproject.toml`, `.env`) and directories (`""`, `"."`, `".."`). The pipeline then hashed and parsed the file and returned findings/events. Failing tests: `test_resolve_rejects_absolute_path_outside_roots`, `test_resolve_rejects_parent_traversal`, `test_resolve_rejects_cwd_file_outside_roots`, `test_resolve_never_returns_directory`, `test_run_endpoint_rejects_outside_path`, `test_stream_rejects_outside_path`. Fix: result must be a regular file whose resolved path is inside `fixtures/` or `artifacts/cas/` (`_is_allowed_file`); otherwise FileNotFoundError (404 at the routes).
+2. validation.py glob lookup (was :36-41): the filename was interpolated into a glob pattern, so `*.vcf` / `**` / `[o]k.vcf` resolved to an arbitrary first fixture (including heldout). Failing test: `test_resolve_does_not_expand_wildcards`. Fix: `glob.escape(filename)` (literal match; `weird[1].vcf` still resolves, see `test_resolve_finds_known_names`).
+3. validation.py glob lookup (was :36-41): `matches[0]` depended on filesystem enumeration order when a basename exists in several directories (non-deterministic fixture selection in a proof-carrying system). Failing test: `test_resolve_duplicate_basename_is_deterministic` (glob order reversed by monkeypatch). Fix: `sorted()` matches; search order fixtures then artifacts/cas unchanged.
+4. validation.py `stream_validation_events` (:102+): `GET /{id}/stream` used a client-chosen `id` as `run_id` and the orchestrator persists with `replace_one(..., upsert=True)` on `runs` (and a new receipt), so a GET could silently overwrite any recorded run (including orchestration runs sharing the `runs` collection) and shadow its evidence receipt. Failing tests: `test_stream_refuses_to_overwrite_recorded_run`, `test_stream_refuses_run_id_with_recorded_receipt`, `test_stream_new_run_id_runs_and_persists` (second use of the same id). Fix: return 409 if `runs` or `evidence_receipts` already holds that `run_id`; if Mongo is unreachable the check is skipped (same degraded behavior as before, persistence is best effort in the orchestrator).
+
+## UNVERIFIED/NEEDS OTHER OWNER
+- validation.py:57 (`run_validation`): a missing/unresolvable `fasta_filename` silently falls back to the default synthetic FASTA while `/stream` returns 404 for the same input. The receipt does record the FASTA sha256 actually used, so provenance is not hidden, but the inconsistency (ADR-006 spirit) needs a product decision; not changed.
+- validation.py:25-33 / orchestrator.py:55: all fixture roots are CWD-relative; the API only works when started from the repo root. Not reproduced as a defect under the supported launch (Makefile), so unchanged.
+- validation.py stream check-then-act: two concurrent streams with the same new `id` can both pass the 409 guard (race). A real fix needs an atomic reservation or a unique index on `runs.run_id` (orchestrator.py / mongo repositories owners).
+- orchestrator.py:215-217 `_persist_to_mongo` swallows all exceptions, so `/run` can return 200 with evidence that was never stored, and later GETs 404 (other owner: gen_orchestrator).
+- orchestrator.py:253 `stream_pipeline`: exceptions from the pipeline task surface after the SSE response has started (no terminal error event); on client disconnect the generator is abandoned without cancelling the task (other owner: gen_orchestrator).
+- validation.py:118-128: `/stream` passes no `dataset_id`, so streamed runs are always recorded under `default_dataset`.
+- Existing `test_api_routes.py::test_api_datasets_endpoint` fails on a fresh database (expects seeded dataset `SYNTH-GENOME-INCIDENT-001`); it fails identically with the original validation.py, so it is unrelated to this unit.
+
+## VERIFIED OK
+- `POST /run`, `GET /{id}`, `GET /{id}/evidence` happy paths and 404s; `_id` is never returned (projection `{"_id": 0}`); evidence lookup by run_id then receipt_id.
+- Route order: `/run` (POST) does not collide with `GET /{id}`; `/{id}/stream` and `/{id}/evidence` are distinct segments.
+- Path-param ids are bound as strings in Mongo filters (no operator injection).
+- Malformed/truncated/non-VCF inputs under allowed roots produce a 200 with status ERROR rather than a crash (exercised against malformed_record.vcf, truncated.vcf.gz, dataset_manifest.json, the FASTA).
+- SSE headers and disconnect check are sound; event JSON serialisation is safe for the payload types emitted.

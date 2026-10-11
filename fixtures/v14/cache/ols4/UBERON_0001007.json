@@ -1,0 +1,271 @@
+{
+  "retrieved_at": "2026-10-11T23:09:51Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001007",
+    "lang": "en",
+    "description": [
+      "Anatomical system that has as its parts the organs devoted to the ingestion, digestion, and assimilation of food and the discharge of residual wastes."
+    ],
+    "synonyms": [
+      "alimentary system",
+      "alimentary tract",
+      "gastrointestinal system",
+      "gut"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0000129",
+        "BILA:0000082",
+        "BTO:0000058",
+        "CALOHA:TS-1293",
+        "EFO:0000793",
+        "FMA:7152",
+        "GAID:278",
+        "MA:0002431",
+        "MAT:0000018",
+        "MESH:D004064",
+        "MIAA:0000018",
+        "SCTID:278859004",
+        "TADS:0000170",
+        "TAO:0000339",
+        "WBbt:0005748",
+        "Wikipedia:Digestive_system",
+        "XAO:0000125",
+        "ZFA:0000339",
+        "galen:DigestiveSystem",
+        "ncithesaurus:Digestive_System",
+        "FBbt:00005055"
+      ],
+      "external_definition": [
+        "An anatomical system consisting of the alimentary canal and digestive glands responsible for intake, absorption, digestion and excretion of food.[AAO]"
+      ],
+      "external_ontology_notes": [
+        "many anatomy ontologies consider gastrointestinal system synonymous with digestive system. here we follow MA in dividing digestive system into gastrointestinal and hepatobiliary. hepatobiliary includes the liver and biliary tract. species-specific AO classes are categorized according to whether liver is included. For example, XAO includes liver as part of XAO:0000125 alimentary system, so we assume this class is the more generic class"
+      ],
+      "has_relational_adjective": [
+        "digestive"
+      ],
+      "id": [
+        "UBERON:0001007"
+      ]
+    },
+    "label": "digestive system",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001007",
+    "obo_id": "UBERON:0001007",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Anatomical system that has as its parts the organs devoted to the ingestion, digestion, and assimilation of food and the discharge of residual wastes.",
+        "oboXrefs": [
+          {
+            "database": "FB",
+            "id": "gg",
+            "description": null,
+            "url": "http://flybase.org/reports/gg.html"
+          },
+          {
+            "database": "NLM",
+            "id": "alimentary+system",
+            "description": null,
+            "url": null
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Digestive_system",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Digestive_system"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000129",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000129"
+      },
+      {
+        "database": "BILA",
+        "id": "0000082",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000082"
+      },
+      {
+        "database": "BTO",
+        "id": "0000058",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000058"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1293",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1293"
+      },
+      {
+        "database": "EFO",
+        "id": "0000793",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000793"
+      },
+      {
+        "database": "FMA",
+        "id": "7152",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7152"
+      },
+      {
+        "database": "GAID",
+        "id": "278",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0002431",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0002431"
+      },
+      {
+        "database": "MAT",
+        "id": "0000018",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000018"
+      },
+      {
+        "database": "MESH",
+        "id": "D004064",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D004064"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000018",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "SCTID",
+        "id": "278859004",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/278859004"
+      },
+      {
+        "database": "TADS",
+        "id": "0000170",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TADS_0000170"
+      },
+      {
+        "database": "TAO",
+        "id": "0000339",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000339"
+      },
+      {
+        "database": "WBbt",
+        "id": "0005748",
+        "description": null,
+        "url": "http://www.wormbase.org/get?name=0005748"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Digestive_system",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Digestive_system"
+      },
+      {
+        "database": "XAO",
+        "id": "0000125",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000125"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000339",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000339"
+      },
+      {
+        "database": "galen",
+        "id": "DigestiveSystem",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "ncithesaurus",
+        "id": "Digestive_System",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "FBbt",
+        "id": "00005055",
+        "description": null,
+        "url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00005055"
+      }
+    ],
+    "obo_synonym": null,
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007/graph"
+      },
+      "capable_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002215"
+      },
+      "existence_ends_during": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002492"
+      }
+    }
+  }
+}

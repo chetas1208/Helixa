@@ -1,0 +1,231 @@
+{
+  "retrieved_at": "2026-10-11T23:09:48Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002204",
+    "lang": "en",
+    "description": [
+      "Anatomical system that consists of the muscular and skeletal systems."
+    ],
+    "synonyms": [
+      "musculo-skeletal system"
+    ],
+    "annotation": {
+      "Contributor": [
+        "https://orcid.org/0000-0002-6601-2165"
+      ],
+      "database_cross_reference": [
+        "AAO:0010546",
+        "CALOHA:TS-1311",
+        "EMAPA:32714",
+        "EV:0100139",
+        "FMA:7482",
+        "GAID:98",
+        "MA:0002418",
+        "MESH:D009141",
+        "NCIT:C12754",
+        "SCTID:278858007",
+        "VHOG:0001275",
+        "VSAO:0000031",
+        "Wikipedia:Musculoskeletal_system",
+        "XAO:0000168",
+        "UMLS:C0026860"
+      ],
+      "external_definition": [
+        "Anatomical system that provides locomotion and physical support to the organism.[AAO]"
+      ],
+      "has_relational_adjective": [
+        "musculoskeletal"
+      ],
+      "homology_notes": [
+        "There are more than 50,000 extant vertebrate species, representing over 500 million years of evolution. During that time, the vertebrate musculoskeletal systems have adapted to aquatic, terrestrial, fossorial, and arboreal lifestyles, while simultaneously retaining functionally integrated axial and appendicular skeletal systems.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0002204"
+      ]
+    },
+    "label": "musculoskeletal system",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002204",
+    "obo_id": "UBERON:0002204",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Anatomical system that consists of the muscular and skeletal systems.",
+        "oboXrefs": [
+          {
+            "database": "VSAO",
+            "id": "0000031",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VSAO_0000031"
+          },
+          {
+            "database": "VSAO",
+            "id": "curator",
+            "description": null,
+            "url": null
+          },
+          {
+            "database": null,
+            "id": "https://github.com/obophenotype/uberon/issues/77",
+            "description": null,
+            "url": "https://github.com/obophenotype/uberon/issues/77"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0010546",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010546"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1311",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1311"
+      },
+      {
+        "database": "EMAPA",
+        "id": "32714",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:32714"
+      },
+      {
+        "database": "EV",
+        "id": "0100139",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100139"
+      },
+      {
+        "database": "FMA",
+        "id": "7482",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7482"
+      },
+      {
+        "database": "GAID",
+        "id": "98",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0002418",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0002418"
+      },
+      {
+        "database": "MESH",
+        "id": "D009141",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D009141"
+      },
+      {
+        "database": "NCIT",
+        "id": "C12754",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12754"
+      },
+      {
+        "database": "SCTID",
+        "id": "278858007",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/278858007"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001275",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001275"
+      },
+      {
+        "database": "VSAO",
+        "id": "0000031",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VSAO_0000031"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Musculoskeletal_system",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Musculoskeletal_system"
+      },
+      {
+        "database": "XAO",
+        "id": "0000168",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000168"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0026860",
+        "description": "ncithesaurus:Musculoskeletal_System",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0026860"
+      }
+    ],
+    "obo_synonym": null,
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/graph"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      },
+      "capable_of_part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002216"
+      },
+      "has_developmental_contribution_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002254"
+      },
+      "existence_ends_during": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002204/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002492"
+      }
+    }
+  }
+}

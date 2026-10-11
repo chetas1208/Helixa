@@ -1,0 +1,361 @@
+{
+  "retrieved_at": "2026-10-11T23:09:22Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002387",
+    "lang": "en",
+    "description": [
+      "Distal portion of the hind limb, including tarsal region, metatarsal region and digits."
+    ],
+    "synonyms": [
+      "hind foot",
+      "hindfoot of quadruped",
+      "hindfoot",
+      "terminal segment of free lower limb",
+      "foot",
+      "hind limb autopodium",
+      "hind paw",
+      "hind-paw",
+      "hindfeet",
+      "hindlimb autopod",
+      "hindlimb autopodium",
+      "hindlimb distal free limb segment",
+      "hindpaw",
+      "pes"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "BTO:0000476",
+        "CALOHA:TS-0377",
+        "EFO:0003065",
+        "EHDAA2:0000546",
+        "EMAPA:17459",
+        "FMA:9664",
+        "GAID:40",
+        "MA:0000044",
+        "MESH:D005528",
+        "NCIT:C32622",
+        "SCTID:302545001",
+        "VHOG:0000350",
+        "Wikipedia:Pes_(anatomy)",
+        "galen:Foot",
+        "UMLS:C0016504"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/a/ae/Male_Right_Foot_1.jpg"
+      ],
+      "has_relational_adjective": [
+        "pedal"
+      ],
+      "id": [
+        "UBERON:0002387"
+      ]
+    },
+    "label": "pes",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002387",
+    "obo_id": "UBERON:0002387",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Distal portion of the hind limb, including tarsal region, metatarsal region and digits.",
+        "oboXrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Foot",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Foot"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Pes_(anatomy)",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BTO",
+        "id": "0000476",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000476"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0377",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0377"
+      },
+      {
+        "database": "EFO",
+        "id": "0003065",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0003065"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0000546",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0000546"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17459",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17459"
+      },
+      {
+        "database": "FMA",
+        "id": "9664",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/9664"
+      },
+      {
+        "database": "GAID",
+        "id": "40",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000044",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000044"
+      },
+      {
+        "database": "MESH",
+        "id": "D005528",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D005528"
+      },
+      {
+        "database": "NCIT",
+        "id": "C32622",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C32622"
+      },
+      {
+        "database": "SCTID",
+        "id": "302545001",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/302545001"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000350",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000350"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Pes_(anatomy)",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "galen",
+        "id": "Foot",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0016504",
+        "description": "ncithesaurus:Foot",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0016504"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "foot",
+        "scope": "hasExactSynonym",
+        "type": "preferred term when talking about an instance of this class in Homo sapiens",
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "0000044",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000044"
+          }
+        ]
+      },
+      {
+        "name": "hindlimb autopod",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "hindlimb autopodium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "hindlimb distal free limb segment",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "pes",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": null,
+            "id": "https://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "https://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      },
+      {
+        "name": "hind limb autopodium",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "VHOG",
+            "id": "0000350",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VHOG_0000350"
+          }
+        ]
+      },
+      {
+        "name": "hind paw",
+        "scope": "hasNarrowSynonym",
+        "type": "taxonomic disambiguation",
+        "xrefs": [
+          {
+            "database": "EMAPA",
+            "id": "17428",
+            "description": null,
+            "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17428"
+          },
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "hind-paw",
+        "scope": "hasNarrowSynonym",
+        "type": "taxonomic disambiguation",
+        "xrefs": [
+          {
+            "database": "EMAPA",
+            "id": "17428",
+            "description": null,
+            "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17428"
+          }
+        ]
+      },
+      {
+        "name": "hindfeet",
+        "scope": "hasNarrowSynonym",
+        "type": "plural form",
+        "xrefs": []
+      },
+      {
+        "name": "hindpaw",
+        "scope": "hasNarrowSynonym",
+        "type": "taxonomic disambiguation",
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "0000044",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000044"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "has_skeleton": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002387/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002551"
+      }
+    }
+  }
+}

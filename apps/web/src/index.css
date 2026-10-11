@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * DIAMOND Genome V12 design tokens. Documented in docs/frontend/V12_DESIGN_SYSTEM.md.
+ * Colours are space-separated RGB channels so Tailwind can apply opacity modifiers.
+ */
+:root {
+  /* Midnight ink, darkest to lightest */
+  --ink-950: 4 6 13;
+  --ink-900: 7 11 22;
+  --ink-800: 11 17 32;
+  --ink-700: 18 27 48;
+  --ink-600: 28 40 68;
+  --ink-500: 46 62 98;
+
+  /* Text roles. fg-3 is the quietest allowed (>= 5:1 on ink-900). */
+  --fg: 232 238 249;
+  --fg-2: 176 188 210;
+  --fg-3: 137 151 180;
+
+  /* Glacial accent family */
+  --glacier: 127 227 255;
+  --cobalt: 90 134 255;
+  --indigo: 134 120 255;
+  --amethyst: 189 150 255;
+
+  /* Scientific status roles (always paired with a glyph + text) */
+  --ev-reference: 127 227 255;
+  --ev-validated: 110 231 183;
+  --ev-simulated: 189 150 255;
+  --ev-hypothesis: 247 196 98;
+  --ev-inconclusive: 156 170 194;
+  --danger: 255 120 136;
+
+  --line: 150 178 255; /* hairlines are drawn at 10-18% of this */
+
+  /* Layout */
+  --bar-h: 3.75rem;
+  --banner-h: 2.25rem;
+  --hud-top: var(--bar-h);
+  --hud-bottom: 0rem;
+  --gutter: 1.5rem;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur-fast: 180ms;
+  --dur-base: 260ms;
+  --dur-slow: 450ms;
+
+  color-scheme: dark;
+}
+
+/* The connection banner is stacked under the top bar and pushes the stage down. */
+[data-banner="true"] {
+  --hud-top: calc(var(--bar-h) + var(--banner-h));
+}
+
+@media (max-width: 1023px) {
+  :root { --gutter: 1rem; }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --bar-h: 3rem;
+    --gutter: 0.75rem;
+    --hud-bottom: calc(3.5rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+@layer base {
+  html, body, #root { height: 100%; }
+  body {
+    background-color: rgb(var(--ink-950));
+    color: rgb(var(--fg));
+    font-family: "Instrument Sans Variable", "Instrument Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.9375rem;
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow: hidden;
+  }
+  ::selection { background: rgb(var(--glacier) / 0.32); color: rgb(var(--fg)); }
+
+  :focus { outline: none; }
+  :focus-visible {
+    outline: 2px solid rgb(var(--glacier));
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  /* Genomic coordinates, hashes and ids: tabular mono. */
+  code, kbd, samp, .coord { font-family: "JetBrains Mono Variable", "JetBrains Mono", ui-monospace, Menlo, monospace; }
+  .coord { font-variant-numeric: tabular-nums; letter-spacing: -0.01em; }
+}
+
+@layer components {
+  /*
+   * Restrained glass. The tint carries the contrast, not the blur: text on a panel stays
+   * >= 4.5:1 even over the brightest part of the scene. No neon is painted on the panel.
+   */
+  .glass {
+    @apply pointer-events-auto rounded-panel;
+    background: linear-gradient(180deg, rgb(var(--ink-800) / 0.78) 0%, rgb(var(--ink-900) / 0.7) 100%);
+    border: 1px solid rgb(var(--line) / 0.14);
+    -webkit-backdrop-filter: blur(16px) saturate(1.15);
+    backdrop-filter: blur(16px) saturate(1.15);
+    box-shadow: 0 18px 40px -22px rgb(0 0 0 / 0.7), inset 0 1px 0 rgb(255 255 255 / 0.05);
+  }
+  .glass-strong {
+    @apply glass;
+    background: linear-gradient(180deg, rgb(var(--ink-800) / 0.92) 0%, rgb(var(--ink-900) / 0.88) 100%);
+  }
+  /* Opaque-enough surface for menus / toasts that float over busy content. */
+  .glass-solid {
+    @apply glass;
+    background: rgb(var(--ink-900));
+  }
+  .hairline { border-color: rgb(var(--line) / 0.14); }
+
+  /* Layout primitive for tab content. Click-through; panels re-enable pointer events. */
+  .hud-stage {
+    position: fixed;
+    inset-inline: 0;
+    top: var(--hud-top);
+    bottom: var(--hud-bottom);
+    z-index: 10;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .hud-pad { padding-inline: var(--gutter); padding-block: calc(var(--gutter) * 0.75); }
+  .stage-enter { animation: stage-in var(--dur-base) var(--ease-out) both; }
+  .enter { animation: hud-in 0.45s var(--ease-out) both; }
+
+  /* Type roles */
+  .text-display { font-family: "Newsreader Variable", Newsreader, ui-serif, Georgia, serif; font-weight: 450; letter-spacing: -0.015em; }
+  .hud-title { @apply text-sm font-semibold text-fg; }
+  /* Quiet caption, normal case. Replaces the old tracked-out ALL-CAPS label. */
+  .hud-label { @apply text-xs font-medium text-fg-3; }
+  .neon-text { text-shadow: 0 0 10px rgb(var(--glacier) / 0.35); }
+
+  /* Controls */
+  .btn {
+    @apply inline-flex min-h-[2.25rem] items-center justify-center gap-2 rounded-control border px-3.5 text-sm font-medium transition-colors duration-fast;
+    border-color: rgb(var(--line) / 0.22);
+    background: rgb(var(--ink-700) / 0.7);
+    color: rgb(var(--fg));
+  }
+  .btn:hover:not(:disabled):not([aria-disabled="true"]) { background: rgb(var(--ink-600) / 0.85); border-color: rgb(var(--line) / 0.38); }
+  .btn:disabled, .btn[aria-disabled="true"] { opacity: 0.45; cursor: not-allowed; }
+  .btn-primary {
+    background: linear-gradient(180deg, rgb(var(--glacier) / 0.95), rgb(var(--cobalt) / 0.95));
+    color: rgb(var(--ink-950));
+    border-color: rgb(var(--glacier) / 0.6);
+    font-weight: 600;
+  }
+  .btn-primary:hover:not(:disabled):not([aria-disabled="true"]) { background: linear-gradient(180deg, rgb(var(--glacier)), rgb(var(--cobalt))); border-color: rgb(var(--glacier)); }
+  .btn-quiet { background: transparent; border-color: transparent; color: rgb(var(--fg-2)); }
+  .btn-quiet:hover:not(:disabled) { background: rgb(var(--ink-700) / 0.6); color: rgb(var(--fg)); }
+  .btn-danger { border-color: rgb(var(--danger) / 0.45); color: rgb(var(--danger)); }
+
+  .field {
+    @apply min-h-[2.25rem] w-full rounded-control border px-3 text-sm text-fg placeholder:text-fg-3;
+    background: rgb(var(--ink-900) / 0.8);
+    border-color: rgb(var(--line) / 0.22);
+  }
+  .field:hover { border-color: rgb(var(--line) / 0.36); }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-xs font-medium text-fg-2;
+    border-color: rgb(var(--line) / 0.2);
+    background: rgb(var(--ink-800) / 0.6);
+  }
+  .kbd {
+    @apply inline-flex min-w-[1.25rem] items-center justify-center rounded border px-1 text-2xs font-medium text-fg-3;
+    border-color: rgb(var(--line) / 0.25);
+    font-family: "JetBrains Mono Variable", "JetBrains Mono", ui-monospace, monospace;
+  }
+
+  /* Fine illuminated rule used between sections. */
+  .rule { height: 1px; background: linear-gradient(90deg, transparent, rgb(var(--line) / 0.28), transparent); }
+
+  /* Skeleton shimmer (motion-safe; reduced motion shows a flat tone) */
+  .skeleton {
+    background: linear-gradient(100deg, rgb(var(--ink-700) / 0.55) 30%, rgb(var(--ink-600) / 0.7) 50%, rgb(var(--ink-700) / 0.55) 70%);
+    background-size: 200% 100%;
+    animation: shimmer 2.2s linear infinite;
+    border-radius: 8px;
+  }
+}
+
+/* Persistent scene host layers */
+.scene-host { position: fixed; inset: 0; z-index: 0; overflow: hidden; background: rgb(var(--ink-950)); }
+.scene-atmosphere {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(120% 80% at 78% -10%, rgb(var(--cobalt) / 0.16), transparent 60%),
+    radial-gradient(90% 70% at 8% 108%, rgb(var(--indigo) / 0.13), transparent 62%),
+    radial-gradient(60% 50% at 50% 50%, rgb(var(--ink-700) / 0.35), transparent 75%),
+    rgb(var(--ink-950));
+}
+.scene-host canvas { display: block; touch-action: none; }
+
+@keyframes shimmer { from { background-position: -200% 0; } to { background-position: 200% 0; } }
+@keyframes stage-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@keyframes hud-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+/* Reduced motion: OS preference or the explicit Motion = Reduce choice in the quality menu. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+[data-motion="reduce"] *, [data-motion="reduce"] *::before, [data-motion="reduce"] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgb(var(--ink-500) / 0.7); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgb(var(--glacier) / 0.6); }
+* { scrollbar-width: thin; scrollbar-color: rgb(var(--ink-500) / 0.7) transparent; }

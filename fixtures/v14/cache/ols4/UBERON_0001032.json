@@ -1,0 +1,323 @@
+{
+  "retrieved_at": "2026-10-11T23:09:55Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001032",
+    "lang": "en",
+    "description": [
+      "Anatomical system that overlaps the nervous system and is responsible for receiving and processing sensory information."
+    ],
+    "synonyms": [
+      "sense organ subsystem",
+      "sensory organ system",
+      "sensory subsystem",
+      "organa sensuum",
+      "organa sensuum",
+      "sense organs set",
+      "sense organs",
+      "sensory systems",
+      "set of sense organs"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0000555",
+        "BAMS:SEN",
+        "BILA:0000099",
+        "EFO:0000805",
+        "EHDAA2:0003094",
+        "EMAPA:16192",
+        "FMA:75259",
+        "MA:0002442",
+        "MAT:0000031",
+        "MIAA:0000031",
+        "NLXANAT:090816",
+        "TAO:0000282",
+        "VHOG:0001674",
+        "Wikipedia:Sensory_system",
+        "XAO:0003194",
+        "ZFA:0000282",
+        "FBbt:00007692"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/c/c0/Gray722.png"
+      ],
+      "external_ontology_notes": [
+        "note the distinct between entire sensory system and individual system. this reconciles is_a and part_of distinctions between ssAOs"
+      ],
+      "homology_notes": [
+        "An early step in the evolution of neural crest, therefore, may have been the origin of a specific dorsal neural cell population contributing to sensory processing; this would predate the divergence of the amphioxus and vertebrate lineages.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0001032"
+      ]
+    },
+    "label": "sensory system",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001032",
+    "obo_id": "UBERON:0001032",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Anatomical system that overlaps the nervous system and is responsible for receiving and processing sensory information.",
+        "oboXrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Sensory_system",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Sensory_system"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000555",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000555"
+      },
+      {
+        "database": "BAMS",
+        "id": "SEN",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BILA",
+        "id": "0000099",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000099"
+      },
+      {
+        "database": "EFO",
+        "id": "0000805",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000805"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0003094",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0003094"
+      },
+      {
+        "database": "EMAPA",
+        "id": "16192",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:16192"
+      },
+      {
+        "database": "FMA",
+        "id": "75259",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/75259"
+      },
+      {
+        "database": "MA",
+        "id": "0002442",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0002442"
+      },
+      {
+        "database": "MAT",
+        "id": "0000031",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000031"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000031",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NLXANAT",
+        "id": "090816",
+        "description": null,
+        "url": "http://uri.neuinfo.org/nif/nifstd/nlx_anat_090816"
+      },
+      {
+        "database": "TAO",
+        "id": "0000282",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000282"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001674",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001674"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Sensory_system",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Sensory_system"
+      },
+      {
+        "database": "XAO",
+        "id": "0003194",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0003194"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000282",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000282"
+      },
+      {
+        "database": "FBbt",
+        "id": "00007692",
+        "description": null,
+        "url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00007692"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "organa sensuum",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "75259",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/75259"
+          },
+          {
+            "database": "FMA",
+            "id": "TA",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "sense organs set",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "75259",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/75259"
+          }
+        ]
+      },
+      {
+        "name": "sense organs",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "75259",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/75259"
+          }
+        ]
+      },
+      {
+        "name": "sensory systems",
+        "scope": "hasExactSynonym",
+        "type": "plural form",
+        "xrefs": [
+          {
+            "database": "TAO",
+            "id": "0000282",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/TAO_0000282"
+          }
+        ]
+      },
+      {
+        "name": "organa sensuum",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Sensory_system",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Sensory_system"
+          }
+        ]
+      },
+      {
+        "name": "set of sense organs",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "75259",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/75259"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "overlaps": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002131"
+      },
+      "capable_of_part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001032/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002216"
+      }
+    }
+  }
+}

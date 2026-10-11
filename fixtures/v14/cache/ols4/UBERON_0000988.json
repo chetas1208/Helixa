@@ -1,0 +1,328 @@
+{
+  "retrieved_at": "2026-10-11T23:12:48Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000988",
+    "lang": "en",
+    "description": [
+      "The part of the central nervous system lying between the medulla oblongata and the midbrain, ventral to the cerebellum."
+    ],
+    "synonyms": [
+      "pons of Varolius",
+      "pons Varolii",
+      "pons cerebri"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "BAMS:PONS",
+        "BAMS:Pons",
+        "BIRNLEX:733",
+        "BM:Pons",
+        "BTO:0001101",
+        "CALOHA:TS-0813",
+        "DHBA:10661",
+        "EFO:0001394",
+        "EHDAA2:0004394",
+        "EMAPA:17563",
+        "EV:0100253",
+        "FMA:67943",
+        "GAID:578",
+        "HBA:9131",
+        "MA:0000204",
+        "MAT:0000115",
+        "MBA:771",
+        "MESH:D011149",
+        "MIAA:0000115",
+        "NCIT:C12511",
+        "SCTID:279103004",
+        "VHOG:0001176",
+        "Wikipedia:Pons",
+        "UMLS:C0032639",
+        "UMLS:C1280999",
+        "neuronames:547"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/3/36/Gray768.png"
+      ],
+      "dubious for taxon": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_7955"
+      ],
+      "editor note": [
+        "The pons is not present in zebrafish. In this ontology we currently have some structures which are applicable to zebrafish appearing as parts of the pons. Currently we only include the weaker dubious_for_taxon relationship ubtil this is resolved"
+      ],
+      "external_definition": [
+        "The part of the central nervous system lying between the medulla oblongata and the midbrain, ventral to the cerebellum. [TFD][VHOG]"
+      ],
+      "homology_notes": [
+        "During the embryonic development of birds and mammals, neuroblasts migrate from the cerebellum into the ventral part of the rhombencephalon and differentiate into pontine and other nuclei, which relay information from between the cerebrum and cerebellum, and a conspicuous band of transverse fibers. This region is known as the pons. A pons does not differentiate in reptiles and anamniotes (...).[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000988"
+      ]
+    },
+    "label": "pons",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000988",
+    "obo_id": "UBERON:0000988",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The part of the central nervous system lying between the medulla oblongata and the midbrain, ventral to the cerebellum.",
+        "oboXrefs": [
+          {
+            "database": "VHOG",
+            "id": "0001176",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VHOG_0001176"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BAMS",
+        "id": "PONS",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BAMS",
+        "id": "Pons",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BIRNLEX",
+        "id": "733",
+        "description": null,
+        "url": "http://uri.neuinfo.org/nif/nifstd/birnlex_733"
+      },
+      {
+        "database": "BM",
+        "id": "Pons",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BTO",
+        "id": "0001101",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001101"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0813",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0813"
+      },
+      {
+        "database": "DHBA",
+        "id": "10661",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/dhbao/DHBA_10661"
+      },
+      {
+        "database": "EFO",
+        "id": "0001394",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0001394"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0004394",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0004394"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17563",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17563"
+      },
+      {
+        "database": "EV",
+        "id": "0100253",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100253"
+      },
+      {
+        "database": "FMA",
+        "id": "67943",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/67943"
+      },
+      {
+        "database": "GAID",
+        "id": "578",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "HBA",
+        "id": "9131",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/hbao/HBA_9131"
+      },
+      {
+        "database": "MA",
+        "id": "0000204",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000204"
+      },
+      {
+        "database": "MAT",
+        "id": "0000115",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000115"
+      },
+      {
+        "database": "MBA",
+        "id": "771",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/mbao/MBA_771"
+      },
+      {
+        "database": "MESH",
+        "id": "D011149",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D011149"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000115",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12511",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12511"
+      },
+      {
+        "database": "SCTID",
+        "id": "279103004",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/279103004"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001176",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001176"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Pons",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Pons"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0032639",
+        "description": "ncithesaurus:Pons_Varolii",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0032639"
+      },
+      {
+        "database": "UMLS",
+        "id": "C1280999",
+        "description": "BIRNLEX:733",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C1280999"
+      },
+      {
+        "database": "neuronames",
+        "id": "547",
+        "description": "BIRNLEX:733",
+        "url": "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=547"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "pons Varolii",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "ncithesaurus",
+            "id": "Pons_Varolii",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "pons cerebri",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "NeuroNames",
+            "id": "547",
+            "description": null,
+            "url": "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=547"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000988/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      }
+    }
+  }
+}

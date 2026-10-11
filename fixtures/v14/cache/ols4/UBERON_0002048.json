@@ -1,0 +1,301 @@
+{
+  "retrieved_at": "2026-10-11T23:09:46Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002048",
+    "lang": "en",
+    "description": [
+      "Snakes and limbless lizards typically possess only the right lung as a major respiratory organ; the left lung is greatly reduced, or even absent. Amphisbaenians, however, have the opposite arrangement, with a major left lung, and a reduced or absent right lung [WP]",
+      "Respiration organ that develops as an outpocketing of the esophagus."
+    ],
+    "synonyms": [
+      "pulmo"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0000275",
+        "AAO:0010567",
+        "BTO:0000763",
+        "CALOHA:TS-0568",
+        "EFO:0000934",
+        "EHDAA2:0001042",
+        "EHDAA:1554",
+        "EHDAA:2205",
+        "EMAPA:16728",
+        "EV:0100042",
+        "FMA:7195",
+        "GAID:345",
+        "MA:0000415",
+        "MAT:0000135",
+        "MESH:D008168",
+        "MIAA:0000135",
+        "NCIT:C12468",
+        "SCTID:181216001",
+        "Wikipedia:Lung",
+        "XAO:0000119",
+        "galen:Lung",
+        "UMLS:C0024109"
+      ],
+      "depiction": [
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/lung-female/v1.4/assets/3d-vh-f-lung.glb",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/lung-male/v1.4/assets/3d-vh-m-lung.glb"
+      ],
+      "external_definition": [
+        "Either of two organs which allow gas exchange absorbing oxygen from inhaled air and releasing carbon dioxide with exhaled air.[AAO]"
+      ],
+      "has_relational_adjective": [
+        "pulmonary"
+      ],
+      "homology_notes": [
+        "Lungs had already developed as paired ventral pockets from the intestine in the ancestor of Osteognathostomata. (...) In actinopterygian fishes, apart from Cladistia, the ventral intestinal pocket migrates dorsally and becomes the swim-bladder, a mainly hydrostatical organ (reference 1); Comparative transcriptome analyses indicate molecular homology of zebrafish swimbladder and Mammalian lung (reference 2).[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0002048"
+      ],
+      "never in taxon": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_32443",
+        "http://purl.obolibrary.org/obo/NCBITaxon_7777"
+      ],
+      "seeAlso": [
+        "https://github.com/obophenotype/uberon/issues/701"
+      ],
+      "taxon_notes": [
+        "respiration organ in all air-breathing animals, including most tetrapods, a few fish and a few snails. In mammals and the more complex life forms, the two lungs are located in the chest on either side of the heart. Their principal function is to transport oxygen from the atmosphere into the bloodstream, and to release carbon dioxide from the bloodstream into the atmosphere. This exchange of gases is accomplished in the mosaic of specialized cells that form millions of tiny, exceptionally thin-walled air sacs called alveoli. // Avian lungs do not have alveoli as mammalian lungs do, they have Faveolar lungs. They contain millions of tiny passages known as para-bronchi, connected at both ends by the dorsobronchi"
+      ]
+    },
+    "label": "lung",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002048",
+    "obo_id": "UBERON:0002048",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "major_organ",
+      "mouse_subset",
+      "organ_slim",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Respiration organ that develops as an outpocketing of the esophagus.",
+        "oboXrefs": [
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000275",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000275"
+      },
+      {
+        "database": "AAO",
+        "id": "0010567",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010567"
+      },
+      {
+        "database": "BTO",
+        "id": "0000763",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000763"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0568",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0568"
+      },
+      {
+        "database": "EFO",
+        "id": "0000934",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000934"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0001042",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0001042"
+      },
+      {
+        "database": "EHDAA",
+        "id": "1554",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_1554"
+      },
+      {
+        "database": "EHDAA",
+        "id": "2205",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_2205"
+      },
+      {
+        "database": "EMAPA",
+        "id": "16728",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:16728"
+      },
+      {
+        "database": "EV",
+        "id": "0100042",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100042"
+      },
+      {
+        "database": "FMA",
+        "id": "7195",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7195"
+      },
+      {
+        "database": "GAID",
+        "id": "345",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000415",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000415"
+      },
+      {
+        "database": "MAT",
+        "id": "0000135",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000135"
+      },
+      {
+        "database": "MESH",
+        "id": "D008168",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D008168"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000135",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12468",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12468"
+      },
+      {
+        "database": "SCTID",
+        "id": "181216001",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/181216001"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Lung",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Lung"
+      },
+      {
+        "database": "XAO",
+        "id": "0000119",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000119"
+      },
+      {
+        "database": "galen",
+        "id": "Lung",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0024109",
+        "description": "ncithesaurus:Lung",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0024109"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "pulmo",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": []
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      },
+      "in_lateral_side_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBSPO_0000126"
+      },
+      "located_in": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0001025"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      }
+    }
+  }
+}

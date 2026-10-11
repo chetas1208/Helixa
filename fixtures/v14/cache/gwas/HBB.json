@@ -1,0 +1,2164 @@
+{
+  "retrieved_at": "2026-10-11T23:11:36Z",
+  "source_version": "GWAS Catalog REST API v2",
+  "source_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=HBB&size=40",
+  "payload": {
+    "_embedded": {
+      "associations": [
+        {
+          "association_id": 226316756,
+          "risk_frequency": "0.9997",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -323,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[3.3-3.6]",
+          "beta": "3.451 unit decrease",
+          "p_value": 1e-323,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004305",
+              "efo_trait": "erythrocyte count"
+            }
+          ],
+          "reported_trait": [
+            "red blood cell count (RBC, maximum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90476345",
+          "locations": [
+            "11:5226774"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 3.3,
+          "ci_upper": 3.6,
+          "snp_effect_allele": [
+            "rs11549407-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11549407",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226316756"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226316756/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11549407"
+            }
+          }
+        },
+        {
+          "association_id": 226315081,
+          "risk_frequency": "0.9997",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -248,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[2.9-3.26]",
+          "beta": "3.08 unit decrease",
+          "p_value": 5e-248,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004305",
+              "efo_trait": "erythrocyte count"
+            }
+          ],
+          "reported_trait": [
+            "red blood cell count (RBC, maximum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480668",
+          "locations": [
+            "11:5226774"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 2.9,
+          "ci_upper": 3.26,
+          "snp_effect_allele": [
+            "rs11549407-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11549407",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226315081"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226315081/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11549407"
+            }
+          }
+        },
+        {
+          "association_id": 226307750,
+          "risk_frequency": "0.9905",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -46,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.32-0.42]",
+          "beta": "0.3659 unit decrease",
+          "p_value": 3.0000000000000003e-46,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_VT0000217",
+              "efo_trait": "leukocyte quantity"
+            }
+          ],
+          "reported_trait": [
+            "white blood cell count (WBC, minimum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480725",
+          "locations": [
+            "11:5227003"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.32,
+          "ci_upper": 0.42,
+          "snp_effect_allele": [
+            "rs33930165-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs33930165",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226307750"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226307750/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs33930165"
+            }
+          }
+        },
+        {
+          "association_id": 226306895,
+          "risk_frequency": "0.9866",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -63,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.32-0.41]",
+          "beta": "0.3653 unit decrease",
+          "p_value": 1e-63,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_VT0000217",
+              "efo_trait": "leukocyte quantity"
+            }
+          ],
+          "reported_trait": [
+            "white blood cell count (WBC, minimum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90476456",
+          "locations": [
+            "11:5227003"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.32,
+          "ci_upper": 0.41,
+          "snp_effect_allele": [
+            "rs33930165-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs33930165",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226306895"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226306895/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs33930165"
+            }
+          }
+        },
+        {
+          "association_id": 226304015,
+          "risk_frequency": "0.9905",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -48,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.34-0.44]",
+          "beta": "0.391 unit decrease",
+          "p_value": 9e-48,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_VT0000217",
+              "efo_trait": "leukocyte quantity"
+            }
+          ],
+          "reported_trait": [
+            "white blood cell count (WBC, mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480724",
+          "locations": [
+            "11:5227003"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.34,
+          "ci_upper": 0.44,
+          "snp_effect_allele": [
+            "rs33930165-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs33930165",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226304015"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226304015/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs33930165"
+            }
+          }
+        },
+        {
+          "association_id": 226300456,
+          "risk_frequency": "0.9905",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -31,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.26-0.36]",
+          "beta": "0.3095 unit decrease",
+          "p_value": 1e-31,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_VT0000217",
+              "efo_trait": "leukocyte quantity"
+            }
+          ],
+          "reported_trait": [
+            "white blood cell count (WBC, maximum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480723",
+          "locations": [
+            "11:5227003"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.26,
+          "ci_upper": 0.36,
+          "snp_effect_allele": [
+            "rs33930165-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs33930165",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226300456"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226300456/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs33930165"
+            }
+          }
+        },
+        {
+          "association_id": 226298752,
+          "risk_frequency": "0.9866",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -68,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.35-0.44]",
+          "beta": "0.399 unit decrease",
+          "p_value": 6e-68,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_VT0000217",
+              "efo_trait": "leukocyte quantity"
+            }
+          ],
+          "reported_trait": [
+            "white blood cell count (WBC, mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90476453",
+          "locations": [
+            "11:5227003"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.35,
+          "ci_upper": 0.44,
+          "snp_effect_allele": [
+            "rs33930165-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs33930165",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226298752"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226298752/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs33930165"
+            }
+          }
+        },
+        {
+          "association_id": 226291661,
+          "risk_frequency": "0.9866",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -42,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.28-0.37]",
+          "beta": "0.3222 unit decrease",
+          "p_value": 3e-42,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_VT0000217",
+              "efo_trait": "leukocyte quantity"
+            }
+          ],
+          "reported_trait": [
+            "white blood cell count (WBC, maximum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90476450",
+          "locations": [
+            "11:5227003"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.28,
+          "ci_upper": 0.37,
+          "snp_effect_allele": [
+            "rs33930165-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs33930165",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226291661"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226291661/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs33930165"
+            }
+          }
+        },
+        {
+          "association_id": 226290633,
+          "risk_frequency": "0.9614",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -31,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.12-0.16]",
+          "beta": "0.1401 unit increase",
+          "p_value": 3.0000000000000003e-31,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004309",
+              "efo_trait": "platelet count"
+            }
+          ],
+          "reported_trait": [
+            "platelet count (minimum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480652",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.12,
+          "ci_upper": 0.16,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226290633"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226290633/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226284461,
+          "risk_frequency": "0.9469",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -14,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.19-0.31]",
+          "beta": "0.2471 unit decrease",
+          "p_value": 1e-14,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0024633",
+              "efo_trait": "hypertensive nephropathy"
+            }
+          ],
+          "reported_trait": [
+            "Hypertensive chronic kidney disease (PheCode 401.22)"
+          ],
+          "accession_id": "GCST90475926",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.19,
+          "ci_upper": 0.31,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226284461"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226284461/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226281782,
+          "risk_frequency": "0.9613",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -30,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.12-0.16]",
+          "beta": "0.139 unit increase",
+          "p_value": 6.0000000000000005e-30,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004309",
+              "efo_trait": "platelet count"
+            }
+          ],
+          "reported_trait": [
+            "platelet count (mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480651",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.12,
+          "ci_upper": 0.16,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226281782"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226281782/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226280003,
+          "risk_frequency": "0.9997",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -323,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[5.1-5.42]",
+          "beta": "5.261 unit increase",
+          "p_value": 1e-323,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_0003460",
+              "efo_trait": "erythrocyte volume"
+            }
+          ],
+          "reported_trait": [
+            "mean corpuscular volume (MCV, minimum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90475474",
+          "locations": [
+            "11:5226774"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 5.1,
+          "ci_upper": 5.42,
+          "snp_effect_allele": [
+            "rs11549407-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11549407",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226280003"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226280003/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11549407"
+            }
+          }
+        },
+        {
+          "association_id": 226279652,
+          "risk_frequency": "0.9466",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.19-0.33]",
+          "beta": "0.2586 unit decrease",
+          "p_value": 1e-12,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004997",
+              "efo_trait": "type 2 diabetes nephropathy"
+            }
+          ],
+          "reported_trait": [
+            "Type 2 diabetes with renal manifestations (PheCode 250.22)"
+          ],
+          "accession_id": "GCST90475669",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.19,
+          "ci_upper": 0.33,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226279652"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226279652/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226275049,
+          "risk_frequency": "0.9466",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -27,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.27-0.39]",
+          "beta": "0.3327 unit decrease",
+          "p_value": 1e-27,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005393",
+              "efo_trait": "gout"
+            }
+          ],
+          "reported_trait": [
+            "Gout (PheCode 274.1)"
+          ],
+          "accession_id": "GCST90475734",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.27,
+          "ci_upper": 0.39,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226275049"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226275049/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226271973,
+          "risk_frequency": "0.9466",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -27,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.27-0.39]",
+          "beta": "0.3283 unit decrease",
+          "p_value": 2e-27,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0022208",
+              "efo_trait": "crystal arthropathy"
+            },
+            {
+              "efo_id": "MONDO_0005393",
+              "efo_trait": "gout"
+            }
+          ],
+          "reported_trait": [
+            "Gout and other crystal arthrop (PheCode 274)"
+          ],
+          "accession_id": "GCST90475730",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.27,
+          "ci_upper": 0.39,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226271973"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226271973/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226270779,
+          "risk_frequency": "0.9614",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -22,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.092-0.139]",
+          "beta": "0.1158 unit increase",
+          "p_value": 7e-22,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004309",
+              "efo_trait": "platelet count"
+            }
+          ],
+          "reported_trait": [
+            "platelet count (maximum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480650",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.092,
+          "ci_upper": 0.139,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226270779"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226270779/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226269463,
+          "risk_frequency": "0.9614",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -33,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.11-0.15]",
+          "beta": "0.1333 unit decrease",
+          "p_value": 1e-33,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009282",
+              "efo_trait": "sodium measurement"
+            }
+          ],
+          "reported_trait": [
+            "sodium (minimum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480704",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.11,
+          "ci_upper": 0.15,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226269463"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226269463/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226268316,
+          "risk_frequency": "0.9464",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -14,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.064-0.108]",
+          "beta": "0.08613 unit increase",
+          "p_value": 2e-14,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004612",
+              "efo_trait": "high density lipoprotein cholesterol measurement"
+            }
+          ],
+          "reported_trait": [
+            "high density lipoprotein cholesterol (HDLC, minimm, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90475355",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.064,
+          "ci_upper": 0.108,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226268316"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226268316/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226267908,
+          "risk_frequency": "0.9614",
+          "pvalue_description": "",
+          "pvalue_mantissa": 8,
+          "pvalue_exponent": -78,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.19-0.24]",
+          "beta": "0.2141 unit decrease",
+          "p_value": 8e-78,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009282",
+              "efo_trait": "sodium measurement"
+            }
+          ],
+          "reported_trait": [
+            "Sodium (mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480703",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.19,
+          "ci_upper": 0.24,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226267908"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226267908/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226266101,
+          "risk_frequency": "0.9615",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -63,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.16-0.21]",
+          "beta": "0.1837 unit decrease",
+          "p_value": 1e-63,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009282",
+              "efo_trait": "sodium measurement"
+            }
+          ],
+          "reported_trait": [
+            "sodium (maximum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90480702",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.16,
+          "ci_upper": 0.21,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226266101"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226266101/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226264747,
+          "risk_frequency": "0.9617",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.31-0.45]",
+          "beta": "0.3798 unit decrease",
+          "p_value": 2e-12,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0004598",
+              "efo_trait": "acute cor pulmonale"
+            }
+          ],
+          "reported_trait": [
+            "Acute pulmonary heart disease (PheCode 415.1)"
+          ],
+          "accession_id": "GCST90480138",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.31,
+          "ci_upper": 0.45,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226264747"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226264747/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226264498,
+          "risk_frequency": "0.9472",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -51,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.2-0.26]",
+          "beta": "0.2316 unit decrease",
+          "p_value": 1e-51,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004833",
+              "efo_trait": "neutrophil count"
+            }
+          ],
+          "reported_trait": [
+            "neutrophil (fraction, mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90475537",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.2,
+          "ci_upper": 0.26,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226264498"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226264498/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226264222,
+          "risk_frequency": "0.9617",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.3-0.44]",
+          "beta": "0.373 unit decrease",
+          "p_value": 9e-12,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_1001408",
+              "efo_trait": "Pulmonary Infarction"
+            },
+            {
+              "efo_id": "MONDO_0005279",
+              "efo_trait": "pulmonary embolism"
+            }
+          ],
+          "reported_trait": [
+            "Pulmonary embolism and infarction, acute (PheCode 415.11)"
+          ],
+          "accession_id": "GCST90480137",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.3,
+          "ci_upper": 0.44,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226264222"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226264222/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226263053,
+          "risk_frequency": "0.9621",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -17,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.22-0.31]",
+          "beta": "0.268 unit decrease",
+          "p_value": 2e-17,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0024633",
+              "efo_trait": "hypertensive nephropathy"
+            }
+          ],
+          "reported_trait": [
+            "Hypertensive chronic kidney disease (PheCode 401.22)"
+          ],
+          "accession_id": "GCST90480126",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.22,
+          "ci_upper": 0.31,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226263053"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226263053/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226261051,
+          "risk_frequency": "0.9472",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -26,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.14-0.21]",
+          "beta": "0.1738 unit decrease",
+          "p_value": 2e-26,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004833",
+              "efo_trait": "neutrophil count"
+            }
+          ],
+          "reported_trait": [
+            "neutrophil (fraction, maximum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90475534",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.14,
+          "ci_upper": 0.21,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226261051"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226261051/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226257505,
+          "risk_frequency": "0.9997",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -32,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.67-1.76]",
+          "beta": "1.718 unit decrease",
+          "p_value": 5e-32,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004272",
+              "efo_trait": "anemia (phenotype)"
+            }
+          ],
+          "reported_trait": [
+            "Other anemias (PheCode 285)"
+          ],
+          "accession_id": "GCST90479974",
+          "locations": [
+            "11:5226774"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 1.67,
+          "ci_upper": 1.76,
+          "snp_effect_allele": [
+            "rs11549407-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11549407",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226257505"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226257505/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11549407"
+            }
+          }
+        },
+        {
+          "association_id": 226256790,
+          "risk_frequency": "0.9618",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.28-0.4]",
+          "beta": "0.3381 unit decrease",
+          "p_value": 4e-13,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0002280",
+              "efo_trait": "anemia"
+            },
+            {
+              "efo_id": "MONDO_0005300",
+              "efo_trait": "chronic kidney disease"
+            }
+          ],
+          "reported_trait": [
+            "Anemia in chronic kidney disease (PheCode 285.21)"
+          ],
+          "accession_id": "GCST90479971",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.28,
+          "ci_upper": 0.4,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226256790"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226256790/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226255120,
+          "risk_frequency": "0.9997",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[3.79-3.82]",
+          "beta": "3.809 unit decrease",
+          "p_value": 1e-12,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004207",
+              "efo_trait": "pathological myopia"
+            }
+          ],
+          "reported_trait": [
+            "Progressive myopia (PheCode 360.2)"
+          ],
+          "accession_id": "GCST90480037",
+          "locations": [
+            "11:5200848"
+          ],
+          "mapped_genes": [
+            "HBB",
+            "OR51V1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 3.79,
+          "ci_upper": 3.82,
+          "snp_effect_allele": [
+            "rs371244418-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs371244418",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226255120"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226255120/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs371244418"
+            }
+          }
+        },
+        {
+          "association_id": 226254665,
+          "risk_frequency": "0.9998",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -18,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.28-1.42]",
+          "beta": "1.349 unit decrease",
+          "p_value": 3.0000000000000002e-18,
+          "efo_traits": [
+            {
+              "efo_id": "HP_0001891",
+              "efo_trait": "Iron deficiency anemia"
+            }
+          ],
+          "reported_trait": [
+            "Iron deficiency anemias (PheCode 280)"
+          ],
+          "accession_id": "GCST90479960",
+          "locations": [
+            "11:5226774"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 1.28,
+          "ci_upper": 1.42,
+          "snp_effect_allele": [
+            "rs11549407-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11549407",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226254665"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226254665/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11549407"
+            }
+          }
+        },
+        {
+          "association_id": 226254423,
+          "risk_frequency": "0.9997",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -323,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[5.71-6.02]",
+          "beta": "5.869 unit increase",
+          "p_value": 1e-323,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_0003460",
+              "efo_trait": "erythrocyte volume"
+            }
+          ],
+          "reported_trait": [
+            "mean corpuscular volume (MCV, mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90475470",
+          "locations": [
+            "11:5226774"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 5.71,
+          "ci_upper": 6.02,
+          "snp_effect_allele": [
+            "rs11549407-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11549407",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226254423"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226254423/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11549407"
+            }
+          }
+        },
+        {
+          "association_id": 226254413,
+          "risk_frequency": "0.9998",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -18,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.31-1.45]",
+          "beta": "1.381 unit decrease",
+          "p_value": 2e-18,
+          "efo_traits": [
+            {
+              "efo_id": "HP_0001891",
+              "efo_trait": "Iron deficiency anemia"
+            }
+          ],
+          "reported_trait": [
+            "Iron deficiency anemias, unspecified or notdue to blood loss (PheCode 280.1)"
+          ],
+          "accession_id": "GCST90479958",
+          "locations": [
+            "11:5226774"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 1.31,
+          "ci_upper": 1.45,
+          "snp_effect_allele": [
+            "rs11549407-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11549407",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226254413"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226254413/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11549407"
+            }
+          }
+        },
+        {
+          "association_id": 226253100,
+          "risk_frequency": "0.9868",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -19,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.19-0.29]",
+          "beta": "0.2417 unit decrease",
+          "p_value": 2e-19,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004833",
+              "efo_trait": "neutrophil count"
+            }
+          ],
+          "reported_trait": [
+            "neutrophil (absolute count, minimum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90475531",
+          "locations": [
+            "11:5227003"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.19,
+          "ci_upper": 0.29,
+          "snp_effect_allele": [
+            "rs33930165-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs33930165",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226253100"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226253100/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs33930165"
+            }
+          }
+        },
+        {
+          "association_id": 226251255,
+          "risk_frequency": "0.9467",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -19,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.31-0.48]",
+          "beta": "0.3967 unit decrease",
+          "p_value": 9e-19,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005393",
+              "efo_trait": "gout"
+            }
+          ],
+          "reported_trait": [
+            "Gout (PheCode 274.1)"
+          ],
+          "accession_id": "GCST90476378",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.31,
+          "ci_upper": 0.48,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226251255"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226251255/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226247469,
+          "risk_frequency": "0.9869",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -19,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.21-0.33]",
+          "beta": "0.2706 unit decrease",
+          "p_value": 2e-19,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004833",
+              "efo_trait": "neutrophil count"
+            }
+          ],
+          "reported_trait": [
+            "neutrophil (absolute count, mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90475528",
+          "locations": [
+            "11:5227003"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.21,
+          "ci_upper": 0.33,
+          "snp_effect_allele": [
+            "rs33930165-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs33930165",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226247469"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226247469/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs33930165"
+            }
+          }
+        },
+        {
+          "association_id": 226246422,
+          "risk_frequency": "0.9997",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -323,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[3.27-3.58]",
+          "beta": "3.428 unit decrease",
+          "p_value": 1e-323,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009188",
+              "efo_trait": "red cell distribution width"
+            }
+          ],
+          "reported_trait": [
+            "red cell diameter width (RDW, minimum, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90476365",
+          "locations": [
+            "11:5226774"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 3.27,
+          "ci_upper": 3.58,
+          "snp_effect_allele": [
+            "rs11549407-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11549407",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226246422"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226246422/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11549407"
+            }
+          }
+        },
+        {
+          "association_id": 226245108,
+          "risk_frequency": "0.9464",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -15,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.066-0.11]",
+          "beta": "0.08832 unit increase",
+          "p_value": 3.0000000000000002e-15,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004612",
+              "efo_trait": "high density lipoprotein cholesterol measurement"
+            }
+          ],
+          "reported_trait": [
+            "high density lipoprotein cholesterol (HDLC, mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90475351",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.066,
+          "ci_upper": 0.11,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226245108"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226245108/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226244935,
+          "risk_frequency": "0.9482",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -323,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[2.16-2.32]",
+          "beta": "2.241 unit decrease",
+          "p_value": 1e-323,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0003689",
+              "efo_trait": "familial hemolytic anemia"
+            }
+          ],
+          "reported_trait": [
+            "Hereditary hemolytic anemias (PheCode 282)"
+          ],
+          "accession_id": "GCST90475778",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 2.16,
+          "ci_upper": 2.32,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226244935"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226244935/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226244292,
+          "risk_frequency": "0.9466",
+          "pvalue_description": "",
+          "pvalue_mantissa": 8,
+          "pvalue_exponent": -26,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.27-0.4]",
+          "beta": "0.335 unit decrease",
+          "p_value": 8e-26,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005300",
+              "efo_trait": "chronic kidney disease"
+            }
+          ],
+          "reported_trait": [
+            "Chronic Kidney Disease, Stage III (PheCode 585.33)"
+          ],
+          "accession_id": "GCST90476127",
+          "locations": [
+            "11:5227002"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.27,
+          "ci_upper": 0.4,
+          "snp_effect_allele": [
+            "rs334-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs334",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226244292"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226244292/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs334"
+            }
+          }
+        },
+        {
+          "association_id": 226243397,
+          "risk_frequency": "0.9997",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -323,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[5.63-5.95]",
+          "beta": "5.787 unit increase",
+          "p_value": 1e-323,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004527",
+              "efo_trait": "mean corpuscular hemoglobin"
+            }
+          ],
+          "reported_trait": [
+            "mean corpuscular hemoglobin (MCH, mean, inv-norm transformed)"
+          ],
+          "accession_id": "GCST90475446",
+          "locations": [
+            "11:5226774"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 5.63,
+          "ci_upper": 5.95,
+          "snp_effect_allele": [
+            "rs11549407-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11549407",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226243397"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226243397/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11549407"
+            }
+          }
+        },
+        {
+          "association_id": 226243338,
+          "risk_frequency": "0.9998",
+          "pvalue_description": "",
+          "pvalue_mantissa": 8,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.9-1.54]",
+          "beta": "1.223 unit decrease",
+          "p_value": 8e-12,
+          "efo_traits": [
+            {
+              "efo_id": "HP_0001891",
+              "efo_trait": "Iron deficiency anemia"
+            }
+          ],
+          "reported_trait": [
+            "Iron deficiency anemias, unspecified or notdue to blood loss (PheCode 280.1)"
+          ],
+          "accession_id": "GCST90475769",
+          "locations": [
+            "11:5226774"
+          ],
+          "mapped_genes": [
+            "HBB"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.9,
+          "ci_upper": 1.54,
+          "snp_effect_allele": [
+            "rs11549407-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11549407",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226243338"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226243338/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11549407"
+            }
+          }
+        }
+      ]
+    },
+    "_links": {
+      "first": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=HBB&page=0&size=40"
+      },
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=HBB&page=0&size=40"
+      },
+      "next": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=HBB&page=1&size=40"
+      },
+      "last": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=HBB&page=6&size=40"
+      }
+    },
+    "page": {
+      "size": 40,
+      "totalElements": 279,
+      "totalPages": 7,
+      "number": 0
+    }
+  }
+}

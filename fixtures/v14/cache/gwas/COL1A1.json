@@ -1,0 +1,968 @@
+{
+  "retrieved_at": "2026-10-11T23:11:17Z",
+  "source_version": "GWAS Catalog REST API v2",
+  "source_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=COL1A1&size=40",
+  "payload": {
+    "_embedded": {
+      "associations": [
+        {
+          "association_id": 222669244,
+          "risk_frequency": "0.96",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -31,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.04-0.06]",
+          "beta": "0.05 unit decrease",
+          "p_value": 2e-31,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_1000110",
+              "efo_trait": "bone tissue density"
+            }
+          ],
+          "reported_trait": [
+            "Estimated bone mineral density"
+          ],
+          "accession_id": "GCST90726625",
+          "locations": [
+            "17:50183463"
+          ],
+          "mapped_genes": [
+            "COL1A1",
+            "SGCA"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42432248",
+          "first_author": "Chai RC",
+          "ci_lower": 0.04,
+          "ci_upper": 0.06,
+          "snp_effect_allele": [
+            "rs79409705-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs79409705",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/222669244"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/222669244/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs79409705"
+            }
+          }
+        },
+        {
+          "association_id": 221372805,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -55,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.11-1.43]",
+          "beta": "1.2666429 unit decrease",
+          "p_value": 2.9999999999999998e-55,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_2052232",
+              "efo_trait": "amount of collagen alpha-1(I) chain (human) in blood"
+            }
+          ],
+          "reported_trait": [
+            "Circulating COL1A1 levels"
+          ],
+          "accession_id": "GCST90859986",
+          "locations": [
+            "17:50185845"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42097137",
+          "first_author": "Koprulu M",
+          "ci_lower": 1.11,
+          "ci_upper": 1.43,
+          "snp_effect_allele": [
+            "rs147266928-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs147266928",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221372805"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221372805/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs147266928"
+            }
+          }
+        },
+        {
+          "association_id": 221372575,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -16,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.034-0.056]",
+          "beta": "0.0447754 unit increase",
+          "p_value": 4e-16,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_2052232",
+              "efo_trait": "amount of collagen alpha-1(I) chain (human) in blood"
+            }
+          ],
+          "reported_trait": [
+            "Circulating COL1A1 levels"
+          ],
+          "accession_id": "GCST90859986",
+          "locations": [
+            "17:50192065"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42097137",
+          "first_author": "Koprulu M",
+          "ci_lower": 0.034,
+          "ci_upper": 0.056,
+          "snp_effect_allele": [
+            "rs2586490-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2586490",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221372575"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221372575/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2586490"
+            }
+          }
+        },
+        {
+          "association_id": 217282988,
+          "risk_frequency": "0.15544",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -6,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.0025-0.0062]",
+          "beta": "0.004342 unit decrease",
+          "p_value": 4e-06,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0001072",
+              "efo_trait": "memory impairment"
+            }
+          ],
+          "reported_trait": [
+            "Memory decline"
+          ],
+          "accession_id": "GCST90448861",
+          "locations": [
+            "17:50188367"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "37985223",
+          "first_author": "Archer DB",
+          "ci_lower": 0.0025,
+          "ci_upper": 0.0062,
+          "snp_effect_allele": [
+            "rs28574643-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs28574643",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/217282988"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/217282988/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs28574643"
+            }
+          }
+        },
+        {
+          "association_id": 188211302,
+          "risk_frequency": "0.69642487",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.031-0.056]",
+          "beta": "0.043640137 unit increase",
+          "p_value": 1e-13,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0801486",
+              "efo_trait": "collagen alpha-1(I) chain measurement"
+            }
+          ],
+          "reported_trait": [
+            "COL1A1 protein levels"
+          ],
+          "accession_id": "GCST90468813",
+          "locations": [
+            "17:50192065"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39789286",
+          "first_author": "Loya H",
+          "ci_lower": 0.031,
+          "ci_upper": 0.056,
+          "snp_effect_allele": [
+            "rs2586490-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2586490",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/188211302"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/188211302/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2586490"
+            }
+          }
+        },
+        {
+          "association_id": 188211277,
+          "risk_frequency": "0.00116456",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -45,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.01-1.37]",
+          "beta": "1.1900374 unit increase",
+          "p_value": 1e-45,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0801486",
+              "efo_trait": "collagen alpha-1(I) chain measurement"
+            }
+          ],
+          "reported_trait": [
+            "COL1A1 protein levels"
+          ],
+          "accession_id": "GCST90468813",
+          "locations": [
+            "17:50185845"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39789286",
+          "first_author": "Loya H",
+          "ci_lower": 1.01,
+          "ci_upper": 1.37,
+          "snp_effect_allele": [
+            "rs147266928-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs147266928",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/188211277"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/188211277/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs147266928"
+            }
+          }
+        },
+        {
+          "association_id": 102664163,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 8,
+          "pvalue_exponent": -7,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.15-0.34]",
+          "beta": "0.2427 unit decrease",
+          "p_value": 8e-07,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005530",
+              "efo_trait": "opiate dependence"
+            }
+          ],
+          "reported_trait": [
+            "Opioid addiction"
+          ],
+          "accession_id": "GCST90244556",
+          "locations": [
+            "17:50192737"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "36207451",
+          "first_author": "Gaddis N",
+          "ci_lower": 0.15,
+          "ci_upper": 0.34,
+          "snp_effect_allele": [
+            "rs1800695-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1800695",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/102664163"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/102664163/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1800695"
+            }
+          }
+        },
+        {
+          "association_id": 102663428,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 8,
+          "pvalue_exponent": -7,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.15-0.34]",
+          "beta": "0.2427 unit decrease",
+          "p_value": 8e-07,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005530",
+              "efo_trait": "opiate dependence"
+            }
+          ],
+          "reported_trait": [
+            "Opioid addiction"
+          ],
+          "accession_id": "GCST90244554",
+          "locations": [
+            "17:50192737"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "36207451",
+          "first_author": "Gaddis N",
+          "ci_lower": 0.15,
+          "ci_upper": 0.34,
+          "snp_effect_allele": [
+            "rs1800695-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1800695",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/102663428"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/102663428/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1800695"
+            }
+          }
+        },
+        {
+          "association_id": 96781962,
+          "risk_frequency": "0.1338",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.85-3.19]",
+          "beta": "2.51852 unit decrease",
+          "p_value": 1e-13,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0005213",
+              "efo_trait": "central corneal thickness"
+            }
+          ],
+          "reported_trait": [
+            "Central corneal thickness (MTAG)"
+          ],
+          "accession_id": "GCST90102518",
+          "locations": [
+            "17:50195794"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "35446358",
+          "first_author": "He W",
+          "ci_lower": 1.85,
+          "ci_upper": 3.19,
+          "snp_effect_allele": [
+            "rs2586494-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2586494",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/96781962"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/96781962/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2586494"
+            }
+          }
+        },
+        {
+          "association_id": 96780506,
+          "risk_frequency": "0.1239",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -18,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.04-0.063]",
+          "beta": "0.05176 unit decrease",
+          "p_value": 1e-18,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0010067",
+              "efo_trait": "corneal resistance factor"
+            }
+          ],
+          "reported_trait": [
+            "Corneal resistance factor (MTAG)"
+          ],
+          "accession_id": "GCST90102517",
+          "locations": [
+            "17:50195794"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "35446358",
+          "first_author": "He W",
+          "ci_lower": 0.04,
+          "ci_upper": 0.063,
+          "snp_effect_allele": [
+            "rs2586494-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2586494",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/96780506"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/96780506/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2586494"
+            }
+          }
+        },
+        {
+          "association_id": 73196033,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.13-0.25]",
+          "beta": "0.191 unit decrease",
+          "p_value": 3.0000000000000004e-09,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0015486",
+              "efo_trait": "keratoconus"
+            }
+          ],
+          "reported_trait": [
+            "Keratoconus"
+          ],
+          "accession_id": "GCST90013442",
+          "locations": [
+            "17:50191660"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "33649486",
+          "first_author": "Hardcastle AJ",
+          "ci_lower": 0.13,
+          "ci_upper": 0.25,
+          "snp_effect_allele": [
+            "rs2075556-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2075556",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/73196033"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/73196033/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2075556"
+            }
+          }
+        },
+        {
+          "association_id": 62079122,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": true,
+          "range": "-",
+          "beta": "-",
+          "p_value": 4e-12,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0010750",
+              "efo_trait": "PHF-tau measurement"
+            }
+          ],
+          "reported_trait": [
+            "Total PHF-tau (SNP x SNP interaction)"
+          ],
+          "accession_id": "GCST010340",
+          "locations": [
+            "16:59887701",
+            "17:50191941"
+          ],
+          "mapped_genes": [
+            "COL1A1",
+            "LINC02141"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "32450446",
+          "first_author": "Wang H",
+          "snp_effect_allele": [
+            "rs2121005-?",
+            "rs2857396-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2857396",
+              "effect_allele": "?"
+            },
+            {
+              "rs_id": "rs2121005",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62079122"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62079122/loci"
+            },
+            "snp": [
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2857396"
+              },
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2121005"
+              }
+            ]
+          }
+        },
+        {
+          "association_id": 47469681,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 1e-08,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0005090",
+              "efo_trait": "basophil count"
+            },
+            {
+              "efo_id": "EFO_0004842",
+              "efo_trait": "eosinophil count"
+            },
+            {
+              "efo_id": "EFO_0004305",
+              "efo_trait": "erythrocyte count"
+            },
+            {
+              "efo_id": "OBA_VT0000217",
+              "efo_trait": "leukocyte quantity"
+            },
+            {
+              "efo_id": "EFO_0004528",
+              "efo_trait": "mean corpuscular hemoglobin concentration"
+            },
+            {
+              "efo_id": "OBA_0003460",
+              "efo_trait": "erythrocyte volume"
+            },
+            {
+              "efo_id": "OBA_0003277",
+              "efo_trait": "platelet volume"
+            },
+            {
+              "efo_id": "EFO_0005091",
+              "efo_trait": "monocyte count"
+            },
+            {
+              "efo_id": "EFO_0004833",
+              "efo_trait": "neutrophil count"
+            },
+            {
+              "efo_id": "EFO_0004309",
+              "efo_trait": "platelet count"
+            }
+          ],
+          "reported_trait": [
+            "Blood cell traits (multivariate analysis)"
+          ],
+          "accession_id": "GCST008338",
+          "locations": [
+            "17:50184821"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "31080455",
+          "first_author": "Fatumo S",
+          "snp_effect_allele": [
+            "rs3840870-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs3840870",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/47469681"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/47469681/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs3840870"
+            }
+          }
+        },
+        {
+          "association_id": 35967647,
+          "risk_frequency": "0.958103",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -24,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.04-0.059]",
+          "beta": "0.0493428 unit decrease",
+          "p_value": 7e-24,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009270",
+              "efo_trait": "heel bone mineral density"
+            }
+          ],
+          "reported_trait": [
+            "Heel bone mineral density"
+          ],
+          "accession_id": "GCST006979",
+          "locations": [
+            "17:50183463"
+          ],
+          "mapped_genes": [
+            "COL1A1",
+            "SGCA"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "30598549",
+          "first_author": "Morris JA",
+          "ci_lower": 0.04,
+          "ci_upper": 0.059,
+          "snp_effect_allele": [
+            "rs79409705-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs79409705",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/35967647"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/35967647/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs79409705"
+            }
+          }
+        },
+        {
+          "association_id": 35135006,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -17,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.039-0.064]",
+          "beta": "0.0513019 unit decrease",
+          "p_value": 2e-17,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009270",
+              "efo_trait": "heel bone mineral density"
+            }
+          ],
+          "reported_trait": [
+            "Heel bone mineral density"
+          ],
+          "accession_id": "GCST006433",
+          "locations": [
+            "17:50185414"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "30048462",
+          "first_author": "Kim SK",
+          "ci_lower": 0.039,
+          "ci_upper": 0.064,
+          "snp_effect_allele": [
+            "rs1061237-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1061237",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/35135006"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/35135006/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1061237"
+            }
+          }
+        },
+        {
+          "association_id": 35135001,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.012-0.022]",
+          "beta": "0.0170716 unit increase",
+          "p_value": 5e-12,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009270",
+              "efo_trait": "heel bone mineral density"
+            }
+          ],
+          "reported_trait": [
+            "Heel bone mineral density"
+          ],
+          "accession_id": "GCST006433",
+          "locations": [
+            "17:50179399"
+          ],
+          "mapped_genes": [
+            "COL1A1",
+            "SGCA"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "30048462",
+          "first_author": "Kim SK",
+          "ci_lower": 0.012,
+          "ci_upper": 0.022,
+          "snp_effect_allele": [
+            "rs773541730-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs773541730",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/35135001"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/35135001/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs773541730"
+            }
+          }
+        },
+        {
+          "association_id": 5994,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 8,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 8e-08,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0004989",
+              "efo_trait": "breast carcinoma"
+            }
+          ],
+          "reported_trait": [
+            "Breast cancer"
+          ],
+          "accession_id": "GCST000079",
+          "locations": [
+            "17:50196930"
+          ],
+          "mapped_genes": [
+            "COL1A1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "17903305",
+          "first_author": "Murabito JM",
+          "snp_effect_allele": [
+            "rs2075555-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2075555",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/5994"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/5994/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2075555"
+            }
+          }
+        }
+      ]
+    },
+    "_links": {
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=COL1A1&page=0&size=40"
+      }
+    },
+    "page": {
+      "size": 40,
+      "totalElements": 17,
+      "totalPages": 1,
+      "number": 0
+    }
+  }
+}

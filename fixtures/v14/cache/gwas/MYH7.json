@@ -1,0 +1,1310 @@
+{
+  "retrieved_at": "2026-10-11T23:10:57Z",
+  "source_version": "GWAS Catalog REST API v2",
+  "source_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=MYH7&size=40",
+  "payload": {
+    "_embedded": {
+      "associations": [
+        {
+          "association_id": 222619386,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.027-0.052]",
+          "beta": "0.0397303 unit increase",
+          "p_value": 9e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0022611",
+              "efo_trait": "magnetic resonance imaging of the heart"
+            },
+            {
+              "efo_id": "EFO_0004298",
+              "efo_trait": "cardiovascular measurement"
+            }
+          ],
+          "reported_trait": [
+            "Cardiac MRI latent phenotype (Z82_S1)"
+          ],
+          "accession_id": "GCST90856967",
+          "locations": [
+            "14:23412935"
+          ],
+          "mapped_genes": [
+            "MYH7"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42373625",
+          "first_author": "Ometto S",
+          "ci_lower": 0.027,
+          "ci_upper": 0.052,
+          "snp_effect_allele": [
+            "rs2284651-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2284651",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/222619386"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/222619386/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2284651"
+            }
+          }
+        },
+        {
+          "association_id": 217646545,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.065-0.135]",
+          "beta": "0.1 unit increase",
+          "p_value": 2e-08,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0004981",
+              "efo_trait": "atrial fibrillation"
+            }
+          ],
+          "reported_trait": [
+            "Atrial fibrillation (single event)"
+          ],
+          "accession_id": "GCST90832153",
+          "locations": [
+            "14:23418974"
+          ],
+          "mapped_genes": [
+            "MYH7"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "38725839",
+          "first_author": "Hall M",
+          "ci_lower": 0.065,
+          "ci_upper": 0.135,
+          "snp_effect_allele": [
+            "rs28631169-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs28631169",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/217646545"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/217646545/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs28631169"
+            }
+          }
+        },
+        {
+          "association_id": 217560323,
+          "risk_frequency": "0.357617",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.013-0.021]",
+          "beta": "0.0169881 unit decrease",
+          "p_value": 1e-13,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0801227",
+              "efo_trait": "body shape measurement"
+            }
+          ],
+          "reported_trait": [
+            "Body shape phenotype PC2"
+          ],
+          "accession_id": "GCST90832990",
+          "locations": [
+            "14:23438399"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "38640244",
+          "first_author": "Peruchet-Noray L",
+          "ci_lower": 0.013,
+          "ci_upper": 0.021,
+          "snp_effect_allele": [
+            "rs875908-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs875908",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/217560323"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/217560323/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs875908"
+            }
+          }
+        },
+        {
+          "association_id": 191356678,
+          "risk_frequency": "0.509245",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.0072-0.0127]",
+          "beta": "0.00993893 unit decrease",
+          "p_value": 9e-13,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_VT0001253",
+              "efo_trait": "body height"
+            }
+          ],
+          "reported_trait": [
+            "Height (baseline)"
+          ],
+          "accession_id": "GCST90565843",
+          "locations": [
+            "14:23453424"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "40374629",
+          "first_author": "Schoeler T",
+          "ci_lower": 0.0072,
+          "ci_upper": 0.0127,
+          "snp_effect_allele": [
+            "rs8014953-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs8014953",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/191356678"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/191356678/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs8014953"
+            }
+          }
+        },
+        {
+          "association_id": 191356672,
+          "risk_frequency": "0.337442",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -18,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.0089-0.0142]",
+          "beta": "0.0115693 unit decrease",
+          "p_value": 7e-18,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_VT0001253",
+              "efo_trait": "body height"
+            }
+          ],
+          "reported_trait": [
+            "Height (baseline)"
+          ],
+          "accession_id": "GCST90565843",
+          "locations": [
+            "14:23442198"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "40374629",
+          "first_author": "Schoeler T",
+          "ci_lower": 0.0089,
+          "ci_upper": 0.0142,
+          "snp_effect_allele": [
+            "rs11621360-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11621360",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/191356672"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/191356672/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11621360"
+            }
+          }
+        },
+        {
+          "association_id": 191297549,
+          "risk_frequency": "0.337432",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -14,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.0062-0.0106]",
+          "beta": "0.00841353 unit decrease",
+          "p_value": 3e-14,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007652",
+              "efo_trait": "health trait"
+            }
+          ],
+          "reported_trait": [
+            "Physical function (baseline)"
+          ],
+          "accession_id": "GCST90565837",
+          "locations": [
+            "14:23442198"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "40374629",
+          "first_author": "Schoeler T",
+          "ci_lower": 0.0062,
+          "ci_upper": 0.0106,
+          "snp_effect_allele": [
+            "rs11621360-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11621360",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/191297549"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/191297549/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11621360"
+            }
+          }
+        },
+        {
+          "association_id": 191297544,
+          "risk_frequency": "0.958276",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.012-0.022]",
+          "beta": "0.0166849 unit decrease",
+          "p_value": 2e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007652",
+              "efo_trait": "health trait"
+            }
+          ],
+          "reported_trait": [
+            "Physical function (baseline)"
+          ],
+          "accession_id": "GCST90565837",
+          "locations": [
+            "14:23411069"
+          ],
+          "mapped_genes": [
+            "MYH6",
+            "MYH7"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "40374629",
+          "first_author": "Schoeler T",
+          "ci_lower": 0.012,
+          "ci_upper": 0.022,
+          "snp_effect_allele": [
+            "rs12890908-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs12890908",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/191297544"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/191297544/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs12890908"
+            }
+          }
+        },
+        {
+          "association_id": 188140106,
+          "risk_frequency": "0.66231123",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -20,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.0077-0.0124]",
+          "beta": "0.0100738 unit increase",
+          "p_value": 4e-20,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_VT0001253",
+              "efo_trait": "body height"
+            }
+          ],
+          "reported_trait": [
+            "Standing height (UKB data field 50)"
+          ],
+          "accession_id": "GCST90468178",
+          "locations": [
+            "14:23442198"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39789286",
+          "first_author": "Loya H",
+          "ci_lower": 0.0077,
+          "ci_upper": 0.0124,
+          "snp_effect_allele": [
+            "rs11621360-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11621360",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/188140106"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/188140106/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11621360"
+            }
+          }
+        },
+        {
+          "association_id": 188137848,
+          "risk_frequency": "0.01372796",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -41,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.099-0.135]",
+          "beta": "0.11681944 unit decrease",
+          "p_value": 3e-41,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_1001087",
+              "efo_trait": "heart rate"
+            }
+          ],
+          "reported_trait": [
+            "Pulse rate (UKB data field 102)"
+          ],
+          "accession_id": "GCST90468177",
+          "locations": [
+            "14:23439686"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39789286",
+          "first_author": "Loya H",
+          "ci_lower": 0.099,
+          "ci_upper": 0.135,
+          "snp_effect_allele": [
+            "rs117526881-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs117526881",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/188137848"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/188137848/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs117526881"
+            }
+          }
+        },
+        {
+          "association_id": 165751493,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -6,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.03-2.66]",
+          "beta": "1.842385 unit increase",
+          "p_value": 9e-06,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_2045231",
+              "efo_trait": "height growth attribute"
+            }
+          ],
+          "reported_trait": [
+            "Height at take-off"
+          ],
+          "accession_id": "GCST90567935",
+          "locations": [
+            "14:23452738"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "38483351",
+          "first_author": "Ramirez-Luzuriaga MJ",
+          "ci_lower": 1.03,
+          "ci_upper": 2.66,
+          "snp_effect_allele": [
+            "rs58473928-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs58473928",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/165751493"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/165751493/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs58473928"
+            }
+          }
+        },
+        {
+          "association_id": 165163710,
+          "risk_frequency": "0.62118",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.18-0.36]",
+          "beta": "0.268898 unit increase",
+          "p_value": 1e-08,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009289",
+              "efo_trait": "left ventricular mass"
+            }
+          ],
+          "reported_trait": [
+            "Left ventricular mass (indexed to body surface area)"
+          ],
+          "accession_id": "GCST90435260",
+          "locations": [
+            "14:23411874"
+          ],
+          "mapped_genes": [
+            "MYH6",
+            "MYH7"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39966646",
+          "first_author": "Tadros R",
+          "ci_lower": 0.18,
+          "ci_upper": 0.36,
+          "snp_effect_allele": [
+            "rs7143356-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs7143356",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/165163710"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/165163710/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs7143356"
+            }
+          }
+        },
+        {
+          "association_id": 165163456,
+          "risk_frequency": "0.62118",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.42-0.79]",
+          "beta": "0.60322 unit increase",
+          "p_value": 2e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0008204",
+              "efo_trait": "left ventricular diastolic function measurement"
+            }
+          ],
+          "reported_trait": [
+            "Left ventricular end diastolic volume (indexed to body surface area)"
+          ],
+          "accession_id": "GCST90435258",
+          "locations": [
+            "14:23411874"
+          ],
+          "mapped_genes": [
+            "MYH6",
+            "MYH7"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39966646",
+          "first_author": "Tadros R",
+          "ci_lower": 0.42,
+          "ci_upper": 0.79,
+          "snp_effect_allele": [
+            "rs7143356-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs7143356",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/165163456"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/165163456/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs7143356"
+            }
+          }
+        },
+        {
+          "association_id": 134155786,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -17,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.012-0.019]",
+          "beta": "0.0151708 unit increase",
+          "p_value": 9.000000000000001e-17,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_VT0001253",
+              "efo_trait": "body height"
+            }
+          ],
+          "reported_trait": [
+            "Height"
+          ],
+          "accession_id": "GCST90435412",
+          "locations": [
+            "14:23442198"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39134668",
+          "first_author": "Shi S",
+          "ci_lower": 0.012,
+          "ci_upper": 0.019,
+          "snp_effect_allele": [
+            "rs11621360-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11621360",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/134155786"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/134155786/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11621360"
+            }
+          }
+        },
+        {
+          "association_id": 105008846,
+          "risk_frequency": "0.015",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.11-0.2]",
+          "beta": "0.155 unit increase",
+          "p_value": 3e-12,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0020097",
+              "efo_trait": "QRS-T angle"
+            }
+          ],
+          "reported_trait": [
+            "Spatial QRS-T angle"
+          ],
+          "accession_id": "GCST90246320",
+          "locations": [
+            "14:23439686"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "36918541",
+          "first_author": "Young WJ",
+          "ci_lower": 0.11,
+          "ci_upper": 0.2,
+          "snp_effect_allele": [
+            "rs117526881-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs117526881",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/105008846"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/105008846/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs117526881"
+            }
+          }
+        },
+        {
+          "association_id": 105008506,
+          "risk_frequency": "0.015",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.11-0.2]",
+          "beta": "0.154 unit increase",
+          "p_value": 4e-12,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0020097",
+              "efo_trait": "QRS-T angle"
+            }
+          ],
+          "reported_trait": [
+            "Spatial QRS-T angle"
+          ],
+          "accession_id": "GCST90246318",
+          "locations": [
+            "14:23439686"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "36918541",
+          "first_author": "Young WJ",
+          "ci_lower": 0.11,
+          "ci_upper": 0.2,
+          "snp_effect_allele": [
+            "rs117526881-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs117526881",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/105008506"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/105008506/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs117526881"
+            }
+          }
+        },
+        {
+          "association_id": 103268864,
+          "risk_frequency": "0.6277",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -77,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.011-0.014]",
+          "beta": "0.0127 unit increase",
+          "p_value": 1e-77,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_VT0001253",
+              "efo_trait": "body height"
+            }
+          ],
+          "reported_trait": [
+            "Height"
+          ],
+          "accession_id": "GCST90245848",
+          "locations": [
+            "14:23442198"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "36224396",
+          "first_author": "Yengo L",
+          "ci_lower": 0.011,
+          "ci_upper": 0.014,
+          "snp_effect_allele": [
+            "rs11621360-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs11621360",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/103268864"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/103268864/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs11621360"
+            }
+          }
+        },
+        {
+          "association_id": 100401944,
+          "risk_frequency": "0.62",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "3.59 unit increase",
+          "p_value": 6e-11,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0020865",
+              "efo_trait": "aortic measurement"
+            }
+          ],
+          "reported_trait": [
+            "Descending aorta maximum area (MTAG)"
+          ],
+          "accession_id": "GCST90137451",
+          "locations": [
+            "14:23412935"
+          ],
+          "mapped_genes": [
+            "MYH7"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "35922433",
+          "first_author": "Francis CM",
+          "snp_effect_allele": [
+            "rs2284651-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2284651",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/100401944"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/100401944/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2284651"
+            }
+          }
+        },
+        {
+          "association_id": 100401049,
+          "risk_frequency": "0.62",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "3.6 unit increase",
+          "p_value": 6.999999999999999e-11,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0020865",
+              "efo_trait": "aortic measurement"
+            }
+          ],
+          "reported_trait": [
+            "Descending aorta maximum area"
+          ],
+          "accession_id": "GCST90137442",
+          "locations": [
+            "14:23412935"
+          ],
+          "mapped_genes": [
+            "MYH7"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "35922433",
+          "first_author": "Francis CM",
+          "snp_effect_allele": [
+            "rs2284651-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2284651",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/100401049"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/100401049/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2284651"
+            }
+          }
+        },
+        {
+          "association_id": 98784446,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.0071-0.0149]",
+          "beta": "0.011 unit increase",
+          "p_value": 1e-09,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0004981",
+              "efo_trait": "atrial fibrillation"
+            }
+          ],
+          "reported_trait": [
+            "Atrial fibrillation (MTAG)"
+          ],
+          "accession_id": "GCST90132229",
+          "locations": [
+            "14:23418974"
+          ],
+          "mapped_genes": [
+            "MYH7"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "35872910",
+          "first_author": "Carcel-Marquez J",
+          "ci_lower": 0.0071,
+          "ci_upper": 0.0149,
+          "snp_effect_allele": [
+            "rs28631169-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs28631169",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/98784446"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/98784446/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs28631169"
+            }
+          }
+        },
+        {
+          "association_id": 97984191,
+          "risk_frequency": "0.616",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "6.52 z score increase",
+          "p_value": 6.999999999999999e-11,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_0003747",
+              "efo_trait": "glomerular filtration rate"
+            }
+          ],
+          "reported_trait": [
+            "Estimated glomerular filtration rate (creatinine)"
+          ],
+          "accession_id": "GCST90100220",
+          "locations": [
+            "14:23438399"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "35710981",
+          "first_author": "Liu H",
+          "snp_effect_allele": [
+            "rs875908-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs875908",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/97984191"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/97984191/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs875908"
+            }
+          }
+        },
+        {
+          "association_id": 62018767,
+          "risk_frequency": "0.9759",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -55,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[3.73-4.8]",
+          "beta": "4.2627 ms increase",
+          "p_value": 5e-55,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004462",
+              "efo_trait": "PR interval"
+            }
+          ],
+          "reported_trait": [
+            "PR interval"
+          ],
+          "accession_id": "GCST010321",
+          "locations": [
+            "14:23435779"
+          ],
+          "mapped_genes": [
+            "MYH7"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "32439900",
+          "first_author": "Ntalla I",
+          "ci_lower": 3.73,
+          "ci_upper": 4.8,
+          "snp_effect_allele": [
+            "rs2754171-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2754171",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62018767"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62018767/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2754171"
+            }
+          }
+        },
+        {
+          "association_id": 45532630,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -14,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 1e-14,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_VT0001253",
+              "efo_trait": "body height"
+            }
+          ],
+          "reported_trait": [
+            "Height"
+          ],
+          "accession_id": "GCST007841",
+          "locations": [
+            "14:23438399"
+          ],
+          "mapped_genes": [
+            "MYH7",
+            "NGDN"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "30595370",
+          "first_author": "Kichaev G",
+          "snp_effect_allele": [
+            "rs875908-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs875908",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/45532630"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/45532630/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs875908"
+            }
+          }
+        },
+        {
+          "association_id": 34617050,
+          "risk_frequency": "0.2",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -15,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.06-1.1]",
+          "or_per_copy_num": 1.08,
+          "or_value": "1.08",
+          "beta": "-",
+          "p_value": 7e-15,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0004981",
+              "efo_trait": "atrial fibrillation"
+            }
+          ],
+          "reported_trait": [
+            "Atrial fibrillation"
+          ],
+          "accession_id": "GCST006061",
+          "locations": [
+            "14:23418974"
+          ],
+          "mapped_genes": [
+            "MYH7"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "29892015",
+          "first_author": "Roselli C",
+          "ci_lower": 1.06,
+          "ci_upper": 1.1,
+          "snp_effect_allele": [
+            "rs28631169-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs28631169",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/34617050"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/34617050/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs28631169"
+            }
+          }
+        },
+        {
+          "association_id": 34617045,
+          "risk_frequency": "0.2",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -14,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.05-1.09]",
+          "or_per_copy_num": 1.07,
+          "or_value": "1.07",
+          "beta": "-",
+          "p_value": 4e-14,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0004981",
+              "efo_trait": "atrial fibrillation"
+            }
+          ],
+          "reported_trait": [
+            "Atrial fibrillation"
+          ],
+          "accession_id": "GCST006061",
+          "locations": [
+            "14:23418974"
+          ],
+          "mapped_genes": [
+            "MYH7"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "29892015",
+          "first_author": "Roselli C",
+          "ci_lower": 1.05,
+          "ci_upper": 1.09,
+          "snp_effect_allele": [
+            "rs28631169-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs28631169",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/34617045"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/34617045/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs28631169"
+            }
+          }
+        }
+      ]
+    },
+    "_links": {
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=MYH7&page=0&size=40"
+      }
+    },
+    "page": {
+      "size": 40,
+      "totalElements": 24,
+      "totalPages": 1,
+      "number": 0
+    }
+  }
+}

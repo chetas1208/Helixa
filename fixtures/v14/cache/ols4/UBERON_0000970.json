@@ -1,0 +1,206 @@
+{
+  "retrieved_at": "2026-10-11T23:10:02Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000970",
+    "lang": "en",
+    "description": [
+      "An organ that detects light."
+    ],
+    "synonyms": [
+      "light-detecting organ",
+      "visual apparatus"
+    ],
+    "annotation": {
+      "curator note": [
+        "This class encompasses a variety of light-detecting structures from different phyla with no implication of homology, from the compound insect eye to the vertebrate camera-type eye (distinct classes are provided for each)"
+      ],
+      "database_cross_reference": [
+        "BILA:0000017",
+        "BTO:0000439",
+        "CALOHA:TS-0309",
+        "EFO:0000827",
+        "EV:0100336",
+        "GAID:69",
+        "MAT:0000140",
+        "MESH:D005123",
+        "MIAA:0000140",
+        "Wikipedia:Eye",
+        "FBbt:00005162"
+      ],
+      "has_relational_adjective": [
+        "ocular",
+        "optic"
+      ],
+      "id": [
+        "UBERON:0000970"
+      ],
+      "structure_notes": [
+        "Note that whilst this is classified as an organ, it is in fact more of a unit composed of different structures: in Drosophila, it includes the interommatidial bristle as a part; we consider here the vertebrate eye to include the eyeball/eye proper as a part, with the eye having as parts (when present): eyelids, conjuctiva,"
+      ]
+    },
+    "label": "eye",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000970",
+    "obo_id": "UBERON:0000970",
+    "in_subset": [
+      "efo_slim",
+      "functional_classification",
+      "human_reference_atlas",
+      "human_subset",
+      "major_organ",
+      "mouse_subset",
+      "organ_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "An organ that detects light.",
+        "oboXrefs": [
+          {
+            "database": null,
+            "id": "https://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "https://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BILA",
+        "id": "0000017",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000017"
+      },
+      {
+        "database": "BTO",
+        "id": "0000439",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000439"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0309",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0309"
+      },
+      {
+        "database": "EFO",
+        "id": "0000827",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000827"
+      },
+      {
+        "database": "EV",
+        "id": "0100336",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100336"
+      },
+      {
+        "database": "GAID",
+        "id": "69",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MAT",
+        "id": "0000140",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000140"
+      },
+      {
+        "database": "MESH",
+        "id": "D005123",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D005123"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000140",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Eye",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Eye"
+      },
+      {
+        "database": "FBbt",
+        "id": "00005162",
+        "description": null,
+        "url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00005162"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "visual apparatus",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "EV",
+            "id": "0100336",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/EV_0100336"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      },
+      "capable_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000970/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002215"
+      }
+    }
+  }
+}

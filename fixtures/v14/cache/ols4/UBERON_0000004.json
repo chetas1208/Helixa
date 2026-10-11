@@ -1,0 +1,334 @@
+{
+  "retrieved_at": "2026-10-11T23:09:27Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000004",
+    "lang": "en",
+    "description": [
+      "The olfactory organ of vertebrates, consisting of nares, olfactory epithelia and the structures and skeletal framework of the nasal cavity."
+    ],
+    "synonyms": [
+      "proboscis",
+      "nasal sac",
+      "nasus",
+      "nose",
+      "olfactory apparatus",
+      "peripheral olfactory organ"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "BTO:0000840",
+        "CALOHA:TS-2037",
+        "EHDAA2:0001274",
+        "EHDAA:1502",
+        "EMAPA:16542",
+        "EV:0100037",
+        "EV:0100370",
+        "FMA:46472",
+        "GAID:77",
+        "MA:0000281",
+        "MAT:0000139",
+        "MESH:D009666",
+        "MIAA:0000139",
+        "NCIT:C12756",
+        "SCTID:181195007",
+        "TAO:0000047",
+        "Wikipedia:Nose",
+        "ZFA:0000047",
+        "galen:Nose",
+        "UMLS:C0028429"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/d/d0/Canine-nose.jpg"
+      ],
+      "external_definition": [
+        "Organ that is the specialized structure of the face that contains olfactory neurons. The peripheral olfactory organ is paired[ZFA:0000047].",
+        "a protuberance in vertebrates that houses the nostrils, or nares, which admit and expel air for respiration in conjunction with the mouth. Behind the nose are the olfactory mucosa and the sinuses. Behind the nasal cavity, air next passes through the pharynx, shared with the digestive system, and then into the rest of the respiratory system. In humans, the nose is located centrally on the face; on most other mammals, it is on the upper tip of the snout[WP]. GO: The nose is the specialized structure of the face that serves as the organ of the sense of smell and as part of the respiratory system. Includes the nasi externus (external nose) and cavitas nasi (nasal cavity)[Wikipedia:Nose].",
+        "the organ that is specialized for smell and is part of the respiratory system"
+      ],
+      "id": [
+        "UBERON:0000004"
+      ],
+      "taxon_notes": [
+        "the structure of the nose varies across vertebrates. In tetrapods the nose is part of the respiratory system.[PMID:25312359]"
+      ]
+    },
+    "label": "nose",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000004",
+    "obo_id": "UBERON:0000004",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "major_organ",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The olfactory organ of vertebrates, consisting of nares, olfactory epithelia and the structures and skeletal framework of the nasal cavity.",
+        "oboXrefs": [
+          {
+            "database": "UBERON",
+            "id": "cjm",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/UBERON_cjm"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BTO",
+        "id": "0000840",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000840"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-2037",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-2037"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0001274",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0001274"
+      },
+      {
+        "database": "EHDAA",
+        "id": "1502",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_1502"
+      },
+      {
+        "database": "EMAPA",
+        "id": "16542",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:16542"
+      },
+      {
+        "database": "EV",
+        "id": "0100037",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100037"
+      },
+      {
+        "database": "EV",
+        "id": "0100370",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100370"
+      },
+      {
+        "database": "FMA",
+        "id": "46472",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/46472"
+      },
+      {
+        "database": "GAID",
+        "id": "77",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000281",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000281"
+      },
+      {
+        "database": "MAT",
+        "id": "0000139",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000139"
+      },
+      {
+        "database": "MESH",
+        "id": "D009666",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D009666"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000139",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12756",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12756"
+      },
+      {
+        "database": "SCTID",
+        "id": "181195007",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/181195007"
+      },
+      {
+        "database": "TAO",
+        "id": "0000047",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000047"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Nose",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Nose"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000047",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000047"
+      },
+      {
+        "database": "galen",
+        "id": "Nose",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0028429",
+        "description": "ncithesaurus:Nose",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0028429"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "nasal sac",
+        "scope": "hasExactSynonym",
+        "type": "taxonomic disambiguation",
+        "xrefs": [
+          {
+            "database": "ZFA",
+            "id": "0000047",
+            "description": null,
+            "url": "https://zfin.org/action/ontology/term/ZFA:0000047"
+          }
+        ]
+      },
+      {
+        "name": "nose",
+        "scope": "hasExactSynonym",
+        "type": "preferred term when talking about an instance of this class in Homo sapiens",
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "0000281",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000281"
+          }
+        ]
+      },
+      {
+        "name": "peripheral olfactory organ",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "ZFA",
+            "id": "0000047",
+            "description": null,
+            "url": "https://zfin.org/action/ontology/term/ZFA:0000047"
+          }
+        ]
+      },
+      {
+        "name": "nasus",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Nose",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Nose"
+          }
+        ]
+      },
+      {
+        "name": "olfactory apparatus",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "UBERON",
+            "id": "cjm",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/UBERON_cjm"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "capable_of_part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002216"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      },
+      "has_skeleton": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000004/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002551"
+      }
+    }
+  }
+}

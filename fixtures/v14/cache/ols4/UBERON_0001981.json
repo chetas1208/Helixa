@@ -1,0 +1,361 @@
+{
+  "retrieved_at": "2026-10-11T23:09:45Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001981",
+    "lang": "en",
+    "description": [
+      "A vessel through which blood circulates in the body."
+    ],
+    "synonyms": [
+      "region of vascular tree organ",
+      "vas sanguineum",
+      "vascular element",
+      "vascular tree organ region"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0011004",
+        "AEO:0000207",
+        "BTO:0001102",
+        "CALOHA:TS-0080",
+        "EFO:0000817",
+        "EHDAA2:0003252",
+        "EHDAA:240",
+        "EMAPA:32743",
+        "EMAPA:35993",
+        "FMA:50722",
+        "FMA:63183",
+        "GAID:169",
+        "MA:0000060",
+        "MAT:0000393",
+        "MESH:D001808",
+        "NCIT:C12679",
+        "NLXANAT:090901",
+        "SCTID:361097006",
+        "TAO:0002137",
+        "VHOG:0001250",
+        "Wikipedia:Blood_vessel",
+        "XAO:0001011",
+        "ZFA:0005314",
+        "UMLS:C0005847"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/2/29/Circulatory_System_en.svg"
+      ],
+      "editor note": [
+        "consider adopting the EMAPA superclass 'vascular element', which includes microvasculature (e.g. capillaries), vascular plexus"
+      ],
+      "external_definition": [
+        "Any of the vessels through which blood circulates in the body. [XAO:0001011_][VHOG]",
+        "Any of the vessels through which blood circulates in the body.[AAO]"
+      ],
+      "external_ontology_notes": [
+        "FMA:63183 Blood vessel is categorized as 'general anatomical term'. Suggestion to map to region of vascular tree from Terry H at JAX"
+      ],
+      "homology_notes": [
+        "The appearance of Chordata and subsequently the vertebrates is accompanied by a rapid structural diversification of this primitive linear heart: looping, unidirectional circulation, an enclosed vasculature, and the conduction system.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0001981"
+      ],
+      "taxon_notes": [
+        "annelids have blood vessels, but this class is not applicable to annelids."
+      ]
+    },
+    "label": "blood vessel",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001981",
+    "obo_id": "UBERON:0001981",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "A vessel through which blood circulates in the body.",
+        "oboXrefs": [
+          {
+            "database": "BTO",
+            "id": "0001102",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001102"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Blood_vessel",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Blood_vessel"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0011004",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0011004"
+      },
+      {
+        "database": "AEO",
+        "id": "0000207",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AEO_0000207"
+      },
+      {
+        "database": "BTO",
+        "id": "0001102",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001102"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0080",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0080"
+      },
+      {
+        "database": "EFO",
+        "id": "0000817",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000817"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0003252",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0003252"
+      },
+      {
+        "database": "EHDAA",
+        "id": "240",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_240"
+      },
+      {
+        "database": "EMAPA",
+        "id": "32743",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:32743"
+      },
+      {
+        "database": "EMAPA",
+        "id": "35993",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35993"
+      },
+      {
+        "database": "FMA",
+        "id": "50722",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/50722"
+      },
+      {
+        "database": "FMA",
+        "id": "63183",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/63183"
+      },
+      {
+        "database": "GAID",
+        "id": "169",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000060",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000060"
+      },
+      {
+        "database": "MAT",
+        "id": "0000393",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000393"
+      },
+      {
+        "database": "MESH",
+        "id": "D001808",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D001808"
+      },
+      {
+        "database": "NCIT",
+        "id": "C12679",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12679"
+      },
+      {
+        "database": "NLXANAT",
+        "id": "090901",
+        "description": null,
+        "url": "http://uri.neuinfo.org/nif/nifstd/nlx_anat_090901"
+      },
+      {
+        "database": "SCTID",
+        "id": "361097006",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/361097006"
+      },
+      {
+        "database": "TAO",
+        "id": "0002137",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0002137"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001250",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001250"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Blood_vessel",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Blood_vessel"
+      },
+      {
+        "database": "XAO",
+        "id": "0001011",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0001011"
+      },
+      {
+        "database": "ZFA",
+        "id": "0005314",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0005314"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0005847",
+        "description": "ncithesaurus:Blood_Vessel",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0005847"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "region of vascular tree organ",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "50722",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/50722"
+          }
+        ]
+      },
+      {
+        "name": "vascular tree organ region",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "50722",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/50722"
+          }
+        ]
+      },
+      {
+        "name": "vas sanguineum",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Blood_vessel",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Blood_vessel"
+          }
+        ]
+      },
+      {
+        "name": "vascular element",
+        "scope": "hasBroadSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "EMAPA",
+            "id": "35993",
+            "description": null,
+            "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35993"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      },
+      "has_quality": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0000086"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "capable_of_part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002216"
+      },
+      "channel_for": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001981/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252Fuberon%252Fcore%2523channel_for"
+      }
+    }
+  }
+}

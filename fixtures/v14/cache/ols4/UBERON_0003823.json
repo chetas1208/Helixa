@@ -1,0 +1,491 @@
+{
+  "retrieved_at": "2026-10-11T23:09:21Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0003823",
+    "lang": "en",
+    "description": [
+      "The middle limb segment of the pelvic free limb, between the autopod and stylopod segments. Includes as parts the hindlimb zeugopodial skeleton, which includes as parts the tibia and fibula, or their cartilage precursors, or evolutionary variants."
+    ],
+    "synonyms": [
+      "crus of hindlimb",
+      "hindlimb epipodium",
+      "crus",
+      "hind epipodium",
+      "hind limb middle limb segment",
+      "hind limb zeudopodium",
+      "hind limb zeugopod",
+      "hindlimb middle limb segment",
+      "hindlimb zeudopodium",
+      "hindlimb zeugopod",
+      "hindlimb zeugopodium",
+      "intermediate segment of free lower limb",
+      "leg",
+      "lower extremity middle limb segment",
+      "lower extremity zeugopod",
+      "lower leg",
+      "middle limb segment of hind limb",
+      "middle limb segment of hindlimb",
+      "shank",
+      "zeugopod of hind limb",
+      "zeugopod of hindlimb"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "EFO:0003051",
+        "EHDAA2:0001030",
+        "EHDAA:5165",
+        "EHDAA:6190",
+        "EMAPA:17496",
+        "FMA:24979",
+        "MA:0000051",
+        "MESH:D007866",
+        "NCIT:C32974",
+        "SCTID:244015008",
+        "VHOG:0000348",
+        "VSAO:0005060",
+        "Wikipedia:Forearm",
+        "galen:Leg",
+        "UMLS:C1140621",
+        "VO:0010971"
+      ],
+      "external_ontology_notes": [
+        "FMA:24979 denotes the middle segment (zeugopod), its placement here is correct. See obo-anatomy archives for discussion"
+      ],
+      "has_relational_adjective": [
+        "sural"
+      ],
+      "homology_notes": [
+        "Most anatomists now agree that the three proximal bones of the tetrapod limbs are homologous to the two or three proximal elements of the paired fin skeleton of other sarcopterygians, that is the humerus-femur, radius-tibia, and ulna-fibula.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0003823"
+      ],
+      "terminology_notes": [
+        "Naming conventions for pod terms under discussion within phenoscape group. TODO - add distinct term for skeleton and place AAO class here"
+      ]
+    },
+    "label": "hindlimb zeugopod",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0003823",
+    "obo_id": "UBERON:0003823",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The middle limb segment of the pelvic free limb, between the autopod and stylopod segments. Includes as parts the hindlimb zeugopodial skeleton, which includes as parts the tibia and fibula, or their cartilage precursors, or evolutionary variants.",
+        "oboXrefs": [
+          {
+            "database": "PHENOSCAPE",
+            "id": "curators",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "EFO",
+        "id": "0003051",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0003051"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0001030",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0001030"
+      },
+      {
+        "database": "EHDAA",
+        "id": "5165",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_5165"
+      },
+      {
+        "database": "EHDAA",
+        "id": "6190",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_6190"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17496",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17496"
+      },
+      {
+        "database": "FMA",
+        "id": "24979",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/24979"
+      },
+      {
+        "database": "MA",
+        "id": "0000051",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000051"
+      },
+      {
+        "database": "MESH",
+        "id": "D007866",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D007866"
+      },
+      {
+        "database": "NCIT",
+        "id": "C32974",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C32974"
+      },
+      {
+        "database": "SCTID",
+        "id": "244015008",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/244015008"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000348",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000348"
+      },
+      {
+        "database": "VSAO",
+        "id": "0005060",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VSAO_0005060"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Forearm",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Forearm"
+      },
+      {
+        "database": "galen",
+        "id": "Leg",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C1140621",
+        "description": "ncithesaurus:Leg",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C1140621"
+      },
+      {
+        "database": "VO",
+        "id": "0010971",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VO_0010971"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "crus",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "VSAO",
+            "id": "0005060",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VSAO_0005060"
+          }
+        ]
+      },
+      {
+        "name": "hind limb middle limb segment",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "hind limb zeudopodium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "VHOG",
+            "id": "0000348",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VHOG_0000348"
+          }
+        ]
+      },
+      {
+        "name": "hind limb zeugopod",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "hindlimb middle limb segment",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "hindlimb zeudopodium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "VHOG",
+            "id": "0000348",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VHOG_0000348"
+          }
+        ]
+      },
+      {
+        "name": "hindlimb zeugopod",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "hindlimb zeugopodium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "intermediate segment of free lower limb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "24979",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/24979"
+          }
+        ]
+      },
+      {
+        "name": "lower extremity middle limb segment",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "lower extremity zeugopod",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "lower leg",
+        "scope": "hasExactSynonym",
+        "type": "preferred term when talking about an instance of this class in Homo sapiens",
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "0000051",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000051"
+          }
+        ]
+      },
+      {
+        "name": "middle limb segment of hind limb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "middle limb segment of hindlimb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": null,
+            "id": "https://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "https://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      },
+      {
+        "name": "shank",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "VSAO",
+            "id": "0005060",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VSAO_0005060"
+          }
+        ]
+      },
+      {
+        "name": "zeugopod of hind limb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "zeugopod of hindlimb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "hind epipodium",
+        "scope": "hasRelatedSynonym",
+        "type": "indicates that a synonym is used in an inconsistent or confusing way, typically between species",
+        "xrefs": []
+      },
+      {
+        "name": "leg",
+        "scope": "hasRelatedSynonym",
+        "type": "indicates that a synonym is used in an inconsistent or confusing way, typically between species",
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "24979",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/24979"
+          },
+          {
+            "database": "MESH",
+            "id": "A01.378.610.500",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      },
+      "has_skeleton": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003823/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002551"
+      }
+    }
+  }
+}

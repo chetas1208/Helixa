@@ -1,0 +1,349 @@
+{
+  "retrieved_at": "2026-10-11T23:09:44Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001013",
+    "lang": "en",
+    "description": [
+      "Portion of connective tissue composed of adipocytes enmeshed in areolar tissue."
+    ],
+    "synonyms": [
+      "fat tissue",
+      "fatty depot",
+      "fatty tissue",
+      "adipose",
+      "bodyfat",
+      "fat"
+    ],
+    "annotation": {
+      "axiom_lost_from_external_ontology": [
+        "relationship loss: subclass connective tissue proper (AAO:0000099)[AAO]"
+      ],
+      "database_cross_reference": [
+        "AAO:0000001",
+        "AEO:000020",
+        "BTO:0001487",
+        "CALOHA:TS-0013",
+        "EFO:0000790",
+        "EHDAA2:0003120",
+        "EMAPA:35112",
+        "EV:0100381",
+        "FMA:20110",
+        "GAID:920",
+        "MA:0000009",
+        "MAT:0000015",
+        "MESH:D000273",
+        "MIAA:0000015",
+        "NCIT:C12472",
+        "SCTID:55603005",
+        "TAO:0002134",
+        "VHOG:0001284",
+        "Wikipedia:Adipose_tissue",
+        "XAO:0003049",
+        "ZFA:0005345",
+        "galen:FattyTissue",
+        "UMLS:C0001527"
+      ],
+      "external_definition": [
+        "Connective tissue in which fat is stored.[TAO]",
+        "Tissue that contains adipocytes, used for cushioning, thermal insulation, lubrication (primarily in the pericardium) and energy storage.[AAO]"
+      ],
+      "external_ontology_notes": [
+        "in FMA this is dense irregular connective tissue"
+      ],
+      "has_relational_adjective": [
+        "adipose"
+      ],
+      "homology_notes": [
+        "Adipose tissue is unique to vertebrates. It is found in mostmammals, birds, reptiles and amphibians, and a variety is found in some species of fish. Furthermore, in insects the fat body found in larvae as well as in adults shares some homology with adipose tissue.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0001013"
+      ],
+      "taxon_notes": [
+        "In humans, adipose tissue is located beneath the skin (subcutaneous fat), around internal organs (visceral fat), in bone marrow (yellow bone marrow) and in breast tissue. Adipose tissue is found in specific locations, which are referred to as adipose depots. Adipose tissue contains several cell types, with the highest percentage of cells being adipocytes, which contain fat droplets. Other cell types include fibroblasts, macrophages, and endothelial cells. Adipose tissue contains many small blood vessels.; Mice have eight major adipose depots, four of which are within the abdominal cavity. The paired gonadal depots are attached to the uterus and ovaries in females and the epididymis and testes in males; the paired retroperitoneal depots are found along the dorsal wall of the abdomen, surrounding the kidney, and, when massive, extend into the pelvis. The mesenteric depot forms a glue-like web that supports the intestines, and the omental depot, which originates near the stomach and spleen, and, when massive, extends into the ventral abdomen."
+      ]
+    },
+    "label": "adipose tissue",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001013",
+    "obo_id": "UBERON:0001013",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Portion of connective tissue composed of adipocytes enmeshed in areolar tissue.",
+        "oboXrefs": [
+          {
+            "database": "MESH",
+            "id": "A10.165.114",
+            "description": null,
+            "url": null
+          },
+          {
+            "database": "MGI",
+            "id": "cwg",
+            "description": null,
+            "url": "http://www.informatics.jax.org/accession/cwg"
+          },
+          {
+            "database": "MP",
+            "id": "0000003",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/MP_0000003"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Adipose_tissue",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Adipose_tissue"
+          },
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000001",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000001"
+      },
+      {
+        "database": "AEO",
+        "id": "000020",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BTO",
+        "id": "0001487",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001487"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0013",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0013"
+      },
+      {
+        "database": "EFO",
+        "id": "0000790",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000790"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0003120",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0003120"
+      },
+      {
+        "database": "EMAPA",
+        "id": "35112",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35112"
+      },
+      {
+        "database": "EV",
+        "id": "0100381",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100381"
+      },
+      {
+        "database": "FMA",
+        "id": "20110",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/20110"
+      },
+      {
+        "database": "GAID",
+        "id": "920",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000009",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000009"
+      },
+      {
+        "database": "MAT",
+        "id": "0000015",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000015"
+      },
+      {
+        "database": "MESH",
+        "id": "D000273",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D000273"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000015",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12472",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12472"
+      },
+      {
+        "database": "SCTID",
+        "id": "55603005",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/55603005"
+      },
+      {
+        "database": "TAO",
+        "id": "0002134",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0002134"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001284",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001284"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Adipose_tissue",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Adipose_tissue"
+      },
+      {
+        "database": "XAO",
+        "id": "0003049",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0003049"
+      },
+      {
+        "database": "ZFA",
+        "id": "0005345",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0005345"
+      },
+      {
+        "database": "galen",
+        "id": "FattyTissue",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0001527",
+        "description": "ncithesaurus:Adipose_Tissue",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0001527"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "fat",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "0000009",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000009"
+          }
+        ]
+      },
+      {
+        "name": "adipose",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001487",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001487"
+          }
+        ]
+      },
+      {
+        "name": "bodyfat",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001487",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001487"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013/graph"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "composed_primarily_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001013/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002473"
+      }
+    }
+  }
+}

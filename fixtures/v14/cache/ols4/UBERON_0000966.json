@@ -1,0 +1,365 @@
+{
+  "retrieved_at": "2026-10-11T23:10:01Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000966",
+    "lang": "en",
+    "description": [
+      "Currently this class encompasses only verteberate AOs but could in theory also include cephalopod - we may want to make a more specific class for vertebrate retina. note that this class excludes ommatidial retinas, as the retina must be part of an eyeball. Use the parent class photoreceptor array / light-sensitive tissue for arthropods",
+      "The retina is the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates."
+    ],
+    "synonyms": [
+      "inner layer of eyeball",
+      "tunica interna of eyeball",
+      "Netzhaut",
+      "retina of camera-type eye",
+      "retinas"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0010352",
+        "BAMS:R",
+        "BIRNLEX:1153",
+        "BTO:0001175",
+        "CALOHA:TS-0865",
+        "EFO:0000832",
+        "EHDAA2:0001627",
+        "EHDAA:4757",
+        "EMAPA:17168",
+        "EV:0100348",
+        "FMA:58301",
+        "GAID:755",
+        "MA:0000276",
+        "MAT:0000142",
+        "MBA:304325711",
+        "MESH:D012160",
+        "MIAA:0000142",
+        "NCIT:C12343",
+        "NIFSTD_RETIRED:birnlex_1156",
+        "SCTID:181171005",
+        "TAO:0000152",
+        "VHOG:0000229",
+        "Wikipedia:Retina",
+        "XAO:0000009",
+        "ZFA:0000152",
+        "neuronames:1862",
+        "UMLS:C0035298",
+        "UMLS:C1278894"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/e/ed/Human_eye_cross-sectional_view_grayscale.png"
+      ],
+      "external_definition": [
+        "The portion of the eye developing from the optic primordium and including the neural retina and the retinal pigment layer. Kimmel et al, 1995.[TAO]"
+      ],
+      "has_relational_adjective": [
+        "retinal"
+      ],
+      "homology_notes": [
+        "The eye of the adult lamprey is remarkably similar to our own, and it possesses numerous features (including the expression of opsin genes) that are very similar to those of the eyes of jawed vertebrates. The lamprey's camera-like eye has a lens, an iris and extra-ocular muscles (five of them, unlike the eyes of jawed vertebrates, which have six), although it lacks intra-ocular muscles. Its retina also has a structure very similar to that of the retinas of other vertebrates, with three nuclear layers comprised of the cell bodies of photoreceptors and bipolar, horizontal, amacrine and ganglion cells. The southern hemisphere lamprey, Geotria australis, possesses five morphological classes of retinal photoreceptor and five classes of opsin, each of which is closely related to the opsins of jawed vertebrates. Given these similarities, we reach the inescapable conclusion that the last common ancestor of jawless and jawed vertebrates already possessed an eye that was comparable to that of extant lampreys and gnathostomes. Accordingly, a vertebrate camera-like eye must have been present by the time that lampreys and gnathostomes diverged, around 500 Mya.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000966"
+      ],
+      "never in taxon": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_6656"
+      ]
+    },
+    "label": "retina",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000966",
+    "obo_id": "UBERON:0000966",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The retina is the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates.",
+        "oboXrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Retina",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Retina"
+          },
+          {
+            "database": "ZFIN",
+            "id": "curator",
+            "description": null,
+            "url": "https://zfin.org/curator"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0010352",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010352"
+      },
+      {
+        "database": "BAMS",
+        "id": "R",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BIRNLEX",
+        "id": "1153",
+        "description": null,
+        "url": "http://uri.neuinfo.org/nif/nifstd/birnlex_1153"
+      },
+      {
+        "database": "BTO",
+        "id": "0001175",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001175"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0865",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0865"
+      },
+      {
+        "database": "EFO",
+        "id": "0000832",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000832"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0001627",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0001627"
+      },
+      {
+        "database": "EHDAA",
+        "id": "4757",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_4757"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17168",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17168"
+      },
+      {
+        "database": "EV",
+        "id": "0100348",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100348"
+      },
+      {
+        "database": "FMA",
+        "id": "58301",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/58301"
+      },
+      {
+        "database": "GAID",
+        "id": "755",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000276",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000276"
+      },
+      {
+        "database": "MAT",
+        "id": "0000142",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000142"
+      },
+      {
+        "database": "MBA",
+        "id": "304325711",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/mbao/MBA_304325711"
+      },
+      {
+        "database": "MESH",
+        "id": "D012160",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D012160"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000142",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12343",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12343"
+      },
+      {
+        "database": "NIFSTD_RETIRED",
+        "id": "birnlex_1156",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "SCTID",
+        "id": "181171005",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/181171005"
+      },
+      {
+        "database": "TAO",
+        "id": "0000152",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000152"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000229",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000229"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Retina",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Retina"
+      },
+      {
+        "database": "XAO",
+        "id": "0000009",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000009"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000152",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000152"
+      },
+      {
+        "database": "neuronames",
+        "id": "1862",
+        "description": null,
+        "url": "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=1862"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0035298",
+        "description": "ncithesaurus:Retina",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0035298"
+      },
+      {
+        "database": "UMLS",
+        "id": "C1278894",
+        "description": "BIRNLEX:1153",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C1278894"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "retina of camera-type eye",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "GO",
+            "id": "0060041",
+            "description": null,
+            "url": "http://amigo.geneontology.org/amigo/term/GO:0060041"
+          }
+        ]
+      },
+      {
+        "name": "Netzhaut",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001175",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001175"
+          }
+        ]
+      },
+      {
+        "name": "retinas",
+        "scope": "hasRelatedSynonym",
+        "type": "plural form",
+        "xrefs": [
+          {
+            "database": "ZFA",
+            "id": "0000152",
+            "description": null,
+            "url": "https://zfin.org/action/ontology/term/ZFA:0000152"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000966/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      }
+    }
+  }
+}

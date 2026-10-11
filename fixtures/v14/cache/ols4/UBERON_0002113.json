@@ -1,0 +1,242 @@
+{
+  "retrieved_at": "2026-10-11T23:09:47Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002113",
+    "lang": "en",
+    "description": [
+      "A paired organ of the urinary tract that produces urine and maintains bodily fluid homeostasis, blood pressure, pH levels, red blood cell production and skeleton mineralization."
+    ],
+    "synonyms": [
+      "reniculate kidney"
+    ],
+    "annotation": {
+      "Contributor": [
+        "https://orcid.org/0000-0001-7655-4833",
+        "https://orcid.org/0000-0003-2804-127X"
+      ],
+      "database_cross_reference": [
+        "AAO:0000250",
+        "BTO:0000671",
+        "CALOHA:TS-0510",
+        "GAID:423",
+        "MAT:0000119",
+        "MESH:D007668",
+        "MIAA:0000119",
+        "Wikipedia:Kidney",
+        "XAO:0003267",
+        "galen:Kidney",
+        "UMLS:C0022646"
+      ],
+      "external_definition": [
+        "One of either of a pair of structures lying on either side of the dorsal aorta in which fluid balance is regulated and waste is excreted out in the form of urine.[AAO]"
+      ],
+      "fma_set_term": [
+        "http://purl.obolibrary.org/obo/FMA_264815"
+      ],
+      "has_relational_adjective": [
+        "renal"
+      ],
+      "id": [
+        "UBERON:0002113"
+      ],
+      "mutually spatially disjoint with": [
+        "http://purl.obolibrary.org/obo/UBERON_0000160"
+      ]
+    },
+    "label": "kidney",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002113",
+    "obo_id": "UBERON:0002113",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "major_organ",
+      "mouse_subset",
+      "organ_slim",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "A paired organ of the urinary tract that produces urine and maintains bodily fluid homeostasis, blood pressure, pH levels, red blood cell production and skeleton mineralization.",
+        "oboXrefs": [
+          {
+            "database": "PMID",
+            "id": "25140012",
+            "description": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25140012"
+          },
+          {
+            "database": "PMID",
+            "id": "35003210",
+            "description": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35003210"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Kidney",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Kidney"
+          },
+          {
+            "database": null,
+            "id": "http://anatomy.uams.edu/anatomyhtml/kidney.html",
+            "description": null,
+            "url": "http://anatomy.uams.edu/anatomyhtml/kidney.html"
+          },
+          {
+            "database": null,
+            "id": "https://www.kidney.org/kidneydisease/top-5-jobs-kidneys-do",
+            "description": null,
+            "url": "https://www.kidney.org/kidneydisease/top-5-jobs-kidneys-do"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000250",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000250"
+      },
+      {
+        "database": "BTO",
+        "id": "0000671",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000671"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0510",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0510"
+      },
+      {
+        "database": "GAID",
+        "id": "423",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MAT",
+        "id": "0000119",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000119"
+      },
+      {
+        "database": "MESH",
+        "id": "D007668",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D007668"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000119",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Kidney",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Kidney"
+      },
+      {
+        "database": "XAO",
+        "id": "0003267",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0003267"
+      },
+      {
+        "database": "galen",
+        "id": "Kidney",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0022646",
+        "description": "ncithesaurus:Kidney",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0022646"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "reniculate kidney",
+        "scope": "hasNarrowSynonym",
+        "type": "taxonomic disambiguation",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Reniculate_kidney",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Reniculate_kidney"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "in_lateral_side_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBSPO_0000126"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      }
+    }
+  }
+}

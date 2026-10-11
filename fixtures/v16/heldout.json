@@ -1,0 +1,14 @@
+[
+  {
+    "id": "h-pax6",
+    "query": "PAX6 eye development association",
+    "relevant": ["doc-pax6"],
+    "context": {"gene_id": "PAX6"}
+  },
+  {
+    "id": "h-cftr",
+    "query": "which gene is annotated in airway epithelium",
+    "relevant": ["doc-cftr"],
+    "context": {"tissue": "airway epithelium"}
+  }
+]

@@ -1,0 +1,358 @@
+{
+  "retrieved_at": "2026-10-11T23:09:55Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000002",
+    "lang": "en",
+    "description": [
+      "Lower, narrow portion of the uterus where it joins with the top end of the vagina."
+    ],
+    "synonyms": [
+      "caudal segment of uterus",
+      "canalis cervicis uteri",
+      "cervical canal of uterus",
+      "cervical canal",
+      "cervix of uterus",
+      "cervix uteri",
+      "cervix",
+      "neck of uterus",
+      "uterine cervix"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "BTO:0001421",
+        "BTO:0002249",
+        "CALOHA:TS-0134",
+        "EFO:0000979",
+        "EMAPA:29927",
+        "EV:0100114",
+        "FMA:17740",
+        "GAID:376",
+        "MA:0000392",
+        "MAT:0000292",
+        "MESH:D002584",
+        "NCIT:C12311",
+        "SCTID:181453009",
+        "VHOG:0001359",
+        "Wikipedia:Cervix",
+        "galen:CervixUteri",
+        "UMLS:C0007874"
+      ],
+      "depiction": [
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/uterus-female/v1.2/assets/3d-vh-f-uterus.glb"
+      ],
+      "external_definition": [
+        "The narrow caudal end of the uterus that opens into the vagina. [TFD][VHOG]"
+      ],
+      "has_relational_adjective": [
+        "cervical"
+      ],
+      "homology_notes": [
+        "The evolution of mammals is associated with radical changes in their reproductive biology, particularly the structure and function of the female reproductive organs. These changes include the evolution of the uterus, cervix, vagina, placenta and specialized cell types associated with each of those structures.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000002"
+      ]
+    },
+    "label": "uterine cervix",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000002",
+    "obo_id": "UBERON:0000002",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Lower, narrow portion of the uterus where it joins with the top end of the vagina.",
+        "oboXrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Cervix",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Cervix"
+          },
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BTO",
+        "id": "0001421",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001421"
+      },
+      {
+        "database": "BTO",
+        "id": "0002249",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0002249"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0134",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0134"
+      },
+      {
+        "database": "EFO",
+        "id": "0000979",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000979"
+      },
+      {
+        "database": "EMAPA",
+        "id": "29927",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:29927"
+      },
+      {
+        "database": "EV",
+        "id": "0100114",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100114"
+      },
+      {
+        "database": "FMA",
+        "id": "17740",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/17740"
+      },
+      {
+        "database": "GAID",
+        "id": "376",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000392",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000392"
+      },
+      {
+        "database": "MAT",
+        "id": "0000292",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000292"
+      },
+      {
+        "database": "MESH",
+        "id": "D002584",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D002584"
+      },
+      {
+        "database": "NCIT",
+        "id": "C12311",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12311"
+      },
+      {
+        "database": "SCTID",
+        "id": "181453009",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/181453009"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001359",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001359"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Cervix",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Cervix"
+      },
+      {
+        "database": "galen",
+        "id": "CervixUteri",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0007874",
+        "description": "ncithesaurus:Cervix",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0007874"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "canalis cervicis uteri",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "17740",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/17740"
+          },
+          {
+            "database": "FMA",
+            "id": "TA",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "cervical canal of uterus",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "17740",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/17740"
+          }
+        ]
+      },
+      {
+        "name": "cervix uteri",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "EMAPA",
+            "id": "29927",
+            "description": null,
+            "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:29927"
+          }
+        ]
+      },
+      {
+        "name": "neck of uterus",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "17740",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/17740"
+          }
+        ]
+      },
+      {
+        "name": "uterine cervix",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "17740",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/17740"
+          }
+        ]
+      },
+      {
+        "name": "cervical canal",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "17740",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/17740"
+          }
+        ]
+      },
+      {
+        "name": "cervix of uterus",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001421",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001421"
+          }
+        ]
+      },
+      {
+        "name": "cervix",
+        "scope": "hasBroadSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "EFO",
+            "id": "0000979",
+            "description": null,
+            "url": "http://www.ebi.ac.uk/efo/EFO_0000979"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "continuous_with": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002150"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000002/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      }
+    }
+  }
+}

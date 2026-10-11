@@ -1,0 +1,260 @@
+{
+  "retrieved_at": "2026-10-11T23:09:13Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000974",
+    "lang": "en",
+    "description": [
+      "An organism subdivision that extends from the head to the pectoral girdle, encompassing the cervical vertebral column."
+    ],
+    "synonyms": [
+      "collum",
+      "neck (volume)"
+    ],
+    "annotation": {
+      "curator note": [
+        "true necks are considered to be present when the pectoral girdle is separate from the skull - Tiktaalik is the earliest known fish to have a true neck."
+      ],
+      "database_cross_reference": [
+        "AEO:0000108",
+        "BTO:0000420",
+        "CALOHA:TS-2045",
+        "EFO:0000967",
+        "EHDAA2:0003108",
+        "EMAPA:35587",
+        "FMA:7155",
+        "GAID:86",
+        "MA:0000024",
+        "MAT:0000297",
+        "MESH:D009333",
+        "MIAA:0000297",
+        "NCIT:C13063",
+        "SCTID:302550007",
+        "Wikipedia:Neck",
+        "galen:Neck",
+        "UMLS:C0027530"
+      ],
+      "depiction": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/99/Female_neck.jpg"
+      ],
+      "dubious for taxon": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_32443"
+      ],
+      "has_relational_adjective": [
+        "cervical"
+      ],
+      "id": [
+        "UBERON:0000974"
+      ]
+    },
+    "label": "neck",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000974",
+    "obo_id": "UBERON:0000974",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "An organism subdivision that extends from the head to the pectoral girdle, encompassing the cervical vertebral column.",
+        "oboXrefs": [
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AEO",
+        "id": "0000108",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AEO_0000108"
+      },
+      {
+        "database": "BTO",
+        "id": "0000420",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000420"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-2045",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-2045"
+      },
+      {
+        "database": "EFO",
+        "id": "0000967",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000967"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0003108",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0003108"
+      },
+      {
+        "database": "EMAPA",
+        "id": "35587",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35587"
+      },
+      {
+        "database": "FMA",
+        "id": "7155",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7155"
+      },
+      {
+        "database": "GAID",
+        "id": "86",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000024",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000024"
+      },
+      {
+        "database": "MAT",
+        "id": "0000297",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000297"
+      },
+      {
+        "database": "MESH",
+        "id": "D009333",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D009333"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000297",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C13063",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C13063"
+      },
+      {
+        "database": "SCTID",
+        "id": "302550007",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/302550007"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Neck",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Neck"
+      },
+      {
+        "database": "galen",
+        "id": "Neck",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0027530",
+        "description": "ncithesaurus:Neck",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0027530"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "collum",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Neck",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Neck"
+          }
+        ]
+      },
+      {
+        "name": "neck (volume)",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "7155",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/7155"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "anteriorly_connected_to": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252Fuberon%252Fcore%2523anteriorly_connected_to"
+      },
+      "posteriorly_connected_to": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000974/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252Fuberon%252Fcore%2523posteriorly_connected_to"
+      }
+    }
+  }
+}

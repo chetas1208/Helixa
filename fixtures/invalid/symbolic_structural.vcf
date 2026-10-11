@@ -1,0 +1,11 @@
+##fileformat=VCFv4.2
+##reference=GRCh38
+##contig=<ID=chr22,length=120000>
+##ALT=<ID=DEL,Description="Deletion">
+##ALT=<ID=DUP,Description="Duplication">
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE001
+chr22	10001	sv1	A	<DEL>	60	PASS	SVTYPE=DEL	GT	0/1
+chr22	10002	sv2	C	<DUP>	60	PASS	SVTYPE=DUP	GT	0/1
+chr22	10003	bnd1	G	G[chr22:15000[	60	PASS	SVTYPE=BND	GT	0/1

@@ -1,0 +1,322 @@
+{
+  "retrieved_at": "2026-10-11T23:09:51Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001004",
+    "lang": "en",
+    "description": [
+      "Functional system which consists of structures involved in respiration."
+    ],
+    "synonyms": [
+      "apparatus respiratorius",
+      "respiratory system",
+      "Atmungssystem",
+      "apparatus respiratorius",
+      "systema respiratorium"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0000541",
+        "BTO:0000203",
+        "CALOHA:TS-1319",
+        "EFO:0000804",
+        "EHDAA2:0001604",
+        "EHDAA:2203",
+        "EMAPA:16727",
+        "EV:0100036",
+        "FMA:7158",
+        "GAID:78",
+        "MA:0000327",
+        "MAT:0000030",
+        "MESH:D012137",
+        "MIAA:0000030",
+        "NCIT:C12779",
+        "SCTID:278197002",
+        "TAO:0000272",
+        "VHOG:0000202",
+        "Wikipedia:Respiratory_system",
+        "XAO:0000117",
+        "ZFA:0000272",
+        "UMLS:C0035237"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/5/5e/Respiratory_system_complete_en.svg",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/lung-female/v1.4/assets/3d-vh-f-lung.glb",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/lung-male/v1.4/assets/3d-vh-m-lung.glb"
+      ],
+      "external_definition": [
+        "The anatomical system in which the exchange of oxygen and carbon dioxide between the organism and its environment.[AAO]"
+      ],
+      "homology_notes": [
+        "There is no doubt that the primitive pattern of vertebrate air-breathing is the buccal pulse pump found in actinopterygian fishes.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0001004"
+      ],
+      "never in taxon": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_147099"
+      ]
+    },
+    "label": "respiratory system",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001004",
+    "obo_id": "UBERON:0001004",
+    "in_subset": [
+      "efo_slim",
+      "functional_classification",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Functional system which consists of structures involved in respiration.",
+        "oboXrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Respiratory_system",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Respiratory_system"
+          },
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000541",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000541"
+      },
+      {
+        "database": "BTO",
+        "id": "0000203",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000203"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1319",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1319"
+      },
+      {
+        "database": "EFO",
+        "id": "0000804",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000804"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0001604",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0001604"
+      },
+      {
+        "database": "EHDAA",
+        "id": "2203",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_2203"
+      },
+      {
+        "database": "EMAPA",
+        "id": "16727",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:16727"
+      },
+      {
+        "database": "EV",
+        "id": "0100036",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100036"
+      },
+      {
+        "database": "FMA",
+        "id": "7158",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7158"
+      },
+      {
+        "database": "GAID",
+        "id": "78",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000327",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000327"
+      },
+      {
+        "database": "MAT",
+        "id": "0000030",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000030"
+      },
+      {
+        "database": "MESH",
+        "id": "D012137",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D012137"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000030",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12779",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12779"
+      },
+      {
+        "database": "SCTID",
+        "id": "278197002",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/278197002"
+      },
+      {
+        "database": "TAO",
+        "id": "0000272",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000272"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000202",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000202"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Respiratory_system",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Respiratory_system"
+      },
+      {
+        "database": "XAO",
+        "id": "0000117",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000117"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000272",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000272"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0035237",
+        "description": "ncithesaurus:Respiratory_System",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0035237"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "Atmungssystem",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000203",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000203"
+          }
+        ]
+      },
+      {
+        "name": "apparatus respiratorius",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000203",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000203"
+          }
+        ]
+      },
+      {
+        "name": "systema respiratorium",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Respiratory_system",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Respiratory_system"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/graph"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "capable_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002215"
+      },
+      "existence_ends_during": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001004/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002492"
+      }
+    }
+  }
+}

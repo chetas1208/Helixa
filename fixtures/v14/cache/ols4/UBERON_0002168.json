@@ -1,0 +1,179 @@
+{
+  "retrieved_at": "2026-10-11T23:09:30Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002168",
+    "lang": "en",
+    "description": [
+      "Lung which consists of the left upper lobe and left lower lobe.[FMA]."
+    ],
+    "synonyms": [],
+    "annotation": {
+      "database_cross_reference": [
+        "EHDAA2:0000943",
+        "EHDAA:4947",
+        "EMAPA:17653",
+        "FMA:7310",
+        "MA:0000425",
+        "NCIT:C32967",
+        "SCTID:361982005",
+        "VHOG:0000618",
+        "Wikipedia:Left_lung",
+        "UMLS:C0225730"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/d/dd/Gray973.png",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/lung-female/v1.4/assets/3d-vh-f-lung.glb",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/lung-male/v1.4/assets/3d-vh-m-lung.glb"
+      ],
+      "homology_notes": [
+        "Lungs had already developed as paired ventral pockets from the intestine in the ancestor of Osteognathostomata.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0002168"
+      ],
+      "implements_design_pattern": [
+        "https://github.com/obophenotype/uberon/wiki/Modeling-paired-structures-Design-Pattern"
+      ]
+    },
+    "label": "left lung",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002168",
+    "obo_id": "UBERON:0002168",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Lung which consists of the left upper lobe and left lower lobe.[FMA].",
+        "oboXrefs": [
+          {
+            "database": "FMA",
+            "id": "FMA",
+            "description": null,
+            "url": null
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Left_lung",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Left_lung"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "EHDAA2",
+        "id": "0000943",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0000943"
+      },
+      {
+        "database": "EHDAA",
+        "id": "4947",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_4947"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17653",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17653"
+      },
+      {
+        "database": "FMA",
+        "id": "7310",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7310"
+      },
+      {
+        "database": "MA",
+        "id": "0000425",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000425"
+      },
+      {
+        "database": "NCIT",
+        "id": "C32967",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C32967"
+      },
+      {
+        "database": "SCTID",
+        "id": "361982005",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/361982005"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000618",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000618"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Left_lung",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Left_lung"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0225730",
+        "description": "ncithesaurus:Left_Lung",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0225730"
+      }
+    ],
+    "obo_synonym": null,
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168/graph"
+      },
+      "in_left_side_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002168/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBSPO_0000120"
+      }
+    }
+  }
+}

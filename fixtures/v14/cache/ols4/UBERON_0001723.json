@@ -1,0 +1,313 @@
+{
+  "retrieved_at": "2026-10-11T23:09:41Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001723",
+    "lang": "en",
+    "description": [
+      "A muscular organ in the floor of the mouth."
+    ],
+    "synonyms": [
+      "glossus"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0010360",
+        "BTO:0001385",
+        "CALOHA:TS-1050",
+        "EFO:0000833",
+        "EHDAA2:0002062",
+        "EHDAA:9144",
+        "EMAPA:17185",
+        "EV:0100058",
+        "FMA:54640",
+        "GAID:816",
+        "MA:0000347",
+        "MAT:0000040",
+        "MESH:D014059",
+        "MIAA:0000040",
+        "NCIT:C12422",
+        "SCTID:181226008",
+        "TAO:0005333",
+        "VHOG:0000419",
+        "Wikipedia:Tongue",
+        "XAO:0000446",
+        "ZFA:0005333",
+        "UMLS:C0040408"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/a/a6/Tongue.agr.jpg",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-male/v1.0/assets/3d-vh-m-mouth.glb"
+      ],
+      "development_notes": [
+        "The tongue has contributions from all pharyngeal arches which changes with time. The tongue initially begins as swelling rostral to foramen cecum, the median tongue bud.. tongue muscles derive from the somites - http://php.med.unsw.edu.au/embryology/index.php?title=Tongue_Development#Pharyngeal_Arch_Contributions"
+      ],
+      "editor note": [
+        "in MA the tongue is part of the oral region, which in uberon is treated as the oral opening. consider revising oral opening - oral region equivalence."
+      ],
+      "external_definition": [
+        "A mobile mass of muscular tissue that is covered with mucous membrane, occupies much of the cavity of the mouth, forms part of its floor, bears the organ of taste, and assists in chewing and swallowing. [TFD][VHOG]",
+        "Muscular organ in the floor of the mouth.[FEED]",
+        "The tongue is the movable, muscular organ on the floor of the mouth of most vertebrates, in many other mammals is the principal organ of taste, aids in the prehension of food, in swallowing, and in modifying the voice as in speech[GO][GO:0043586]."
+      ],
+      "has_relational_adjective": [
+        "glossal",
+        "lingual"
+      ],
+      "homology_notes": [
+        "Most adult amphibians have a tongue, as do all known reptiles, birds and mammals. Thus it is likely that the tongue appeared with the establishment of tetrapods and this structure seems to be related, to some extant, to the terrestrial lifestyle.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0001723"
+      ],
+      "taxon_notes": [
+        "Many species of fish have small folds at the base of their mouths that might informally be called tongues, but they lack a muscular structure like the true tongues found in most tetrapods"
+      ]
+    },
+    "label": "tongue",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001723",
+    "obo_id": "UBERON:0001723",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "organ_slim",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "A muscular organ in the floor of the mouth.",
+        "oboXrefs": [
+          {
+            "database": "FEED",
+            "id": "rd",
+            "description": null,
+            "url": null
+          },
+          {
+            "database": null,
+            "id": "https://github.com/obophenotype/uberon/issues/256",
+            "description": null,
+            "url": "https://github.com/obophenotype/uberon/issues/256"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0010360",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010360"
+      },
+      {
+        "database": "BTO",
+        "id": "0001385",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001385"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1050",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1050"
+      },
+      {
+        "database": "EFO",
+        "id": "0000833",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000833"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0002062",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0002062"
+      },
+      {
+        "database": "EHDAA",
+        "id": "9144",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_9144"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17185",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17185"
+      },
+      {
+        "database": "EV",
+        "id": "0100058",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100058"
+      },
+      {
+        "database": "FMA",
+        "id": "54640",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/54640"
+      },
+      {
+        "database": "GAID",
+        "id": "816",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000347",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000347"
+      },
+      {
+        "database": "MAT",
+        "id": "0000040",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000040"
+      },
+      {
+        "database": "MESH",
+        "id": "D014059",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D014059"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000040",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12422",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12422"
+      },
+      {
+        "database": "SCTID",
+        "id": "181226008",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/181226008"
+      },
+      {
+        "database": "TAO",
+        "id": "0005333",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0005333"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000419",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000419"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Tongue",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Tongue"
+      },
+      {
+        "database": "XAO",
+        "id": "0000446",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000446"
+      },
+      {
+        "database": "ZFA",
+        "id": "0005333",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0005333"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0040408",
+        "description": "ncithesaurus:Tongue",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0040408"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "glossus",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Tongue",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Tongue"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "adjacent_to": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002220"
+      },
+      "has_developmental_contribution_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002254"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      },
+      "immediate_transformation_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001723/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002495"
+      }
+    }
+  }
+}

@@ -1,0 +1,2211 @@
+{
+  "retrieved_at": "2026-10-11T23:11:26Z",
+  "source_version": "GWAS Catalog REST API v2",
+  "source_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=CFTR&size=40",
+  "payload": {
+    "_embedded": {
+      "associations": [
+        {
+          "association_id": 227466066,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -6,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[4.25468164-8.033918360000001]",
+          "beta": "6.1443 unit increase",
+          "p_value": 1e-06,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006295",
+              "efo_trait": "malignant urinary system neoplasm"
+            }
+          ],
+          "reported_trait": [
+            "Urinary cancer"
+          ],
+          "accession_id": "GCST90994682",
+          "locations": [
+            "7:117427432"
+          ],
+          "mapped_genes": [
+            "ASZ1",
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42315506",
+          "first_author": "Dayem Ullah AZM",
+          "ci_lower": 4.2546816,
+          "ci_upper": 8.033918,
+          "snp_effect_allele": [
+            "rs779779355-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs779779355",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/227466066"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/227466066/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs779779355"
+            }
+          }
+        },
+        {
+          "association_id": 227465818,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -7,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[4.5050448-8.8184952]",
+          "beta": "6.66177 unit increase",
+          "p_value": 6e-07,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0001187",
+              "efo_trait": "urinary bladder cancer"
+            }
+          ],
+          "reported_trait": [
+            "Bladder cancer"
+          ],
+          "accession_id": "GCST90994663",
+          "locations": [
+            "7:117427432"
+          ],
+          "mapped_genes": [
+            "ASZ1",
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42315506",
+          "first_author": "Dayem Ullah AZM",
+          "ci_lower": 4.505045,
+          "ci_upper": 8.818495,
+          "snp_effect_allele": [
+            "rs779779355-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs779779355",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/227465818"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/227465818/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs779779355"
+            }
+          }
+        },
+        {
+          "association_id": 227465202,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -7,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[4.8520676-8.9237324]",
+          "beta": "6.8879 unit increase",
+          "p_value": 3e-07,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0001187",
+              "efo_trait": "urinary bladder cancer"
+            }
+          ],
+          "reported_trait": [
+            "Bladder cancer"
+          ],
+          "accession_id": "GCST90994685",
+          "locations": [
+            "7:117427432"
+          ],
+          "mapped_genes": [
+            "ASZ1",
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42315506",
+          "first_author": "Dayem Ullah AZM",
+          "ci_lower": 4.8520675,
+          "ci_upper": 8.923733,
+          "snp_effect_allele": [
+            "rs779779355-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs779779355",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/227465202"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/227465202/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs779779355"
+            }
+          }
+        },
+        {
+          "association_id": 226116618,
+          "risk_frequency": "0.9996",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[3.13-3.19]",
+          "beta": "3.16 unit decrease",
+          "p_value": 3e-11,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0003900",
+              "efo_trait": "connective tissue disorder"
+            }
+          ],
+          "reported_trait": [
+            "Infective connective tissue disorders (PheCode 712)"
+          ],
+          "accession_id": "GCST90480497",
+          "locations": [
+            "7:117500412"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 3.13,
+          "ci_upper": 3.19,
+          "snp_effect_allele": [
+            "rs548335381-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs548335381",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226116618"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226116618/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs548335381"
+            }
+          }
+        },
+        {
+          "association_id": 221366500,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -22,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.039-0.059]",
+          "beta": "0.0492237 unit increase",
+          "p_value": 2e-22,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_2052225",
+              "efo_trait": "amount of carboxypeptidase B (human) in blood"
+            }
+          ],
+          "reported_trait": [
+            "Circulating CPB1 levels"
+          ],
+          "accession_id": "GCST90859977",
+          "locations": [
+            "7:117417179"
+          ],
+          "mapped_genes": [
+            "ASZ1",
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42097137",
+          "first_author": "Koprulu M",
+          "ci_lower": 0.039,
+          "ci_upper": 0.059,
+          "snp_effect_allele": [
+            "rs2188555-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2188555",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221366500"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221366500/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2188555"
+            }
+          }
+        },
+        {
+          "association_id": 221365994,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.094-0.19]",
+          "beta": "0.1423203 unit decrease",
+          "p_value": 6.000000000000001e-09,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_2052225",
+              "efo_trait": "amount of carboxypeptidase B (human) in blood"
+            }
+          ],
+          "reported_trait": [
+            "Circulating CPB1 levels"
+          ],
+          "accession_id": "GCST90859977",
+          "locations": [
+            "7:117592169"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42097137",
+          "first_author": "Koprulu M",
+          "ci_lower": 0.094,
+          "ci_upper": 0.19,
+          "snp_effect_allele": [
+            "rs1800100-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1800100",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221365994"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221365994/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1800100"
+            }
+          }
+        },
+        {
+          "association_id": 221363047,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -21,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.038-0.058]",
+          "beta": "0.0481748 unit increase",
+          "p_value": 2e-21,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_2050574",
+              "efo_trait": "level of carboxypeptidase A1 in blood"
+            }
+          ],
+          "reported_trait": [
+            "Circulating CPA1 levels"
+          ],
+          "accession_id": "GCST90859969",
+          "locations": [
+            "7:117417179"
+          ],
+          "mapped_genes": [
+            "ASZ1",
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42097137",
+          "first_author": "Koprulu M",
+          "ci_lower": 0.038,
+          "ci_upper": 0.058,
+          "snp_effect_allele": [
+            "rs2188555-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2188555",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221363047"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221363047/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2188555"
+            }
+          }
+        },
+        {
+          "association_id": 221362492,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.089-0.185]",
+          "beta": "0.1369209 unit decrease",
+          "p_value": 3.0000000000000004e-08,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_2050574",
+              "efo_trait": "level of carboxypeptidase A1 in blood"
+            }
+          ],
+          "reported_trait": [
+            "Circulating CPA1 levels"
+          ],
+          "accession_id": "GCST90859969",
+          "locations": [
+            "7:117592169"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42097137",
+          "first_author": "Koprulu M",
+          "ci_lower": 0.089,
+          "ci_upper": 0.185,
+          "snp_effect_allele": [
+            "rs1800100-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1800100",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221362492"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221362492/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1800100"
+            }
+          }
+        },
+        {
+          "association_id": 221286500,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.032-0.056]",
+          "beta": "0.0438657 unit decrease",
+          "p_value": 2e-13,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_2052840",
+              "efo_trait": "amount of trypsin-2 (human) in blood"
+            }
+          ],
+          "reported_trait": [
+            "Circulating PRSS2 levels"
+          ],
+          "accession_id": "GCST90860437",
+          "locations": [
+            "7:117426664"
+          ],
+          "mapped_genes": [
+            "ASZ1",
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42097137",
+          "first_author": "Koprulu M",
+          "ci_lower": 0.032,
+          "ci_upper": 0.056,
+          "snp_effect_allele": [
+            "rs7784156-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs7784156",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221286500"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221286500/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs7784156"
+            }
+          }
+        },
+        {
+          "association_id": 221221242,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.026-0.05]",
+          "beta": "0.038308 unit decrease",
+          "p_value": 4e-10,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_2052224",
+              "efo_trait": "amount of carboxypeptidase A2 (human) in blood"
+            }
+          ],
+          "reported_trait": [
+            "Circulating CPA2 levels"
+          ],
+          "accession_id": "GCST90859671",
+          "locations": [
+            "7:117328572"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42097137",
+          "first_author": "Koprulu M",
+          "ci_lower": 0.026,
+          "ci_upper": 0.05,
+          "snp_effect_allele": [
+            "rs39319-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs39319",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221221242"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/221221242/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs39319"
+            }
+          }
+        },
+        {
+          "association_id": 218947030,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.38-1.74]",
+          "or_per_copy_num": 1.55,
+          "or_value": "1.55",
+          "beta": "-",
+          "p_value": 9e-13,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006031",
+              "efo_trait": "chronic rhinosinusitis"
+            }
+          ],
+          "reported_trait": [
+            "Chronic sinusitis"
+          ],
+          "accession_id": "GCST90837502",
+          "locations": [
+            "7:117659380"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 1.38,
+          "ci_upper": 1.74,
+          "snp_effect_allele": [
+            "rs113827944-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113827944",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218947030"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218947030/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113827944"
+            }
+          }
+        },
+        {
+          "association_id": 218947005,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -23,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[4.35-7.52]",
+          "or_per_copy_num": 5.72,
+          "or_value": "5.72",
+          "beta": "-",
+          "p_value": 6e-23,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005015",
+              "efo_trait": "diabetes mellitus"
+            }
+          ],
+          "reported_trait": [
+            "Secondary diabetes mellitus (PheCode 249)"
+          ],
+          "accession_id": "GCST90837501",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 4.35,
+          "ci_upper": 7.52,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218947005"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218947005/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946980,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.42-1.85]",
+          "or_per_copy_num": 1.62,
+          "or_value": "1.62",
+          "beta": "-",
+          "p_value": 9e-12,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0001106",
+              "efo_trait": "kidney failure"
+            }
+          ],
+          "reported_trait": [
+            "Renal failure"
+          ],
+          "accession_id": "GCST90837500",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 1.42,
+          "ci_upper": 1.85,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946980"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946980/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946955,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -46,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[7.41-11.98]",
+          "or_per_copy_num": 9.42,
+          "or_value": "9.42",
+          "beta": "-",
+          "p_value": 1e-46,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0004652",
+              "efo_trait": "bacterial pneumonia"
+            }
+          ],
+          "reported_trait": [
+            "Pseudomonal pneumonia (PheCode 480.12)"
+          ],
+          "accession_id": "GCST90837499",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 7.41,
+          "ci_upper": 11.98,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946955"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946955/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946930,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -14,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.69-2.34]",
+          "or_per_copy_num": 1.99,
+          "or_value": "1.99",
+          "beta": "-",
+          "p_value": 4e-14,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0001371",
+              "efo_trait": "protein-energy malnutrition"
+            }
+          ],
+          "reported_trait": [
+            "Protein-calorie malnutrition (PheCode 260)"
+          ],
+          "accession_id": "GCST90837498",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 1.69,
+          "ci_upper": 2.34,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946930"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946930/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946906,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.43-1.86]",
+          "or_per_copy_num": 1.63,
+          "or_value": "1.63",
+          "beta": "-",
+          "p_value": 1e-12,
+          "efo_traits": [
+            {
+              "efo_id": "HP_0002202",
+              "efo_trait": "Pleural effusion"
+            },
+            {
+              "efo_id": "MONDO_0000986",
+              "efo_trait": "pleurisy"
+            }
+          ],
+          "reported_trait": [
+            "Pleurisy; pleural effusion (PheCode 507)"
+          ],
+          "accession_id": "GCST90837497",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 1.43,
+          "ci_upper": 1.86,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946906"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946906/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946882,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -16,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[5.15-10.55]",
+          "or_per_copy_num": 7.37,
+          "or_value": "7.37",
+          "beta": "-",
+          "p_value": 1e-16,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0001933",
+              "efo_trait": "endocrine pancreas disorder"
+            }
+          ],
+          "reported_trait": [
+            "Other disorders of pancreatic internal secretion"
+          ],
+          "accession_id": "GCST90837496",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 5.15,
+          "ci_upper": 10.55,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946882"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946882/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946858,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[2.07-3.4]",
+          "or_per_copy_num": 2.66,
+          "or_value": "2.66",
+          "beta": "-",
+          "p_value": 2e-11,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005087",
+              "efo_trait": "respiratory system disorder"
+            }
+          ],
+          "reported_trait": [
+            "Other diseases of respiratory system, NEC (PheCode 519.8)"
+          ],
+          "accession_id": "GCST90837495",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 2.07,
+          "ci_upper": 3.4,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946858"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946858/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946834,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -14,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.53-2.02]",
+          "or_per_copy_num": 1.76,
+          "or_value": "1.76",
+          "beta": "-",
+          "p_value": 1e-14,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005275",
+              "efo_trait": "lung disorder"
+            }
+          ],
+          "reported_trait": [
+            "Other diseases of lung (PheCode 510)"
+          ],
+          "accession_id": "GCST90837494",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 1.53,
+          "ci_upper": 2.02,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946834"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946834/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946810,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -22,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[2.76-4.23]",
+          "or_per_copy_num": 3.41,
+          "or_value": "3.41",
+          "beta": "-",
+          "p_value": 5.0000000000000005e-22,
+          "efo_traits": [
+            {
+              "efo_id": "HP_0100582",
+              "efo_trait": "Nasal polyposis"
+            }
+          ],
+          "reported_trait": [
+            "Nasal polyps"
+          ],
+          "accession_id": "GCST90837493",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 2.76,
+          "ci_upper": 4.23,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946810"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946810/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946786,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -22,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[2.99-4.66]",
+          "or_per_copy_num": 3.73,
+          "or_value": "3.73",
+          "beta": "-",
+          "p_value": 3e-22,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0002041",
+              "efo_trait": "fungal infectious disease"
+            }
+          ],
+          "reported_trait": [
+            "Mycoses"
+          ],
+          "accession_id": "GCST90837492",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 2.99,
+          "ci_upper": 4.66,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946786"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946786/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946761,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.98-3.05]",
+          "or_per_copy_num": 2.46,
+          "or_value": "2.46",
+          "beta": "-",
+          "p_value": 5e-13,
+          "efo_traits": [
+            {
+              "efo_id": "HP_0002105",
+              "efo_trait": "hemoptysis"
+            }
+          ],
+          "reported_trait": [
+            "Hemoptysis (PheCode 516.1)"
+          ],
+          "accession_id": "GCST90837491",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 1.98,
+          "ci_upper": 3.05,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946761"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946761/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946736,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.65-2.35]",
+          "or_per_copy_num": 1.97,
+          "or_value": "1.97",
+          "beta": "-",
+          "p_value": 3e-12,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0018667",
+              "efo_trait": "pleural empyema"
+            },
+            {
+              "efo_id": "MONDO_0002076",
+              "efo_trait": "pneumothorax"
+            }
+          ],
+          "reported_trait": [
+            "Empyema and pneumothorax (PheCode 506)"
+          ],
+          "accession_id": "GCST90837490",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 1.65,
+          "ci_upper": 2.35,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946736"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946736/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946712,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -32,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[2.55-3.53]",
+          "or_per_copy_num": 3.0,
+          "or_value": "3.0",
+          "beta": "-",
+          "p_value": 3e-32,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0002356",
+              "efo_trait": "pancreas disorder"
+            }
+          ],
+          "reported_trait": [
+            "Diseases of pancreas (PheCode 577)"
+          ],
+          "accession_id": "GCST90837489",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 2.55,
+          "ci_upper": 3.53,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946712"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946712/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218946687,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -95,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[11.98-18.46]",
+          "or_per_copy_num": 14.87,
+          "or_value": "14.87",
+          "beta": "-",
+          "p_value": 4e-95,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0009061",
+              "efo_trait": "cystic fibrosis"
+            }
+          ],
+          "reported_trait": [
+            "Cystic fibrosis"
+          ],
+          "accession_id": "GCST90837488",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 11.98,
+          "ci_upper": 18.46,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946687"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218946687/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218945319,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[2.37-4.16]",
+          "or_per_copy_num": 3.14,
+          "or_value": "3.14",
+          "beta": "-",
+          "p_value": 2e-11,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005003",
+              "efo_trait": "chronic pancreatitis"
+            }
+          ],
+          "reported_trait": [
+            "Chronic pancreatitis"
+          ],
+          "accession_id": "GCST90837487",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 2.37,
+          "ci_upper": 4.16,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945319"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945319/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218945294,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -15,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.64-2.2]",
+          "or_per_copy_num": 1.9,
+          "or_value": "1.9",
+          "beta": "-",
+          "p_value": 1e-15,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005002",
+              "efo_trait": "chronic obstructive pulmonary disease"
+            }
+          ],
+          "reported_trait": [
+            "Chronic airway obstruction (PheCode 496)"
+          ],
+          "accession_id": "GCST90837486",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 1.64,
+          "ci_upper": 2.2,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945294"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945294/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218945269,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -41,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[4.27-6.35]",
+          "or_per_copy_num": 5.21,
+          "or_value": "5.21",
+          "beta": "-",
+          "p_value": 1e-41,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0004822",
+              "efo_trait": "bronchiectasis"
+            }
+          ],
+          "reported_trait": [
+            "Bronchiectasis"
+          ],
+          "accession_id": "GCST90837485",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 4.27,
+          "ci_upper": 6.35,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945269"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945269/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218945244,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -18,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.87-2.57]",
+          "or_per_copy_num": 2.19,
+          "or_value": "2.19",
+          "beta": "-",
+          "p_value": 2e-18,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0004652",
+              "efo_trait": "bacterial pneumonia"
+            }
+          ],
+          "reported_trait": [
+            "Bacterial pneumonia"
+          ],
+          "accession_id": "GCST90837484",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 1.87,
+          "ci_upper": 2.57,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945244"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945244/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218945219,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 8,
+          "pvalue_exponent": -23,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[4.59-8.2]",
+          "or_per_copy_num": 6.13,
+          "or_value": "6.13",
+          "beta": "-",
+          "p_value": 8e-23,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005657",
+              "efo_trait": "aspergillosis"
+            }
+          ],
+          "reported_trait": [
+            "Aspergillosis"
+          ],
+          "accession_id": "GCST90837483",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 4.59,
+          "ci_upper": 8.2,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945219"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945219/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218945195,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.48-1.97]",
+          "or_per_copy_num": 1.71,
+          "or_value": "1.71",
+          "beta": "-",
+          "p_value": 2e-12,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0002492",
+              "efo_trait": "acute kidney injury"
+            }
+          ],
+          "reported_trait": [
+            "Acute renal failure"
+          ],
+          "accession_id": "GCST90837482",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 1.48,
+          "ci_upper": 1.97,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945195"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945195/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218945170,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -15,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[2.05-3.06]",
+          "or_per_copy_num": 2.51,
+          "or_value": "2.51",
+          "beta": "-",
+          "p_value": 1e-15,
+          "efo_traits": [
+            {
+              "efo_id": "HP_0032016",
+              "efo_trait": "abnormal sputum"
+            }
+          ],
+          "reported_trait": [
+            "Abnormal sputum (PheCode 516)"
+          ],
+          "accession_id": "GCST90837481",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 2.05,
+          "ci_upper": 3.06,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945170"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945170/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 218945145,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[2.49-4.41]",
+          "or_per_copy_num": 3.31,
+          "or_value": "3.31",
+          "beta": "-",
+          "p_value": 4e-12,
+          "efo_traits": [
+            {
+              "efo_id": "HP_0030878",
+              "efo_trait": "Abnormality on pulmonary function testing"
+            }
+          ],
+          "reported_trait": [
+            "Abnormal results of function study of pulmonary system (PheCode 514.1)"
+          ],
+          "accession_id": "GCST90837480",
+          "locations": [
+            "7:117559591"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41298473",
+          "first_author": "Koyama S",
+          "ci_lower": 2.49,
+          "ci_upper": 4.41,
+          "snp_effect_allele": [
+            "rs113993960-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs113993960",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945145"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218945145/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs113993960"
+            }
+          }
+        },
+        {
+          "association_id": 216865572,
+          "risk_frequency": "0.0110206",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.15-0.27]",
+          "beta": "0.212128 unit increase",
+          "p_value": 2e-11,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0008591",
+              "efo_trait": "free cholesterol measurement"
+            }
+          ],
+          "reported_trait": [
+            "Free Cholesterol to Cholesteryl Esters in Small HDL ratio"
+          ],
+          "accession_id": "GCST90827928",
+          "locations": [
+            "7:117622381"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39091897",
+          "first_author": "Farashi S",
+          "ci_lower": 0.15,
+          "ci_upper": 0.27,
+          "snp_effect_allele": [
+            "rs145380885-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs145380885",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/216865572"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/216865572/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs145380885"
+            }
+          }
+        },
+        {
+          "association_id": 215606763,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.01-0.01]",
+          "beta": "0.01 mmol/L decrease",
+          "p_value": 1e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0022292",
+              "efo_trait": "phospholipids in chylomicrons and extremely large VLDL measurement"
+            }
+          ],
+          "reported_trait": [
+            "Phospholipid levels in chylomicrons and extremely large VLDL"
+          ],
+          "accession_id": "GCST90501338",
+          "locations": [
+            "7:117336776"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41044249",
+          "first_author": "Zoodsma M",
+          "ci_lower": 0.01,
+          "ci_upper": 0.01,
+          "snp_effect_allele": [
+            "rs6977665-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6977665",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/215606763"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/215606763/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6977665"
+            }
+          }
+        },
+        {
+          "association_id": 215565777,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -14,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.01-0.01]",
+          "beta": "0.01 ratio decrease",
+          "p_value": 2e-14,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0022327",
+              "efo_trait": "triglycerides to phosphoglycerides ratio"
+            }
+          ],
+          "reported_trait": [
+            "Triglyceride to phosphoglyceride ratio"
+          ],
+          "accession_id": "GCST90501273",
+          "locations": [
+            "7:117336776"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41044249",
+          "first_author": "Zoodsma M",
+          "ci_lower": 0.01,
+          "ci_upper": 0.01,
+          "snp_effect_allele": [
+            "rs6977665-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6977665",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/215565777"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/215565777/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6977665"
+            }
+          }
+        },
+        {
+          "association_id": 215547392,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 8,
+          "pvalue_exponent": -16,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.02-0.02]",
+          "beta": "0.02 % decrease",
+          "p_value": 8e-16,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0022336",
+              "efo_trait": "triglycerides to total lipids in small HDL percentage"
+            }
+          ],
+          "reported_trait": [
+            "Triglycerides to Total Lipids in Small HDL percentage"
+          ],
+          "accession_id": "GCST90501245",
+          "locations": [
+            "7:117336776"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41044249",
+          "first_author": "Zoodsma M",
+          "ci_lower": 0.02,
+          "ci_upper": 0.02,
+          "snp_effect_allele": [
+            "rs6977665-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6977665",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/215547392"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/215547392/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6977665"
+            }
+          }
+        },
+        {
+          "association_id": 215518430,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -14,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.01-0.01]",
+          "beta": "0.01 % decrease",
+          "p_value": 5e-14,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0022333",
+              "efo_trait": "triglycerides to total lipids in medium HDL percentage"
+            }
+          ],
+          "reported_trait": [
+            "Triglycerides to Total Lipids in Medium HDL percentage"
+          ],
+          "accession_id": "GCST90501193",
+          "locations": [
+            "7:117336776"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41044249",
+          "first_author": "Zoodsma M",
+          "ci_lower": 0.01,
+          "ci_upper": 0.01,
+          "snp_effect_allele": [
+            "rs6977665-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6977665",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/215518430"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/215518430/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6977665"
+            }
+          }
+        },
+        {
+          "association_id": 215516658,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.01-0.01]",
+          "beta": "0.01 % decrease",
+          "p_value": 1e-13,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0020946",
+              "efo_trait": "Phospholipids:total lipids ratio"
+            }
+          ],
+          "reported_trait": [
+            "Phospholipids to Total Lipids in Medium HDL percentage"
+          ],
+          "accession_id": "GCST90501191",
+          "locations": [
+            "7:117336776"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41044249",
+          "first_author": "Zoodsma M",
+          "ci_lower": 0.01,
+          "ci_upper": 0.01,
+          "snp_effect_allele": [
+            "rs6977665-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6977665",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/215516658"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/215516658/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6977665"
+            }
+          }
+        },
+        {
+          "association_id": 215512824,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.01-0.01]",
+          "beta": "0.01 % increase",
+          "p_value": 2e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0022282",
+              "efo_trait": "free cholesterol to total lipids in medium HDL percentage"
+            }
+          ],
+          "reported_trait": [
+            "Free Cholesterol to Total Lipids in Medium HDL percentage"
+          ],
+          "accession_id": "GCST90501187",
+          "locations": [
+            "7:117336776"
+          ],
+          "mapped_genes": [
+            "CFTR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "41044249",
+          "first_author": "Zoodsma M",
+          "ci_lower": 0.01,
+          "ci_upper": 0.01,
+          "snp_effect_allele": [
+            "rs6977665-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs6977665",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/215512824"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/215512824/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6977665"
+            }
+          }
+        }
+      ]
+    },
+    "_links": {
+      "first": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=CFTR&page=0&size=40"
+      },
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=CFTR&page=0&size=40"
+      },
+      "next": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=CFTR&page=1&size=40"
+      },
+      "last": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=CFTR&page=2&size=40"
+      }
+    },
+    "page": {
+      "size": 40,
+      "totalElements": 108,
+      "totalPages": 3,
+      "number": 0
+    }
+  }
+}

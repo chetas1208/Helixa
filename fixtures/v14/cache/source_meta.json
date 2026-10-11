@@ -1,0 +1,50 @@
+{
+  "retrieved_at": "2026-10-11T23:50:29Z",
+  "offline": true,
+  "sources": {
+    "ensembl": {
+      "version": "release 116",
+      "assembly": "GRCh38.p14",
+      "rest": "15.12"
+    },
+    "uberon_ols4": {
+      "version": "2026-10-01",
+      "version_iri": "http://purl.obolibrary.org/obo/uberon/releases/2026-10-01/uberon.owl"
+    },
+    "bgee": {
+      "version": "Bgee 15.2.5",
+      "note": "homepage listed 15.2.5; API payload has no version field"
+    },
+    "hpa": {
+      "version": "Human Protein Atlas live site 2026-10-11",
+      "licence": "CC BY 4.0 for copyrightable database parts"
+    },
+    "gwas": {
+      "version": "REST API v2",
+      "note": "v1 is never used"
+    }
+  },
+  "panel_symbols": [
+    "MYH7",
+    "PAX6",
+    "COL1A1",
+    "CFTR",
+    "HBB",
+    "TYR",
+    "BDNF",
+    "ACTN3"
+  ],
+  "known_lateral_classes": {
+    "UBERON:0002168": "left",
+    "UBERON:0002167": "right",
+    "UBERON:0004538": "left",
+    "UBERON:0004539": "right",
+    "UBERON:0004548": "left",
+    "UBERON:0004549": "right",
+    "UBERON:0035295": "left",
+    "UBERON:0035174": "right"
+  },
+  "n_nodes": 77,
+  "n_verified_curies": 82,
+  "n_failed_curies": []
+}

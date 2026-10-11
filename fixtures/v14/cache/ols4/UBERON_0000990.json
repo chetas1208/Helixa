@@ -1,0 +1,384 @@
+{
+  "retrieved_at": "2026-10-11T23:09:53Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000990",
+    "lang": "en",
+    "description": [
+      "Anatomical system that has as its parts the organs concerned with reproduction."
+    ],
+    "synonyms": [
+      "genital system",
+      "genital tract",
+      "reproductive tract",
+      "Geschlechtsorgan",
+      "animal reproductive system",
+      "genitalia",
+      "organa genitalia",
+      "reproductive tissue",
+      "systemata genitalia"
+    ],
+    "annotation": {
+      "Date": [
+        "2022-06-10T18:22:34Z"
+      ],
+      "database_cross_reference": [
+        "AAO:0010258",
+        "BILA:0000103",
+        "BTO:0000081",
+        "CALOHA:TS-1318",
+        "EFO:0000809",
+        "EHDAA2:0001603",
+        "EHDAA:5923",
+        "EMAPA:17381",
+        "EV:0100100",
+        "FMA:7160",
+        "GAID:363",
+        "HAO:0000374",
+        "HAO:0000895",
+        "MA:0000326",
+        "MIAA:0000305",
+        "NCIT:C12841",
+        "SCTID:278875001",
+        "TAO:0000632",
+        "VHOG:0000182",
+        "WBbt:0005747",
+        "Wikipedia:Reproductive_system",
+        "XAO:0000142",
+        "ZFA:0000632",
+        "FBbt:00004857",
+        "MESH:D005835",
+        "UMLS:C1261210"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/5/52/Penis.svg"
+      ],
+      "editor note": [
+        "consider splitting genitalia from reproductive system"
+      ],
+      "external_definition": [
+        "Anatomical system which consists of organs and tissues associated with sexual reproduction of the organism.[AAO]"
+      ],
+      "fma_set_term": [
+        "http://purl.obolibrary.org/obo/FMA_75572"
+      ],
+      "homology_notes": [
+        "Arguably, one of the most important aspects of urbilaterian organogenesis would have been gonadogenesis, since Urbilateria must have successfully generated gametes and developed a strategy for extrusion and fertilization, in order to be the ancestor of all living Bilateria.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000990"
+      ]
+    },
+    "label": "reproductive system",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000990",
+    "obo_id": "UBERON:0000990",
+    "in_subset": [
+      "efo_slim",
+      "functional_classification",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Anatomical system that has as its parts the organs concerned with reproduction.",
+        "oboXrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Reproductive_system",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Reproductive_system"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0010258",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010258"
+      },
+      {
+        "database": "BILA",
+        "id": "0000103",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000103"
+      },
+      {
+        "database": "BTO",
+        "id": "0000081",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000081"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1318",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1318"
+      },
+      {
+        "database": "EFO",
+        "id": "0000809",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000809"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0001603",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0001603"
+      },
+      {
+        "database": "EHDAA",
+        "id": "5923",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_5923"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17381",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17381"
+      },
+      {
+        "database": "EV",
+        "id": "0100100",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100100"
+      },
+      {
+        "database": "FMA",
+        "id": "7160",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7160"
+      },
+      {
+        "database": "GAID",
+        "id": "363",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "HAO",
+        "id": "0000374",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/HAO_0000374"
+      },
+      {
+        "database": "HAO",
+        "id": "0000895",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/HAO_0000895"
+      },
+      {
+        "database": "MA",
+        "id": "0000326",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000326"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000305",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12841",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12841"
+      },
+      {
+        "database": "SCTID",
+        "id": "278875001",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/278875001"
+      },
+      {
+        "database": "TAO",
+        "id": "0000632",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000632"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000182",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000182"
+      },
+      {
+        "database": "WBbt",
+        "id": "0005747",
+        "description": null,
+        "url": "http://www.wormbase.org/get?name=0005747"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Reproductive_system",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Reproductive_system"
+      },
+      {
+        "database": "XAO",
+        "id": "0000142",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000142"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000632",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000632"
+      },
+      {
+        "database": "FBbt",
+        "id": "00004857",
+        "description": null,
+        "url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00004857"
+      },
+      {
+        "database": "MESH",
+        "id": "D005835",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D005835"
+      },
+      {
+        "database": "UMLS",
+        "id": "C1261210",
+        "description": "ncithesaurus:Reproductive_System",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C1261210"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "Geschlechtsorgan",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000081",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000081"
+          }
+        ]
+      },
+      {
+        "name": "animal reproductive system",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000081",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000081"
+          }
+        ]
+      },
+      {
+        "name": "organa genitalia",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000081",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000081"
+          }
+        ]
+      },
+      {
+        "name": "reproductive tissue",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000081",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000081"
+          }
+        ]
+      },
+      {
+        "name": "systemata genitalia",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Reproductive_system",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Reproductive_system"
+          }
+        ]
+      },
+      {
+        "name": "genitalia",
+        "scope": "hasNarrowSynonym",
+        "type": "plural form",
+        "xrefs": []
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/graph"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      },
+      "capable_of_part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002216"
+      },
+      "existence_ends_during": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000990/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002492"
+      }
+    }
+  }
+}

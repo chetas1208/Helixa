@@ -1,0 +1,1516 @@
+{
+  "mesh:body": {
+    "anatomy_id": "UBERON:0013702",
+    "parent_id": null,
+    "system_ids": [
+      "system:musculoskeletal",
+      "system:integumentary"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      0,
+      0
+    ],
+    "bounds": {
+      "min": [
+        -2.4,
+        -5.1,
+        -1.1
+      ],
+      "max": [
+        2.4,
+        5.1,
+        1.1
+      ]
+    },
+    "display_name": "Body",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:head": {
+    "anatomy_id": "UBERON:0000033",
+    "parent_id": "UBERON:0013702",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      4.336,
+      0.020000000000000073
+    ],
+    "bounds": {
+      "min": [
+        -0.5,
+        3.584,
+        -0.5599999999999999
+      ],
+      "max": [
+        0.5,
+        5.088,
+        0.6000000000000001
+      ]
+    },
+    "display_name": "Head",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:face": {
+    "anatomy_id": "DIAMOND:region-head-face",
+    "parent_id": "UBERON:0000033",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      4.12,
+      0.42
+    ],
+    "bounds": {
+      "min": [
+        -0.36,
+        3.74,
+        0.24
+      ],
+      "max": [
+        0.36,
+        4.5,
+        0.6
+      ]
+    },
+    "display_name": "Face",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:neck": {
+    "anatomy_id": "UBERON:0000974",
+    "parent_id": "UBERON:0013702",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      3.412,
+      -0.01999999999999999
+    ],
+    "bounds": {
+      "min": [
+        -0.22,
+        3.028,
+        -0.25
+      ],
+      "max": [
+        0.22,
+        3.7960000000000003,
+        0.21000000000000002
+      ]
+    },
+    "display_name": "Neck",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:thorax": {
+    "anatomy_id": "UBERON:0000915",
+    "parent_id": "UBERON:0013702",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      2.339,
+      0.05000000000000002
+    ],
+    "bounds": {
+      "min": [
+        -1.04,
+        1.198,
+        -0.47000000000000003
+      ],
+      "max": [
+        1.04,
+        3.48,
+        0.5700000000000001
+      ]
+    },
+    "display_name": "Thorax",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:abdomen": {
+    "anatomy_id": "UBERON:0000916",
+    "parent_id": "UBERON:0013702",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      0.81,
+      -0.01999999999999999
+    ],
+    "bounds": {
+      "min": [
+        -0.86,
+        -0.22400000000000003,
+        -0.52
+      ],
+      "max": [
+        0.86,
+        1.844,
+        0.48000000000000004
+      ]
+    },
+    "display_name": "Abdomen",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:pelvis": {
+    "anatomy_id": "UBERON:0002355",
+    "parent_id": "UBERON:0013702",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      -0.30600000000000005,
+      -0.05000000000000002
+    ],
+    "bounds": {
+      "min": [
+        -0.88,
+        -1.076,
+        -0.55
+      ],
+      "max": [
+        0.88,
+        0.464,
+        0.45
+      ]
+    },
+    "display_name": "Pelvis",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:spine": {
+    "anatomy_id": "UBERON:0001130",
+    "parent_id": "UBERON:0013702",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      1.221,
+      -0.355
+    ],
+    "bounds": {
+      "min": [
+        -0.2,
+        -0.7719999999999999,
+        -0.55
+      ],
+      "max": [
+        0.2,
+        3.214,
+        -0.15999999999999998
+      ]
+    },
+    "display_name": "Back / spine",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:arm_L": {
+    "anatomy_id": "UBERON:0002102@left",
+    "parent_id": "UBERON:0013702",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      1.46,
+      1.71,
+      0
+    ],
+    "bounds": {
+      "min": [
+        0.8199999999999998,
+        0.332,
+        -0.32
+      ],
+      "max": [
+        2.1,
+        3.088,
+        0.32
+      ]
+    },
+    "display_name": "Left arm",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:arm_R": {
+    "anatomy_id": "UBERON:0002102@right",
+    "parent_id": "UBERON:0013702",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -1.46,
+      1.71,
+      0
+    ],
+    "bounds": {
+      "min": [
+        -2.1,
+        0.332,
+        -0.32
+      ],
+      "max": [
+        -0.8199999999999998,
+        3.088,
+        0.32
+      ]
+    },
+    "display_name": "Right arm",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:shoulder_L": {
+    "anatomy_id": "UBERON:0001467@left",
+    "parent_id": "UBERON:0002102@left",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      1.01,
+      3.0060000000000002,
+      0
+    ],
+    "bounds": {
+      "min": [
+        0.56,
+        2.7479999999999998,
+        -0.36
+      ],
+      "max": [
+        1.46,
+        3.2640000000000002,
+        0.36
+      ]
+    },
+    "display_name": "Left shoulder",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:shoulder_R": {
+    "anatomy_id": "UBERON:0001467@right",
+    "parent_id": "UBERON:0002102@right",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -1.01,
+      3.0060000000000002,
+      0
+    ],
+    "bounds": {
+      "min": [
+        -1.46,
+        2.7479999999999998,
+        -0.36
+      ],
+      "max": [
+        -0.56,
+        3.2640000000000002,
+        0.36
+      ]
+    },
+    "display_name": "Right shoulder",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:hand_L": {
+    "anatomy_id": "UBERON:0002398@left",
+    "parent_id": "UBERON:0002102@left",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      2.0549999999999997,
+      -0.174,
+      0.12000000000000001
+    ],
+    "bounds": {
+      "min": [
+        1.88,
+        -0.748,
+        0.03
+      ],
+      "max": [
+        2.23,
+        0.4,
+        0.21000000000000002
+      ]
+    },
+    "display_name": "Left hand",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:hand_R": {
+    "anatomy_id": "UBERON:0002398@right",
+    "parent_id": "UBERON:0002102@right",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -2.0549999999999997,
+      -0.174,
+      0.12000000000000001
+    ],
+    "bounds": {
+      "min": [
+        -2.23,
+        -0.748,
+        0.03
+      ],
+      "max": [
+        -1.88,
+        0.4,
+        0.21000000000000002
+      ]
+    },
+    "display_name": "Right hand",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:leg_L": {
+    "anatomy_id": "UBERON:0002103@left",
+    "parent_id": "UBERON:0013702",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      0.47,
+      -2.2319999999999998,
+      2.7755575615628914e-17
+    ],
+    "bounds": {
+      "min": [
+        0,
+        -4.576,
+        -0.48
+      ],
+      "max": [
+        0.94,
+        0.112,
+        0.48000000000000004
+      ]
+    },
+    "display_name": "Left leg",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:leg_R": {
+    "anatomy_id": "UBERON:0002103@right",
+    "parent_id": "UBERON:0013702",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -0.47,
+      -2.2319999999999998,
+      2.7755575615628914e-17
+    ],
+    "bounds": {
+      "min": [
+        -0.94,
+        -4.576,
+        -0.48
+      ],
+      "max": [
+        0,
+        0.112,
+        0.48000000000000004
+      ]
+    },
+    "display_name": "Right leg",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:foot_L": {
+    "anatomy_id": "UBERON:0002387@left",
+    "parent_id": "UBERON:0002103@left",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      0.63,
+      -4.885,
+      0.26250000000000007
+    ],
+    "bounds": {
+      "min": [
+        0.44,
+        -5.005999999999999,
+        -0.32
+      ],
+      "max": [
+        0.8200000000000001,
+        -4.764,
+        0.8450000000000001
+      ]
+    },
+    "display_name": "Left foot",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:foot_R": {
+    "anatomy_id": "UBERON:0002387@right",
+    "parent_id": "UBERON:0002103@right",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -0.63,
+      -4.885,
+      0.26250000000000007
+    ],
+    "bounds": {
+      "min": [
+        -0.8200000000000001,
+        -5.005999999999999,
+        -0.32
+      ],
+      "max": [
+        -0.44,
+        -4.764,
+        0.8450000000000001
+      ]
+    },
+    "display_name": "Right foot",
+    "mesh_status": "modeled",
+    "focus_fallback_id": null
+  },
+  "mesh:brain": {
+    "anatomy_id": "UBERON:0000955",
+    "parent_id": "UBERON:0000033",
+    "system_ids": [
+      "system:nervous"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      4.42,
+      0.020000000000000018
+    ],
+    "bounds": {
+      "min": [
+        -0.36,
+        4.1,
+        -0.36
+      ],
+      "max": [
+        0.36,
+        4.74,
+        0.4
+      ]
+    },
+    "display_name": "Brain",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:eye_L": {
+    "anatomy_id": "UBERON:0004548",
+    "parent_id": "DIAMOND:region-head-face",
+    "system_ids": [
+      "system:sensory"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      0.16,
+      4.22,
+      0.5
+    ],
+    "bounds": {
+      "min": [
+        0.10500000000000001,
+        4.175,
+        0.45
+      ],
+      "max": [
+        0.215,
+        4.265,
+        0.55
+      ]
+    },
+    "display_name": "Left eye",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:eye_R": {
+    "anatomy_id": "UBERON:0004549",
+    "parent_id": "DIAMOND:region-head-face",
+    "system_ids": [
+      "system:sensory"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -0.16,
+      4.22,
+      0.5
+    ],
+    "bounds": {
+      "min": [
+        -0.215,
+        4.175,
+        0.45
+      ],
+      "max": [
+        -0.10500000000000001,
+        4.265,
+        0.55
+      ]
+    },
+    "display_name": "Right eye",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:heart": {
+    "anatomy_id": "UBERON:0000948",
+    "parent_id": "UBERON:0000915",
+    "system_ids": [
+      "system:cardiovascular"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0.12,
+      2.28,
+      0.18
+    ],
+    "bounds": {
+      "min": [
+        -0.08000000000000002,
+        2.04,
+        0.01999999999999999
+      ],
+      "max": [
+        0.32,
+        2.5199999999999996,
+        0.33999999999999997
+      ]
+    },
+    "display_name": "Heart",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:lung_L": {
+    "anatomy_id": "UBERON:0002168",
+    "parent_id": "UBERON:0000915",
+    "system_ids": [
+      "system:respiratory"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      0.42,
+      2.25,
+      0.01999999999999999
+    ],
+    "bounds": {
+      "min": [
+        0.09999999999999998,
+        1.77,
+        -0.2
+      ],
+      "max": [
+        0.74,
+        2.73,
+        0.24
+      ]
+    },
+    "display_name": "Left lung",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:lung_R": {
+    "anatomy_id": "UBERON:0002167",
+    "parent_id": "UBERON:0000915",
+    "system_ids": [
+      "system:respiratory"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -0.42,
+      2.25,
+      0.01999999999999999
+    ],
+    "bounds": {
+      "min": [
+        -0.76,
+        1.75,
+        -0.2
+      ],
+      "max": [
+        -0.07999999999999996,
+        2.75,
+        0.24
+      ]
+    },
+    "display_name": "Right lung",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:liver": {
+    "anatomy_id": "UBERON:0002107",
+    "parent_id": "UBERON:0000916",
+    "system_ids": [
+      "system:digestive"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      -0.28,
+      1.18,
+      0.12
+    ],
+    "bounds": {
+      "min": [
+        -0.66,
+        0.96,
+        -0.08000000000000002
+      ],
+      "max": [
+        0.09999999999999998,
+        1.4,
+        0.32
+      ]
+    },
+    "display_name": "Liver",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:stomach": {
+    "anatomy_id": "UBERON:0000945",
+    "parent_id": "UBERON:0000916",
+    "system_ids": [
+      "system:digestive"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0.22,
+      1.05,
+      0.14
+    ],
+    "bounds": {
+      "min": [
+        0,
+        0.89,
+        0
+      ],
+      "max": [
+        0.44,
+        1.21,
+        0.28
+      ]
+    },
+    "display_name": "Stomach",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:kidney_L": {
+    "anatomy_id": "UBERON:0004538",
+    "parent_id": "UBERON:0000916",
+    "system_ids": [
+      "system:urinary"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      0.32,
+      0.55,
+      -0.16
+    ],
+    "bounds": {
+      "min": [
+        0.2,
+        0.37000000000000005,
+        -0.24
+      ],
+      "max": [
+        0.44,
+        0.73,
+        -0.08
+      ]
+    },
+    "display_name": "Left kidney",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:kidney_R": {
+    "anatomy_id": "UBERON:0004539",
+    "parent_id": "UBERON:0000916",
+    "system_ids": [
+      "system:urinary"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -0.32,
+      0.55,
+      -0.16
+    ],
+    "bounds": {
+      "min": [
+        -0.44,
+        0.37000000000000005,
+        -0.24
+      ],
+      "max": [
+        -0.2,
+        0.73,
+        -0.08
+      ]
+    },
+    "display_name": "Right kidney",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:bladder": {
+    "anatomy_id": "UBERON:0001255",
+    "parent_id": "UBERON:0002355",
+    "system_ids": [
+      "system:urinary"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      -0.28,
+      0.12
+    ],
+    "bounds": {
+      "min": [
+        -0.16,
+        -0.4,
+        0.01999999999999999
+      ],
+      "max": [
+        0.16,
+        -0.16000000000000003,
+        0.22
+      ]
+    },
+    "display_name": "Bladder",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:digit_L_1": {
+    "anatomy_id": "DIAMOND:digit-thumb@left",
+    "parent_id": "UBERON:0002398@left",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      1.994875,
+      -0.5559499999999999,
+      0.26099999999999995
+    ],
+    "bounds": {
+      "min": [
+        1.925,
+        -0.7099,
+        0.17174999999999999
+      ],
+      "max": [
+        2.06475,
+        -0.40199999999999997,
+        0.35024999999999995
+      ]
+    },
+    "display_name": "Left thumb",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:digit_L_2": {
+    "anatomy_id": "DIAMOND:digit-index@left",
+    "parent_id": "UBERON:0002398@left",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      2.05145,
+      -0.57158,
+      0.15739999999999998
+    ],
+    "bounds": {
+      "min": [
+        1.9869999999999999,
+        -0.73836,
+        0.1177
+      ],
+      "max": [
+        2.1159,
+        -0.4048,
+        0.1971
+      ]
+    },
+    "display_name": "Left index finger",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:digit_L_3": {
+    "anatomy_id": "DIAMOND:digit-middle@left",
+    "parent_id": "UBERON:0002398@left",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      2.10645,
+      -0.58658,
+      0.15739999999999998
+    ],
+    "bounds": {
+      "min": [
+        2.0420000000000003,
+        -0.76836,
+        0.1177
+      ],
+      "max": [
+        2.1709,
+        -0.4048,
+        0.1971
+      ]
+    },
+    "display_name": "Left middle finger",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:digit_L_4": {
+    "anatomy_id": "DIAMOND:digit-ring@left",
+    "parent_id": "UBERON:0002398@left",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      2.1614500000000003,
+      -0.57158,
+      0.15739999999999998
+    ],
+    "bounds": {
+      "min": [
+        2.0970000000000004,
+        -0.73836,
+        0.1177
+      ],
+      "max": [
+        2.2259,
+        -0.4048,
+        0.1971
+      ]
+    },
+    "display_name": "Left ring finger",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:digit_L_5": {
+    "anatomy_id": "DIAMOND:digit-little@left",
+    "parent_id": "UBERON:0002398@left",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "left",
+    "camera_anchor": [
+      2.21645,
+      -0.55658,
+      0.15739999999999998
+    ],
+    "bounds": {
+      "min": [
+        2.152,
+        -0.70836,
+        0.1177
+      ],
+      "max": [
+        2.2809,
+        -0.4048,
+        0.1971
+      ]
+    },
+    "display_name": "Left little finger",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:digit_R_1": {
+    "anatomy_id": "DIAMOND:digit-thumb@right",
+    "parent_id": "UBERON:0002398@right",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -1.994875,
+      -0.5559499999999999,
+      0.26099999999999995
+    ],
+    "bounds": {
+      "min": [
+        -2.06475,
+        -0.7099,
+        0.17174999999999999
+      ],
+      "max": [
+        -1.925,
+        -0.40199999999999997,
+        0.35024999999999995
+      ]
+    },
+    "display_name": "Right thumb",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:digit_R_2": {
+    "anatomy_id": "DIAMOND:digit-index@right",
+    "parent_id": "UBERON:0002398@right",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -2.05145,
+      -0.57158,
+      0.15739999999999998
+    ],
+    "bounds": {
+      "min": [
+        -2.1159,
+        -0.73836,
+        0.1177
+      ],
+      "max": [
+        -1.9869999999999999,
+        -0.4048,
+        0.1971
+      ]
+    },
+    "display_name": "Right index finger",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:digit_R_3": {
+    "anatomy_id": "DIAMOND:digit-middle@right",
+    "parent_id": "UBERON:0002398@right",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -2.10645,
+      -0.58658,
+      0.15739999999999998
+    ],
+    "bounds": {
+      "min": [
+        -2.1709,
+        -0.76836,
+        0.1177
+      ],
+      "max": [
+        -2.0420000000000003,
+        -0.4048,
+        0.1971
+      ]
+    },
+    "display_name": "Right middle finger",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:digit_R_4": {
+    "anatomy_id": "DIAMOND:digit-ring@right",
+    "parent_id": "UBERON:0002398@right",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -2.1614500000000003,
+      -0.57158,
+      0.15739999999999998
+    ],
+    "bounds": {
+      "min": [
+        -2.2259,
+        -0.73836,
+        0.1177
+      ],
+      "max": [
+        -2.0970000000000004,
+        -0.4048,
+        0.1971
+      ]
+    },
+    "display_name": "Right ring finger",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:digit_R_5": {
+    "anatomy_id": "DIAMOND:digit-little@right",
+    "parent_id": "UBERON:0002398@right",
+    "system_ids": [
+      "system:musculoskeletal"
+    ],
+    "side": "right",
+    "camera_anchor": [
+      -2.21645,
+      -0.55658,
+      0.15739999999999998
+    ],
+    "bounds": {
+      "min": [
+        -2.2809,
+        -0.70836,
+        0.1177
+      ],
+      "max": [
+        -2.152,
+        -0.4048,
+        0.1971
+      ]
+    },
+    "display_name": "Right little finger",
+    "mesh_status": "approximate",
+    "focus_fallback_id": null
+  },
+  "mesh:unavailable:UBERON:0001264": {
+    "anatomy_id": "UBERON:0001264",
+    "parent_id": "UBERON:0000916",
+    "system_ids": [
+      "system:digestive",
+      "system:endocrine"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      0.81,
+      -0.01999999999999999
+    ],
+    "bounds": {
+      "min": [
+        -0.86,
+        -0.22400000000000003,
+        -0.52
+      ],
+      "max": [
+        0.86,
+        1.844,
+        0.48000000000000004
+      ]
+    },
+    "display_name": "Pancreas",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0000916"
+  },
+  "mesh:unavailable:UBERON:0002106": {
+    "anatomy_id": "UBERON:0002106",
+    "parent_id": "UBERON:0000916",
+    "system_ids": [
+      "system:cardiovascular"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      0.81,
+      -0.01999999999999999
+    ],
+    "bounds": {
+      "min": [
+        -0.86,
+        -0.22400000000000003,
+        -0.52
+      ],
+      "max": [
+        0.86,
+        1.844,
+        0.48000000000000004
+      ]
+    },
+    "display_name": "Spleen",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0000916"
+  },
+  "mesh:unavailable:UBERON:0002108": {
+    "anatomy_id": "UBERON:0002108",
+    "parent_id": "UBERON:0000916",
+    "system_ids": [
+      "system:digestive"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      0.81,
+      -0.01999999999999999
+    ],
+    "bounds": {
+      "min": [
+        -0.86,
+        -0.22400000000000003,
+        -0.52
+      ],
+      "max": [
+        0.86,
+        1.844,
+        0.48000000000000004
+      ]
+    },
+    "display_name": "Small intestine",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0000916"
+  },
+  "mesh:unavailable:UBERON:0000059": {
+    "anatomy_id": "UBERON:0000059",
+    "parent_id": "UBERON:0000916",
+    "system_ids": [
+      "system:digestive"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      0.81,
+      -0.01999999999999999
+    ],
+    "bounds": {
+      "min": [
+        -0.86,
+        -0.22400000000000003,
+        -0.52
+      ],
+      "max": [
+        0.86,
+        1.844,
+        0.48000000000000004
+      ]
+    },
+    "display_name": "Large intestine",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0000916"
+  },
+  "mesh:unavailable:UBERON:0002110": {
+    "anatomy_id": "UBERON:0002110",
+    "parent_id": "UBERON:0000916",
+    "system_ids": [
+      "system:digestive"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      -0.28,
+      1.18,
+      0.12
+    ],
+    "bounds": {
+      "min": [
+        -0.66,
+        0.96,
+        -0.08000000000000002
+      ],
+      "max": [
+        0.09999999999999998,
+        1.4,
+        0.32
+      ]
+    },
+    "display_name": "Gallbladder",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0002107"
+  },
+  "mesh:unavailable:UBERON:0002046": {
+    "anatomy_id": "UBERON:0002046",
+    "parent_id": "UBERON:0000974",
+    "system_ids": [
+      "system:endocrine"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      3.412,
+      -0.01999999999999999
+    ],
+    "bounds": {
+      "min": [
+        -0.22,
+        3.028,
+        -0.25
+      ],
+      "max": [
+        0.22,
+        3.7960000000000003,
+        0.21000000000000002
+      ]
+    },
+    "display_name": "Thyroid",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0000974"
+  },
+  "mesh:unavailable:UBERON:0001737": {
+    "anatomy_id": "UBERON:0001737",
+    "parent_id": "UBERON:0000974",
+    "system_ids": [
+      "system:respiratory"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      3.412,
+      -0.01999999999999999
+    ],
+    "bounds": {
+      "min": [
+        -0.22,
+        3.028,
+        -0.25
+      ],
+      "max": [
+        0.22,
+        3.7960000000000003,
+        0.21000000000000002
+      ]
+    },
+    "display_name": "Larynx",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0000974"
+  },
+  "mesh:unavailable:UBERON:0001043": {
+    "anatomy_id": "UBERON:0001043",
+    "parent_id": "UBERON:0000915",
+    "system_ids": [
+      "system:digestive"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      2.339,
+      0.05000000000000002
+    ],
+    "bounds": {
+      "min": [
+        -1.04,
+        1.198,
+        -0.47000000000000003
+      ],
+      "max": [
+        1.04,
+        3.48,
+        0.5700000000000001
+      ]
+    },
+    "display_name": "Oesophagus",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0000915"
+  },
+  "mesh:unavailable:UBERON:0000947": {
+    "anatomy_id": "UBERON:0000947",
+    "parent_id": "UBERON:0000915",
+    "system_ids": [
+      "system:cardiovascular"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0.12,
+      2.28,
+      0.18
+    ],
+    "bounds": {
+      "min": [
+        -0.08000000000000002,
+        2.04,
+        0.01999999999999999
+      ],
+      "max": [
+        0.32,
+        2.5199999999999996,
+        0.33999999999999997
+      ]
+    },
+    "display_name": "Aorta",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0000948"
+  },
+  "mesh:unavailable:UBERON:0001723": {
+    "anatomy_id": "UBERON:0001723",
+    "parent_id": "UBERON:0000033",
+    "system_ids": [
+      "system:digestive"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      4.12,
+      0.42
+    ],
+    "bounds": {
+      "min": [
+        -0.36,
+        3.74,
+        0.24
+      ],
+      "max": [
+        0.36,
+        4.5,
+        0.6
+      ]
+    },
+    "display_name": "Tongue",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "DIAMOND:region-head-face"
+  },
+  "mesh:unavailable:UBERON:0002240": {
+    "anatomy_id": "UBERON:0002240",
+    "parent_id": "UBERON:0001130",
+    "system_ids": [
+      "system:nervous"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      1.221,
+      -0.355
+    ],
+    "bounds": {
+      "min": [
+        -0.2,
+        -0.7719999999999999,
+        -0.55
+      ],
+      "max": [
+        0.2,
+        3.214,
+        -0.15999999999999998
+      ]
+    },
+    "display_name": "Spinal cord",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0001130"
+  },
+  "mesh:unavailable:UBERON:0001235": {
+    "anatomy_id": "UBERON:0001235",
+    "parent_id": "UBERON:0000916",
+    "system_ids": [
+      "system:endocrine"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      0.81,
+      -0.01999999999999999
+    ],
+    "bounds": {
+      "min": [
+        -0.86,
+        -0.22400000000000003,
+        -0.52
+      ],
+      "max": [
+        0.86,
+        1.844,
+        0.48000000000000004
+      ]
+    },
+    "display_name": "Adrenal gland",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0000916"
+  },
+  "mesh:unavailable:UBERON:0000995": {
+    "anatomy_id": "UBERON:0000995",
+    "parent_id": "UBERON:0002355",
+    "system_ids": [
+      "system:reproductive"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      -0.30600000000000005,
+      -0.05000000000000002
+    ],
+    "bounds": {
+      "min": [
+        -0.88,
+        -1.076,
+        -0.55
+      ],
+      "max": [
+        0.88,
+        0.464,
+        0.45
+      ]
+    },
+    "display_name": "Uterus",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0002355"
+  },
+  "mesh:unavailable:UBERON:0002367": {
+    "anatomy_id": "UBERON:0002367",
+    "parent_id": "UBERON:0002355",
+    "system_ids": [
+      "system:reproductive"
+    ],
+    "side": "midline",
+    "camera_anchor": [
+      0,
+      -0.30600000000000005,
+      -0.05000000000000002
+    ],
+    "bounds": {
+      "min": [
+        -0.88,
+        -1.076,
+        -0.55
+      ],
+      "max": [
+        0.88,
+        0.464,
+        0.45
+      ]
+    },
+    "display_name": "Prostate",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0002355"
+  },
+  "mesh:unavailable:UBERON:0002097": {
+    "anatomy_id": "UBERON:0002097",
+    "parent_id": "UBERON:0013702",
+    "system_ids": [
+      "system:integumentary"
+    ],
+    "side": "none",
+    "camera_anchor": [
+      0,
+      0,
+      0
+    ],
+    "bounds": {
+      "min": [
+        -2.4,
+        -5.1,
+        -1.1
+      ],
+      "max": [
+        2.4,
+        5.1,
+        1.1
+      ]
+    },
+    "display_name": "Skin",
+    "mesh_status": "unavailable",
+    "focus_fallback_id": "UBERON:0013702"
+  }
+}

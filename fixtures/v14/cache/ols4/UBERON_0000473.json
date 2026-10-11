@@ -1,0 +1,405 @@
+{
+  "retrieved_at": "2026-10-11T23:09:57Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000473",
+    "lang": "en",
+    "description": [
+      "A gonad of a male animal. A gonad produces and releases sperm."
+    ],
+    "synonyms": [
+      "gonad of male genitalia",
+      "gonad of male reproductive system",
+      "male gonad",
+      "orchis",
+      "testes",
+      "testicle",
+      "testiculus"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0000606",
+        "BILA:0000124",
+        "BSA:0000085",
+        "BTO:0001363",
+        "CALOHA:TS-1030",
+        "EFO:0000984",
+        "EHDAA2:0002007",
+        "EHDAA:8146",
+        "EMAPA:17972",
+        "EV:0100102",
+        "FMA:7210",
+        "GAID:396",
+        "HAO:0001007",
+        "MA:0000411",
+        "MAT:0000132",
+        "MESH:D013737",
+        "MIAA:0000132",
+        "NCIT:C12412",
+        "SCTID:181431007",
+        "TAO:0000598",
+        "VHOG:0000252",
+        "WBbt:0006794",
+        "Wikipedia:Testis",
+        "XAO:0000157",
+        "ZFA:0000598",
+        "galen:Testis",
+        "FBbt:00004928",
+        "UMLS:C0039597"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/c/c3/Gray1144.png"
+      ],
+      "external_definition": [
+        "Male reproductive organ.[TAO]"
+      ],
+      "has_alternative_id": [
+        "UBERON:0002117"
+      ],
+      "has_relational_adjective": [
+        "testicular"
+      ],
+      "homology_notes": [
+        "(...) while it is likely that Urbilateria lacked a complex somatic reproductive system, it is at present impossible to speculate on whether or not it possessed a true gonad, let alone any other somatic adaptations for reproduction (reference 1); Examination of different vertebrate species shows that the adult gonad is remarkably similar in its morphology across different phylogenetic classes. Surprisingly, however, the cellular and molecular programs employed to create similar organs are not evolutionarily conserved (reference 2).[uncertain][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000473"
+      ],
+      "taxon_notes": [
+        "The testes are descended in metatherian and eutherian mammals, first transabdominally, then inguinoscrotally"
+      ]
+    },
+    "label": "testis",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000473",
+    "obo_id": "UBERON:0000473",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "organ_slim",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "A gonad of a male animal. A gonad produces and releases sperm.",
+        "oboXrefs": [
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000606",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000606"
+      },
+      {
+        "database": "BILA",
+        "id": "0000124",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BILA_0000124"
+      },
+      {
+        "database": "BSA",
+        "id": "0000085",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BTO",
+        "id": "0001363",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001363"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1030",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1030"
+      },
+      {
+        "database": "EFO",
+        "id": "0000984",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000984"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0002007",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0002007"
+      },
+      {
+        "database": "EHDAA",
+        "id": "8146",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_8146"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17972",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17972"
+      },
+      {
+        "database": "EV",
+        "id": "0100102",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100102"
+      },
+      {
+        "database": "FMA",
+        "id": "7210",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7210"
+      },
+      {
+        "database": "GAID",
+        "id": "396",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "HAO",
+        "id": "0001007",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/HAO_0001007"
+      },
+      {
+        "database": "MA",
+        "id": "0000411",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000411"
+      },
+      {
+        "database": "MAT",
+        "id": "0000132",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000132"
+      },
+      {
+        "database": "MESH",
+        "id": "D013737",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D013737"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000132",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12412",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12412"
+      },
+      {
+        "database": "SCTID",
+        "id": "181431007",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/181431007"
+      },
+      {
+        "database": "TAO",
+        "id": "0000598",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000598"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000252",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000252"
+      },
+      {
+        "database": "WBbt",
+        "id": "0006794",
+        "description": null,
+        "url": "http://www.wormbase.org/get?name=0006794"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Testis",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Testis"
+      },
+      {
+        "database": "XAO",
+        "id": "0000157",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000157"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000598",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000598"
+      },
+      {
+        "database": "galen",
+        "id": "Testis",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "FBbt",
+        "id": "00004928",
+        "description": null,
+        "url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00004928"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0039597",
+        "description": "ncithesaurus:Testis",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0039597"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "gonad of male genitalia",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "gonad of male reproductive system",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "male gonad",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "testicle",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "7210",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/7210"
+          }
+        ]
+      },
+      {
+        "name": "orchis",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001363",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001363"
+          }
+        ]
+      },
+      {
+        "name": "testes",
+        "scope": "hasRelatedSynonym",
+        "type": "plural form",
+        "xrefs": []
+      },
+      {
+        "name": "testiculus",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001363",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001363"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000473/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      }
+    }
+  }
+}

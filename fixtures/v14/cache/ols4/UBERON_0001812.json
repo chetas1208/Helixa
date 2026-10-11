@@ -1,0 +1,153 @@
+{
+  "retrieved_at": "2026-10-11T23:12:48Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001812",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001812",
+    "lang": "en",
+    "description": [
+      "lines the eyeballs",
+      "A thin transparent mucous membrane that covers the posterior surface of the eyelids and is continuous with the bulbar conjunctiva at the conjunctival fornicies."
+    ],
+    "synonyms": [
+      "eyelid conjunctiva",
+      "tunica conjunctiva palpebrum",
+      "conjunctival layer of eyelids",
+      "tarsal conjunctiva"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "FMA:59025",
+        "MA:0001265",
+        "NCIT:C12901",
+        "SCTID:280666005",
+        "UMLS:C0229274"
+      ],
+      "id": [
+        "UBERON:0001812"
+      ]
+    },
+    "label": "palpebral conjunctiva",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": false,
+    "is_root": false,
+    "short_form": "UBERON_0001812",
+    "obo_id": "UBERON:0001812",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "A thin transparent mucous membrane that covers the posterior surface of the eyelids and is continuous with the bulbar conjunctiva at the conjunctival fornicies.",
+        "oboXrefs": [
+          {
+            "database": "MP",
+            "id": "0013394",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/MP_0013394"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "FMA",
+        "id": "59025",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/59025"
+      },
+      {
+        "database": "MA",
+        "id": "0001265",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0001265"
+      },
+      {
+        "database": "NCIT",
+        "id": "C12901",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12901"
+      },
+      {
+        "database": "SCTID",
+        "id": "280666005",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/280666005"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0229274",
+        "description": "ncithesaurus:Palpebral_Conjunctiva",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0229274"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "conjunctival layer of eyelids",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "MP",
+            "id": "0013394",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/MP_0013394"
+          }
+        ]
+      },
+      {
+        "name": "tarsal conjunctiva",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Conjunctiva",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Conjunctiva"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001812?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001812/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001812/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001812/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001812/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001812/jstree"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001812/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001812/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "continuous_with": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001812/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002150"
+      },
+      "adjacent_to": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001812/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002220"
+      }
+    }
+  }
+}

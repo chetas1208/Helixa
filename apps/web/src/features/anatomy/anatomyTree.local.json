@@ -1,0 +1,1977 @@
+{
+  "nodes": [
+    {
+      "id": "UBERON:0013702",
+      "ontology_id": "UBERON:0013702",
+      "ontology_status": "verified",
+      "label": "Body",
+      "ontology_label": "body proper",
+      "synonyms": [
+        "whole body",
+        "adult body"
+      ],
+      "type": "region",
+      "parent_ids": [],
+      "system_ids": [
+        "system:musculoskeletal",
+        "system:integumentary"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:body"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "Generic adult body proper. Illustrative procedural figure, not a patient scan.",
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0013702"
+      }
+    },
+    {
+      "id": "UBERON:0000033",
+      "ontology_id": "UBERON:0000033",
+      "ontology_status": "verified",
+      "label": "Head",
+      "ontology_label": "head",
+      "synonyms": [
+        "cranium",
+        "skull region"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:head"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000033"
+      }
+    },
+    {
+      "id": "DIAMOND:region-head-face",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Face",
+      "ontology_label": null,
+      "synonyms": [
+        "visage"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0000033"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:face"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": "Front of the head. No verified Uberon lateral class used; stored as DIAMOND: per contract.",
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent1",
+        "url": "https://github.com/EBISPOT/uberon"
+      }
+    },
+    {
+      "id": "UBERON:0000974",
+      "ontology_id": "UBERON:0000974",
+      "ontology_status": "verified",
+      "label": "Neck",
+      "ontology_label": "neck",
+      "synonyms": [
+        "cervical region"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:neck"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000974"
+      }
+    },
+    {
+      "id": "UBERON:0000915",
+      "ontology_id": "UBERON:0000915",
+      "ontology_status": "verified",
+      "label": "Thorax",
+      "ontology_label": "thorax",
+      "synonyms": [
+        "chest",
+        "rib cage"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:thorax"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000915"
+      }
+    },
+    {
+      "id": "UBERON:0000916",
+      "ontology_id": "UBERON:0000916",
+      "ontology_status": "verified",
+      "label": "Abdomen",
+      "ontology_label": "abdomen",
+      "synonyms": [
+        "belly",
+        "stomach region"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:abdomen"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000916"
+      }
+    },
+    {
+      "id": "UBERON:0002355",
+      "ontology_id": "UBERON:0002355",
+      "ontology_status": "verified",
+      "label": "Pelvis",
+      "ontology_label": "pelvic region",
+      "synonyms": [
+        "pelvic region",
+        "hips"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:pelvis"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002355"
+      }
+    },
+    {
+      "id": "UBERON:0001130",
+      "ontology_id": "UBERON:0001130",
+      "ontology_status": "verified",
+      "label": "Back / spine",
+      "ontology_label": "vertebral column",
+      "synonyms": [
+        "spine",
+        "back",
+        "vertebral column"
+      ],
+      "type": "bone",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "midline",
+      "level": "A",
+      "asset_ids": [
+        "mesh:spine"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001130"
+      }
+    },
+    {
+      "id": "UBERON:0002102@left",
+      "ontology_id": "UBERON:0002102",
+      "ontology_status": "verified",
+      "label": "Left arm",
+      "ontology_label": "forelimb",
+      "synonyms": [
+        "left arm",
+        "left upper limb"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "A",
+      "asset_ids": [
+        "mesh:arm_L"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002102"
+      }
+    },
+    {
+      "id": "UBERON:0002102@right",
+      "ontology_id": "UBERON:0002102",
+      "ontology_status": "verified",
+      "label": "Right arm",
+      "ontology_label": "forelimb",
+      "synonyms": [
+        "right arm",
+        "right upper limb"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "A",
+      "asset_ids": [
+        "mesh:arm_R"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002102"
+      }
+    },
+    {
+      "id": "UBERON:0001467@left",
+      "ontology_id": "UBERON:0001467",
+      "ontology_status": "verified",
+      "label": "Left shoulder",
+      "ontology_label": "pectoral girdle region",
+      "synonyms": [
+        "left shoulder"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002102@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:shoulder_L"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001467"
+      }
+    },
+    {
+      "id": "UBERON:0001467@right",
+      "ontology_id": "UBERON:0001467",
+      "ontology_status": "verified",
+      "label": "Right shoulder",
+      "ontology_label": "pectoral girdle region",
+      "synonyms": [
+        "right shoulder"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002102@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:shoulder_R"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001467"
+      }
+    },
+    {
+      "id": "UBERON:0002398@left",
+      "ontology_id": "UBERON:0002398",
+      "ontology_status": "verified",
+      "label": "Left hand",
+      "ontology_label": "manus",
+      "synonyms": [
+        "left hand",
+        "left palm",
+        "manus"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002102@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "A",
+      "asset_ids": [
+        "mesh:hand_L"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002398"
+      }
+    },
+    {
+      "id": "UBERON:0002398@right",
+      "ontology_id": "UBERON:0002398",
+      "ontology_status": "verified",
+      "label": "Right hand",
+      "ontology_label": "manus",
+      "synonyms": [
+        "right hand",
+        "right palm",
+        "manus"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002102@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "A",
+      "asset_ids": [
+        "mesh:hand_R"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002398"
+      }
+    },
+    {
+      "id": "UBERON:0002103@left",
+      "ontology_id": "UBERON:0002103",
+      "ontology_status": "verified",
+      "label": "Left leg",
+      "ontology_label": "hindlimb",
+      "synonyms": [
+        "left leg",
+        "left lower limb"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "A",
+      "asset_ids": [
+        "mesh:leg_L"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002103"
+      }
+    },
+    {
+      "id": "UBERON:0002103@right",
+      "ontology_id": "UBERON:0002103",
+      "ontology_status": "verified",
+      "label": "Right leg",
+      "ontology_label": "hindlimb",
+      "synonyms": [
+        "right leg",
+        "right lower limb"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "A",
+      "asset_ids": [
+        "mesh:leg_R"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002103"
+      }
+    },
+    {
+      "id": "UBERON:0002387@left",
+      "ontology_id": "UBERON:0002387",
+      "ontology_status": "verified",
+      "label": "Left foot",
+      "ontology_label": "pes",
+      "synonyms": [
+        "left foot",
+        "pes"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002103@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "A",
+      "asset_ids": [
+        "mesh:foot_L"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002387"
+      }
+    },
+    {
+      "id": "UBERON:0002387@right",
+      "ontology_id": "UBERON:0002387",
+      "ontology_status": "verified",
+      "label": "Right foot",
+      "ontology_label": "pes",
+      "synonyms": [
+        "right foot",
+        "pes"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002103@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "A",
+      "asset_ids": [
+        "mesh:foot_R"
+      ],
+      "mesh_status": "modeled",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002387"
+      }
+    },
+    {
+      "id": "UBERON:0000955",
+      "ontology_id": "UBERON:0000955",
+      "ontology_status": "verified",
+      "label": "Brain",
+      "ontology_label": "brain",
+      "synonyms": [
+        "encephalon"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000033"
+      ],
+      "system_ids": [
+        "system:nervous"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [
+        "mesh:brain"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0003714"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000955"
+      }
+    },
+    {
+      "id": "UBERON:0004548",
+      "ontology_id": "UBERON:0004548",
+      "ontology_status": "verified",
+      "label": "Left eye",
+      "ontology_label": "left eye",
+      "synonyms": [
+        "left eye"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "DIAMOND:region-head-face"
+      ],
+      "system_ids": [
+        "system:sensory"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:eye_L"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004548"
+      }
+    },
+    {
+      "id": "UBERON:0004549",
+      "ontology_id": "UBERON:0004549",
+      "ontology_status": "verified",
+      "label": "Right eye",
+      "ontology_label": "right eye",
+      "synonyms": [
+        "right eye"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "DIAMOND:region-head-face"
+      ],
+      "system_ids": [
+        "system:sensory"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:eye_R"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004549"
+      }
+    },
+    {
+      "id": "UBERON:0000948",
+      "ontology_id": "UBERON:0000948",
+      "ontology_status": "verified",
+      "label": "Heart",
+      "ontology_label": "heart",
+      "synonyms": [
+        "cardiac organ"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000915"
+      ],
+      "system_ids": [
+        "system:cardiovascular"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [
+        "mesh:heart"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000948"
+      }
+    },
+    {
+      "id": "UBERON:0002168",
+      "ontology_id": "UBERON:0002168",
+      "ontology_status": "verified",
+      "label": "Left lung",
+      "ontology_label": "left lung",
+      "synonyms": [
+        "left lung"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000915"
+      ],
+      "system_ids": [
+        "system:respiratory"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:lung_L"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002168"
+      }
+    },
+    {
+      "id": "UBERON:0002167",
+      "ontology_id": "UBERON:0002167",
+      "ontology_status": "verified",
+      "label": "Right lung",
+      "ontology_label": "right lung",
+      "synonyms": [
+        "right lung"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000915"
+      ],
+      "system_ids": [
+        "system:respiratory"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:lung_R"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002167"
+      }
+    },
+    {
+      "id": "UBERON:0002107",
+      "ontology_id": "UBERON:0002107",
+      "ontology_status": "verified",
+      "label": "Liver",
+      "ontology_label": "liver",
+      "synonyms": [
+        "hepatic organ"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [
+        "mesh:liver"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002107"
+      }
+    },
+    {
+      "id": "UBERON:0000945",
+      "ontology_id": "UBERON:0000945",
+      "ontology_status": "verified",
+      "label": "Stomach",
+      "ontology_label": "stomach",
+      "synonyms": [
+        "gaster"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [
+        "mesh:stomach"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000945"
+      }
+    },
+    {
+      "id": "UBERON:0004538",
+      "ontology_id": "UBERON:0004538",
+      "ontology_status": "verified",
+      "label": "Left kidney",
+      "ontology_label": "left kidney",
+      "synonyms": [
+        "left kidney"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:urinary"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:kidney_L"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004538"
+      }
+    },
+    {
+      "id": "UBERON:0004539",
+      "ontology_id": "UBERON:0004539",
+      "ontology_status": "verified",
+      "label": "Right kidney",
+      "ontology_label": "right kidney",
+      "synonyms": [
+        "right kidney"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:urinary"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:kidney_R"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004539"
+      }
+    },
+    {
+      "id": "UBERON:0001255",
+      "ontology_id": "UBERON:0001255",
+      "ontology_status": "verified",
+      "label": "Bladder",
+      "ontology_label": "urinary bladder",
+      "synonyms": [
+        "urinary bladder"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0002355"
+      ],
+      "system_ids": [
+        "system:urinary"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [
+        "mesh:bladder"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001255"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-thumb@left",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Left thumb",
+      "ontology_label": null,
+      "synonyms": [
+        "left thumb",
+        "digit 1"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_L_1"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent1",
+        "url": "https://github.com/EBISPOT/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-index@left",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Left index finger",
+      "ontology_label": null,
+      "synonyms": [
+        "left index"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_L_2"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent1",
+        "url": "https://github.com/EBISPOT/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-middle@left",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Left middle finger",
+      "ontology_label": null,
+      "synonyms": [
+        "left middle"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_L_3"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent1",
+        "url": "https://github.com/EBISPOT/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-ring@left",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Left ring finger",
+      "ontology_label": null,
+      "synonyms": [
+        "left ring"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_L_4"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent1",
+        "url": "https://github.com/EBISPOT/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-little@left",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Left little finger",
+      "ontology_label": null,
+      "synonyms": [
+        "left pinky"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@left"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "left",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_L_5"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent1",
+        "url": "https://github.com/EBISPOT/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-thumb@right",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Right thumb",
+      "ontology_label": null,
+      "synonyms": [
+        "right thumb"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_R_1"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent1",
+        "url": "https://github.com/EBISPOT/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-index@right",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Right index finger",
+      "ontology_label": null,
+      "synonyms": [
+        "right index"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_R_2"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent1",
+        "url": "https://github.com/EBISPOT/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-middle@right",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Right middle finger",
+      "ontology_label": null,
+      "synonyms": [
+        "right middle"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_R_3"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent1",
+        "url": "https://github.com/EBISPOT/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-ring@right",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Right ring finger",
+      "ontology_label": null,
+      "synonyms": [
+        "right ring"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_R_4"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent1",
+        "url": "https://github.com/EBISPOT/uberon"
+      }
+    },
+    {
+      "id": "DIAMOND:digit-little@right",
+      "ontology_id": null,
+      "ontology_status": "unmapped",
+      "label": "Right little finger",
+      "ontology_label": null,
+      "synonyms": [
+        "right pinky"
+      ],
+      "type": "region",
+      "parent_ids": [
+        "UBERON:0002398@right"
+      ],
+      "system_ids": [
+        "system:musculoskeletal"
+      ],
+      "laterality": "right",
+      "level": "B",
+      "asset_ids": [
+        "mesh:digit_R_5"
+      ],
+      "mesh_status": "approximate",
+      "focus_fallback_id": null,
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "DIAMOND local atlas fixture",
+        "version": "v14-agent1",
+        "url": "https://github.com/EBISPOT/uberon"
+      }
+    },
+    {
+      "id": "UBERON:0001264",
+      "ontology_id": "UBERON:0001264",
+      "ontology_status": "verified",
+      "label": "Pancreas",
+      "ontology_label": "pancreas",
+      "synonyms": [
+        "pancreas"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:digestive",
+        "system:endocrine"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000916",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001264"
+      }
+    },
+    {
+      "id": "UBERON:0002106",
+      "ontology_id": "UBERON:0002106",
+      "ontology_status": "verified",
+      "label": "Spleen",
+      "ontology_label": "spleen",
+      "synonyms": [
+        "spleen"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:cardiovascular"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000916",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002106"
+      }
+    },
+    {
+      "id": "UBERON:0002108",
+      "ontology_id": "UBERON:0002108",
+      "ontology_status": "verified",
+      "label": "Small intestine",
+      "ontology_label": "small intestine",
+      "synonyms": [
+        "small bowel"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000916",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002108"
+      }
+    },
+    {
+      "id": "UBERON:0000059",
+      "ontology_id": "UBERON:0000059",
+      "ontology_status": "verified",
+      "label": "Large intestine",
+      "ontology_label": "large intestine",
+      "synonyms": [
+        "colon"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000916",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000059"
+      }
+    },
+    {
+      "id": "UBERON:0002110",
+      "ontology_id": "UBERON:0002110",
+      "ontology_status": "verified",
+      "label": "Gallbladder",
+      "ontology_label": "gallbladder",
+      "synonyms": [
+        "gall bladder"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002107",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002110"
+      }
+    },
+    {
+      "id": "UBERON:0002046",
+      "ontology_id": "UBERON:0002046",
+      "ontology_status": "verified",
+      "label": "Thyroid",
+      "ontology_label": "thyroid gland",
+      "synonyms": [
+        "thyroid gland"
+      ],
+      "type": "gland",
+      "parent_ids": [
+        "UBERON:0000974"
+      ],
+      "system_ids": [
+        "system:endocrine"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000974",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002046"
+      }
+    },
+    {
+      "id": "UBERON:0001737",
+      "ontology_id": "UBERON:0001737",
+      "ontology_status": "verified",
+      "label": "Larynx",
+      "ontology_label": "larynx",
+      "synonyms": [
+        "voice box"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000974"
+      ],
+      "system_ids": [
+        "system:respiratory"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000974",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001737"
+      }
+    },
+    {
+      "id": "UBERON:0001043",
+      "ontology_id": "UBERON:0001043",
+      "ontology_status": "verified",
+      "label": "Oesophagus",
+      "ontology_label": "esophagus",
+      "synonyms": [
+        "esophagus"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000915"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000915",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001043"
+      }
+    },
+    {
+      "id": "UBERON:0000947",
+      "ontology_id": "UBERON:0000947",
+      "ontology_status": "verified",
+      "label": "Aorta",
+      "ontology_label": "aorta",
+      "synonyms": [
+        "aorta"
+      ],
+      "type": "vessel",
+      "parent_ids": [
+        "UBERON:0000915"
+      ],
+      "system_ids": [
+        "system:cardiovascular"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000948",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000947"
+      }
+    },
+    {
+      "id": "UBERON:0001723",
+      "ontology_id": "UBERON:0001723",
+      "ontology_status": "verified",
+      "label": "Tongue",
+      "ontology_label": "tongue",
+      "synonyms": [
+        "tongue"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0000033"
+      ],
+      "system_ids": [
+        "system:digestive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "DIAMOND:region-head-face",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001723"
+      }
+    },
+    {
+      "id": "UBERON:0002240",
+      "ontology_id": "UBERON:0002240",
+      "ontology_status": "verified",
+      "label": "Spinal cord",
+      "ontology_label": "spinal cord",
+      "synonyms": [
+        "spinal cord"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0001130"
+      ],
+      "system_ids": [
+        "system:nervous"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0001130",
+      "tissue_context_ids": [
+        "UBERON:0003714"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002240"
+      }
+    },
+    {
+      "id": "UBERON:0001235",
+      "ontology_id": "UBERON:0001235",
+      "ontology_status": "verified",
+      "label": "Adrenal gland",
+      "ontology_label": "adrenal gland",
+      "synonyms": [
+        "suprarenal gland"
+      ],
+      "type": "gland",
+      "parent_ids": [
+        "UBERON:0000916"
+      ],
+      "system_ids": [
+        "system:endocrine"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0000916",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001235"
+      }
+    },
+    {
+      "id": "UBERON:0000995",
+      "ontology_id": "UBERON:0000995",
+      "ontology_status": "verified",
+      "label": "Uterus",
+      "ontology_label": "uterus",
+      "synonyms": [
+        "womb"
+      ],
+      "type": "organ",
+      "parent_ids": [
+        "UBERON:0002355"
+      ],
+      "system_ids": [
+        "system:reproductive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002355",
+      "tissue_context_ids": [
+        "UBERON:0002384"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000995"
+      }
+    },
+    {
+      "id": "UBERON:0002367",
+      "ontology_id": "UBERON:0002367",
+      "ontology_status": "verified",
+      "label": "Prostate",
+      "ontology_label": "prostate gland",
+      "synonyms": [
+        "prostate gland"
+      ],
+      "type": "gland",
+      "parent_ids": [
+        "UBERON:0002355"
+      ],
+      "system_ids": [
+        "system:reproductive"
+      ],
+      "laterality": "midline",
+      "level": "B",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0002355",
+      "tissue_context_ids": [
+        "UBERON:0002097",
+        "UBERON:0001134",
+        "UBERON:0002481"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002367"
+      }
+    },
+    {
+      "id": "UBERON:0002097",
+      "ontology_id": "UBERON:0002097",
+      "ontology_status": "verified",
+      "label": "Skin",
+      "ontology_label": "skin of body",
+      "synonyms": [
+        "integument",
+        "skin of body"
+      ],
+      "type": "tissue",
+      "parent_ids": [
+        "UBERON:0013702"
+      ],
+      "system_ids": [
+        "system:integumentary"
+      ],
+      "laterality": "none",
+      "level": "C",
+      "asset_ids": [],
+      "mesh_status": "unavailable",
+      "focus_fallback_id": "UBERON:0013702",
+      "tissue_context_ids": [
+        "UBERON:0002097"
+      ],
+      "description": null,
+      "source": {
+        "name": "Uberon via OLS4",
+        "version": "client-catalog-v14; Agent 2 re-verifies at ingest",
+        "url": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002097"
+      }
+    }
+  ],
+  "systems": [
+    {
+      "id": "system:musculoskeletal",
+      "label": "Musculoskeletal",
+      "ontology_id": "UBERON:0002204",
+      "member_ids": [
+        "UBERON:0013702",
+        "UBERON:0000033",
+        "DIAMOND:region-head-face",
+        "UBERON:0000974",
+        "UBERON:0000915",
+        "UBERON:0000916",
+        "UBERON:0002355",
+        "UBERON:0001130",
+        "UBERON:0002102@left",
+        "UBERON:0002102@right",
+        "UBERON:0001467@left",
+        "UBERON:0001467@right",
+        "UBERON:0002398@left",
+        "UBERON:0002398@right",
+        "UBERON:0002103@left",
+        "UBERON:0002103@right",
+        "UBERON:0002387@left",
+        "UBERON:0002387@right",
+        "DIAMOND:digit-thumb@left",
+        "DIAMOND:digit-index@left",
+        "DIAMOND:digit-middle@left",
+        "DIAMOND:digit-ring@left",
+        "DIAMOND:digit-little@left",
+        "DIAMOND:digit-thumb@right",
+        "DIAMOND:digit-index@right",
+        "DIAMOND:digit-middle@right",
+        "DIAMOND:digit-ring@right",
+        "DIAMOND:digit-little@right"
+      ]
+    },
+    {
+      "id": "system:nervous",
+      "label": "Nervous",
+      "ontology_id": "UBERON:0001016",
+      "member_ids": [
+        "UBERON:0000955",
+        "UBERON:0002240"
+      ]
+    },
+    {
+      "id": "system:cardiovascular",
+      "label": "Cardiovascular",
+      "ontology_id": "UBERON:0004535",
+      "member_ids": [
+        "UBERON:0000948",
+        "UBERON:0002106",
+        "UBERON:0000947"
+      ]
+    },
+    {
+      "id": "system:respiratory",
+      "label": "Respiratory",
+      "ontology_id": "UBERON:0001004",
+      "member_ids": [
+        "UBERON:0002168",
+        "UBERON:0002167",
+        "UBERON:0001737"
+      ]
+    },
+    {
+      "id": "system:digestive",
+      "label": "Digestive",
+      "ontology_id": "UBERON:0001007",
+      "member_ids": [
+        "UBERON:0002107",
+        "UBERON:0000945",
+        "UBERON:0001264",
+        "UBERON:0002108",
+        "UBERON:0000059",
+        "UBERON:0002110",
+        "UBERON:0001043",
+        "UBERON:0001723"
+      ]
+    },
+    {
+      "id": "system:urinary",
+      "label": "Urinary",
+      "ontology_id": "UBERON:0001008",
+      "member_ids": [
+        "UBERON:0004538",
+        "UBERON:0004539",
+        "UBERON:0001255"
+      ]
+    },
+    {
+      "id": "system:endocrine",
+      "label": "Endocrine",
+      "ontology_id": "UBERON:0000949",
+      "member_ids": [
+        "UBERON:0001264",
+        "UBERON:0002046",
+        "UBERON:0001235"
+      ]
+    },
+    {
+      "id": "system:reproductive",
+      "label": "Reproductive",
+      "ontology_id": "UBERON:0000990",
+      "member_ids": [
+        "UBERON:0000995",
+        "UBERON:0002367"
+      ]
+    },
+    {
+      "id": "system:integumentary",
+      "label": "Integumentary",
+      "ontology_id": "UBERON:0002416",
+      "member_ids": [
+        "UBERON:0013702",
+        "UBERON:0002097"
+      ]
+    },
+    {
+      "id": "system:sensory",
+      "label": "Sensory",
+      "ontology_id": "UBERON:0001032",
+      "member_ids": [
+        "UBERON:0004548",
+        "UBERON:0004549"
+      ]
+    }
+  ],
+  "root_id": "UBERON:0013702",
+  "fixture_label": "local atlas fixture",
+  "source_status": [
+    {
+      "source_id": "local-atlas-fixture",
+      "status": "cached",
+      "version": "v14-agent1",
+      "retrieved_at": null
+    }
+  ]
+}

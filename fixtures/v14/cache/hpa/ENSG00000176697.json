@@ -1,0 +1,244 @@
+{
+  "retrieved_at": "2026-10-11T23:11:48Z",
+  "source_version": "Human Protein Atlas (proteinatlas.org 2026-10-11)",
+  "source_url": "https://www.proteinatlas.org/ENSG00000176697.json",
+  "payload": {
+    "Gene": "BDNF",
+    "Gene synonym": [],
+    "Ensembl": "ENSG00000176697",
+    "Gene description": "Brain derived neurotrophic factor",
+    "Uniprot": [
+      "P23560"
+    ],
+    "Chromosome": "11",
+    "Position": "27654893-27722058",
+    "Protein class": [
+      "Cancer-related genes",
+      "Human disease related genes",
+      "Plasma proteins",
+      "Predicted membrane proteins",
+      "Predicted secreted proteins",
+      "RAS pathway related proteins"
+    ],
+    "Biological process": null,
+    "Molecular function": [
+      "Growth factor"
+    ],
+    "Disease involvement": [
+      "Cancer-related genes"
+    ],
+    "Evidence": "Evidence at protein level",
+    "HPA evidence": "Evidence at protein level",
+    "UniProt evidence": "Evidence at protein level",
+    "NeXtProt evidence": "Evidence at protein level",
+    "RNA tissue specificity": "Tissue enhanced",
+    "RNA tissue distribution": "Detected in some",
+    "RNA tissue specificity score": null,
+    "RNA tissue specific nTPM": {
+      "brain": "4.9"
+    },
+    "RNA single cell type specificity": "Cell type enhanced",
+    "RNA single cell type distribution": "Detected in many",
+    "RNA single cell type specificity score": null,
+    "RNA single cell type specific nCPM": {
+      "Alveolar cells type 1": "56.9",
+      "Brain excitatory neurons": "63.7",
+      "Cardiomyocytes": "78.4",
+      "Corticotrophs": "74.4",
+      "Epicardial cells": "59.1",
+      "Epididymal principal cells": "56.1",
+      "Granulosa cells": "27.6",
+      "Megakaryocytes": "37.1",
+      "Myonuclei": "29.4",
+      "Retinal bipolar cells": "30.3"
+    },
+    "RNA single cell type group specificity": "Cell type enhanced",
+    "RNA single cell type group distribution": "Detected in many",
+    "RNA single cell type group specificity score": null,
+    "RNA single cell type group specific nCPM": {
+      "Alveolar cells": "56.9",
+      "Barrier epithelial cells": "59.1",
+      "Myocytes": "78.4",
+      "Neuronal cells": "63.7",
+      "Pituitary endocrine cells": "74.4",
+      "Reproductive supporting cells": "56.1"
+    },
+    "RNA single nuclei brain specificity": "Cell type enhanced",
+    "RNA single nuclei brain distribution": "Detected in many",
+    "RNA single nuclei brain specificity score": null,
+    "RNA single nuclei brain specific nCPM": {
+      "hippocampal dentate gyrus": "336.0",
+      "mammillary body": "126.7"
+    },
+    "RNA cancer specificity": "Low cancer specificity",
+    "RNA cancer distribution": "Detected in many",
+    "RNA cancer specificity score": null,
+    "RNA cancer specific pTPM": null,
+    "RNA brain regional specificity": "Low region specificity",
+    "RNA brain regional distribution": "Detected in all",
+    "RNA brain regional specificity score": null,
+    "RNA brain regional specific nTPM": null,
+    "RNA blood cell specificity": "Not detected in immune cells",
+    "RNA blood cell distribution": "Not detected",
+    "RNA blood cell specificity score": null,
+    "RNA blood cell specific nTPM": null,
+    "RNA blood lineage specificity": "Not detected",
+    "RNA blood lineage distribution": "Not detected",
+    "RNA blood lineage specificity score": null,
+    "RNA blood lineage specific nTPM": null,
+    "RNA cell line specificity": "Cancer enhanced",
+    "RNA cell line distribution": "Detected in many",
+    "RNA cell line specificity score": null,
+    "RNA cell line specific nTPM": {
+      "Adrenocortical cancer": "27.6"
+    },
+    "RNA tissue cell type enrichment": [
+      "Lung - Alveolar cells type 1",
+      "Minor Salivary Gland - Minor salivary gland basal cells",
+      "Prostate - Smooth muscle cells",
+      "Skin - Outer root sheath cells",
+      "Testis - Early spermatids"
+    ],
+    "RNA mouse brain regional specificity": "Low region specificity",
+    "RNA mouse brain regional distribution": "Detected in all",
+    "RNA mouse brain regional specificity score": null,
+    "RNA mouse brain regional specific nTPM": null,
+    "RNA pig brain regional specificity": "Low region specificity",
+    "RNA pig brain regional distribution": "Detected in many",
+    "RNA pig brain regional specificity score": null,
+    "RNA pig brain regional specific nTPM": null,
+    "Protein cell type specificity": "Cell type enriched",
+    "Protein cell type distribution": "Detected in some",
+    "Protein cell type specificity score": null,
+    "Protein cell type specific Intensity": {
+      "Astrocytes and Neuropil": "88932.1"
+    },
+    "Protein tissue specificity": "Group enriched",
+    "Protein tissue distribution": "Detected in some",
+    "Protein tissue specificity score": "5671",
+    "Protein tissue specific Intensity": {
+      "cerebral cortex": "670129.8",
+      "lymphoid tissue": "463982.4"
+    },
+    "Antibody": [
+      "CAB009564"
+    ],
+    "Reliability (IH)": "Enhanced",
+    "Reliability (Mouse Brain)": null,
+    "Reliability (IF)": null,
+    "Subcellular location": null,
+    "Secretome location": "Secreted to blood",
+    "Secretome function": "Growth factor",
+    "CCD Protein": "NA",
+    "CCD Transcript": "Yes",
+    "Blood concentration - Conc. blood IM [pg/L]": 16000000,
+    "Blood concentration - Conc. blood MS [pg/L]": "12000",
+    "Blood expression cluster": null,
+    "Tissue expression cluster": "Cluster 35: Non-specific - Mixed function",
+    "Brain expression cluster": "Cluster 29: Forebrain - Mixed function",
+    "Cell line expression cluster": "Cluster 64: Connective tissue cells - ECM organization",
+    "Single cell expression cluster": "Cluster 35: Neurons - Synaptic function & neurogenesis",
+    "Interactions": 9,
+    "Subcellular main location": null,
+    "Subcellular additional location": null,
+    "Antibody RRID": {
+      "CAB009564": null
+    },
+    "Cancer prognostics - Bladder Urothelial Carcinoma (TCGA)": null,
+    "Cancer prognostics - Breast Invasive Carcinoma (TCGA)": null,
+    "Cancer prognostics - Breast Invasive Carcinoma (validation)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "2.25e-1"
+    },
+    "Cancer prognostics - Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (TCGA)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "8.18e-2"
+    },
+    "Cancer prognostics - Colon Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Colon Adenocarcinoma (validation)": null,
+    "Cancer prognostics - Glioblastoma Multiforme (TCGA)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "1.78e-2"
+    },
+    "Cancer prognostics - Glioblastoma Multiforme (validation)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "5.11e-2"
+    },
+    "Cancer prognostics - Head and Neck Squamous Cell Carcinoma (TCGA)": null,
+    "Cancer prognostics - Kidney Chromophobe (TCGA)": null,
+    "Cancer prognostics - Kidney Renal Clear Cell Carcinoma (TCGA)": {
+      "prognostic type": "favorable",
+      "prognostic": "potential prognostic",
+      "is_prognostic": true,
+      "p_val": "5.82e-5"
+    },
+    "Cancer prognostics - Kidney Renal Clear Cell Carcinoma (validation)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "3.29e-3"
+    },
+    "Cancer prognostics - Kidney Renal Papillary Cell Carcinoma (TCGA)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "4.80e-3"
+    },
+    "Cancer prognostics - Liver Hepatocellular Carcinoma (TCGA)": null,
+    "Cancer prognostics - Liver Hepatocellular Carcinoma (validation)": null,
+    "Cancer prognostics - Lung Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Lung Adenocarcinoma (validation)": null,
+    "Cancer prognostics - Lung Squamous Cell Carcinoma (TCGA)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "7.21e-2"
+    },
+    "Cancer prognostics - Lung Squamous Cell Carcinoma (validation)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "4.42e-2"
+    },
+    "Cancer prognostics - Ovary Serous Cystadenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Ovary Serous Cystadenocarcinoma (validation)": null,
+    "Cancer prognostics - Pancreatic Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Pancreatic Adenocarcinoma (validation)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "2.15e-2"
+    },
+    "Cancer prognostics - Prostate Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Rectum Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Rectum Adenocarcinoma (validation)": null,
+    "Cancer prognostics - Skin Cutaneous Melanoma (TCGA)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "1.71e-1"
+    },
+    "Cancer prognostics - Stomach Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Testicular Germ Cell Tumor (TCGA)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "1.02e-1"
+    },
+    "Cancer prognostics - Thyroid Carcinoma (TCGA)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "1.06e-1"
+    },
+    "Cancer prognostics - Uterine Corpus Endometrial Carcinoma (TCGA)": null
+  }
+}

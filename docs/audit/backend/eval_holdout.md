@@ -1,0 +1,23 @@
+# Audit: eval_holdout (services/runtime/evaluation/holdout.py)
+
+## FIXED
+1. holdout.py:39-52 (`assert_proposer_inputs_exclude_holdout`), path guard bypass. The old check was a raw substring match on `fixtures/heldout/<name>`. Spellings such as `heldout/unseen_mismatch.vcf`, `./heldout/...`, `fixtures/./heldout/...`, `fixtures//heldout/...` and `fixtures/valid/../heldout/...` slipped through. Test: `test_guard_rejects_holdout_path_spellings` (5 of 8 params failed before the fix). Fix: `_is_holdout_path` runs `posixpath.normpath` on the slash-normalised path and matches `/heldout/<name>` as a component-bounded substring.
+2. holdout.py:47-50, guard fail-open on bare `str`. A `str` passed for `case_ids` or `paths` was iterated per character, so nothing matched and the guard raised nothing. Test: `test_guard_rejects_bare_string_arguments` (failed before). Fix: a bare `str` is treated as a single item.
+3. holdout.py:134-139 (Gate 4), vacuous held-out pass. If a held-out fixture was missing, `heldout_passed` stayed True. The receipt then recorded `heldout_transfer_passed: True` for transfer cases that were never evaluated. Test: `test_missing_heldout_fixtures_do_not_pass_transfer_gate` (failed before). Fix: a missing held-out file sets `heldout_passed = False`.
+4. holdout.py:104-113 (Gate 2), vacuous negative-control pass. Missing negative-control fixtures gave 0 regressions and therefore `zero_negative_control_regressions: True`. Test: `test_missing_negative_controls_do_not_pass_regression_gate` (failed before). Fix: the gate requires every negative-control file to be present. The reported `regressions` count is unchanged.
+5. holdout.py:183, wrong `candidate_score`. When the candidate neither caught the incident nor passed held-out transfer, the score was reported as "1/2". Test: `test_candidate_score_is_zero_when_nothing_passes` (failed before, got "1/2"). Fix: the score is the number of passed checks over 2 (`2/2`, `1/2` and `0/2`). The outputs for the other three cases are unchanged.
+
+## UNVERIFIED/NEEDS OTHER OWNER
+- holdout.py:67 (`fasta_path`): the evaluator never checks that the reference FASTA exists. With a missing FASTA, `DeterministicGenomicsValidator.validate` returns PASS for `ref_mismatch`/held-out VCFs (observed: `heldout/unseen_mismatch.vcf` gives PASS against `/nonexistent.fasta`). This conflicts with ADR-016, where a missing FASTA is INCONCLUSIVE. The owner is gen_validator. In this module the incident gate then fails closed (cand_caught False), so the effect is rejection, not a false promotion.
+- holdout.py:133-137: an ERROR status on a held-out VCF counts as "recognised as invalid", as the comment states. A tool crash on held-out input would therefore count as a pass. This is intended by the code comment and I did not verify any ill effect, so I did not change it.
+- holdout.py:147-149 (Gate 5): `AGREE_FAIL` on `valid_snvs.vcf` counts as `dual_validator_concordance` True. Concordance is arguably the intended meaning, and a valid file that both engines fail would also trip the negative-control gate. I left it unchanged.
+- holdout.py:161 `parent_score`: "1/2" or "0/2" counts only the incident check, because the parent is never run on held-out cases. The intended semantics are ambiguous, so it is unchanged.
+- The guard still does not catch a bare basename (`unseen_mismatch.vcf`) or symlink/case variants. Doing so would need a policy decision about false positives.
+- holdout.py:75-76: `eval_id` and the default `run_id` use `uuid4`, so they are non-deterministic. ADR-020 only requires stable candidate/version ids, so this is not treated as a defect.
+
+## VERIFIED OK
+- `HOLDOUT_CASE_IDS` and `HOLDOUT_RELATIVE_PATHS` match the files under `fixtures/heldout/` and the ids used in `services/runtime/v8/experiment.py`.
+- With the real fixtures the evaluator still promotes the strengthened-REF candidate (2/2, PROMOTED) and rejects the baseline-policy candidate. The call at `experiment.py:174` (`incident_id` as a path) does not trigger the guard.
+- Gate wiring: policy-envelope failure, the incident gate and a tool-error verdict all reject. The receipt digest comes from `mint_v8_receipt` over the same gate dict as `safety_gates`.
+- Existing tests that cover this module: test_optimizer_gate.py, test_transfer_ablation.py, test_v7_benchmark_suites.py, test_audit_route_v8.py and test_audit_route_seals.py (41 passed together with the audit tests). `scripts/verify_v8.py` check 6 uses the real fixtures.
+- Test command: `MONGODB_DATABASE=diamond_audit_eval_holdout .venv/bin/pytest services/tests/test_audit_eval_holdout.py ...`. The tests use only tmp_path copies of the fixtures and a stub paired evaluator, with no Mongo and no network.

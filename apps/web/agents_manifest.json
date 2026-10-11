@@ -1,0 +1,296 @@
+[
+ [
+  "scenes/DNAHelix.tsx",
+  "DNAHelix",
+  "scene",
+  "Hero double helix: glass/emissive tube strands, SceneClock-driven morph+rotation, mode-aware pose (hero in MISSION, recedes elsewhere). Existing file: rewrite, keep SceneClock usage."
+ ],
+ [
+  "scenes/BasePairs.tsx",
+  "BasePairs",
+  "scene",
+  "Instanced base-pair rungs + nucleotide spheres (ATCG colors from lib/colors), subtle animation, highlights mutated/failing positions. Must match DNAHelix geometry (radius 1.25, height 14, 3.5 turns, local origin = helix center)."
+ ],
+ [
+  "scenes/EvidenceMarkers.tsx",
+  "EvidenceMarkers",
+  "scene",
+  "3D pins for findings with locus on the helix; severity color; hover/click set selectedFindingIdx/hoveredFindingIdx; label via SceneLabel. Existing file: rewrite."
+ ],
+ [
+  "scenes/FindingBeams.tsx",
+  "FindingBeams",
+  "scene",
+  "Pulsing beams/rings from FAIL findings radiating from helix. Reads findings."
+ ],
+ [
+  "scenes/EvolutionGraph.tsx",
+  "EvolutionGraph",
+  "scene",
+  "3D lineage graph (only visible in EVOLUTION): nodes colored by status, click selects selectedNodeId, uses computeLineageLayout, renders <LineageEdges/>. Existing file: rewrite."
+ ],
+ [
+  "scenes/LineageEdges.tsx",
+  "LineageEdges",
+  "scene",
+  "Curved tube/line edges between lineage nodes with animated flow particles. Uses computeLineageLayout from lib/lineageLayout."
+ ],
+ [
+  "lib/lineageLayout.ts",
+  "computeLineageLayout",
+  "lib",
+  "export function computeLineageLayout(nodes: LineageNode[], edges: LineageEdge[]): Record<string,[number,number,number]> \u2014 deterministic tiered 3D tree layout (generations along x, siblings fanned in y/z), handles cycles/missing parents/1 node. Add vitest tests in tests/lineage_layout.test.ts? NO - tests are owned by the tests agent; you only write the lib."
+ ],
+ [
+  "scenes/PromotionBurst.tsx",
+  "PromotionBurst",
+  "scene",
+  "Particle burst + shockwave ring at a node/receipt when something becomes PROMOTED (watch receipt.promoted / lineageNodes status change). Mode-aware positions."
+ ],
+ [
+  "scenes/ProofVault.tsx",
+  "ProofVault",
+  "scene",
+  "PROOF-mode 3D centerpiece: rotating crystal/vault of facets representing the evidence receipt; color by promoted/rejected; score ring; renders nothing unless activeMode==='PROOF'."
+ ],
+ [
+  "scenes/HashChain.tsx",
+  "HashChain",
+  "scene",
+  "PROOF-mode chain of glowing blocks, one per event with evidence_digest (fallback to events), linked; only in PROOF."
+ ],
+ [
+  "scenes/ParticleField.tsx",
+  "ParticleField",
+  "scene",
+  "Ambient dust/star field (instanced Points, drifting, quality-scaled count via useQuality)."
+ ],
+ [
+  "scenes/SceneLighting.tsx",
+  "SceneLighting",
+  "scene",
+  "Lighting rig, fog, optional drei Environment; cyan key / violet rim; mode-tinted."
+ ],
+ [
+  "scenes/PostFX.tsx",
+  "PostFX",
+  "scene",
+  "@react-three/postprocessing@2 (EffectComposer, Bloom, Vignette, ChromaticAberration subtle); disabled/lightened on low quality tier."
+ ],
+ [
+  "scenes/CameraRig.tsx",
+  "CameraRig",
+  "scene",
+  "Smooth per-mode camera tween (MISSION/EVOLUTION/PROOF poses), mouse parallax, honors reduced motion; no OrbitControls conflict (you own the controls: use drei OrbitControls inside with damping, limited angles, no zoom hijack)."
+ ],
+ [
+  "scenes/HoloFloor.tsx",
+  "HoloFloor",
+  "scene",
+  "Holographic grid floor with fading radial mask / scanline shader."
+ ],
+ [
+  "scenes/RunOrbit.tsx",
+  "RunOrbit",
+  "scene",
+  "Ring of small nodes orbiting the helix, one per run event (store.events), newest glows; MISSION only."
+ ],
+ [
+  "scenes/IntegrationSatellites.tsx",
+  "IntegrationSatellites",
+  "scene",
+  "Small orbs for integration health (store.integrationHealth keys) orbiting at the edge; color by status."
+ ],
+ [
+  "scenes/SceneLabels.tsx",
+  "SceneLabel",
+  "scene",
+  "export function SceneLabel({position,children,color,size}:{position:[number,number,number];children:React.ReactNode;color?:string;size?:number}) \u2014 billboard label using drei <Html> (distanceFactor, pointer-events none, transform) styled like HUD."
+ ],
+ [
+  "scenes/SceneController.tsx",
+  "SceneController",
+  "scene",
+  "Full-bleed fixed <Canvas> (z-0, behind HUD). Composes ALL scene components below inside Suspense: SceneLighting, CameraRig, ParticleField, HoloFloor, DNAHelix, BasePairs, EvidenceMarkers, FindingBeams, RunOrbit, IntegrationSatellites, EvolutionGraph, PromotionBurst, ProofVault, HashChain, PostFX. WebGL detection, context-lost handling, falls back to <WebGLFallback/>, dpr from useQuality, sets store.booted=true after first frame. Existing file: rewrite."
+ ],
+ [
+  "lib/quality.ts",
+  "useQuality",
+  "lib",
+  "export type QualityTier='low'|'medium'|'high'; export function useQuality(): {tier:QualityTier; dpr:[number,number]; particles:number; postfx:boolean; reducedMotion:boolean}. Resolve store.qualityPref 'auto' via hardwareConcurrency/deviceMemory/devicePixelRatio/prefers-reduced-motion. Also export pure resolveQuality(pref, env) for tests."
+ ],
+ [
+  "components/WebGLFallback.tsx",
+  "WebGLFallback",
+  "ui",
+  "Beautiful pure CSS/SVG animated helix fallback when WebGL unavailable, full-bleed behind HUD, with a short accessible notice."
+ ],
+ [
+  "app/App.tsx",
+  "App",
+  "ui",
+  "Shell: <SceneController/> fixed full-bleed behind; TopBar (h var(--hud-top)); .hud-stage = fixed inset between top and bottom dock, pointer-events-none, renders the active View (MissionView/EvolutionView/ProofView) with enter transition; BottomDock; Toasts; CommandPalette; LoadingScreen. Existing file: rewrite."
+ ],
+ [
+  "components/TopBar.tsx",
+  "TopBar",
+  "ui",
+  "Brand lockup (logo mark, DIAMOND GENOME, version), ModeNav center, StatusPills + DevClock right, quality toggle (qualityPref cycle) and palette hint (Ctrl+K). Glass bar."
+ ],
+ [
+  "components/ModeNav.tsx",
+  "ModeNav",
+  "ui",
+  "MISSION/EVOLUTION/PROOF segmented control with sliding active indicator, per-mode accent, number-key hint (1/2/3 hotkeys registered here), aria roles."
+ ],
+ [
+  "components/StatusPills.tsx",
+  "StatusPills",
+  "ui",
+  "Integration status pills (MongoDB, ElevenLabs, Raindrop...). Owns fetch('/api/integrations/status') on mount, writes store.integrationHealth, tooltip detail, graceful Unreachable state."
+ ],
+ [
+  "components/DevClock.tsx",
+  "DevClock",
+  "ui",
+  "Dev scene-clock scrubber (Real/0/45/90/290s + slider) compact popover; keeps SceneClock.setManualTime in sync with store.devClockSeconds."
+ ],
+ [
+  "components/BottomDock.tsx",
+  "BottomDock",
+  "ui",
+  "Bottom glass dock: run status chip, active run id (copy), event counter, mini progress; mode-specific hint text. Height var(--hud-bottom)."
+ ],
+ [
+  "components/LoadingScreen.tsx",
+  "LoadingScreen",
+  "ui",
+  "Boot overlay with animated DNA/diamond mark and progress text; fades out once store.booted (min 900ms), then unmounts. Skippable on click/key."
+ ],
+ [
+  "components/Toasts.tsx",
+  "Toasts",
+  "ui",
+  "Renders store.toasts bottom-right, auto-dismiss via ttlMs (default 4500), kind-colored, a11y live region."
+ ],
+ [
+  "components/CommandPalette.tsx",
+  "CommandPalette",
+  "ui",
+  "Ctrl/Cmd+K palette (store.paletteOpen): switch mode, run analysis (useRunActions), select VCF fixture, cycle quality, fuzzy filter, arrows+enter+esc, focus trap."
+ ],
+ [
+  "hooks/useRunActions.ts",
+  "useRunActions",
+  "lib",
+  "export function useRunActions(): {runAnalysis:()=>Promise<void>; isRunning:boolean}. Extract the fetch/SSE logic currently in features/mission/MissionView.tsx handleRunAnalysis verbatim in behavior (same endpoints, same findings fixtures), plus pushToast on success/failure. Close EventSource in all paths."
+ ],
+ [
+  "features/mission/MissionView.tsx",
+  "MissionView",
+  "ui",
+  "Composes mission HUD: left rail (VcfPicker, RunControls, ThreatMeter), right rail (FindingsPanel, FindingDetail), bottom-left EventTimeline. Panels placed with grid/absolute inside the pointer-events-none stage; center left free so the 3D helix shows. Existing file: rewrite."
+ ],
+ [
+  "features/mission/VcfPicker.tsx",
+  "VcfPicker",
+  "ui",
+  "Fixture picker (valid_snvs.vcf, ref_mismatch.vcf + others found in repo fixtures/ names) as cards bound to store.selectedVcf; keyboard accessible."
+ ],
+ [
+  "features/mission/RunControls.tsx",
+  "RunControls",
+  "ui",
+  "Primary Run Analysis button (useRunActions), state machine styling IDLE/RUNNING/PASSED/FAILED, animated progress, explanatory microcopy."
+ ],
+ [
+  "features/mission/EventTimeline.tsx",
+  "EventTimeline",
+  "ui",
+  "Scrolling live event stream from store.events: seq, type badge, relative time, digest chip, auto-scroll, empty state."
+ ],
+ [
+  "features/mission/FindingsPanel.tsx",
+  "FindingsPanel",
+  "ui",
+  "List of store.findings with status/severity badges; click sets selectedFindingIdx; hover sets hoveredFindingIdx; empty state."
+ ],
+ [
+  "features/mission/FindingDetail.tsx",
+  "FindingDetail",
+  "ui",
+  "Detail card for selectedFindingIdx: message, locus (formatLocus), REF/ALT diff visualization, metadata table; renders nothing when none selected."
+ ],
+ [
+  "features/mission/ThreatMeter.tsx",
+  "ThreatMeter",
+  "ui",
+  "Radial SVG risk gauge derived from findings severity counts; animated sweep; no props."
+ ],
+ [
+  "features/evolution/EvolutionView.tsx",
+  "EvolutionView",
+  "ui",
+  "Composes evolution HUD: header with Evolve action explanation, LineageInspector (right), PolicyDiff + EvolutionStats (left/bottom); graph itself is 3D behind. Existing file: rewrite, preserve any fetch behavior it has."
+ ],
+ [
+  "features/evolution/LineageInspector.tsx",
+  "LineageInspector",
+  "ui",
+  "Inspector for store.selectedNodeId (default to latest node): version, status, parent, policy flags, optimizer provenance, gate reason; node list fallback."
+ ],
+ [
+  "features/evolution/PolicyDiff.tsx",
+  "PolicyDiff",
+  "ui",
+  "Pretty unified-diff viewer for store.policyDiff (+/- colored lines, line numbers) with empty state."
+ ],
+ [
+  "features/evolution/EvolutionStats.tsx",
+  "EvolutionStats",
+  "ui",
+  "Stat tiles + SVG sparkline/bars: node count, promoted count, receipt scores parent->candidate, FPR."
+ ],
+ [
+  "features/proof/ProofView.tsx",
+  "ProofView",
+  "ui",
+  "Composes proof HUD: ReceiptCard, ScoreRing, DigestVerifier, VoiceBriefing around the 3D vault. Uses useProofData. Existing file: rewrite."
+ ],
+ [
+  "hooks/useProofData.ts",
+  "useProofData",
+  "lib",
+  "export function useProofData(): {loading:boolean; error:string|null; refresh:()=>Promise<void>; latest:any|null}. Extract /api/v8/latest fetch from features/proof/ProofView.tsx, populate store (receipt etc.) as the old code did."
+ ],
+ [
+  "features/proof/ReceiptCard.tsx",
+  "ReceiptCard",
+  "ui",
+  "Evidence receipt summary from store.receipt: promoted/rejected stamp, scores, FPR, holdout ids, reference sha, decision reason; empty state."
+ ],
+ [
+  "features/proof/ScoreRing.tsx",
+  "ScoreRing",
+  "ui",
+  "export function ScoreRing({value,parent,size=160,label}:{value:number;parent?:number;size?:number;label?:string}) animated SVG ring showing candidate vs parent score."
+ ],
+ [
+  "features/proof/DigestVerifier.tsx",
+  "DigestVerifier",
+  "ui",
+  "Lists receipt/event digests (shortDigest, copy button, full on hover) and a client-side SHA-256 verifier for pasted text via crypto.subtle."
+ ],
+ [
+  "features/proof/VoiceBriefing.tsx",
+  "VoiceBriefing",
+  "ui",
+  "ElevenLabs voice briefing player: preserve the existing POST /api/voice/briefing logic from ProofView; audio element, waveform bars, loading/error states."
+ ],
+ [
+  "stores/selectors.ts",
+  "selectors",
+  "lib",
+  "Pure derived-state helpers + hooks: severityCounts(findings), riskScore(findings)->0..1, latestNode(nodes), promotedCount(nodes), eventDigests(events). Export both pure functions (testable) and nothing that mutates store. Do not edit useGenomeStore.ts."
+ ]
+]

@@ -1,0 +1,384 @@
+{
+  "retrieved_at": "2026-10-11T23:09:20Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000376",
+    "lang": "en",
+    "description": [
+      "The part of the hindlimb between pelvis and the knee, corresponding to the femur."
+    ],
+    "synonyms": [
+      "stylopod of lower limb",
+      "thigh",
+      "femur",
+      "hind limb stylopod",
+      "hind limb stylopodium",
+      "hind propodium",
+      "hindlimb propodium",
+      "hindlimb stylopod",
+      "hindlimb stylopodium",
+      "proximal segment of free lower limb",
+      "stylopod of hind limb",
+      "stylopod of hindlimb",
+      "upper leg"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "BTO:0001376",
+        "CALOHA:TS-2039",
+        "EFO:0001943",
+        "EHDAA2:0002130",
+        "EHDAA:5171",
+        "EHDAA:6200",
+        "EMAPA:17499",
+        "FMA:24967",
+        "GAID:50",
+        "MA:0000052",
+        "MESH:D013848",
+        "NCIT:C33763",
+        "SCTID:302544002",
+        "VHOG:0000349",
+        "Wikipedia:Thigh",
+        "galen:Thigh",
+        "UMLS:C0039866"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/4/4b/Gray1238.png"
+      ],
+      "homology_notes": [
+        "Most anatomists now agree that the three proximal bones of the tetrapod limbs are homologous to the two or three proximal elements of the paired fin skeleton of other sarcopterygians, that is the humerus-femur, radius-tibia, and ulna-fibula.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000376"
+      ],
+      "terminology_notes": [
+        "Naming conventions for pod terms under discussion within phenoscape group."
+      ]
+    },
+    "label": "hindlimb stylopod",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000376",
+    "obo_id": "UBERON:0000376",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The part of the hindlimb between pelvis and the knee, corresponding to the femur.",
+        "oboXrefs": [
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BTO",
+        "id": "0001376",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001376"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-2039",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-2039"
+      },
+      {
+        "database": "EFO",
+        "id": "0001943",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0001943"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0002130",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0002130"
+      },
+      {
+        "database": "EHDAA",
+        "id": "5171",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_5171"
+      },
+      {
+        "database": "EHDAA",
+        "id": "6200",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_6200"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17499",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17499"
+      },
+      {
+        "database": "FMA",
+        "id": "24967",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/24967"
+      },
+      {
+        "database": "GAID",
+        "id": "50",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000052",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000052"
+      },
+      {
+        "database": "MESH",
+        "id": "D013848",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D013848"
+      },
+      {
+        "database": "NCIT",
+        "id": "C33763",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C33763"
+      },
+      {
+        "database": "SCTID",
+        "id": "302544002",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/302544002"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000349",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000349"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Thigh",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Thigh"
+      },
+      {
+        "database": "galen",
+        "id": "Thigh",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0039866",
+        "description": "ncithesaurus:Thigh",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0039866"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "hind limb stylopod",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "hind limb stylopodium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "VHOG",
+            "id": "0000349",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VHOG_0000349"
+          }
+        ]
+      },
+      {
+        "name": "hind propodium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "AAO",
+            "id": "0000887",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/AAO_0000887"
+          }
+        ]
+      },
+      {
+        "name": "hindlimb propodium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "AAO",
+            "id": "0000887",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/AAO_0000887"
+          }
+        ]
+      },
+      {
+        "name": "hindlimb stylopod",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "hindlimb stylopodium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "proximal segment of free lower limb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "24967",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/24967"
+          }
+        ]
+      },
+      {
+        "name": "stylopod of hind limb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "stylopod of hindlimb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "upper leg",
+        "scope": "hasExactSynonym",
+        "type": "preferred term when talking about an instance of this class in Homo sapiens",
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "0000052",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000052"
+          }
+        ]
+      },
+      {
+        "name": "femur",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Thigh",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Thigh"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      },
+      "has_skeleton": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000376/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002551"
+      }
+    }
+  }
+}

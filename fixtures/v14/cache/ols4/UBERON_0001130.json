@@ -1,0 +1,377 @@
+{
+  "retrieved_at": "2026-10-11T23:09:15Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001130",
+    "lang": "en",
+    "description": [
+      "Subdivision of skeletal system that consists of all the vertebra and associated skeletal elements and joints in the body[modified from VSAO]."
+    ],
+    "synonyms": [
+      "vertebral region",
+      "backbone",
+      "columna vertebralis",
+      "dorsal spine",
+      "spinal column",
+      "spine",
+      "vertebral column skeleton"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0000699",
+        "AAO:0000734",
+        "BTO:0000818",
+        "EFO:0001369",
+        "EHDA:10119",
+        "EMAPA:35919",
+        "FMA:13478",
+        "GAID:106",
+        "MA:0002416",
+        "MESH:D013131",
+        "NCIT:C12998",
+        "NCIT:C33588",
+        "NIF_Subcellular:sao1145756102",
+        "SCTID:44300000",
+        "TAO:0001559",
+        "VHOG:0001142",
+        "VSAO:0000185",
+        "Wikipedia:Vertebral_column",
+        "XAO:0003074",
+        "ZFA:0001559",
+        "galen:SpinalColumn",
+        "UMLS:C0037949",
+        "UMLS:C1519455"
+      ],
+      "editor note": [
+        "Note that in contrast to VSAO, this is a subset of the skeletal system, and thus includes intervertebral joints, cartilage and ligaments etc. Some ontologies such as AAO seem to purely refer to the skeleton"
+      ],
+      "external_definition": [
+        "Anatomical cluster that consists of all the vertebra in the body.[VSAO]",
+        "The vertebral column consists of a series of vertebrae connected by ligaments. It provides a supporting axis for the body and protects the spinal cord. [TFD][VHOG]"
+      ],
+      "homology_notes": [
+        "Vertebrata is characterized by three synapomorphies. First, vertebrates have a backbone composed of vertebrae (...).[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0001130"
+      ],
+      "never in taxon": [
+        "http://purl.obolibrary.org/obo/NCBITaxon_7762"
+      ]
+    },
+    "label": "vertebral column",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001130",
+    "obo_id": "UBERON:0001130",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Subdivision of skeletal system that consists of all the vertebra and associated skeletal elements and joints in the body[modified from VSAO].",
+        "oboXrefs": [
+          {
+            "database": "VSAO",
+            "id": "0000185",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VSAO_0000185"
+          },
+          {
+            "database": null,
+            "id": "https://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "https://orcid.org/0000-0002-6601-2165"
+          },
+          {
+            "database": null,
+            "id": "https://sourceforge.net/tracker/?func=detail&aid=3530322&group_id=76834&atid=2257941",
+            "description": null,
+            "url": "https://sourceforge.net/tracker/?func=detail&aid=3530322&group_id=76834&atid=2257941"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000699",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000699"
+      },
+      {
+        "database": "AAO",
+        "id": "0000734",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000734"
+      },
+      {
+        "database": "BTO",
+        "id": "0000818",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000818"
+      },
+      {
+        "database": "EFO",
+        "id": "0001369",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0001369"
+      },
+      {
+        "database": "EHDA",
+        "id": "10119",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDA_10119"
+      },
+      {
+        "database": "EMAPA",
+        "id": "35919",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35919"
+      },
+      {
+        "database": "FMA",
+        "id": "13478",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/13478"
+      },
+      {
+        "database": "GAID",
+        "id": "106",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0002416",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0002416"
+      },
+      {
+        "database": "MESH",
+        "id": "D013131",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D013131"
+      },
+      {
+        "database": "NCIT",
+        "id": "C12998",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12998"
+      },
+      {
+        "database": "NCIT",
+        "id": "C33588",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C33588"
+      },
+      {
+        "database": "NIF_Subcellular",
+        "id": "sao1145756102",
+        "description": null,
+        "url": "http://www.neurolex.org/wiki/sao1145756102"
+      },
+      {
+        "database": "SCTID",
+        "id": "44300000",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/44300000"
+      },
+      {
+        "database": "TAO",
+        "id": "0001559",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0001559"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001142",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001142"
+      },
+      {
+        "database": "VSAO",
+        "id": "0000185",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VSAO_0000185"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Vertebral_column",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Vertebral_column"
+      },
+      {
+        "database": "XAO",
+        "id": "0003074",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0003074"
+      },
+      {
+        "database": "ZFA",
+        "id": "0001559",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0001559"
+      },
+      {
+        "database": "galen",
+        "id": "SpinalColumn",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0037949",
+        "description": "ncithesaurus:Vertebral_Column",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0037949"
+      },
+      {
+        "database": "UMLS",
+        "id": "C1519455",
+        "description": "ncithesaurus:Spinal_Cord_Column",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C1519455"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "columna vertebralis",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000818",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000818"
+          }
+        ]
+      },
+      {
+        "name": "dorsal spine",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000818",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000818"
+          }
+        ]
+      },
+      {
+        "name": "spinal column",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "MESH",
+            "id": "A02.835.232.834",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "backbone",
+        "scope": "hasNarrowSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "13478",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/13478"
+          }
+        ]
+      },
+      {
+        "name": "vertebral column skeleton",
+        "scope": "hasNarrowSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "AAO",
+            "id": "0000699",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/AAO_0000699"
+          }
+        ]
+      },
+      {
+        "name": "spine",
+        "scope": "hasBroadSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "13478",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/13478"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "composed_primarily_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002473"
+      },
+      "protects": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001130/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252Fuberon%252Fcore%2523protects"
+      }
+    }
+  }
+}

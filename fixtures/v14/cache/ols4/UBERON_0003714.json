@@ -1,0 +1,194 @@
+{
+  "retrieved_at": "2026-10-11T23:09:23Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003714",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0003714",
+    "lang": "en",
+    "description": [
+      "Portion of tissue in the nervous system which consists of neurons and glial cells, and may also contain parts of the vasculature."
+    ],
+    "synonyms": [
+      "nerve tissue",
+      "nervous tissue",
+      "portion of neural tissue"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0000325",
+        "AEO:0000123",
+        "EHDAA2:0003123",
+        "FMA:9642",
+        "GAID:609",
+        "MESH:D009417",
+        "NCIT:C13052",
+        "SCTID:91728009",
+        "UMLS:C0027757"
+      ],
+      "external_definition": [
+        "One of the four types of tissue in traditional classifications. Cells forming the brain, spinal cord and peripheral nervous system.[AAO]"
+      ],
+      "external_ontology_notes": [
+        "FMA definition includes vasculature"
+      ],
+      "id": [
+        "UBERON:0003714"
+      ]
+    },
+    "label": "neural tissue",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": false,
+    "is_root": false,
+    "short_form": "UBERON_0003714",
+    "obo_id": "UBERON:0003714",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Portion of tissue in the nervous system which consists of neurons and glial cells, and may also contain parts of the vasculature.",
+        "oboXrefs": [
+          {
+            "database": "FMA",
+            "id": "9642",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/9642"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000325",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000325"
+      },
+      {
+        "database": "AEO",
+        "id": "0000123",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AEO_0000123"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0003123",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0003123"
+      },
+      {
+        "database": "FMA",
+        "id": "9642",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/9642"
+      },
+      {
+        "database": "GAID",
+        "id": "609",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MESH",
+        "id": "D009417",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D009417"
+      },
+      {
+        "database": "NCIT",
+        "id": "C13052",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C13052"
+      },
+      {
+        "database": "SCTID",
+        "id": "91728009",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/91728009"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0027757",
+        "description": "ncithesaurus:Nervous_Tissue",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0027757"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "nerve tissue",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "9642",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/9642"
+          }
+        ]
+      },
+      {
+        "name": "nervous tissue",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "9642",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/9642"
+          }
+        ]
+      },
+      {
+        "name": "portion of neural tissue",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "9642",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/9642"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003714?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003714/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003714/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003714/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003714/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003714/jstree"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003714/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003714/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003714/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      }
+    }
+  }
+}

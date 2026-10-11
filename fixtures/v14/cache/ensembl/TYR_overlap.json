@@ -1,0 +1,41 @@
+{
+  "retrieved_at": "2026-10-11T23:10:40Z",
+  "source_version": "release 116",
+  "source_url": "https://rest.ensembl.org/overlap/region/homo_sapiens/11:89177875-89178114?feature=exon;content-type=application/json",
+  "payload": [
+    {
+      "end": 89178772,
+      "source": "ensembl_havana",
+      "id": "ENSE00002200807",
+      "constitutive": 0,
+      "assembly_name": "GRCh38",
+      "ensembl_end_phase": 0,
+      "exon_id": "ENSE00002200807",
+      "rank": 1,
+      "strand": 1,
+      "ensembl_phase": -1,
+      "seq_region_name": "11",
+      "Parent": "ENST00000263321",
+      "start": 89177875,
+      "feature_type": "exon",
+      "version": 2
+    },
+    {
+      "start": 89177893,
+      "seq_region_name": "11",
+      "Parent": "ENST00000526139",
+      "version": 6,
+      "feature_type": "exon",
+      "rank": 1,
+      "ensembl_phase": -1,
+      "strand": 1,
+      "exon_id": "ENSE00001153844",
+      "assembly_name": "GRCh38",
+      "constitutive": 0,
+      "ensembl_end_phase": -1,
+      "end": 89178772,
+      "id": "ENSE00001153844",
+      "source": "havana"
+    }
+  ]
+}

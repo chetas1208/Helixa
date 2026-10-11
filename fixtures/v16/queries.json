@@ -1,0 +1,51 @@
+[
+  {
+    "id": "q-brca1",
+    "query": "BRCA1 hereditary breast cancer association",
+    "relevant": ["doc-brca1"],
+    "context": {"gene_id": "BRCA1", "task_type": "editor"}
+  },
+  {
+    "id": "q-tp53-synonym",
+    "query": "tumor protein p53 transcription factor",
+    "relevant": ["doc-tp53"],
+    "context": {"task_type": "editor"}
+  },
+  {
+    "id": "q-cftr-lung",
+    "query": "CFTR airway epithelium",
+    "relevant": ["doc-cftr"],
+    "context": {"tissue": "lung", "task_type": "editor"}
+  },
+  {
+    "id": "q-build",
+    "query": "GRCh37 coordinate versus GRCh38 for BRCA1",
+    "relevant": ["doc-assembly"],
+    "context": {"assembly": "GRCh38", "task_type": "editor"}
+  },
+  {
+    "id": "q-harness",
+    "query": "harness candidate rejected reference mismatch lineage",
+    "relevant": ["doc-harness-ref-mismatch"],
+    "context": {"task_type": "evolution"}
+  },
+  {
+    "id": "q-wright-fisher",
+    "query": "Wright-Fisher simulation parameter assumptions",
+    "relevant": ["doc-wright-fisher"],
+    "context": {"task_type": "simulation"}
+  },
+  {
+    "id": "q-library",
+    "query": "semantic search must not activate a workspace id",
+    "relevant": ["doc-library-ids"],
+    "context": {"task_type": "library"}
+  },
+  {
+    "id": "q-misleading",
+    "query": "DNA changes because the climate needs it to adapt",
+    "relevant": ["doc-wright-fisher"],
+    "forbidden": ["doc-mislead-climate", "doc-mislead-eyes"],
+    "context": {"task_type": "simulation"}
+  }
+]

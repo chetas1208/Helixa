@@ -1,0 +1,313 @@
+{
+  "retrieved_at": "2026-10-11T23:09:57Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002371",
+    "lang": "en",
+    "description": [
+      "The soft tissue that fills the cavities of bones."
+    ],
+    "synonyms": [
+      "medullary bone",
+      "medulla of bone",
+      "medulla ossea",
+      "medulla ossium"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0011007",
+        "BTO:0000141",
+        "BTO:0000829",
+        "CALOHA:TS-0087",
+        "EFO:0000868",
+        "EMAPA:32760",
+        "EV:0100046",
+        "FMA:9608",
+        "GAID:1287",
+        "MA:0000134",
+        "MAT:0000084",
+        "MESH:D001853",
+        "MIAA:0000084",
+        "NCIT:C12431",
+        "SCTID:421320006",
+        "VHOG:0001218",
+        "Wikipedia:Bone_marrow",
+        "XAO:0000123",
+        "galen:BoneMarrow",
+        "UMLS:C0005953"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/7/74/Gray72-en.svg"
+      ],
+      "editor note": [
+        "TODO - create superclass for bone marrow / head kidney. both are portions of tissue in the hematopoetic system. also consider adding as subclass of zone of bone organ for consistency with FMA. See also: Leydig and epigonal organs",
+        "consider placement of NCIT:C53466 medullary bone"
+      ],
+      "function_notes": [
+        "In adults, marrow in large bones produces new blood cells[Wikipedia:Bone_marrow]"
+      ],
+      "homology_notes": [
+        "The bone marrow is the hematopoietic organ in all vertebrates but fishes, in which hematopoiesis occurs in the kidney.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0002371"
+      ]
+    },
+    "label": "bone marrow",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002371",
+    "obo_id": "UBERON:0002371",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The soft tissue that fills the cavities of bones.",
+        "oboXrefs": [
+          {
+            "database": "MGI",
+            "id": "cwg",
+            "description": null,
+            "url": "http://www.informatics.jax.org/accession/cwg"
+          },
+          {
+            "database": "MP",
+            "id": "0002397",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/MP_0002397"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0011007",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0011007"
+      },
+      {
+        "database": "BTO",
+        "id": "0000141",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000141"
+      },
+      {
+        "database": "BTO",
+        "id": "0000829",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000829"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0087",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0087"
+      },
+      {
+        "database": "EFO",
+        "id": "0000868",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000868"
+      },
+      {
+        "database": "EMAPA",
+        "id": "32760",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:32760"
+      },
+      {
+        "database": "EV",
+        "id": "0100046",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100046"
+      },
+      {
+        "database": "FMA",
+        "id": "9608",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/9608"
+      },
+      {
+        "database": "GAID",
+        "id": "1287",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000134",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000134"
+      },
+      {
+        "database": "MAT",
+        "id": "0000084",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000084"
+      },
+      {
+        "database": "MESH",
+        "id": "D001853",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D001853"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000084",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12431",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12431"
+      },
+      {
+        "database": "SCTID",
+        "id": "421320006",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/421320006"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001218",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001218"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Bone_marrow",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Bone_marrow"
+      },
+      {
+        "database": "XAO",
+        "id": "0000123",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000123"
+      },
+      {
+        "database": "galen",
+        "id": "BoneMarrow",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0005953",
+        "description": "ncithesaurus:Bone_Marrow",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0005953"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "medulla ossea",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000141",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000141"
+          },
+          {
+            "database": "FMA",
+            "id": "9608",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/9608"
+          }
+        ]
+      },
+      {
+        "name": "medulla ossium",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000141",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000141"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Bone_marrow",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Bone_marrow"
+          }
+        ]
+      },
+      {
+        "name": "medulla of bone",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000141",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000141"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002371/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      }
+    }
+  }
+}

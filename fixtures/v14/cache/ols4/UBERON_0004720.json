@@ -1,0 +1,371 @@
+{
+  "retrieved_at": "2026-10-11T23:12:48Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0004720",
+    "lang": "en",
+    "description": [
+      "A subregion of the cerebellar cortex, consisting of the most medial zone of the cerebellar cortex, stradding the midline. May be continuous with the lateral cerebellar hemispheres in some areas of the cerebellum, e.g., dorsally, or separated by deeper fissures in others (e.g., ventrally)."
+    ],
+    "synonyms": [
+      "cerebellum vermis",
+      "vermal parts of the cerebellum",
+      "vermal regions",
+      "vermis cerebelli [I-X]",
+      "vermis cerebelli",
+      "vermis of cerebellum [I-X]",
+      "vermis of cerebellum",
+      "vermis"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "BAMS:VERM",
+        "BAMS:Ver",
+        "BIRNLEX:1106",
+        "BIRNLEX:1175",
+        "CALOHA:TS-2059",
+        "DHBA:10658",
+        "DMBA:16814",
+        "EMAPA:35214",
+        "EV:0100298",
+        "FMA:76928",
+        "HBA:4698",
+        "MA:0000202",
+        "MBA:645",
+        "NCIT:C33866",
+        "SCTID:279105006",
+        "Wikipedia:Cerebellar_vermis",
+        "neuronames:2463",
+        "MESH:D065814",
+        "UMLS:C0228482"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/4/43/CerebellumDiv.png",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/brain-female/v1.4/assets/3d-allen-f-brain.glb",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/brain-male/v1.4/assets/3d-allen-m-brain.glb"
+      ],
+      "external_ontology_notes": [
+        "we follow MBA and NIFSTD in making this part of the cerebellar cortex, but FMA may handle this differently"
+      ],
+      "id": [
+        "UBERON:0004720"
+      ],
+      "mutually spatially disjoint with": [
+        "http://purl.obolibrary.org/obo/UBERON_0002245"
+      ],
+      "taxon_notes": [
+        "In bony fish, or teleosts, it has been proposed that the cerebellar auricles, which receive a large amount of input from the vestibulolateral line system, constitute the vestibulocerebellum and are homologues of the flocculonodular lobe of higher vertebrates along with the corpus cerebelli, which receives spinocerebellar and tectocerebellar fibers. The labyrinth and the lateral line organs of lampreys have structural and functional similarity. An important difference between the two structures is that the arrangement of the lateral line organs are such that they are sensitive to relative motion of the fluid surrounding the animal, whereas the labyrinths, having very similar sensing mechanisms, are sensitive to endolymph, providing information concerning the animal's own equilibrium of the body and orientation in space"
+      ]
+    },
+    "label": "cerebellar vermis",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0004720",
+    "obo_id": "UBERON:0004720",
+    "in_subset": [
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "A subregion of the cerebellar cortex, consisting of the most medial zone of the cerebellar cortex, stradding the midline. May be continuous with the lateral cerebellar hemispheres in some areas of the cerebellum, e.g., dorsally, or separated by deeper fissures in others (e.g., ventrally).",
+        "oboXrefs": [
+          {
+            "database": "BIRNLEX",
+            "id": "1106",
+            "description": null,
+            "url": "http://uri.neuinfo.org/nif/nifstd/birnlex_1106"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BAMS",
+        "id": "VERM",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BAMS",
+        "id": "Ver",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "BIRNLEX",
+        "id": "1106",
+        "description": null,
+        "url": "http://uri.neuinfo.org/nif/nifstd/birnlex_1106"
+      },
+      {
+        "database": "BIRNLEX",
+        "id": "1175",
+        "description": null,
+        "url": "http://uri.neuinfo.org/nif/nifstd/birnlex_1175"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-2059",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-2059"
+      },
+      {
+        "database": "DHBA",
+        "id": "10658",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/dhbao/DHBA_10658"
+      },
+      {
+        "database": "DMBA",
+        "id": "16814",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/dmbao/DMBA_16814"
+      },
+      {
+        "database": "EMAPA",
+        "id": "35214",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35214"
+      },
+      {
+        "database": "EV",
+        "id": "0100298",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100298"
+      },
+      {
+        "database": "FMA",
+        "id": "76928",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/76928"
+      },
+      {
+        "database": "HBA",
+        "id": "4698",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/hbao/HBA_4698"
+      },
+      {
+        "database": "MA",
+        "id": "0000202",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000202"
+      },
+      {
+        "database": "MBA",
+        "id": "645",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/mbao/MBA_645"
+      },
+      {
+        "database": "NCIT",
+        "id": "C33866",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C33866"
+      },
+      {
+        "database": "SCTID",
+        "id": "279105006",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/279105006"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Cerebellar_vermis",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Cerebellar_vermis"
+      },
+      {
+        "database": "neuronames",
+        "id": "2463",
+        "description": null,
+        "url": "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=2463"
+      },
+      {
+        "database": "MESH",
+        "id": "D065814",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D065814"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0228482",
+        "description": "ncithesaurus:Vermis",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0228482"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "cerebellum vermis",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "76928",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/76928"
+          }
+        ]
+      },
+      {
+        "name": "vermal parts of the cerebellum",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BIRNLEX",
+            "id": "1175",
+            "description": null,
+            "url": "http://uri.neuinfo.org/nif/nifstd/birnlex_1175"
+          }
+        ]
+      },
+      {
+        "name": "vermal regions",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "ABA",
+            "id": "VERM",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "vermis cerebelli [I-X]",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "76928",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/76928"
+          },
+          {
+            "database": "FMA",
+            "id": "TA",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "vermis of cerebellum [I-X]",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "76928",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/76928"
+          }
+        ]
+      },
+      {
+        "name": "vermis of cerebellum",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "76928",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/76928"
+          }
+        ]
+      },
+      {
+        "name": "vermis cerebelli",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Cerebellar_vermis",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Cerebellar_vermis"
+          }
+        ]
+      },
+      {
+        "name": "vermis",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Cerebellar_vermis",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Cerebellar_vermis"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "intersects_midsagittal_plane_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBSPO_0005001"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "capable_of_part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002216"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0004720/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      }
+    }
+  }
+}

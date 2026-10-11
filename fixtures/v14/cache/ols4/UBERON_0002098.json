@@ -1,0 +1,152 @@
+{
+  "retrieved_at": "2026-10-11T23:09:46Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002098",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002098",
+    "lang": "en",
+    "description": [
+      "The apex of the heart is the lowest superficial part of the heart. It is directed downward, forward, and to the left, and is overlapped by the left lung and pleura. [WP,unvetted]."
+    ],
+    "synonyms": [
+      "heart apex",
+      "apex cordis",
+      "cardiac apex"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "FMA:7164",
+        "MA:0000488",
+        "NCIT:C32126",
+        "SCTID:362009004",
+        "Wikipedia:Apex_of_the_heart",
+        "UMLS:C0225811"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/4/46/Gray492.png"
+      ],
+      "external_ontology_notes": [
+        "FMA also has terms for the apical zone"
+      ],
+      "id": [
+        "UBERON:0002098"
+      ]
+    },
+    "label": "apex of heart",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": false,
+    "is_root": false,
+    "short_form": "UBERON_0002098",
+    "obo_id": "UBERON:0002098",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The apex of the heart is the lowest superficial part of the heart. It is directed downward, forward, and to the left, and is overlapped by the left lung and pleura. [WP,unvetted].",
+        "oboXrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Apex_of_the_heart",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Apex_of_the_heart"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "FMA",
+        "id": "7164",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7164"
+      },
+      {
+        "database": "MA",
+        "id": "0000488",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000488"
+      },
+      {
+        "database": "NCIT",
+        "id": "C32126",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C32126"
+      },
+      {
+        "database": "SCTID",
+        "id": "362009004",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/362009004"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Apex_of_the_heart",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Apex_of_the_heart"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0225811",
+        "description": "ncithesaurus:Apex_of_the_Heart",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0225811"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "apex cordis",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": []
+      },
+      {
+        "name": "cardiac apex",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "7164",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/7164"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002098?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002098/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002098/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002098/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002098/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002098/jstree"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002098/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002098/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      }
+    }
+  }
+}

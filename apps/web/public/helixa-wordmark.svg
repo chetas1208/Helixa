@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" role="img" aria-label="HELIXA Wordmark">
+  <defs>
+    <linearGradient id="strand-cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stopColor="#7fe3ff"/>
+      <stop offset="100%" stopColor="#5aa0ff"/>
+    </linearGradient>
+    <linearGradient id="strand-uv" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stopColor="#bad2ff"/>
+      <stop offset="100%" stopColor="#8ea2ff"/>
+    </linearGradient>
+  </defs>
+  <!-- HELIXA intertwined H motif -->
+  <g transform="translate(8, 8)">
+    <rect width="32" height="32" rx="8" fill="#070b12"/>
+    <path d="M8 5c3.2 3.4 3.2 6.2.4 9.2C11.2 17.2 11.2 20 8 27" fill="none" stroke="url(#strand-cyan)" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M24 5c-3.2 3.4-3.2 6.2-.4 9.2C20.8 17.2 20.8 20 24 27" fill="none" stroke="url(#strand-uv)" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M10.2 16h11.6" fill="none" stroke="#d7ecff" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- HELIXA clean uppercase typography -->
+  <text x="52" y="31" font-family="'Instrument Sans', -apple-system, system-ui, sans-serif" font-size="22" font-weight="700" letter-spacing="0.18em" fill="#f0f6fc">HELIXA</text>
+</svg>

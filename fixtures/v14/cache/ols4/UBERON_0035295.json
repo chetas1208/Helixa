@@ -1,0 +1,112 @@
+{
+  "retrieved_at": "2026-10-11T23:09:26Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035295",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0035295",
+    "lang": "en",
+    "description": [
+      "The organ of hearing located on the left side of the head[ncit,modified]."
+    ],
+    "synonyms": [],
+    "annotation": {
+      "database_cross_reference": [
+        "FMA:53642",
+        "NCIT:C81259",
+        "SCTID:368592000",
+        "UMLS:C0229299"
+      ],
+      "id": [
+        "UBERON:0035295"
+      ]
+    },
+    "label": "left ear",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": false,
+    "is_root": false,
+    "short_form": "UBERON_0035295",
+    "obo_id": "UBERON:0035295",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The organ of hearing located on the left side of the head[ncit,modified].",
+        "oboXrefs": [
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          },
+          {
+            "database": "ncithesaurus",
+            "id": "Left_Ear",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "FMA",
+        "id": "53642",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/53642"
+      },
+      {
+        "database": "NCIT",
+        "id": "C81259",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C81259"
+      },
+      {
+        "database": "SCTID",
+        "id": "368592000",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/368592000"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0229299",
+        "description": null,
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0229299"
+      }
+    ],
+    "obo_synonym": null,
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035295?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035295/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035295/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035295/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035295/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035295/jstree"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035295/graph"
+      },
+      "in_left_side_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0035295/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBSPO_0000120"
+      }
+    }
+  }
+}

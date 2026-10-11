@@ -1,0 +1,476 @@
+{
+  "retrieved_at": "2026-10-11T23:09:18Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002386",
+    "lang": "en",
+    "description": [
+      "The middle limb segment of the pectoral free limb, between the autopod and stylopod segments. Includes as parts the forelimb zeugopodial skeleton, which includes as parts the radius and ulna, or their cartilage precursors, or evolutionary variants."
+    ],
+    "synonyms": [
+      "antebrachial region",
+      "antibrachium",
+      "fore epipodium",
+      "forearm",
+      "forelimb epipodium",
+      "forelimb zeugopodium",
+      "forelimb zygopod",
+      "intermediate segment of free upper limb",
+      "lower segment of arm",
+      "zeugopod of arm",
+      "zeugopod of forelimb",
+      "antebrachium",
+      "antebrachium",
+      "arm middle limb segment",
+      "arm zeugopod",
+      "brachial region middle limb segment",
+      "brachial region zeugopod",
+      "lower arm",
+      "middle limb segment of arm",
+      "middle limb segment of brachial region",
+      "middle limb segment of forelimb",
+      "middle limb segment of proximal segment of free upper limb",
+      "regio antebrachialis",
+      "wing zeugopod",
+      "zeugopod of brachial region",
+      "zeugopod of proximal segment of free upper limb"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "BTO:0001447",
+        "CALOHA:TS-2205",
+        "EFO:0003053",
+        "EHDAA2:0000553",
+        "EHDAA:4172",
+        "EHDAA:6218",
+        "EMAPA:17417",
+        "FMA:9663",
+        "GAID:55",
+        "MA:0000034",
+        "MESH:D005542",
+        "NCIT:C32628",
+        "SCTID:362741001",
+        "VHOG:0000341",
+        "VSAO:0005058",
+        "Wikipedia:Forearm",
+        "galen:Forearm",
+        "UMLS:C0016536"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/3/3b/Veins.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/5/50/Forearm_labeled.png"
+      ],
+      "external_definition": [
+        "The middle forelimb region. [Evolution, Fourth_Edition_(2006)_Boston_etc.:_McGraw-Hill, Function, Vertebrates:_Comparative_Anatomy, p.321, see_Kardong_KV][VHOG]"
+      ],
+      "homology_notes": [
+        "Most anatomists now agree that the three proximal bones of the tetrapod limbs are homologous to the two or three proximal elements of the paired fin skeleton of other sarcopterygians, that is the humerus-femur, radius-tibia, and ulna-fibula.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0002386"
+      ],
+      "terminology_notes": [
+        "Naming conventions for pod terms under discussion within phenoscape group. TODO - add distinct term for skeleton and place AAO class here"
+      ]
+    },
+    "label": "forelimb zeugopod",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002386",
+    "obo_id": "UBERON:0002386",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The middle limb segment of the pectoral free limb, between the autopod and stylopod segments. Includes as parts the forelimb zeugopodial skeleton, which includes as parts the radius and ulna, or their cartilage precursors, or evolutionary variants.",
+        "oboXrefs": [
+          {
+            "database": "PHENOSCAPE",
+            "id": "curators",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BTO",
+        "id": "0001447",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001447"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-2205",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-2205"
+      },
+      {
+        "database": "EFO",
+        "id": "0003053",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0003053"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0000553",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0000553"
+      },
+      {
+        "database": "EHDAA",
+        "id": "4172",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_4172"
+      },
+      {
+        "database": "EHDAA",
+        "id": "6218",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_6218"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17417",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17417"
+      },
+      {
+        "database": "FMA",
+        "id": "9663",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/9663"
+      },
+      {
+        "database": "GAID",
+        "id": "55",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000034",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000034"
+      },
+      {
+        "database": "MESH",
+        "id": "D005542",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D005542"
+      },
+      {
+        "database": "NCIT",
+        "id": "C32628",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C32628"
+      },
+      {
+        "database": "SCTID",
+        "id": "362741001",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/362741001"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000341",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000341"
+      },
+      {
+        "database": "VSAO",
+        "id": "0005058",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VSAO_0005058"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Forearm",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Forearm"
+      },
+      {
+        "database": "galen",
+        "id": "Forearm",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0016536",
+        "description": "ncithesaurus:Forearm",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0016536"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "antebrachium",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "VSAO",
+            "id": "0005058",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VSAO_0005058"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Forearm",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Forearm"
+          }
+        ]
+      },
+      {
+        "name": "arm middle limb segment",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "arm zeugopod",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "brachial region middle limb segment",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "brachial region zeugopod",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "lower arm",
+        "scope": "hasExactSynonym",
+        "type": "preferred term when talking about an instance of this class in Homo sapiens",
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "0000034",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000034"
+          }
+        ]
+      },
+      {
+        "name": "middle limb segment of arm",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "middle limb segment of brachial region",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "middle limb segment of forelimb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": null,
+            "id": "https://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "https://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      },
+      {
+        "name": "middle limb segment of proximal segment of free upper limb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "regio antebrachialis",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "9663",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/9663"
+          },
+          {
+            "database": "FMA",
+            "id": "TA",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "zeugopod of brachial region",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "zeugopod of proximal segment of free upper limb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "antebrachium",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Forearm",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Forearm"
+          }
+        ]
+      },
+      {
+        "name": "wing zeugopod",
+        "scope": "hasNarrowSynonym",
+        "type": "taxonomic disambiguation",
+        "xrefs": [
+          {
+            "database": "NCBITaxon",
+            "id": "8782",
+            "description": null,
+            "url": "http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=8782"
+          },
+          {
+            "database": "OBOL",
+            "id": "automatic",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "has_skeleton": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002386/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002551"
+      }
+    }
+  }
+}

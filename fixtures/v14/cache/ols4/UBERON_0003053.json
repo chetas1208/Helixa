@@ -1,0 +1,196 @@
+{
+  "retrieved_at": "2026-10-11T23:12:48Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003053",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0003053",
+    "lang": "en",
+    "description": [
+      "Proliferative region that is part of the ventricular system."
+    ],
+    "synonyms": [
+      "VZ",
+      "ventricular zone of brain",
+      "brain ventricular zone",
+      "ventricular zones"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0011112",
+        "BTO:0003654",
+        "DHBA:10542",
+        "EFO:0003624",
+        "EMAPA:32679",
+        "MA:0000819",
+        "PBA:294022030",
+        "TAO:0001083",
+        "VHOG:0001224",
+        "XAO:0000021",
+        "ZFA:0001083"
+      ],
+      "external_definition": [
+        "Proliferative zone in the region of the neural tube adjacent to the lumen.",
+        "There are two primary regions that are thought to give rise to neurons that make up the cerebellum. The first region is the ventricular zone (the roof of the fourth ventricle). This area produces Purkinje cells and deep cerebellar nuclear neurons[BTO:0003654]."
+      ],
+      "external_ontology_notes": [
+        "in BTO this is restricted to the 4th ventricle - however this class also represents the early ventricular zone as well as its post-natal remnants. The MA class is named 'ventricular zone of brain' and is presumably restricted to the post-natal zone; DHBA class is forebrain; PBA class is neocortex; TAO/ZFA is neocortex"
+      ],
+      "id": [
+        "UBERON:0003053"
+      ]
+    },
+    "label": "ventricular zone",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": false,
+    "is_root": false,
+    "short_form": "UBERON_0003053",
+    "obo_id": "UBERON:0003053",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Proliferative region that is part of the ventricular system.",
+        "oboXrefs": [
+          {
+            "database": "ZFA",
+            "id": "0001083",
+            "description": null,
+            "url": "https://zfin.org/action/ontology/term/ZFA:0001083"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0011112",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0011112"
+      },
+      {
+        "database": "BTO",
+        "id": "0003654",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0003654"
+      },
+      {
+        "database": "DHBA",
+        "id": "10542",
+        "description": null,
+        "url": "https://purl.brain-bican.org/ontology/dhbao/DHBA_10542"
+      },
+      {
+        "database": "EFO",
+        "id": "0003624",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0003624"
+      },
+      {
+        "database": "EMAPA",
+        "id": "32679",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:32679"
+      },
+      {
+        "database": "MA",
+        "id": "0000819",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000819"
+      },
+      {
+        "database": "PBA",
+        "id": "294022030",
+        "description": null,
+        "url": "https://biopragmatics.github.io/providers/pba/294022030"
+      },
+      {
+        "database": "TAO",
+        "id": "0001083",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0001083"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001224",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001224"
+      },
+      {
+        "database": "XAO",
+        "id": "0000021",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000021"
+      },
+      {
+        "database": "ZFA",
+        "id": "0001083",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0001083"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "brain ventricular zone",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "MA",
+            "id": "0000819",
+            "description": null,
+            "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000819"
+          }
+        ]
+      },
+      {
+        "name": "ventricular zones",
+        "scope": "hasRelatedSynonym",
+        "type": "plural form",
+        "xrefs": [
+          {
+            "database": "ZFA",
+            "id": "0001083",
+            "description": null,
+            "url": "https://zfin.org/action/ontology/term/ZFA:0001083"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003053?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003053/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003053/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003053/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003053/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003053/jstree"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003053/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0003053/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      }
+    }
+  }
+}

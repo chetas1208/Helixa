@@ -1,0 +1,256 @@
+{
+  "retrieved_at": "2026-10-11T23:09:37Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000059",
+    "lang": "en",
+    "description": [
+      "A subdivision of the digestive tract that connects the small intestine to the cloaca or anus. Lacks or has few villi[Kardong]."
+    ],
+    "synonyms": [
+      "intestinum crassum"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0010396",
+        "BTO:0000706",
+        "CALOHA:TS-1306",
+        "EFO:0000840",
+        "EMAPA:19252",
+        "EV:0100077",
+        "FMA:7201",
+        "GAID:306",
+        "MA:0000333",
+        "MESH:D007420",
+        "MIAA:0000046",
+        "NCIT:C12379",
+        "SCTID:181254001",
+        "VHOG:0000054",
+        "Wikipedia:Large_intestine_(anatomy)",
+        "XAO:0000131",
+        "galen:LargeIntestine",
+        "UMLS:C0021851"
+      ],
+      "depiction": [
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb"
+      ],
+      "homology_notes": [
+        "Intestinal surface area also is increased in amphibians and reptiles by internal folds and occasionally by a few villi. The intestine can be divided into a small intestine and a slightly wider large intestine.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000059"
+      ]
+    },
+    "label": "large intestine",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000059",
+    "obo_id": "UBERON:0000059",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "major_organ",
+      "mouse_subset",
+      "organ_slim",
+      "pheno_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "A subdivision of the digestive tract that connects the small intestine to the cloaca or anus. Lacks or has few villi[Kardong].",
+        "oboXrefs": [
+          {
+            "database": "ISBN",
+            "id": "0073040584",
+            "description": null,
+            "url": "https://www.worldcat.org/search?q=bn%3A0073040584"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Large_intestine_(anatomy)",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0010396",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010396"
+      },
+      {
+        "database": "BTO",
+        "id": "0000706",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000706"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1306",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1306"
+      },
+      {
+        "database": "EFO",
+        "id": "0000840",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000840"
+      },
+      {
+        "database": "EMAPA",
+        "id": "19252",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:19252"
+      },
+      {
+        "database": "EV",
+        "id": "0100077",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100077"
+      },
+      {
+        "database": "FMA",
+        "id": "7201",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/7201"
+      },
+      {
+        "database": "GAID",
+        "id": "306",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000333",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000333"
+      },
+      {
+        "database": "MESH",
+        "id": "D007420",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D007420"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000046",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12379",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12379"
+      },
+      {
+        "database": "SCTID",
+        "id": "181254001",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/181254001"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000054",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000054"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Large_intestine_(anatomy)",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "XAO",
+        "id": "0000131",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000131"
+      },
+      {
+        "database": "galen",
+        "id": "LargeIntestine",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0021851",
+        "description": "ncithesaurus:Large_Intestine",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0021851"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "intestinum crassum",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000706",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000706"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000059/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      }
+    }
+  }
+}

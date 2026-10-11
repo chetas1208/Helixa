@@ -1,0 +1,56 @@
+[
+  {
+    "case_id": "03_unknown_assembly",
+    "filename": "03_unknown_assembly.vcf",
+    "sha256": "81a6ae4ff5e67ae3f01ea8173b4b46ad46bb923259f995770b25a984d739aad1",
+    "byte_size": 128
+  },
+  {
+    "case_id": "04_missing_contig",
+    "filename": "04_missing_contig.vcf",
+    "sha256": "6ed127366245a046a40d8a79430a2dd98e73e3cf4d3117a1745dded2ff437a75",
+    "byte_size": 146
+  },
+  {
+    "case_id": "05_contig_length_mismatch",
+    "filename": "05_contig_length_mismatch.vcf",
+    "sha256": "f050de0f62d1a7e33af729095abd5ff60ade0326fc20a3979095989fc504a1be",
+    "byte_size": 145
+  },
+  {
+    "case_id": "06_chr_naming_canonical",
+    "filename": "06_chr_naming_canonical.vcf",
+    "sha256": "40ee9d95fde2e4331b50e1fda5730efe93836fb2480333b33aed4de5920b2910",
+    "byte_size": 140
+  },
+  {
+    "case_id": "09_malformed_pos",
+    "filename": "09_malformed_pos.vcf",
+    "sha256": "68c9534fe220a01f09750fb24f065790d28b90d44385a18e1c59e4bcb92fb81f",
+    "byte_size": 151
+  },
+  {
+    "case_id": "10_ambiguous_build",
+    "filename": "10_ambiguous_build.vcf",
+    "sha256": "bf421c4ec58d6d87bf58cc15cfc0356e81203faf011860a469833d57e6cb1896",
+    "byte_size": 128
+  },
+  {
+    "case_id": "11_tampered_artifact",
+    "filename": "11_tampered_artifact.vcf",
+    "sha256": "2708569ea2867ca6a12500510c69c8b00807fb385611fa26d2098d7e5e2f18fb",
+    "byte_size": 168
+  },
+  {
+    "case_id": "12_interrupted_recovery",
+    "filename": "12_interrupted_recovery.vcf",
+    "sha256": "3f9c4c97b962eaea24bed8c8dd0264ebf8452e0d5b1d916c0b0a366236043fc5",
+    "byte_size": 172
+  },
+  {
+    "case_id": "14_untrusted_header_injection",
+    "filename": "14_untrusted_header_injection.vcf",
+    "sha256": "76060ce65c7d07a5e9f9fc738f66a20d0b1330408b46e943f49506ef39ec7e87",
+    "byte_size": 264
+  }
+]

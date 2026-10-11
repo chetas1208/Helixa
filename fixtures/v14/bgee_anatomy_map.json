@@ -1,0 +1,59 @@
+{
+  "UBERON:0002098": [
+    "UBERON:0000948"
+  ],
+  "UBERON:0001133": [
+    "UBERON:0000948"
+  ],
+  "UBERON:0002048": [
+    "UBERON:0002168",
+    "UBERON:0002167",
+    "UBERON:0000915"
+  ],
+  "UBERON:0002113": [
+    "UBERON:0004538",
+    "UBERON:0004539"
+  ],
+  "UBERON:0000970": [
+    "UBERON:0004548",
+    "UBERON:0004549"
+  ],
+  "UBERON:0001812": [
+    "UBERON:0004548",
+    "UBERON:0004549",
+    "DIAMOND:region-head-face"
+  ],
+  "UBERON:0000966": [
+    "UBERON:0004548",
+    "UBERON:0004549"
+  ],
+  "UBERON:0002037": [
+    "UBERON:0000955"
+  ],
+  "UBERON:0000956": [
+    "UBERON:0000955"
+  ],
+  "UBERON:0000988": [
+    "UBERON:0000955"
+  ],
+  "UBERON:0004720": [
+    "UBERON:0000955"
+  ],
+  "UBERON:0003053": [
+    "UBERON:0000955"
+  ],
+  "UBERON:0004023": [
+    "UBERON:0000955"
+  ],
+  "UBERON:0001134": [
+    "UBERON:0002102@left",
+    "UBERON:0002102@right",
+    "UBERON:0002103@left",
+    "UBERON:0002103@right",
+    "UBERON:0013702"
+  ],
+  "UBERON:0002097": [
+    "UBERON:0002097",
+    "UBERON:0013702"
+  ]
+}

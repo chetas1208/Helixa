@@ -1,0 +1,2164 @@
+{
+  "retrieved_at": "2026-10-11T23:11:45Z",
+  "source_version": "GWAS Catalog REST API v2",
+  "source_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=TYR&size=40",
+  "payload": {
+    "_embedded": {
+      "associations": [
+        {
+          "association_id": 226283223,
+          "risk_frequency": "0.7482",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -16,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.09-0.138]",
+          "beta": "0.1139 unit decrease",
+          "p_value": 5e-16,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006598",
+              "efo_trait": "phototoxic dermatitis"
+            }
+          ],
+          "reported_trait": [
+            "Dermatitis due to solar radiation (PheCode 938)"
+          ],
+          "accession_id": "GCST90480626",
+          "locations": [
+            "11:89289278"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.09,
+          "ci_upper": 0.138,
+          "snp_effect_allele": [
+            "rs12363772-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs12363772",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226283223"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226283223/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs12363772"
+            }
+          }
+        },
+        {
+          "association_id": 226282780,
+          "risk_frequency": "0.7032",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.095-0.157]",
+          "beta": "0.1257 unit decrease",
+          "p_value": 6e-12,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006598",
+              "efo_trait": "phototoxic dermatitis"
+            }
+          ],
+          "reported_trait": [
+            "Chronic dermatitis due to solar radiation (PheCode 938.2)"
+          ],
+          "accession_id": "GCST90480625",
+          "locations": [
+            "11:89318601"
+          ],
+          "mapped_genes": [
+            "NOX4",
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.095,
+          "ci_upper": 0.157,
+          "snp_effect_allele": [
+            "rs140758620-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs140758620",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226282780"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226282780/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs140758620"
+            }
+          }
+        },
+        {
+          "association_id": 226270066,
+          "risk_frequency": "0.6295",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.11-0.19]",
+          "beta": "0.152 unit decrease",
+          "p_value": 2e-12,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0002289",
+              "efo_trait": "iris disorder"
+            },
+            {
+              "efo_id": "MONDO_0005308",
+              "efo_trait": "ciliopathy"
+            }
+          ],
+          "reported_trait": [
+            "Disorders of iris and ciliary body (PheCode 379.5)"
+          ],
+          "accession_id": "GCST90475899",
+          "locations": [
+            "11:89178528"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.11,
+          "ci_upper": 0.19,
+          "snp_effect_allele": [
+            "rs1042602-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1042602",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226270066"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226270066/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1042602"
+            }
+          }
+        },
+        {
+          "association_id": 226266016,
+          "risk_frequency": "0.9986",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[1.89-2.01]",
+          "beta": "1.948 unit decrease",
+          "p_value": 1e-11,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006999",
+              "efo_trait": "tooth disorder"
+            }
+          ],
+          "reported_trait": [
+            "Disturbances in tooth eruption (PheCode 520.2)"
+          ],
+          "accession_id": "GCST90480277",
+          "locations": [
+            "11:89156833"
+          ],
+          "mapped_genes": [
+            "GRM5",
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 1.89,
+          "ci_upper": 2.01,
+          "snp_effect_allele": [
+            "rs560103440-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs560103440",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226266016"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226266016/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs560103440"
+            }
+          }
+        },
+        {
+          "association_id": 226256603,
+          "risk_frequency": "0.6975",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.11-0.18]",
+          "beta": "0.1427 unit decrease",
+          "p_value": 7e-12,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0002289",
+              "efo_trait": "iris disorder"
+            },
+            {
+              "efo_id": "MONDO_0005308",
+              "efo_trait": "ciliopathy"
+            }
+          ],
+          "reported_trait": [
+            "Disorders of iris and ciliary body (PheCode 379.5)"
+          ],
+          "accession_id": "GCST90480100",
+          "locations": [
+            "11:89178528"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.11,
+          "ci_upper": 0.18,
+          "snp_effect_allele": [
+            "rs1042602-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1042602",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226256603"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226256603/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1042602"
+            }
+          }
+        },
+        {
+          "association_id": 226250019,
+          "risk_frequency": "0.6938",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.094-0.165]",
+          "beta": "0.1296 unit decrease",
+          "p_value": 5e-13,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006598",
+              "efo_trait": "phototoxic dermatitis"
+            }
+          ],
+          "reported_trait": [
+            "Chronic dermatitis due to solar radiation (PheCode 938.2)"
+          ],
+          "accession_id": "GCST90476288",
+          "locations": [
+            "11:89318601"
+          ],
+          "mapped_genes": [
+            "NOX4",
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.094,
+          "ci_upper": 0.165,
+          "snp_effect_allele": [
+            "rs140758620-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs140758620",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226250019"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226250019/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs140758620"
+            }
+          }
+        },
+        {
+          "association_id": 226249874,
+          "risk_frequency": "0.6941",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -18,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.092-0.147]",
+          "beta": "0.1193 unit decrease",
+          "p_value": 4e-18,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006598",
+              "efo_trait": "phototoxic dermatitis"
+            }
+          ],
+          "reported_trait": [
+            "Dermatitis due to solar radiation (PheCode 938)"
+          ],
+          "accession_id": "GCST90476287",
+          "locations": [
+            "11:89318601"
+          ],
+          "mapped_genes": [
+            "NOX4",
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.092,
+          "ci_upper": 0.147,
+          "snp_effect_allele": [
+            "rs140758620-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs140758620",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226249874"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226249874/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs140758620"
+            }
+          }
+        },
+        {
+          "association_id": 226249150,
+          "risk_frequency": "0.7171",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -15,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.067-0.111]",
+          "beta": "0.08893 unit decrease",
+          "p_value": 1e-15,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006607",
+              "efo_trait": "sebaceous gland disorder"
+            }
+          ],
+          "reported_trait": [
+            "Other specified diseases of sebaceous glands (PheCode 706.8)"
+          ],
+          "accession_id": "GCST90476215",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.067,
+          "ci_upper": 0.111,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226249150"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226249150/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226247589,
+          "risk_frequency": "0.7173",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -15,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.04-0.067]",
+          "beta": "0.05386 unit decrease",
+          "p_value": 1e-15,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006607",
+              "efo_trait": "sebaceous gland disorder"
+            }
+          ],
+          "reported_trait": [
+            "Diseases of sebaceous glands (PheCode 706)"
+          ],
+          "accession_id": "GCST90476210",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.04,
+          "ci_upper": 0.067,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226247589"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226247589/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226246805,
+          "risk_frequency": "0.7169",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -50,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.073-0.097]",
+          "beta": "0.08525 unit decrease",
+          "p_value": 6e-50,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0008420",
+              "efo_trait": "seborrheic keratosis"
+            }
+          ],
+          "reported_trait": [
+            "Seborrheic keratosis (PheCode 702.2)"
+          ],
+          "accession_id": "GCST90476206",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.073,
+          "ci_upper": 0.097,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226246805"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226246805/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226245491,
+          "risk_frequency": "0.7168",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -171,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.14-0.16]",
+          "beta": "0.1508 unit decrease",
+          "p_value": 4e-171,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005173",
+              "efo_trait": "actinic keratosis"
+            }
+          ],
+          "reported_trait": [
+            "Actinic keratosis (PheCode 702.1)"
+          ],
+          "accession_id": "GCST90476204",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.14,
+          "ci_upper": 0.16,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226245491"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226245491/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226243161,
+          "risk_frequency": "0.7163",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -98,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.096-0.117]",
+          "beta": "0.1064 unit decrease",
+          "p_value": 1e-98,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005093",
+              "efo_trait": "skin disorder"
+            }
+          ],
+          "reported_trait": [
+            "Degenerative skin conditions and other dermatoses (PheCode 702)"
+          ],
+          "accession_id": "GCST90476202",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.096,
+          "ci_upper": 0.117,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226243161"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226243161/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226238534,
+          "risk_frequency": "0.7169",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.045-0.085]",
+          "beta": "0.06478 unit decrease",
+          "p_value": 7e-12,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0003004",
+              "efo_trait": "macular degeneration"
+            }
+          ],
+          "reported_trait": [
+            "Macular degeneration, dry (PheCode 362.21)"
+          ],
+          "accession_id": "GCST90475851",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.045,
+          "ci_upper": 0.085,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226238534"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226238534/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226214085,
+          "risk_frequency": "0.7738",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -17,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.072-0.122]",
+          "beta": "0.09736 unit increase",
+          "p_value": 7e-17,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0021454",
+              "efo_trait": "benign neoplasm of eye"
+            }
+          ],
+          "reported_trait": [
+            "Benign neoplasm of eye (PheCode 224)"
+          ],
+          "accession_id": "GCST90479850",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.072,
+          "ci_upper": 0.122,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226214085"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226214085/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226213704,
+          "risk_frequency": "0.7739",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -17,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.075-0.127]",
+          "beta": "0.1008 unit increase",
+          "p_value": 6e-17,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0021454",
+              "efo_trait": "benign neoplasm of eye"
+            }
+          ],
+          "reported_trait": [
+            "Benign neoplasm of eye, uveal (PheCode 224.1)"
+          ],
+          "accession_id": "GCST90479849",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.075,
+          "ci_upper": 0.127,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226213704"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226213704/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226212955,
+          "risk_frequency": "0.7091",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.044-0.073]",
+          "beta": "0.05865 unit decrease",
+          "p_value": 3.0000000000000003e-13,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0021440",
+              "efo_trait": "benign neoplasm of skin"
+            }
+          ],
+          "reported_trait": [
+            "Benign neoplasm of skin (PheCode 216)"
+          ],
+          "accession_id": "GCST90479844",
+          "locations": [
+            "11:89274754"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.044,
+          "ci_upper": 0.073,
+          "snp_effect_allele": [
+            "rs7101897-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs7101897",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226212955"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226212955/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs7101897"
+            }
+          }
+        },
+        {
+          "association_id": 226182330,
+          "risk_frequency": "0.7172",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -97,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.13-0.15]",
+          "beta": "0.1402 unit decrease",
+          "p_value": 1e-97,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0002531",
+              "efo_trait": "skin neoplasm"
+            }
+          ],
+          "reported_trait": [
+            "Neoplasm of uncertain behavior of skin (PheCode 173)"
+          ],
+          "accession_id": "GCST90475585",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.13,
+          "ci_upper": 0.15,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226182330"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226182330/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226181120,
+          "risk_frequency": "0.7172",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -49,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.14-0.19]",
+          "beta": "0.1653 unit decrease",
+          "p_value": 5e-49,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005096",
+              "efo_trait": "squamous cell carcinoma"
+            }
+          ],
+          "reported_trait": [
+            "Squamous cell carcinoma (PheCode 172.22)"
+          ],
+          "accession_id": "GCST90475583",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.14,
+          "ci_upper": 0.19,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226181120"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226181120/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226180203,
+          "risk_frequency": "0.7174",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -79,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.15-0.18]",
+          "beta": "0.1635 unit decrease",
+          "p_value": 4e-79,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0020804",
+              "efo_trait": "basal cell carcinoma"
+            }
+          ],
+          "reported_trait": [
+            "Basal cell carcinoma (PheCode 172.21)"
+          ],
+          "accession_id": "GCST90475582",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.15,
+          "ci_upper": 0.18,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226180203"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226180203/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226178793,
+          "risk_frequency": "0.7162",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -20,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.083-0.13]",
+          "beta": "0.1064 unit increase",
+          "p_value": 5.999999999999999e-20,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0021454",
+              "efo_trait": "benign neoplasm of eye"
+            }
+          ],
+          "reported_trait": [
+            "Benign neoplasm of eye (PheCode 224)"
+          ],
+          "accession_id": "GCST90475626",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.083,
+          "ci_upper": 0.13,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226178793"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226178793/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226178156,
+          "risk_frequency": "0.6939",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.066-0.12]",
+          "beta": "0.09303 unit decrease",
+          "p_value": 1e-11,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009786",
+              "efo_trait": "encounter with health service"
+            }
+          ],
+          "reported_trait": [
+            "Screening for malignant neopla (PheCode 216.1)"
+          ],
+          "accession_id": "GCST90475621",
+          "locations": [
+            "11:89318601"
+          ],
+          "mapped_genes": [
+            "NOX4",
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.066,
+          "ci_upper": 0.12,
+          "snp_effect_allele": [
+            "rs140758620-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs140758620",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226178156"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226178156/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs140758620"
+            }
+          }
+        },
+        {
+          "association_id": 226177421,
+          "risk_frequency": "0.7171",
+          "pvalue_description": "",
+          "pvalue_mantissa": 6,
+          "pvalue_exponent": -138,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.14-0.17]",
+          "beta": "0.1544 unit decrease",
+          "p_value": 6e-138,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0002898",
+              "efo_trait": "skin cancer"
+            }
+          ],
+          "reported_trait": [
+            "Other non-epithelial cancer of skin (PheCode 172.2)"
+          ],
+          "accession_id": "GCST90475580",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.14,
+          "ci_upper": 0.17,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226177421"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226177421/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226175723,
+          "risk_frequency": "0.7169",
+          "pvalue_description": "",
+          "pvalue_mantissa": 8,
+          "pvalue_exponent": -41,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.17-0.23]",
+          "beta": "0.2 unit decrease",
+          "p_value": 8e-41,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005012",
+              "efo_trait": "cutaneous melanoma"
+            }
+          ],
+          "reported_trait": [
+            "Melanomas of skin (PheCode 172.11)"
+          ],
+          "accession_id": "GCST90475578",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.17,
+          "ci_upper": 0.23,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226175723"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226175723/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226174346,
+          "risk_frequency": "0.7174",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -114,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.15-0.18]",
+          "beta": "0.1683 unit decrease",
+          "p_value": 3e-114,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005012",
+              "efo_trait": "cutaneous melanoma"
+            }
+          ],
+          "reported_trait": [
+            "Melanomas of skin, dx or hx (PheCode 172.1)"
+          ],
+          "accession_id": "GCST90475577",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.15,
+          "ci_upper": 0.18,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226174346"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226174346/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226172372,
+          "risk_frequency": "0.717",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -165,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.14-0.17]",
+          "beta": "0.1545 unit decrease",
+          "p_value": 5e-165,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0002898",
+              "efo_trait": "skin cancer"
+            }
+          ],
+          "reported_trait": [
+            "Skin cancer"
+          ],
+          "accession_id": "GCST90475575",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.14,
+          "ci_upper": 0.17,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226172372"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226172372/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226171258,
+          "risk_frequency": "0.7162",
+          "pvalue_description": "",
+          "pvalue_mantissa": 8,
+          "pvalue_exponent": -21,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.088-0.135]",
+          "beta": "0.1114 unit increase",
+          "p_value": 8e-21,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0021454",
+              "efo_trait": "benign neoplasm of eye"
+            }
+          ],
+          "reported_trait": [
+            "Benign neoplasm of eye, uveal (PheCode 224.1)"
+          ],
+          "accession_id": "GCST90475629",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.088,
+          "ci_upper": 0.135,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226171258"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226171258/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226124427,
+          "risk_frequency": "0.7764",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.036-0.062]",
+          "beta": "0.04936 unit decrease",
+          "p_value": 1e-12,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006607",
+              "efo_trait": "sebaceous gland disorder"
+            }
+          ],
+          "reported_trait": [
+            "Diseases of sebaceous glands (PheCode 706)"
+          ],
+          "accession_id": "GCST90480484",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.036,
+          "ci_upper": 0.062,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226124427"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226124427/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226124008,
+          "risk_frequency": "0.7761",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -15,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.067-0.106]",
+          "beta": "0.08681 unit decrease",
+          "p_value": 2e-15,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006607",
+              "efo_trait": "sebaceous gland disorder"
+            }
+          ],
+          "reported_trait": [
+            "Other specified diseases of sebaceous glands (PheCode 706.8)"
+          ],
+          "accession_id": "GCST90480483",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.067,
+          "ci_upper": 0.106,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226124008"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226124008/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226121501,
+          "risk_frequency": "0.7003",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -19,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.083-0.135]",
+          "beta": "0.1086 unit increase",
+          "p_value": 2e-19,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0008661",
+              "efo_trait": "vitiligo"
+            }
+          ],
+          "reported_trait": [
+            "Dyschromia and Vitiligo (PheCode 694)"
+          ],
+          "accession_id": "GCST90480450",
+          "locations": [
+            "11:89178528"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.083,
+          "ci_upper": 0.135,
+          "snp_effect_allele": [
+            "rs1042602-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1042602",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226121501"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226121501/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1042602"
+            }
+          }
+        },
+        {
+          "association_id": 226121200,
+          "risk_frequency": "0.6972",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -16,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.078-0.134]",
+          "beta": "0.1062 unit increase",
+          "p_value": 3e-16,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_1000755",
+              "efo_trait": "pigmentation disease"
+            }
+          ],
+          "reported_trait": [
+            "Other dyschromia (PheCode 694.2)"
+          ],
+          "accession_id": "GCST90480449",
+          "locations": [
+            "11:89178528"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.078,
+          "ci_upper": 0.134,
+          "snp_effect_allele": [
+            "rs1042602-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1042602",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226121200"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226121200/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1042602"
+            }
+          }
+        },
+        {
+          "association_id": 226120535,
+          "risk_frequency": "0.7787",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -59,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.092-0.114]",
+          "beta": "0.1033 unit decrease",
+          "p_value": 1e-59,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005093",
+              "efo_trait": "skin disorder"
+            }
+          ],
+          "reported_trait": [
+            "Degenerative skin conditions and other dermatoses (PheCode 702)"
+          ],
+          "accession_id": "GCST90480470",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.092,
+          "ci_upper": 0.114,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226120535"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226120535/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226119911,
+          "risk_frequency": "0.7774",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -15,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.06-0.094]",
+          "beta": "0.07686 unit decrease",
+          "p_value": 1e-15,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006546",
+              "efo_trait": "erythematosquamous dermatosis"
+            }
+          ],
+          "reported_trait": [
+            "Erythematosquamous dermatosis (PheCode 690)"
+          ],
+          "accession_id": "GCST90480446",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.06,
+          "ci_upper": 0.094,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226119911"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226119911/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226119564,
+          "risk_frequency": "0.78",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -34,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.071-0.095]",
+          "beta": "0.08307 unit decrease",
+          "p_value": 4.999999999999999e-34,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0008420",
+              "efo_trait": "seborrheic keratosis"
+            }
+          ],
+          "reported_trait": [
+            "Seborrheic keratosis (PheCode 702.2)"
+          ],
+          "accession_id": "GCST90480469",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.071,
+          "ci_upper": 0.095,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226119564"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226119564/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226118900,
+          "risk_frequency": "0.7774",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -16,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.06-0.094]",
+          "beta": "0.07679 unit decrease",
+          "p_value": 9e-16,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0006608",
+              "efo_trait": "seborrheic dermatitis"
+            }
+          ],
+          "reported_trait": [
+            "Seborrheic dermatitis (PheCode 690.1)"
+          ],
+          "accession_id": "GCST90480445",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.06,
+          "ci_upper": 0.094,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226118900"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226118900/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226118787,
+          "risk_frequency": "0.7771",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -100,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.14-0.16]",
+          "beta": "0.1505 unit decrease",
+          "p_value": 5e-100,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005173",
+              "efo_trait": "actinic keratosis"
+            }
+          ],
+          "reported_trait": [
+            "Actinic keratosis (PheCode 702.1)"
+          ],
+          "accession_id": "GCST90480468",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.14,
+          "ci_upper": 0.16,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226118787"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226118787/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226118445,
+          "risk_frequency": "0.7787",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -15,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.051-0.081]",
+          "beta": "0.06557 unit decrease",
+          "p_value": 2e-15,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005093",
+              "efo_trait": "skin disorder"
+            }
+          ],
+          "reported_trait": [
+            "Disorder of skin and subcutaneous tissue NO (PheCode 689)"
+          ],
+          "accession_id": "GCST90480444",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.051,
+          "ci_upper": 0.081,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226118445"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226118445/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226102907,
+          "risk_frequency": "0.7753",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -99,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.14-0.16]",
+          "beta": "0.1522 unit decrease",
+          "p_value": 2e-99,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0002898",
+              "efo_trait": "skin cancer"
+            }
+          ],
+          "reported_trait": [
+            "Skin cancer"
+          ],
+          "accession_id": "GCST90479798",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.14,
+          "ci_upper": 0.16,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226102907"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226102907/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226101302,
+          "risk_frequency": "0.7757",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -88,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.14-0.17]",
+          "beta": "0.1525 unit decrease",
+          "p_value": 3e-88,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0002898",
+              "efo_trait": "skin cancer"
+            }
+          ],
+          "reported_trait": [
+            "Other non-epithelial cancer of skin (PheCode 172.2)"
+          ],
+          "accession_id": "GCST90479797",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.14,
+          "ci_upper": 0.17,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226101302"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226101302/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226099621,
+          "risk_frequency": "0.7751",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -41,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.14-0.18]",
+          "beta": "0.164 unit decrease",
+          "p_value": 1e-41,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005096",
+              "efo_trait": "squamous cell carcinoma"
+            }
+          ],
+          "reported_trait": [
+            "Squamous cell carcinoma (PheCode 172.22)"
+          ],
+          "accession_id": "GCST90479796",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.14,
+          "ci_upper": 0.18,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226099621"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226099621/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        },
+        {
+          "association_id": 226098434,
+          "risk_frequency": "0.7328",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -57,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.15-0.18]",
+          "beta": "0.1623 unit decrease",
+          "p_value": 2e-57,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0020804",
+              "efo_trait": "basal cell carcinoma"
+            }
+          ],
+          "reported_trait": [
+            "Basal cell carcinoma (PheCode 172.21)"
+          ],
+          "accession_id": "GCST90479795",
+          "locations": [
+            "11:89284793"
+          ],
+          "mapped_genes": [
+            "TYR"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39024449",
+          "first_author": "Verma A",
+          "ci_lower": 0.15,
+          "ci_upper": 0.18,
+          "snp_effect_allele": [
+            "rs1126809-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1126809",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226098434"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/226098434/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1126809"
+            }
+          }
+        }
+      ]
+    },
+    "_links": {
+      "first": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=TYR&page=0&size=40"
+      },
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=TYR&page=0&size=40"
+      },
+      "next": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=TYR&page=1&size=40"
+      },
+      "last": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=TYR&page=6&size=40"
+      }
+    },
+    "page": {
+      "size": 40,
+      "totalElements": 263,
+      "totalPages": 7,
+      "number": 0
+    }
+  }
+}

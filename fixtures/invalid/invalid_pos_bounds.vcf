@@ -1,0 +1,8 @@
+##fileformat=VCFv4.2
+##reference=GRCh38
+##contig=<ID=chr22,length=120000>
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE001
+chr22	0	rs_invalid_zero	A	G	50	PASS	DP=35	GT	0/1
+chr22	250000	rs_out_of_bounds	A	G	50	PASS	DP=35	GT	0/1

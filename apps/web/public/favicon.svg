@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="HELIXA">
+  <rect width="32" height="32" rx="8" fill="#070b12"/>
+  <path d="M8 5c3.2 3.4 3.2 6.2.4 9.2C11.2 17.2 11.2 20 8 27" fill="none" stroke="#7fe3ff" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M24 5c-3.2 3.4-3.2 6.2-.4 9.2C20.8 17.2 20.8 20 24 27" fill="none" stroke="#8ea2ff" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M10.2 16h11.6" fill="none" stroke="#d7ecff" stroke-width="1.4" stroke-linecap="round"/>
+</svg>

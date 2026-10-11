@@ -1,0 +1,14 @@
+[
+  {
+    "case_id": "13_stale_reference",
+    "filename": "13_stale_reference.vcf",
+    "sha256": "041473019786cc65c0a44a80d8013b4d8150bff4dcf06bcafea64688c9cd772a",
+    "byte_size": 156
+  },
+  {
+    "case_id": "16_second_family_failure",
+    "filename": "16_second_family_failure.vcf",
+    "sha256": "67f5a3d49b6ba7abe091b149decd539ff81ad068eba401016b458ffc0b2ecf8b",
+    "byte_size": 148
+  }
+]

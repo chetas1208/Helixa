@@ -1,0 +1,394 @@
+{
+  "retrieved_at": "2026-10-11T23:09:20Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002103",
+    "lang": "en",
+    "description": [
+      "A (free) limb that is connected to a pelvic girdle region. The extent of this structure includes autopod, stylopod and zeugopod regions when present, but excludes the pelvic girdle and its parts."
+    ],
+    "synonyms": [
+      "hind limb",
+      "hindlimb",
+      "inferior member",
+      "lower extremity",
+      "lower limb",
+      "pelvic appendage",
+      "free lower limb",
+      "free part of lower limb",
+      "hind-limb",
+      "membrum inferius",
+      "membrum inferius"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0000219",
+        "BTO:0002345",
+        "CALOHA:TS-2215",
+        "EFO:0000883",
+        "EHDAA2:0001033",
+        "EHDAA:6094",
+        "EMAPA:17458",
+        "EV:0100015",
+        "FMA:24879",
+        "GAID:1221",
+        "GAID:38",
+        "MA:0000026",
+        "MAT:0000395",
+        "MESH:D006614",
+        "MIAA:0000395",
+        "NCIT:C12742",
+        "NCIT:C77625",
+        "SCTID:182281004",
+        "VHOG:0000337",
+        "VSAO:0000150",
+        "Wikipedia:Hindlimb",
+        "XAO:0003031",
+        "galen:LowerExtremity",
+        "UMLS:C0023216",
+        "UMLS:C1522391"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/d/dc/Gray1239.png"
+      ],
+      "external_definition": [
+        "Lower limb, which connects the pes with the pelvic girdle.[AAO]"
+      ],
+      "external_ontology_notes": [
+        "note that this corresponds to FMA:'free lower limb' (a limb segment), NOT 'lower limb'. Both MA and FMA consider shoulder (and shoulder bones) part of upper limb. Note that AAO class probably refers to skeleton"
+      ],
+      "has_relational_adjective": [
+        "crural"
+      ],
+      "homology_notes": [
+        "Most anatomists now agree that the three proximal bones of the tetrapod limbs are homologous to the two or three proximal elements of the paired fin skeleton of other sarcopterygians, that is the humerus-femur, radius-tibia, and ulna-fibula.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0002103"
+      ]
+    },
+    "label": "hindlimb",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002103",
+    "obo_id": "UBERON:0002103",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "A (free) limb that is connected to a pelvic girdle region. The extent of this structure includes autopod, stylopod and zeugopod regions when present, but excludes the pelvic girdle and its parts.",
+        "oboXrefs": [
+          {
+            "database": "UBERONREF",
+            "id": "0000003",
+            "description": null,
+            "url": null
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Hindlimb",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Hindlimb"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Lower_limb",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Lower_limb"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0000219",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0000219"
+      },
+      {
+        "database": "BTO",
+        "id": "0002345",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0002345"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-2215",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-2215"
+      },
+      {
+        "database": "EFO",
+        "id": "0000883",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000883"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0001033",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0001033"
+      },
+      {
+        "database": "EHDAA",
+        "id": "6094",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_6094"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17458",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17458"
+      },
+      {
+        "database": "EV",
+        "id": "0100015",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100015"
+      },
+      {
+        "database": "FMA",
+        "id": "24879",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/24879"
+      },
+      {
+        "database": "GAID",
+        "id": "1221",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "GAID",
+        "id": "38",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000026",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000026"
+      },
+      {
+        "database": "MAT",
+        "id": "0000395",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000395"
+      },
+      {
+        "database": "MESH",
+        "id": "D006614",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D006614"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000395",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "NCIT",
+        "id": "C12742",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12742"
+      },
+      {
+        "database": "NCIT",
+        "id": "C77625",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C77625"
+      },
+      {
+        "database": "SCTID",
+        "id": "182281004",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/182281004"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000337",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000337"
+      },
+      {
+        "database": "VSAO",
+        "id": "0000150",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VSAO_0000150"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Hindlimb",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Hindlimb"
+      },
+      {
+        "database": "XAO",
+        "id": "0003031",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0003031"
+      },
+      {
+        "database": "galen",
+        "id": "LowerExtremity",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0023216",
+        "description": "ncithesaurus:Lower_Extremity",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0023216"
+      },
+      {
+        "database": "UMLS",
+        "id": "C1522391",
+        "description": "ncithesaurus:Hind_Limb",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C1522391"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "free lower limb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "24879",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/24879"
+          },
+          {
+            "database": "UBERONREF",
+            "id": "0000003",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "hind-limb",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "VSAO",
+            "id": "0000150",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VSAO_0000150"
+          }
+        ]
+      },
+      {
+        "name": "membrum inferius",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "7184",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/7184"
+          },
+          {
+            "database": "FMA",
+            "id": "TA",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "free part of lower limb",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "24879",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/24879"
+          }
+        ]
+      },
+      {
+        "name": "membrum inferius",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Lower_limb",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Lower_limb"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "connected_to": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002170"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "has_skeleton": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002103/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002551"
+      }
+    }
+  }
+}

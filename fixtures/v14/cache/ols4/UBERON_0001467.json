@@ -1,0 +1,240 @@
+{
+  "retrieved_at": "2026-10-11T23:09:17Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001467",
+    "lang": "en",
+    "description": [
+      "A subdivision of the pectoral complex consisting of the structures in the region of the shoulder joint (which connects the humerus, scapula and clavicle)."
+    ],
+    "synonyms": [
+      "shoulder region",
+      "articulatio humeri"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "CALOHA:TS-2229",
+        "EFO:0003068",
+        "EHDAA2:0001834",
+        "EHDAA:4180",
+        "EHDAA:6228",
+        "EMAPA:17421",
+        "FMA:25202",
+        "GAID:60",
+        "MA:0000038",
+        "MESH:D012782",
+        "NCIT:C25203",
+        "SCTID:361103004",
+        "VHOG:0000342",
+        "Wikipedia:Shoulder",
+        "galen:Shoulder",
+        "UMLS:C0037004"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/9/90/Shoulderjoint.PNG"
+      ],
+      "external_ontology_notes": [
+        "In FMA, the shoulder is part of the pectoral girdle region. in MA, shoulder structures like shoulder joints, bones, nerves etc are part of the shoulder and the forelimb. E.g. humerus is a shoulder bone"
+      ],
+      "homology_notes": [
+        "(...) endochondral elements of the early tetrapod shoulder develop from two centers of ossification, giving rise to a scapula and a 'coracoid'.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0001467"
+      ]
+    },
+    "label": "shoulder",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001467",
+    "obo_id": "UBERON:0001467",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "A subdivision of the pectoral complex consisting of the structures in the region of the shoulder joint (which connects the humerus, scapula and clavicle).",
+        "oboXrefs": [
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "CALOHA",
+        "id": "TS-2229",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-2229"
+      },
+      {
+        "database": "EFO",
+        "id": "0003068",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0003068"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0001834",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0001834"
+      },
+      {
+        "database": "EHDAA",
+        "id": "4180",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_4180"
+      },
+      {
+        "database": "EHDAA",
+        "id": "6228",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_6228"
+      },
+      {
+        "database": "EMAPA",
+        "id": "17421",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:17421"
+      },
+      {
+        "database": "FMA",
+        "id": "25202",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/25202"
+      },
+      {
+        "database": "GAID",
+        "id": "60",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000038",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000038"
+      },
+      {
+        "database": "MESH",
+        "id": "D012782",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D012782"
+      },
+      {
+        "database": "NCIT",
+        "id": "C25203",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C25203"
+      },
+      {
+        "database": "SCTID",
+        "id": "361103004",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/361103004"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000342",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000342"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Shoulder",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Shoulder"
+      },
+      {
+        "database": "galen",
+        "id": "Shoulder",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0037004",
+        "description": "ncithesaurus:Shoulder",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0037004"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "articulatio humeri",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Shoulder",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Shoulder"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      },
+      "overlaps": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002131"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001467/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      }
+    }
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "retrieved_at": "2026-10-11T23:09:28Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000165",
+    "lang": "en",
+    "description": [
+      "The proximal portion of the digestive tract, containing the oral cavity and bounded by the oral opening. In vertebrates, this extends to the pharynx and includes gums, lips, tongue and parts of the palate. Typically also includes the teeth, except where these occur elsewhere (e.g. pharyngeal jaws) or protrude from the mouth (tusks)."
+    ],
+    "synonyms": [
+      "adult mouth",
+      "stoma",
+      "cavital oralis",
+      "cavitas oris",
+      "cavum oris",
+      "mouth cavity",
+      "oral region",
+      "oral vestibule",
+      "regio oralis",
+      "rima oris",
+      "stomatodaeum",
+      "trophic apparatus",
+      "vestibule of mouth",
+      "vestibulum oris"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0010355",
+        "BTO:0001090",
+        "BTO:0004698",
+        "CALOHA:TS-1315",
+        "EFO:0000825",
+        "EHDAA2:0001326",
+        "EHDAA:542",
+        "EMAPA:16262",
+        "FMA:49184",
+        "GAID:75",
+        "MA:0000341",
+        "MA:0002474",
+        "MAT:0000038",
+        "MESH:D009055",
+        "MIAA:0000038",
+        "SCTID:21082005",
+        "TADS:0000040",
+        "TAO:0000547",
+        "TAO:0000590",
+        "TGMA:0000131",
+        "VHOG:0000280",
+        "VHOG:0000812",
+        "Wikipedia:Mouth",
+        "XAO:0003029",
+        "ZFA:0000547",
+        "ZFA:0000590",
+        "galen:Mouth",
+        "http://purl.obolibrary.org/obo/uberon/images/lamprey_sucker_rosava_3238889218.jpg",
+        "FBbt:00003126"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/0/06/Mouth_illustration-Otis_Archives.jpg",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-female/v1.0/assets/3d-vh-f-mouth.glb",
+        "https://cdn.humanatlas.io/digital-objects/ref-organ/mouth-male/v1.0/assets/3d-vh-m-mouth.glb"
+      ],
+      "development_notes": [
+        "some AOs place this as developing from the stomodeum but we weaken this to developmental contribution, as the mouth includes non-ectodermal derivatives"
+      ],
+      "external_definition": [
+        "Cavity in which food is initially ingested and generally contains teeth, tongue and glands.[AAO]"
+      ],
+      "external_ontology_notes": [
+        "in FMA, the tongue, palate etc are part of the mouth which is itself a subdivision of the face. ZFA includes a separate class 'oral region' which is part of the mouth, but excludes tongue and lips"
+      ],
+      "has_relational_adjective": [
+        "oral"
+      ],
+      "homology_notes": [
+        "Molecular and developmental cell lineage data suggest that the acoel mouth opening is homologous to the mouth of protostomes and deuterostomes and that the last common ancestor of the Bilateria (the 'urbilaterian') had only this single digestive opening.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000165"
+      ],
+      "seeAlso": [
+        "https://github.com/obophenotype/uberon/issues/661"
+      ]
+    },
+    "label": "mouth",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000165",
+    "obo_id": "UBERON:0000165",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "major_organ",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The proximal portion of the digestive tract, containing the oral cavity and bounded by the oral opening. In vertebrates, this extends to the pharynx and includes gums, lips, tongue and parts of the palate. Typically also includes the teeth, except where these occur elsewhere (e.g. pharyngeal jaws) or protrude from the mouth (tusks).",
+        "oboXrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Mouth",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Mouth"
+          },
+          {
+            "database": null,
+            "id": "https://github.com/obophenotype/uberon/wiki/The-digestive-tract",
+            "description": null,
+            "url": "https://github.com/obophenotype/uberon/wiki/The-digestive-tract"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0010355",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0010355"
+      },
+      {
+        "database": "BTO",
+        "id": "0001090",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001090"
+      },
+      {
+        "database": "BTO",
+        "id": "0004698",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0004698"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-1315",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-1315"
+      },
+      {
+        "database": "EFO",
+        "id": "0000825",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000825"
+      },
+      {
+        "database": "EHDAA2",
+        "id": "0001326",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA2_0001326"
+      },
+      {
+        "database": "EHDAA",
+        "id": "542",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EHDAA_542"
+      },
+      {
+        "database": "EMAPA",
+        "id": "16262",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:16262"
+      },
+      {
+        "database": "FMA",
+        "id": "49184",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/49184"
+      },
+      {
+        "database": "GAID",
+        "id": "75",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000341",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000341"
+      },
+      {
+        "database": "MA",
+        "id": "0002474",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0002474"
+      },
+      {
+        "database": "MAT",
+        "id": "0000038",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000038"
+      },
+      {
+        "database": "MESH",
+        "id": "D009055",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D009055"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000038",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "SCTID",
+        "id": "21082005",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/21082005"
+      },
+      {
+        "database": "TADS",
+        "id": "0000040",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TADS_0000040"
+      },
+      {
+        "database": "TAO",
+        "id": "0000547",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000547"
+      },
+      {
+        "database": "TAO",
+        "id": "0000590",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0000590"
+      },
+      {
+        "database": "TGMA",
+        "id": "0000131",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TGMA_0000131"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000280",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000280"
+      },
+      {
+        "database": "VHOG",
+        "id": "0000812",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0000812"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Mouth",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Mouth"
+      },
+      {
+        "database": "XAO",
+        "id": "0003029",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0003029"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000547",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000547"
+      },
+      {
+        "database": "ZFA",
+        "id": "0000590",
+        "description": null,
+        "url": "https://zfin.org/action/ontology/term/ZFA:0000590"
+      },
+      {
+        "database": "galen",
+        "id": "Mouth",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": null,
+        "id": "http://purl.obolibrary.org/obo/uberon/images/lamprey_sucker_rosava_3238889218.jpg",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/uberon/images/lamprey_sucker_rosava_3238889218.jpg"
+      },
+      {
+        "database": "FBbt",
+        "id": "00003126",
+        "description": null,
+        "url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00003126"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "regio oralis",
+        "scope": "hasExactSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0004698",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0004698"
+          },
+          {
+            "database": "FMA",
+            "id": "49184",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/49184"
+          },
+          {
+            "database": "FMA",
+            "id": "TA",
+            "description": null,
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "cavital oralis",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Mouth",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Mouth"
+          }
+        ]
+      },
+      {
+        "name": "cavitas oris",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001090",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001090"
+          }
+        ]
+      },
+      {
+        "name": "cavum oris",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001090",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001090"
+          }
+        ]
+      },
+      {
+        "name": "mouth cavity",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001090",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001090"
+          }
+        ]
+      },
+      {
+        "name": "oral region",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "EHDAA2",
+            "id": "0001326",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/EHDAA2_0001326"
+          }
+        ]
+      },
+      {
+        "name": "oral vestibule",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001090",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001090"
+          }
+        ]
+      },
+      {
+        "name": "rima oris",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001090",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001090"
+          }
+        ]
+      },
+      {
+        "name": "stomatodaeum",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "VHOG",
+            "id": "0000812",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VHOG_0000812"
+          }
+        ]
+      },
+      {
+        "name": "trophic apparatus",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      },
+      {
+        "name": "vestibule of mouth",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001090",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001090"
+          }
+        ]
+      },
+      {
+        "name": "vestibulum oris",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001090",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001090"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/graph"
+      },
+      "proximalmost_part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBSPO_0001106"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000165/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      }
+    }
+  }
+}

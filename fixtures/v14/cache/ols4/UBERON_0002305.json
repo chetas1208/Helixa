@@ -1,0 +1,188 @@
+{
+  "retrieved_at": "2026-10-11T23:09:59Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0002305",
+    "lang": "en",
+    "description": [
+      "EDITOR_NOTE TODO - check NIF xref",
+      "The layers of the laminar structure of the hippocampus."
+    ],
+    "synonyms": [
+      "hippocampus layer",
+      "cytoarchitectural fields of hippocampal formation",
+      "hippocampus proper layer",
+      "layer of cornu ammonis"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "BIRNLEX:1192",
+        "EMAPA:35407",
+        "FMA:277842",
+        "FMA:83679",
+        "MA:0002427",
+        "Wikipedia:Hippocampus_anatomy#Hippocampal_Cells_and_Layers"
+      ],
+      "id": [
+        "UBERON:0002305"
+      ]
+    },
+    "label": "layer of hippocampus",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0002305",
+    "obo_id": "UBERON:0002305",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The layers of the laminar structure of the hippocampus.",
+        "oboXrefs": [
+          {
+            "database": "MP",
+            "id": "0000813",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/MP_0000813"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Hippocampus_anatomy#Hippocampal_Cells_and_Layers",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BIRNLEX",
+        "id": "1192",
+        "description": null,
+        "url": "http://uri.neuinfo.org/nif/nifstd/birnlex_1192"
+      },
+      {
+        "database": "EMAPA",
+        "id": "35407",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35407"
+      },
+      {
+        "database": "FMA",
+        "id": "277842",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/277842"
+      },
+      {
+        "database": "FMA",
+        "id": "83679",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/83679"
+      },
+      {
+        "database": "MA",
+        "id": "0002427",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0002427"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Hippocampus_anatomy#Hippocampal_Cells_and_Layers",
+        "description": null,
+        "url": null
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "cytoarchitectural fields of hippocampal formation",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BIRNLEX",
+            "id": "1192",
+            "description": null,
+            "url": "http://uri.neuinfo.org/nif/nifstd/birnlex_1192"
+          }
+        ]
+      },
+      {
+        "name": "hippocampus proper layer",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "83679",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/83679"
+          }
+        ]
+      },
+      {
+        "name": "layer of cornu ammonis",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "83679",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/83679"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002305/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      }
+    }
+  }
+}

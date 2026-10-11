@@ -1,0 +1,186 @@
+{
+  "retrieved_at": "2026-10-11T23:11:39Z",
+  "source_version": "Human Protein Atlas (proteinatlas.org 2026-10-11)",
+  "source_url": "https://www.proteinatlas.org/ENSG00000077498.json",
+  "payload": {
+    "Gene": "TYR",
+    "Gene synonym": [
+      "OCA1",
+      "OCA1A",
+      "OCAIA"
+    ],
+    "Ensembl": "ENSG00000077498",
+    "Gene description": "Tyrosinase",
+    "Uniprot": [
+      "P14679"
+    ],
+    "Chromosome": "11",
+    "Position": "89177875-89295759",
+    "Protein class": [
+      "Disease related genes",
+      "Enzymes",
+      "FDA approved drug targets",
+      "Human disease related genes",
+      "Metabolic proteins",
+      "Predicted membrane proteins",
+      "Transporters"
+    ],
+    "Biological process": [
+      "Melanin biosynthesis"
+    ],
+    "Molecular function": [
+      "Monooxygenase",
+      "Oxidoreductase",
+      "Tumor antigen"
+    ],
+    "Disease involvement": [
+      "Albinism",
+      "Deafness",
+      "Disease variant",
+      "FDA approved drug targets",
+      "Waardenburg syndrome"
+    ],
+    "Evidence": "Evidence at protein level",
+    "HPA evidence": "Evidence at protein level",
+    "UniProt evidence": "Evidence at protein level",
+    "NeXtProt evidence": "Evidence at protein level",
+    "RNA tissue specificity": "Tissue enriched",
+    "RNA tissue distribution": "Detected in single",
+    "RNA tissue specificity score": "37",
+    "RNA tissue specific nTPM": {
+      "skin 1": "29.8"
+    },
+    "RNA single cell type specificity": "Cell type enriched",
+    "RNA single cell type distribution": "Detected in some",
+    "RNA single cell type specificity score": "53",
+    "RNA single cell type specific nCPM": {
+      "Melanocytes": "1259.5"
+    },
+    "RNA single cell type group specificity": "Cell type enriched",
+    "RNA single cell type group distribution": "Detected in some",
+    "RNA single cell type group specificity score": "53",
+    "RNA single cell type group specific nCPM": {
+      "Pigment cells": "1259.5"
+    },
+    "RNA single nuclei brain specificity": "Cell type enhanced",
+    "RNA single nuclei brain distribution": "Detected in some",
+    "RNA single nuclei brain specificity score": null,
+    "RNA single nuclei brain specific nCPM": {
+      "hippocampal CA1-3": "5.1",
+      "oligodendrocyte": "4.9"
+    },
+    "RNA cancer specificity": "Cancer enriched",
+    "RNA cancer distribution": "Detected in single",
+    "RNA cancer specificity score": "1325",
+    "RNA cancer specific pTPM": {
+      "Skin Cutaneous Melanoma (TCGA)": "765.2"
+    },
+    "RNA brain regional specificity": "Not detected",
+    "RNA brain regional distribution": "Not detected",
+    "RNA brain regional specificity score": null,
+    "RNA brain regional specific nTPM": null,
+    "RNA blood cell specificity": "Not detected in immune cells",
+    "RNA blood cell distribution": "Not detected",
+    "RNA blood cell specificity score": null,
+    "RNA blood cell specific nTPM": null,
+    "RNA blood lineage specificity": "Not detected",
+    "RNA blood lineage distribution": "Not detected",
+    "RNA blood lineage specificity score": null,
+    "RNA blood lineage specific nTPM": null,
+    "RNA cell line specificity": "Cancer enriched",
+    "RNA cell line distribution": "Detected in some",
+    "RNA cell line specificity score": "145",
+    "RNA cell line specific nTPM": {
+      "skin cancer": "268.0"
+    },
+    "RNA tissue cell type enrichment": [
+      "Skin - Melanocytes"
+    ],
+    "RNA mouse brain regional specificity": "Not detected",
+    "RNA mouse brain regional distribution": "Not detected",
+    "RNA mouse brain regional specificity score": null,
+    "RNA mouse brain regional specific nTPM": null,
+    "RNA pig brain regional specificity": "Not detected",
+    "RNA pig brain regional distribution": "Not detected",
+    "RNA pig brain regional specificity score": null,
+    "RNA pig brain regional specific nTPM": null,
+    "Protein cell type specificity": "Not detected",
+    "Protein cell type distribution": "Not detected",
+    "Protein cell type specificity score": null,
+    "Protein cell type specific Intensity": null,
+    "Protein tissue specificity": "Not detected",
+    "Protein tissue distribution": "Not detected",
+    "Protein tissue specificity score": null,
+    "Protein tissue specific Intensity": null,
+    "Antibody": [
+      "CAB000079",
+      "HPA043241",
+      "HPA050889",
+      "HPA064583"
+    ],
+    "Reliability (IH)": "Enhanced",
+    "Reliability (Mouse Brain)": null,
+    "Reliability (IF)": "Enhanced",
+    "Subcellular location": [
+      "Vesicles"
+    ],
+    "Secretome location": null,
+    "Secretome function": null,
+    "CCD Protein": "NA",
+    "CCD Transcript": "NA",
+    "Blood concentration - Conc. blood IM [pg/L]": null,
+    "Blood concentration - Conc. blood MS [pg/L]": null,
+    "Blood expression cluster": null,
+    "Tissue expression cluster": "Cluster 37: Skin - Keratinization",
+    "Brain expression cluster": null,
+    "Cell line expression cluster": "Cluster 9: Skin cancer - Melanin biosynthesis",
+    "Single cell expression cluster": "Cluster 61: Schwann cells & Melanocytes - Mixed function",
+    "Interactions": 1,
+    "Subcellular main location": [
+      "Vesicles"
+    ],
+    "Subcellular additional location": null,
+    "Antibody RRID": {
+      "CAB000079": null,
+      "HPA043241": null,
+      "HPA050889": null,
+      "HPA064583": null
+    },
+    "Cancer prognostics - Bladder Urothelial Carcinoma (TCGA)": null,
+    "Cancer prognostics - Breast Invasive Carcinoma (TCGA)": null,
+    "Cancer prognostics - Breast Invasive Carcinoma (validation)": null,
+    "Cancer prognostics - Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Colon Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Colon Adenocarcinoma (validation)": null,
+    "Cancer prognostics - Glioblastoma Multiforme (TCGA)": null,
+    "Cancer prognostics - Glioblastoma Multiforme (validation)": null,
+    "Cancer prognostics - Head and Neck Squamous Cell Carcinoma (TCGA)": null,
+    "Cancer prognostics - Kidney Chromophobe (TCGA)": null,
+    "Cancer prognostics - Kidney Renal Clear Cell Carcinoma (TCGA)": null,
+    "Cancer prognostics - Kidney Renal Clear Cell Carcinoma (validation)": null,
+    "Cancer prognostics - Kidney Renal Papillary Cell Carcinoma (TCGA)": null,
+    "Cancer prognostics - Liver Hepatocellular Carcinoma (TCGA)": null,
+    "Cancer prognostics - Liver Hepatocellular Carcinoma (validation)": null,
+    "Cancer prognostics - Lung Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Lung Adenocarcinoma (validation)": null,
+    "Cancer prognostics - Lung Squamous Cell Carcinoma (TCGA)": null,
+    "Cancer prognostics - Lung Squamous Cell Carcinoma (validation)": null,
+    "Cancer prognostics - Ovary Serous Cystadenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Ovary Serous Cystadenocarcinoma (validation)": null,
+    "Cancer prognostics - Pancreatic Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Pancreatic Adenocarcinoma (validation)": null,
+    "Cancer prognostics - Prostate Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Rectum Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Rectum Adenocarcinoma (validation)": null,
+    "Cancer prognostics - Skin Cutaneous Melanoma (TCGA)": {
+      "prognostic type": "",
+      "prognostic": "unprognostic",
+      "is_prognostic": false,
+      "p_val": "2.19e-1"
+    },
+    "Cancer prognostics - Stomach Adenocarcinoma (TCGA)": null,
+    "Cancer prognostics - Testicular Germ Cell Tumor (TCGA)": null,
+    "Cancer prognostics - Thyroid Carcinoma (TCGA)": null,
+    "Cancer prognostics - Uterine Corpus Endometrial Carcinoma (TCGA)": null
+  }
+}

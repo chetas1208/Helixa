@@ -1,0 +1,32 @@
+[
+  {
+    "case_id": "01_correct_snv",
+    "filename": "01_correct_snv.vcf",
+    "sha256": "8d7d6c7b8ae31da6d049a56ff8444f505e03a6d833ed3cc85d99532158c98573",
+    "byte_size": 146
+  },
+  {
+    "case_id": "02_ref_mismatch",
+    "filename": "02_ref_mismatch.vcf",
+    "sha256": "0af5f06860cb482c74de57d85c7608c10bb234b253b4547e9b951200ea4ff9be",
+    "byte_size": 148
+  },
+  {
+    "case_id": "07_multiallelic_site",
+    "filename": "07_multiallelic_site.vcf",
+    "sha256": "01c321b823c2642e4c9e927073c1ff704691dea6647864717520a8dc6c888747",
+    "byte_size": 148
+  },
+  {
+    "case_id": "08_indel_normalization",
+    "filename": "08_indel_normalization.vcf",
+    "sha256": "acc4444598a50f010688453582c160416bd4142a0f4867de31ae9fc7630e142b",
+    "byte_size": 146
+  },
+  {
+    "case_id": "15_benign_metadata_variation",
+    "filename": "15_benign_metadata_variation.vcf",
+    "sha256": "ce66c4c6cd36d20e46b80a1f2dde62478052e3945e8dae1527dbf0e8dfe24c38",
+    "byte_size": 244
+  }
+]

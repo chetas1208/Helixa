@@ -1,0 +1,2226 @@
+{
+  "retrieved_at": "2026-10-11T23:11:08Z",
+  "source_version": "GWAS Catalog REST API v2",
+  "source_url": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=PAX6&size=40",
+  "payload": {
+    "_embedded": {
+      "associations": [
+        {
+          "association_id": 218410187,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -15,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 3.0000000000000002e-15,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0004892",
+              "efo_trait": "refractive error"
+            }
+          ],
+          "reported_trait": [
+            "Refractive error"
+          ],
+          "accession_id": "GCST90841196",
+          "locations": [
+            "11:31817634"
+          ],
+          "mapped_genes": [
+            "PAUPAR",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "42009823",
+          "first_author": "Cheng FF",
+          "snp_effect_allele": [
+            "rs7936522-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs7936522",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218410187"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/218410187/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs7936522"
+            }
+          }
+        },
+        {
+          "association_id": 191905925,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -15,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.01-0.017]",
+          "beta": "0.0138 unit decrease",
+          "p_value": 5.000000000000001e-15,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004340",
+              "efo_trait": "body mass index"
+            }
+          ],
+          "reported_trait": [
+            "Body mass index"
+          ],
+          "accession_id": "GCST90662912",
+          "locations": [
+            "11:31807675"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "40436827",
+          "first_author": "Jee YH",
+          "ci_lower": 0.01,
+          "ci_upper": 0.017,
+          "snp_effect_allele": [
+            "rs3026357-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs3026357",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/191905925"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/191905925/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs3026357"
+            }
+          }
+        },
+        {
+          "association_id": 191846095,
+          "risk_frequency": "0.321978",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.014-0.028]",
+          "beta": "0.0213255 unit decrease",
+          "p_value": 3.0000000000000004e-09,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004340",
+              "efo_trait": "body mass index"
+            }
+          ],
+          "reported_trait": [
+            "Body mass index"
+          ],
+          "accession_id": "GCST90662887",
+          "locations": [
+            "11:31787038"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "40436827",
+          "first_author": "Jee YH",
+          "ci_lower": 0.014,
+          "ci_upper": 0.028,
+          "snp_effect_allele": [
+            "rs10623053-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs10623053",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/191846095"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/191846095/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs10623053"
+            }
+          }
+        },
+        {
+          "association_id": 188118586,
+          "risk_frequency": "0.18644",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -19,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.018-0.029]",
+          "beta": "0.023552703 unit decrease",
+          "p_value": 4e-19,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004847",
+              "efo_trait": "age at onset"
+            },
+            {
+              "efo_id": "EFO_0004731",
+              "efo_trait": "eye measurement"
+            }
+          ],
+          "reported_trait": [
+            "Age started wearing glasses (UKB data field 2217)"
+          ],
+          "accession_id": "GCST90468156",
+          "locations": [
+            "11:31816580"
+          ],
+          "mapped_genes": [
+            "PAUPAR",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39789286",
+          "first_author": "Loya H",
+          "ci_lower": 0.018,
+          "ci_upper": 0.029,
+          "snp_effect_allele": [
+            "rs4440995-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs4440995",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/188118586"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/188118586/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs4440995"
+            }
+          }
+        },
+        {
+          "association_id": 165134646,
+          "risk_frequency": "0.156651",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -18,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.41-0.65]",
+          "beta": "0.53191 unit decrease",
+          "p_value": 2e-18,
+          "efo_traits": [
+            {
+              "efo_id": "OBA_2050110",
+              "efo_trait": "retinal layer thickness"
+            }
+          ],
+          "reported_trait": [
+            "Retinal thickness (pixel 118_245)"
+          ],
+          "accession_id": "GCST90527991",
+          "locations": [
+            "11:31797626"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39904976",
+          "first_author": "Jackson VE",
+          "ci_lower": 0.41,
+          "ci_upper": 0.65,
+          "snp_effect_allele": [
+            "rs628224-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs628224",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/165134646"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/165134646/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs628224"
+            }
+          }
+        },
+        {
+          "association_id": 162653461,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.011-0.02]",
+          "beta": "0.015308106 unit increase",
+          "p_value": 9e-11,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0006336",
+              "efo_trait": "diastolic blood pressure"
+            }
+          ],
+          "reported_trait": [
+            "Diastolic blood pressure (MTAG)"
+          ],
+          "accession_id": "GCST90449057",
+          "locations": [
+            "11:31799919"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "39537608",
+          "first_author": "Koskeridis F",
+          "ci_lower": 0.011,
+          "ci_upper": 0.02,
+          "snp_effect_allele": [
+            "rs61879810-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs61879810",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/162653461"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/162653461/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs61879810"
+            }
+          }
+        },
+        {
+          "association_id": 131781277,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.1-0.18]",
+          "beta": "0.1425 unit decrease",
+          "p_value": 1e-11,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0006336",
+              "efo_trait": "diastolic blood pressure"
+            }
+          ],
+          "reported_trait": [
+            "Diastolic blood pressure"
+          ],
+          "accession_id": "GCST90310295",
+          "locations": [
+            "11:31799919"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "38689001",
+          "first_author": "Keaton JM",
+          "ci_lower": 0.1,
+          "ci_upper": 0.18,
+          "snp_effect_allele": [
+            "rs61879810-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs61879810",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/131781277"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/131781277/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs61879810"
+            }
+          }
+        },
+        {
+          "association_id": 131774662,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.12-0.25]",
+          "beta": "0.1882 unit decrease",
+          "p_value": 3.0000000000000004e-08,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0006335",
+              "efo_trait": "systolic blood pressure"
+            }
+          ],
+          "reported_trait": [
+            "Systolic blood pressure"
+          ],
+          "accession_id": "GCST90310294",
+          "locations": [
+            "11:31799919"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "38689001",
+          "first_author": "Keaton JM",
+          "ci_lower": 0.12,
+          "ci_upper": 0.25,
+          "snp_effect_allele": [
+            "rs61879810-G"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs61879810",
+              "effect_allele": "G"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/131774662"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/131774662/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs61879810"
+            }
+          }
+        },
+        {
+          "association_id": 119954902,
+          "risk_frequency": "0.205175",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.017-0.03]",
+          "beta": "0.0235993 unit increase",
+          "p_value": 4e-12,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0002009",
+              "efo_trait": "major depressive disorder"
+            }
+          ],
+          "reported_trait": [
+            "Depression"
+          ],
+          "accession_id": "GCST90319327",
+          "locations": [
+            "11:31791981"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "37464041",
+          "first_author": "Als TD",
+          "ci_lower": 0.017,
+          "ci_upper": 0.03,
+          "snp_effect_allele": [
+            "rs3026389-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs3026389",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/119954902"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/119954902/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs3026389"
+            }
+          }
+        },
+        {
+          "association_id": 106035078,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -12,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 3e-12,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007660",
+              "efo_trait": "neuroticism measurement"
+            },
+            {
+              "efo_id": "EFO_0008354",
+              "efo_trait": "cognitive function measurement"
+            }
+          ],
+          "reported_trait": [
+            "Personality traits or cognitive traits (multivariate analysis)"
+          ],
+          "accession_id": "GCST90270074",
+          "locations": [
+            "11:31791034"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "37365406",
+          "first_author": "Hindley G",
+          "snp_effect_allele": [
+            "rs2071754-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2071754",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/106035078"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/106035078/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2071754"
+            }
+          }
+        },
+        {
+          "association_id": 100045200,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.12-0.23]",
+          "beta": "0.174 unit increase",
+          "p_value": 3.0000000000000004e-09,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0006336",
+              "efo_trait": "diastolic blood pressure"
+            }
+          ],
+          "reported_trait": [
+            "Diastolic blood pressure"
+          ],
+          "accession_id": "GCST90132904",
+          "locations": [
+            "11:31797787"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "35762941",
+          "first_author": "Plotnikov D",
+          "ci_lower": 0.12,
+          "ci_upper": 0.23,
+          "snp_effect_allele": [
+            "rs592859-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs592859",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/100045200"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/100045200/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs592859"
+            }
+          }
+        },
+        {
+          "association_id": 98440657,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.0061-0.0139]",
+          "beta": "0.01 unit increase",
+          "p_value": 3.0000000000000004e-09,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0013600",
+              "efo_trait": "insomnia"
+            }
+          ],
+          "reported_trait": [
+            "Insomnia"
+          ],
+          "accession_id": "GCST90131903",
+          "locations": [
+            "11:31797787"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "35835914",
+          "first_author": "Watanabe K",
+          "ci_lower": 0.0061,
+          "ci_upper": 0.0139,
+          "snp_effect_allele": [
+            "rs592859-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs592859",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/98440657"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/98440657/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs592859"
+            }
+          }
+        },
+        {
+          "association_id": 98316525,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.017-0.042]",
+          "beta": "0.0295 unit decrease",
+          "p_value": 9.000000000000001e-09,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0006939",
+              "efo_trait": "cup-to-disc ratio measurement"
+            }
+          ],
+          "reported_trait": [
+            "Vertical cup-disc ratio"
+          ],
+          "accession_id": "GCST90129627",
+          "locations": [
+            "11:31785976"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "34077760",
+          "first_author": "Alipanahi B",
+          "ci_lower": 0.017,
+          "ci_upper": 0.042,
+          "snp_effect_allele": [
+            "rs3026401-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs3026401",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/98316525"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/98316525/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs3026401"
+            }
+          }
+        },
+        {
+          "association_id": 91686801,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 5,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 5e-08,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007660",
+              "efo_trait": "neuroticism measurement"
+            }
+          ],
+          "reported_trait": [
+            "Neuroticism conditioned on Townsend deprivation index (multi-trait conditioning and joint analysis)"
+          ],
+          "accession_id": "GCST90027240",
+          "locations": [
+            "11:31794348"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "33349686",
+          "first_author": "Wendt FR",
+          "snp_effect_allele": [
+            "rs2239789-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2239789",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/91686801"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/91686801/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2239789"
+            }
+          }
+        },
+        {
+          "association_id": 91686210,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 4e-08,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007660",
+              "efo_trait": "neuroticism measurement"
+            }
+          ],
+          "reported_trait": [
+            "Neuroticism conditioned on cognitive performance (multi-trait conditioning and joint analysis)"
+          ],
+          "accession_id": "GCST90027239",
+          "locations": [
+            "11:31787774"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "33349686",
+          "first_author": "Wendt FR",
+          "snp_effect_allele": [
+            "rs12421026-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs12421026",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/91686210"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/91686210/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs12421026"
+            }
+          }
+        },
+        {
+          "association_id": 62086850,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 8,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": true,
+          "range": "-",
+          "beta": "-",
+          "p_value": 8e-08,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0010750",
+              "efo_trait": "PHF-tau measurement"
+            }
+          ],
+          "reported_trait": [
+            "Total PHF-tau (SNP x SNP interaction)"
+          ],
+          "accession_id": "GCST010340",
+          "locations": [
+            "11:31786732",
+            "7:13829481"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "ETV1",
+            "PAX6",
+            "RBMX2P4"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "32450446",
+          "first_author": "Wang H",
+          "snp_effect_allele": [
+            "rs608293-?",
+            "rs7805583-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs608293",
+              "effect_allele": "?"
+            },
+            {
+              "rs_id": "rs7805583",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62086850"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62086850/loci"
+            },
+            "snp": [
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs608293"
+              },
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs7805583"
+              }
+            ]
+          }
+        },
+        {
+          "association_id": 62084768,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": true,
+          "range": "-",
+          "beta": "-",
+          "p_value": 2e-08,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0010750",
+              "efo_trait": "PHF-tau measurement"
+            }
+          ],
+          "reported_trait": [
+            "Total PHF-tau (SNP x SNP interaction)"
+          ],
+          "accession_id": "GCST010340",
+          "locations": [
+            "11:31786732",
+            "7:79703631"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "GNAI1",
+            "PAX6",
+            "RNA5SP234"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "32450446",
+          "first_author": "Wang H",
+          "snp_effect_allele": [
+            "rs1608514-?",
+            "rs608293-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs608293",
+              "effect_allele": "?"
+            },
+            {
+              "rs_id": "rs1608514",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62084768"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62084768/loci"
+            },
+            "snp": [
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs608293"
+              },
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1608514"
+              }
+            ]
+          }
+        },
+        {
+          "association_id": 62084540,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": true,
+          "range": "-",
+          "beta": "-",
+          "p_value": 2e-08,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0010750",
+              "efo_trait": "PHF-tau measurement"
+            }
+          ],
+          "reported_trait": [
+            "Total PHF-tau (SNP x SNP interaction)"
+          ],
+          "accession_id": "GCST010340",
+          "locations": [
+            "11:31786732",
+            "15:55550578"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "PAX6",
+            "PYGO1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "32450446",
+          "first_author": "Wang H",
+          "snp_effect_allele": [
+            "rs608293-?",
+            "rs725150-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs608293",
+              "effect_allele": "?"
+            },
+            {
+              "rs_id": "rs725150",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62084540"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62084540/loci"
+            },
+            "snp": [
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs608293"
+              },
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs725150"
+              }
+            ]
+          }
+        },
+        {
+          "association_id": 62081684,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": true,
+          "range": "-",
+          "beta": "-",
+          "p_value": 1e-09,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0010750",
+              "efo_trait": "PHF-tau measurement"
+            }
+          ],
+          "reported_trait": [
+            "Total PHF-tau (SNP x SNP interaction)"
+          ],
+          "accession_id": "GCST010340",
+          "locations": [
+            "11:31786732",
+            "4:91829294"
+          ],
+          "mapped_genes": [
+            "CCSER1",
+            "ELP4",
+            "KRT19P6",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "32450446",
+          "first_author": "Wang H",
+          "snp_effect_allele": [
+            "rs608293-?",
+            "rs970693-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs608293",
+              "effect_allele": "?"
+            },
+            {
+              "rs_id": "rs970693",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62081684"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62081684/loci"
+            },
+            "snp": [
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs608293"
+              },
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs970693"
+              }
+            ]
+          }
+        },
+        {
+          "association_id": 62079644,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": true,
+          "range": "-",
+          "beta": "-",
+          "p_value": 2e-11,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0010750",
+              "efo_trait": "PHF-tau measurement"
+            }
+          ],
+          "reported_trait": [
+            "Total PHF-tau (SNP x SNP interaction)"
+          ],
+          "accession_id": "GCST010340",
+          "locations": [
+            "11:31786732",
+            "6:90691515"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "MAP3K7",
+            "MIR4643",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "32450446",
+          "first_author": "Wang H",
+          "snp_effect_allele": [
+            "rs608293-?",
+            "rs6916490-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs608293",
+              "effect_allele": "?"
+            },
+            {
+              "rs_id": "rs6916490",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62079644"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62079644/loci"
+            },
+            "snp": [
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs608293"
+              },
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs6916490"
+              }
+            ]
+          }
+        },
+        {
+          "association_id": 62077868,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -20,
+          "multi_snp_haplotype": false,
+          "snp_interaction": true,
+          "range": "-",
+          "beta": "-",
+          "p_value": 1e-20,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0010750",
+              "efo_trait": "PHF-tau measurement"
+            }
+          ],
+          "reported_trait": [
+            "Total PHF-tau (SNP x SNP interaction)"
+          ],
+          "accession_id": "GCST010340",
+          "locations": [
+            "11:31786732",
+            "11:47401310"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "PAX6",
+            "SLC39A13-AS1",
+            "SPI1"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "32450446",
+          "first_author": "Wang H",
+          "snp_effect_allele": [
+            "rs10838703-?",
+            "rs608293-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs608293",
+              "effect_allele": "?"
+            },
+            {
+              "rs_id": "rs10838703",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62077868"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62077868/loci"
+            },
+            "snp": [
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs608293"
+              },
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs10838703"
+              }
+            ]
+          }
+        },
+        {
+          "association_id": 62077814,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -25,
+          "multi_snp_haplotype": false,
+          "snp_interaction": true,
+          "range": "-",
+          "beta": "-",
+          "p_value": 2e-25,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0010750",
+              "efo_trait": "PHF-tau measurement"
+            }
+          ],
+          "reported_trait": [
+            "Total PHF-tau (SNP x SNP interaction)"
+          ],
+          "accession_id": "GCST010340",
+          "locations": [
+            "11:31786732",
+            "15:26802560"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "GABRB3",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "32450446",
+          "first_author": "Wang H",
+          "snp_effect_allele": [
+            "rs608293-?",
+            "rs8043215-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs608293",
+              "effect_allele": "?"
+            },
+            {
+              "rs_id": "rs8043215",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62077814"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/62077814/loci"
+            },
+            "snp": [
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs608293"
+              },
+              {
+                "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs8043215"
+              }
+            ]
+          }
+        },
+        {
+          "association_id": 56258687,
+          "risk_frequency": "0.201",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.0089-0.0164]",
+          "beta": "0.01262 unit increase",
+          "p_value": 4e-11,
+          "efo_traits": [
+            {
+              "efo_id": "MONDO_0005379",
+              "efo_trait": "neurotic disorder"
+            }
+          ],
+          "reported_trait": [
+            "Neuroticism"
+          ],
+          "accession_id": "GCST010017",
+          "locations": [
+            "11:31791034"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "32231276",
+          "first_author": "Cai N",
+          "ci_lower": 0.0089,
+          "ci_upper": 0.0164,
+          "snp_effect_allele": [
+            "rs2071754-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2071754",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/56258687"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/56258687/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2071754"
+            }
+          }
+        },
+        {
+          "association_id": 49100776,
+          "risk_frequency": "0.81",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.01-0.022]",
+          "beta": "0.016 unit increase",
+          "p_value": 1e-08,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0004340",
+              "efo_trait": "body mass index"
+            }
+          ],
+          "reported_trait": [
+            "Body mass index"
+          ],
+          "accession_id": "GCST004904",
+          "locations": [
+            "11:31785976"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "28892062",
+          "first_author": "Akiyama M",
+          "ci_lower": 0.01,
+          "ci_upper": 0.022,
+          "snp_effect_allele": [
+            "rs3026401-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs3026401",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/49100776"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/49100776/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs3026401"
+            }
+          }
+        },
+        {
+          "association_id": 41454732,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.0066-0.0133]",
+          "beta": "0.0099552 unit increase",
+          "p_value": 9.000000000000001e-09,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007660",
+              "efo_trait": "neuroticism measurement"
+            }
+          ],
+          "reported_trait": [
+            "General factor of neuroticism"
+          ],
+          "accession_id": "GCST007709",
+          "locations": [
+            "11:31817634"
+          ],
+          "mapped_genes": [
+            "PAUPAR",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "30867560",
+          "first_author": "Hill WD",
+          "ci_lower": 0.0066,
+          "ci_upper": 0.0133,
+          "snp_effect_allele": [
+            "rs7936522-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs7936522",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/41454732"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/41454732/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs7936522"
+            }
+          }
+        },
+        {
+          "association_id": 41454727,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.008-0.015]",
+          "beta": "0.011488 unit decrease",
+          "p_value": 1e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007660",
+              "efo_trait": "neuroticism measurement"
+            }
+          ],
+          "reported_trait": [
+            "General factor of neuroticism"
+          ],
+          "accession_id": "GCST007709",
+          "locations": [
+            "11:31791034"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "30867560",
+          "first_author": "Hill WD",
+          "ci_lower": 0.008,
+          "ci_upper": 0.015,
+          "snp_effect_allele": [
+            "rs2071754-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2071754",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/41454727"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/41454727/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2071754"
+            }
+          }
+        },
+        {
+          "association_id": 36604946,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -6,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "0.225 unit increase",
+          "p_value": 3e-06,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0006336",
+              "efo_trait": "diastolic blood pressure"
+            }
+          ],
+          "reported_trait": [
+            "Diastolic blood pressure"
+          ],
+          "accession_id": "GCST007098",
+          "locations": [
+            "11:31799919"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "27841878",
+          "first_author": "Hoffmann TJ",
+          "snp_effect_allele": [
+            "rs61879810-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs61879810",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36604946"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36604946/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs61879810"
+            }
+          }
+        },
+        {
+          "association_id": 36601298,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "0.285 unit increase",
+          "p_value": 7e-08,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0006335",
+              "efo_trait": "systolic blood pressure"
+            }
+          ],
+          "reported_trait": [
+            "Systolic blood pressure"
+          ],
+          "accession_id": "GCST007099",
+          "locations": [
+            "11:31799919"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "27841878",
+          "first_author": "Hoffmann TJ",
+          "snp_effect_allele": [
+            "rs61879810-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs61879810",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36601298"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36601298/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs61879810"
+            }
+          }
+        },
+        {
+          "association_id": 36599153,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 1,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "0.198 unit increase",
+          "p_value": 1e-09,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0006336",
+              "efo_trait": "diastolic blood pressure"
+            }
+          ],
+          "reported_trait": [
+            "Diastolic blood pressure"
+          ],
+          "accession_id": "GCST007094",
+          "locations": [
+            "11:31799919"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "27841878",
+          "first_author": "Hoffmann TJ",
+          "snp_effect_allele": [
+            "rs61879810-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs61879810",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36599153"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36599153/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs61879810"
+            }
+          }
+        },
+        {
+          "association_id": 36595987,
+          "risk_frequency": "0.805485004845094",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.0065-0.0113]",
+          "beta": "0.008886588 unit decrease",
+          "p_value": 3.0000000000000003e-13,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007006",
+              "efo_trait": "depressive symptom measurement"
+            }
+          ],
+          "reported_trait": [
+            "Depressive symptoms"
+          ],
+          "accession_id": "GCST007340",
+          "locations": [
+            "11:31791034"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "30643256",
+          "first_author": "Baselmans BML",
+          "ci_lower": 0.0065,
+          "ci_upper": 0.0113,
+          "snp_effect_allele": [
+            "rs2071754-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2071754",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36595987"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36595987/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2071754"
+            }
+          }
+        },
+        {
+          "association_id": 36594843,
+          "risk_frequency": "0.805485004845094",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.01-0.018]",
+          "beta": "0.0140185775 unit decrease",
+          "p_value": 3.0000000000000003e-13,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007660",
+              "efo_trait": "neuroticism measurement"
+            }
+          ],
+          "reported_trait": [
+            "Neuroticism"
+          ],
+          "accession_id": "GCST007339",
+          "locations": [
+            "11:31791034"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "30643256",
+          "first_author": "Baselmans BML",
+          "ci_lower": 0.01,
+          "ci_upper": 0.018,
+          "snp_effect_allele": [
+            "rs2071754-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2071754",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36594843"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36594843/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2071754"
+            }
+          }
+        },
+        {
+          "association_id": 36593943,
+          "risk_frequency": "0.806139291279333",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -8,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.0067-0.014]",
+          "beta": "0.01031519 unit decrease",
+          "p_value": 3.0000000000000004e-08,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007869",
+              "efo_trait": "wellbeing measurement"
+            }
+          ],
+          "reported_trait": [
+            "Positive affect"
+          ],
+          "accession_id": "GCST007338",
+          "locations": [
+            "11:31788750"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "30643256",
+          "first_author": "Baselmans BML",
+          "ci_lower": 0.0067,
+          "ci_upper": 0.014,
+          "snp_effect_allele": [
+            "rs1506-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1506",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36593943"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36593943/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1506"
+            }
+          }
+        },
+        {
+          "association_id": 36593589,
+          "risk_frequency": "0.806139291279333",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.0077-0.0147]",
+          "beta": "0.011160127 unit decrease",
+          "p_value": 4e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007869",
+              "efo_trait": "wellbeing measurement"
+            }
+          ],
+          "reported_trait": [
+            "Life satisfaction"
+          ],
+          "accession_id": "GCST007337",
+          "locations": [
+            "11:31788750"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "30643256",
+          "first_author": "Baselmans BML",
+          "ci_lower": 0.0077,
+          "ci_upper": 0.0147,
+          "snp_effect_allele": [
+            "rs1506-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs1506",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36593589"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36593589/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs1506"
+            }
+          }
+        },
+        {
+          "association_id": 36528478,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 9,
+          "pvalue_exponent": -13,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 9e-13,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007660",
+              "efo_trait": "neuroticism measurement"
+            }
+          ],
+          "reported_trait": [
+            "Neuroticism"
+          ],
+          "accession_id": "GCST007084",
+          "locations": [
+            "11:31791034"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "30595370",
+          "first_author": "Kichaev G",
+          "snp_effect_allele": [
+            "rs2071754-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs2071754",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36528478"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36528478/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs2071754"
+            }
+          }
+        },
+        {
+          "association_id": 36101566,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "-",
+          "p_value": 4e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0006335",
+              "efo_trait": "systolic blood pressure"
+            }
+          ],
+          "reported_trait": [
+            "Systolic blood pressure"
+          ],
+          "accession_id": "GCST007087",
+          "locations": [
+            "11:31803970"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "30595370",
+          "first_author": "Kichaev G",
+          "snp_effect_allele": [
+            "rs694617-?"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs694617",
+              "effect_allele": "?"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36101566"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/36101566/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs694617"
+            }
+          }
+        },
+        {
+          "association_id": 35339331,
+          "risk_frequency": "0.211118",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -10,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "6.18 z score increase",
+          "p_value": 7.000000000000001e-10,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007660",
+              "efo_trait": "neuroticism measurement"
+            }
+          ],
+          "reported_trait": [
+            "Neurociticism"
+          ],
+          "accession_id": "GCST006940",
+          "locations": [
+            "11:31791981"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "29500382",
+          "first_author": "Nagel M",
+          "snp_effect_allele": [
+            "rs3026389-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs3026389",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/35339331"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/35339331/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs3026389"
+            }
+          }
+        },
+        {
+          "association_id": 34971293,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 4,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "[0.014-0.025]",
+          "beta": "0.01945 unit increase",
+          "p_value": 4e-11,
+          "efo_traits": [
+            {
+              "efo_id": "HP_0000739",
+              "efo_trait": "Anxiety"
+            }
+          ],
+          "reported_trait": [
+            "Worry"
+          ],
+          "accession_id": "GCST006478",
+          "locations": [
+            "11:31785976"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "29942085",
+          "first_author": "Nagel M",
+          "ci_lower": 0.014,
+          "ci_upper": 0.025,
+          "snp_effect_allele": [
+            "rs3026401-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs3026401",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/34971293"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/34971293/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs3026401"
+            }
+          }
+        },
+        {
+          "association_id": 34970347,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 2,
+          "pvalue_exponent": -11,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "6.676 z score decrease",
+          "p_value": 2e-11,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007660",
+              "efo_trait": "neuroticism measurement"
+            }
+          ],
+          "reported_trait": [
+            "Neuroticism"
+          ],
+          "accession_id": "GCST006476",
+          "locations": [
+            "11:31786732"
+          ],
+          "mapped_genes": [
+            "ELP4",
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "29942085",
+          "first_author": "Nagel M",
+          "snp_effect_allele": [
+            "rs608293-T"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs608293",
+              "effect_allele": "T"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/34970347"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/34970347/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs608293"
+            }
+          }
+        },
+        {
+          "association_id": 34969357,
+          "risk_frequency": "NR",
+          "pvalue_description": "",
+          "pvalue_mantissa": 7,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "5.803 z score increase",
+          "p_value": 7.000000000000001e-09,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0007660",
+              "efo_trait": "neuroticism measurement"
+            }
+          ],
+          "reported_trait": [
+            "Neuroticism"
+          ],
+          "accession_id": "GCST006476",
+          "locations": [
+            "11:31790667"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "29942085",
+          "first_author": "Nagel M",
+          "snp_effect_allele": [
+            "rs3026393-A"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs3026393",
+              "effect_allele": "A"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/34969357"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/34969357/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs3026393"
+            }
+          }
+        },
+        {
+          "association_id": 31672123,
+          "risk_frequency": "0.211118",
+          "pvalue_description": "",
+          "pvalue_mantissa": 3,
+          "pvalue_exponent": -9,
+          "multi_snp_haplotype": false,
+          "snp_interaction": false,
+          "range": "-",
+          "beta": "5.925 unit increase",
+          "p_value": 3.0000000000000004e-09,
+          "efo_traits": [
+            {
+              "efo_id": "EFO_0009589",
+              "efo_trait": "worry measurement"
+            }
+          ],
+          "reported_trait": [
+            "Feeling worry"
+          ],
+          "accession_id": "GCST006950",
+          "locations": [
+            "11:31791981"
+          ],
+          "mapped_genes": [
+            "PAX6"
+          ],
+          "bg_efo_traits": [],
+          "pubmed_id": "29500382",
+          "first_author": "Nagel M",
+          "snp_effect_allele": [
+            "rs3026389-C"
+          ],
+          "snp_allele": [
+            {
+              "rs_id": "rs3026389",
+              "effect_allele": "C"
+            }
+          ],
+          "_links": {
+            "self": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/31672123"
+            },
+            "loci": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations/31672123/loci"
+            },
+            "snp": {
+              "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/single-nucleotide-polymorphisms/rs3026389"
+            }
+          }
+        }
+      ]
+    },
+    "_links": {
+      "first": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=PAX6&page=0&size=40"
+      },
+      "self": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=PAX6&page=0&size=40"
+      },
+      "next": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=PAX6&page=1&size=40"
+      },
+      "last": {
+        "href": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mapped_gene=PAX6&page=1&size=40"
+      }
+    },
+    "page": {
+      "size": 40,
+      "totalElements": 42,
+      "totalPages": 2,
+      "number": 0
+    }
+  }
+}

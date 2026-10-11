@@ -1,0 +1,282 @@
+{
+  "retrieved_at": "2026-10-11T23:09:58Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000029",
+    "lang": "en",
+    "description": [
+      "Any of the rounded masses of lymphoid tissue that are surrounded by a capsule of connective tissue, are distributed along the lymphatic vessels, and contain numerous lymphocytes which filter the flow of lymph."
+    ],
+    "synonyms": [
+      "lymph gland",
+      "nodus lymphaticus"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "BTO:0000784",
+        "CALOHA:TS-0579",
+        "EFO:0000872",
+        "EMAPA:35523",
+        "EV:0100050",
+        "FMA:5034",
+        "GAID:947",
+        "MA:0000139",
+        "MAT:0000442",
+        "MESH:D008198",
+        "NCIT:C12745",
+        "NCIT:C33027",
+        "SCTID:181756000",
+        "TAO_RETIRED:0005318",
+        "VHOG:0001273",
+        "Wikipedia:Lymph_node",
+        "ZFA_RETIRED:0005318",
+        "galen:Lymphnode",
+        "UMLS:C0024204"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/b/b8/Illu_lymph_node_structure.png"
+      ],
+      "homology_notes": [
+        "Lymph nodes that are associated with the lymphatic system have evolved in mammals.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0000029"
+      ],
+      "seeAlso": [
+        "https://github.com/obophenotype/uberon/issues/650"
+      ]
+    },
+    "label": "lymph node",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000029",
+    "obo_id": "UBERON:0000029",
+    "in_subset": [
+      "efo_slim",
+      "human_reference_atlas",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim",
+      "vertebrate_core"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "Any of the rounded masses of lymphoid tissue that are surrounded by a capsule of connective tissue, are distributed along the lymphatic vessels, and contain numerous lymphocytes which filter the flow of lymph.",
+        "oboXrefs": [
+          {
+            "database": "BTO",
+            "id": "0000784",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000784"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BTO",
+        "id": "0000784",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000784"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0579",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0579"
+      },
+      {
+        "database": "EFO",
+        "id": "0000872",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000872"
+      },
+      {
+        "database": "EMAPA",
+        "id": "35523",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35523"
+      },
+      {
+        "database": "EV",
+        "id": "0100050",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100050"
+      },
+      {
+        "database": "FMA",
+        "id": "5034",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/5034"
+      },
+      {
+        "database": "GAID",
+        "id": "947",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000139",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000139"
+      },
+      {
+        "database": "MAT",
+        "id": "0000442",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000442"
+      },
+      {
+        "database": "MESH",
+        "id": "D008198",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D008198"
+      },
+      {
+        "database": "NCIT",
+        "id": "C12745",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12745"
+      },
+      {
+        "database": "NCIT",
+        "id": "C33027",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C33027"
+      },
+      {
+        "database": "SCTID",
+        "id": "181756000",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/181756000"
+      },
+      {
+        "database": "TAO_RETIRED",
+        "id": "0005318",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/TAO_0005318"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001273",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001273"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Lymph_node",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Lymph_node"
+      },
+      {
+        "database": "ZFA_RETIRED",
+        "id": "0005318",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/ZFA_0005318"
+      },
+      {
+        "database": "galen",
+        "id": "Lymphnode",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "UMLS",
+        "id": "C0024204",
+        "description": "ncithesaurus:Lymph_Node",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0024204"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "lymph gland",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "VHOG",
+            "id": "0001273",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/VHOG_0001273"
+          }
+        ]
+      },
+      {
+        "name": "nodus lymphaticus",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "Wikipedia",
+            "id": "Lymph_node",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Lymph_node"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "has_part": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000051"
+      },
+      "continuous_with": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002150"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "composed_primarily_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000029/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002473"
+      }
+    }
+  }
+}

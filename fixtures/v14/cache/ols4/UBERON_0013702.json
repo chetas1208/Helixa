@@ -1,0 +1,145 @@
+{
+  "retrieved_at": "2026-10-11T23:09:09Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0013702",
+    "lang": "en",
+    "description": [
+      "The region of the organism associated with the visceral organs."
+    ],
+    "synonyms": [
+      "body",
+      "whole body"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AEO:0000103",
+        "BTO:0001489",
+        "FMA:231424"
+      ],
+      "external_definition": [
+        "Cardinal body part, which consists of a maximal set of diverse subclasses of organ and organ part spatially associated with the vertebral column and ribcage. Examples: There is only one body proper[FMA:231424]."
+      ],
+      "id": [
+        "UBERON:0013702"
+      ]
+    },
+    "label": "body proper",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0013702",
+    "obo_id": "UBERON:0013702",
+    "in_subset": [
+      "human_subset",
+      "mouse_subset",
+      "non_informative"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The region of the organism associated with the visceral organs.",
+        "oboXrefs": [
+          {
+            "database": "AEO",
+            "id": "0000103",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/AEO_0000103"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AEO",
+        "id": "0000103",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AEO_0000103"
+      },
+      {
+        "database": "BTO",
+        "id": "0001489",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0001489"
+      },
+      {
+        "database": "FMA",
+        "id": "231424",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/231424"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "body",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "AEO",
+            "id": "0000103",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/AEO_0000103"
+          }
+        ]
+      },
+      {
+        "name": "whole body",
+        "scope": "hasRelatedSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0001489",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0001489"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0013702/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      }
+    }
+  }
+}

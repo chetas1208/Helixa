@@ -1,0 +1,270 @@
+{
+  "retrieved_at": "2026-10-11T23:09:42Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0001235",
+    "lang": "en",
+    "description": [
+      "The thick outer layer of the adrenal gland that produces and secretes steroid hormones such as corticosterone, estrone and aldosterone."
+    ],
+    "synonyms": [
+      "adrenal gland cortex",
+      "cortex (glandula suprarenalis)",
+      "cortex of adrenal gland",
+      "cortex of suprarenal gland",
+      "suprarenal cortex",
+      "suprarenal",
+      "cortex glandulae suprarenalis"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "AAO:0011009",
+        "BTO:0000045",
+        "CALOHA:TS-0015",
+        "EFO:0000237",
+        "EMAPA:18427",
+        "EV:0100136",
+        "FMA:15632",
+        "GAID:447",
+        "MA:0000118",
+        "MAT:0000494",
+        "MESH:D000302",
+        "NCIT:C12396",
+        "SCTID:362584002",
+        "VHOG:0001481",
+        "Wikipedia:Adrenal_cortex",
+        "XAO:0000165",
+        "UMLS:C0001613"
+      ],
+      "depiction": [
+        "http://upload.wikimedia.org/wikipedia/commons/5/5c/Gray1185.png"
+      ],
+      "homology_notes": [
+        "All craniates have groups of cells homologous to the mammalian adrenocortical and chromaffin tissues (medulla), but they are scattered in and near the kidneys in fishes. (...) The cortical and chromaffin tissues come together to form adrenal glands in tetrapods.[well established][VHOG]"
+      ],
+      "id": [
+        "UBERON:0001235"
+      ],
+      "taxon_notes": [
+        "Kardong states that mammals are the first to have distinct cortext and medulla, but this contradicts XAO"
+      ]
+    },
+    "label": "adrenal cortex",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0001235",
+    "obo_id": "UBERON:0001235",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The thick outer layer of the adrenal gland that produces and secretes steroid hormones such as corticosterone, estrone and aldosterone.",
+        "oboXrefs": [
+          {
+            "database": "ISBN",
+            "id": "0-683-40008-8",
+            "description": null,
+            "url": "https://www.worldcat.org/search?q=bn%3A0-683-40008-8"
+          },
+          {
+            "database": "MGI",
+            "id": "llw2",
+            "description": null,
+            "url": "http://www.informatics.jax.org/accession/llw2"
+          },
+          {
+            "database": "MP",
+            "id": "0008288",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/MP_0008288"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "AAO",
+        "id": "0011009",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/AAO_0011009"
+      },
+      {
+        "database": "BTO",
+        "id": "0000045",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000045"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0015",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0015"
+      },
+      {
+        "database": "EFO",
+        "id": "0000237",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000237"
+      },
+      {
+        "database": "EMAPA",
+        "id": "18427",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:18427"
+      },
+      {
+        "database": "EV",
+        "id": "0100136",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100136"
+      },
+      {
+        "database": "FMA",
+        "id": "15632",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/15632"
+      },
+      {
+        "database": "GAID",
+        "id": "447",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000118",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000118"
+      },
+      {
+        "database": "MAT",
+        "id": "0000494",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000494"
+      },
+      {
+        "database": "MESH",
+        "id": "D000302",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D000302"
+      },
+      {
+        "database": "NCIT",
+        "id": "C12396",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/NCIT_C12396"
+      },
+      {
+        "database": "SCTID",
+        "id": "362584002",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/362584002"
+      },
+      {
+        "database": "VHOG",
+        "id": "0001481",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/VHOG_0001481"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Adrenal_cortex",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Adrenal_cortex"
+      },
+      {
+        "database": "XAO",
+        "id": "0000165",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/XAO_0000165"
+      },
+      {
+        "database": "UMLS",
+        "id": "C0001613",
+        "description": "ncithesaurus:Adrenal_Cortex",
+        "url": "https://uts.nlm.nih.gov/uts/umls/concept/C0001613"
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "cortex glandulae suprarenalis",
+        "scope": "hasRelatedSynonym",
+        "type": "latin term",
+        "xrefs": [
+          {
+            "database": "BTO",
+            "id": "0000045",
+            "description": null,
+            "url": "http://purl.obolibrary.org/obo/BTO_0000045"
+          },
+          {
+            "database": "Wikipedia",
+            "id": "Adrenal_cortex",
+            "description": null,
+            "url": "http://en.wikipedia.org/wiki/Adrenal_cortex"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "develops_from": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+      },
+      "capable_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002215"
+      },
+      "contributes_to_morphology_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001235/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002433"
+      }
+    }
+  }
+}

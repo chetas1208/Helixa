@@ -1,0 +1,5 @@
+##fileformat=VCFv4.2
+##assembly=GRCh38
+##contig=<ID=chrX,length=156040895>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chrX	10001	rs_x_1	A	G	50	PASS	.

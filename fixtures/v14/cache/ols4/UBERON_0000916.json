@@ -1,0 +1,234 @@
+{
+  "retrieved_at": "2026-10-11T23:09:14Z",
+  "source_version": "2026-10-01",
+  "source_url": "https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916",
+  "payload": {
+    "iri": "http://purl.obolibrary.org/obo/UBERON_0000916",
+    "lang": "en",
+    "description": [
+      "The subdivision of the vertebrate body between the thorax and pelvis. The ventral part of the abdomen contains the abdominal cavity and visceral organs. The dorsal part includes the abdominal section of the vertebral column."
+    ],
+    "synonyms": [
+      "adult abdomen",
+      "belly",
+      "celiac region",
+      "abdominopelvic region",
+      "abdominopelvis"
+    ],
+    "annotation": {
+      "database_cross_reference": [
+        "BTO:0000020",
+        "CALOHA:TS-0001",
+        "EFO:0000968",
+        "EMAPA:35102",
+        "EV:0100011",
+        "FMA:9577",
+        "GAID:16",
+        "MA:0000029",
+        "MAT:0000298",
+        "MESH:D000005",
+        "MIAA:0000298",
+        "SCTID:302553009",
+        "Wikipedia:Abdomen",
+        "galen:Abdomen"
+      ],
+      "editor note": [
+        "Vertebrate specific. In arthropods 'abdomen' is the most distal section of the body which lies behind the thorax or cephalothorax. If need be we can introduce some grouping class"
+      ],
+      "has_relational_adjective": [
+        "abdominal",
+        "celiac"
+      ],
+      "id": [
+        "UBERON:0000916"
+      ]
+    },
+    "label": "abdomen",
+    "ontology_name": "uberon",
+    "ontology_prefix": "UBERON",
+    "ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+    "is_obsolete": false,
+    "term_replaced_by": null,
+    "is_defining_ontology": true,
+    "has_children": true,
+    "is_root": false,
+    "short_form": "UBERON_0000916",
+    "obo_id": "UBERON:0000916",
+    "in_subset": [
+      "efo_slim",
+      "human_subset",
+      "mouse_subset",
+      "pheno_slim",
+      "uberon_slim"
+    ],
+    "obo_definition_citation": [
+      {
+        "definition": "The subdivision of the vertebrate body between the thorax and pelvis. The ventral part of the abdomen contains the abdominal cavity and visceral organs. The dorsal part includes the abdominal section of the vertebral column.",
+        "oboXrefs": [
+          {
+            "database": null,
+            "id": "http://orcid.org/0000-0002-6601-2165",
+            "description": null,
+            "url": "http://orcid.org/0000-0002-6601-2165"
+          }
+        ]
+      }
+    ],
+    "obo_xref": [
+      {
+        "database": "BTO",
+        "id": "0000020",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/BTO_0000020"
+      },
+      {
+        "database": "CALOHA",
+        "id": "TS-0001",
+        "description": null,
+        "url": "https://www.nextprot.org/term/TS-0001"
+      },
+      {
+        "database": "EFO",
+        "id": "0000968",
+        "description": null,
+        "url": "http://www.ebi.ac.uk/efo/EFO_0000968"
+      },
+      {
+        "database": "EMAPA",
+        "id": "35102",
+        "description": null,
+        "url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:35102"
+      },
+      {
+        "database": "EV",
+        "id": "0100011",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/EV_0100011"
+      },
+      {
+        "database": "FMA",
+        "id": "9577",
+        "description": null,
+        "url": "http://purl.org/sig/ont/fma/9577"
+      },
+      {
+        "database": "GAID",
+        "id": "16",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "MA",
+        "id": "0000029",
+        "description": null,
+        "url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000029"
+      },
+      {
+        "database": "MAT",
+        "id": "0000298",
+        "description": null,
+        "url": "http://purl.obolibrary.org/obo/MAT_0000298"
+      },
+      {
+        "database": "MESH",
+        "id": "D000005",
+        "description": null,
+        "url": "http://id.nlm.nih.gov/mesh/D000005"
+      },
+      {
+        "database": "MIAA",
+        "id": "0000298",
+        "description": null,
+        "url": null
+      },
+      {
+        "database": "SCTID",
+        "id": "302553009",
+        "description": null,
+        "url": "http://purl.bioontology.org/ontology/SNOMEDCT/302553009"
+      },
+      {
+        "database": "Wikipedia",
+        "id": "Abdomen",
+        "description": null,
+        "url": "http://en.wikipedia.org/wiki/Abdomen"
+      },
+      {
+        "database": "galen",
+        "id": "Abdomen",
+        "description": null,
+        "url": null
+      }
+    ],
+    "obo_synonym": [
+      {
+        "name": "abdominopelvic region",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "9577",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/9577"
+          }
+        ]
+      },
+      {
+        "name": "abdominopelvis",
+        "scope": "hasExactSynonym",
+        "type": null,
+        "xrefs": [
+          {
+            "database": "FMA",
+            "id": "9577",
+            "description": null,
+            "url": "http://purl.org/sig/ont/fma/9577"
+          }
+        ]
+      }
+    ],
+    "is_preferred_root": false,
+    "_links": {
+      "self": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916?lang=en"
+      },
+      "parents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916/parents"
+      },
+      "ancestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916/ancestors"
+      },
+      "hierarchicalParents": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916/hierarchicalParents"
+      },
+      "hierarchicalAncestors": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916/hierarchicalAncestors"
+      },
+      "jstree": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916/jstree"
+      },
+      "children": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916/children"
+      },
+      "descendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916/descendants"
+      },
+      "hierarchicalChildren": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916/hierarchicalChildren"
+      },
+      "hierarchicalDescendants": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916/hierarchicalDescendants"
+      },
+      "graph": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916/graph"
+      },
+      "part_of": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+      },
+      "in_taxon": {
+        "href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000916/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+      }
+    }
+  }
+}

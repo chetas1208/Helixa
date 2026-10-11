@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+dist/
+.vite/
+
+# MongoDB data
+data/
+*.sock
+*.log
+
+# Sensitive environment variables. Examples stay tracked; real env files do not.
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+**/credentials.json
+
+# IDE / OS / local agent state
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+
+# Tests, coverage, and generated artifacts. Local logs may contain connection strings.
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+coverage/
+playwright-report/
+test-results/
+apps/web/test-results/
+apps/web/playwright-report/
+apps/web/blob-report/
+artifacts/
+*.log
+
+# Local databases, recordings, and private uploads
+*.sqlite
+*.sqlite3
+*.wav
+*.mp3
+*.flac
+recordings/
+
+# Upstream inspection clones and pinned EBI release binaries (checksums are tracked)
+.research/
+third_party/ebi-vcf-validator/**/vcf_validator_linux
+third_party/ebi-vcf-validator/**/vcf_assembly_checker_linux
+.research/
